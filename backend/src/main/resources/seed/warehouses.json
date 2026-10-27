@@ -1,0 +1,26 @@
+[
+  {
+    "code": "PUN-01",
+    "name": "Pune Central DC",
+    "address": "Plot 14, Chakan MIDC Phase II, Pune 410501",
+    "demandFactor": 1.0
+  },
+  {
+    "code": "MUM-02",
+    "name": "Mumbai Port Warehouse",
+    "address": "Gala 7-9, JNPT Road, Navi Mumbai 400707",
+    "demandFactor": 1.25
+  },
+  {
+    "code": "DEL-03",
+    "name": "Delhi North Hub",
+    "address": "Khasra 221, Alipur, Delhi 110036",
+    "demandFactor": 0.9
+  },
+  {
+    "code": "BLR-04",
+    "name": "Bengaluru South Fulfilment",
+    "address": "Survey 48, Jigani Industrial Area, Bengaluru 560105",
+    "demandFactor": 0.7
+  }
+]

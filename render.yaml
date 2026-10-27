@@ -1,0 +1,29 @@
+# Render Blueprint for the backend (free plan). Create the database on Neon/Supabase first,
+# then: Render dashboard -> New -> Blueprint -> pick this repo, and fill in the "sync: false" values.
+services:
+  - type: web
+    name: warehouse-backend
+    runtime: docker
+    rootDir: backend
+    plan: free
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: DATABASE_URL          # jdbc:postgresql://<host>/<db>?sslmode=require
+        sync: false
+      - key: DATABASE_USERNAME
+        sync: false
+      - key: DATABASE_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ALLOWED_ORIGINS  # your frontend URL, e.g. https://my-warehouse.vercel.app
+        sync: false
+      # AI via Google Gemini's OpenAI-compatible endpoint (has a free tier).
+      - key: AI_BASE_URL
+        value: https://generativelanguage.googleapis.com/v1beta/openai
+      - key: AI_API_KEY
+        sync: false
+      - key: AI_CHAT_MODEL
+        value: gemini-2.5-flash
+      - key: DEMO_SEED_DATA        # loads demo warehouses, 120 products and 90 days of history on first start
+        value: "true"

@@ -1,0 +1,2367 @@
+[
+  {
+    "sku": "SKU-1042",
+    "name": "USB-C Charging Cable 1m",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 149,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Braided USB-C to USB-C cable, 60W PD, 1 metre.",
+    "demand": {
+      "baseDailyUsage": 18,
+      "variability": 0.53,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1014",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 499,
+    "supplier": "Apex Electronics Distributors",
+    "description": "2.4 GHz wireless optical mouse with nano receiver.",
+    "demand": {
+      "baseDailyUsage": 9,
+      "variability": 0.23,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1021",
+    "name": "Bluetooth Earbuds",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 1299,
+    "supplier": "Apex Electronics Distributors",
+    "description": "True wireless earbuds with charging case, 20h battery.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.22,
+      "trend": "spike",
+      "warehouses": [
+        "BLR-04",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1028",
+    "name": "Power Bank 10000mAh",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 899,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Slim lithium-polymer power bank with dual USB output.",
+    "demand": {
+      "baseDailyUsage": 7,
+      "variability": 0.43,
+      "trend": "rising",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1035",
+    "name": "HDMI Cable 2m",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 249,
+    "supplier": "Apex Electronics Distributors",
+    "description": "High-speed HDMI 2.0 cable supporting 4K at 60Hz.",
+    "demand": {
+      "baseDailyUsage": 8,
+      "variability": 0.32,
+      "trend": "stable",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1042",
+    "name": "Wall Charger 20W",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 399,
+    "supplier": "Apex Electronics Distributors",
+    "description": "USB-C PD fast wall charger, BIS certified.",
+    "demand": {
+      "baseDailyUsage": 12,
+      "variability": 0.24,
+      "trend": "spike",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1049",
+    "name": "Keyboard USB Wired",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 549,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Full-size wired keyboard with spill-resistant design.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.43,
+      "trend": "spike",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1056",
+    "name": "Webcam 1080p",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 1799,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Full HD webcam with built-in noise-reducing microphone.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.51,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1063",
+    "name": "Smart Plug 16A",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 799,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Wi-Fi smart plug with energy monitoring.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.52,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1070",
+    "name": "LED Desk Lamp",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 999,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Dimmable LED desk lamp with USB charging port.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.55,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1077",
+    "name": "MicroSD Card 64GB",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 449,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Class 10 UHS-I microSDXC card with adapter.",
+    "demand": {
+      "baseDailyUsage": 10,
+      "variability": 0.5,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELC-1084",
+    "name": "Ethernet Cable Cat6 5m",
+    "category": "Electronics",
+    "unit": "pcs",
+    "unitCost": 299,
+    "supplier": "Apex Electronics Distributors",
+    "description": "Cat6 UTP patch cable, 5 metres.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.34,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1007",
+    "name": "Corrugated Box Small (pack of 25)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 450,
+    "supplier": "BoxCraft Packaging",
+    "description": "3-ply corrugated boxes, 20x15x10 cm, pack of 25.",
+    "demand": {
+      "baseDailyUsage": 22,
+      "variability": 0.54,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1014",
+    "name": "Corrugated Box Medium (pack of 25)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 650,
+    "supplier": "BoxCraft Packaging",
+    "description": "5-ply corrugated boxes, 35x25x20 cm, pack of 25.",
+    "demand": {
+      "baseDailyUsage": 18,
+      "variability": 0.31,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1021",
+    "name": "Corrugated Box Large (pack of 10)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 520,
+    "supplier": "BoxCraft Packaging",
+    "description": "5-ply boxes, 60x40x40 cm, pack of 10.",
+    "demand": {
+      "baseDailyUsage": 9,
+      "variability": 0.27,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1028",
+    "name": "Bubble Wrap Roll 50m",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 780,
+    "supplier": "BoxCraft Packaging",
+    "description": "Air bubble cushioning roll, 1 m wide, 50 m long.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.5,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1035",
+    "name": "Packing Tape Brown (6 rolls)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 330,
+    "supplier": "BoxCraft Packaging",
+    "description": "48 mm x 65 m BOPP tape, pack of 6.",
+    "demand": {
+      "baseDailyUsage": 25,
+      "variability": 0.36,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1042",
+    "name": "Stretch Film Roll",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 690,
+    "supplier": "BoxCraft Packaging",
+    "description": "23 micron hand stretch film for pallet wrapping.",
+    "demand": {
+      "baseDailyUsage": 8,
+      "variability": 0.48,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1049",
+    "name": "Courier Bags A4 (pack of 100)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 420,
+    "supplier": "BoxCraft Packaging",
+    "description": "Tamper-proof poly mailers, A4 size, pack of 100.",
+    "demand": {
+      "baseDailyUsage": 15,
+      "variability": 0.27,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1056",
+    "name": "Fragile Labels (roll of 500)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 210,
+    "supplier": "BoxCraft Packaging",
+    "description": "Printed 'Fragile - Handle with care' labels.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.31,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1063",
+    "name": "Paper Void Fill (5kg)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 380,
+    "supplier": "BoxCraft Packaging",
+    "description": "Recycled kraft paper void fill.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.44,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1070",
+    "name": "Pallet Wooden 1200x1000",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 950,
+    "supplier": "BoxCraft Packaging",
+    "description": "Heat-treated wooden pallet, 4-way entry.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.36,
+      "trend": "rising",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1077",
+    "name": "Strapping Roll PP 12mm",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 560,
+    "supplier": "BoxCraft Packaging",
+    "description": "Polypropylene strapping roll, 12 mm.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.22,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "PKG-1084",
+    "name": "Shipping Labels 4x6 (roll of 500)",
+    "category": "Packaging",
+    "unit": "box",
+    "unitCost": 360,
+    "supplier": "BoxCraft Packaging",
+    "description": "Direct thermal shipping labels, 4x6 inch.",
+    "demand": {
+      "baseDailyUsage": 12,
+      "variability": 0.34,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1007",
+    "name": "A4 Copier Paper 75gsm (ream)",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 310,
+    "supplier": "Deskline Office Supplies",
+    "description": "500 sheets per ream, 75 gsm, bright white.",
+    "demand": {
+      "baseDailyUsage": 30,
+      "variability": 0.41,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1014",
+    "name": "Ballpoint Pen Blue (box of 50)",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 250,
+    "supplier": "Deskline Office Supplies",
+    "description": "Smooth-writing ballpoint pens, box of 50.",
+    "demand": {
+      "baseDailyUsage": 8,
+      "variability": 0.26,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1021",
+    "name": "Stapler Medium",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 180,
+    "supplier": "Deskline Office Supplies",
+    "description": "Metal stapler, 25-sheet capacity.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.54,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1028",
+    "name": "Staple Pins No.10 (box of 20)",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 120,
+    "supplier": "Deskline Office Supplies",
+    "description": "No.10 staple pins, 20 small boxes.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.24,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1035",
+    "name": "Sticky Notes 3x3 (pack of 12)",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 290,
+    "supplier": "Deskline Office Supplies",
+    "description": "Assorted colour sticky notes, 100 sheets each.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.28,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1042",
+    "name": "Whiteboard Marker Set",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 220,
+    "supplier": "Deskline Office Supplies",
+    "description": "Set of 4 dry-erase markers.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.59,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1049",
+    "name": "Box File Lever Arch",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 140,
+    "supplier": "Deskline Office Supplies",
+    "description": "Lever arch box file, foolscap size.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.34,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1056",
+    "name": "Notebook A5 Ruled",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 85,
+    "supplier": "Deskline Office Supplies",
+    "description": "200-page ruled notebook, A5.",
+    "demand": {
+      "baseDailyUsage": 14,
+      "variability": 0.52,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1063",
+    "name": "Printer Toner 12A",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 1450,
+    "supplier": "Deskline Office Supplies",
+    "description": "Compatible toner cartridge, 2000 pages.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.49,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1070",
+    "name": "Calculator Desktop 12-digit",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 450,
+    "supplier": "Deskline Office Supplies",
+    "description": "Solar and battery desktop calculator.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.38,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1077",
+    "name": "Highlighter Set (pack of 5)",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 160,
+    "supplier": "Deskline Office Supplies",
+    "description": "Fluorescent highlighters, 5 colours.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.39,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "OFF-1084",
+    "name": "Envelopes A4 Brown (pack of 50)",
+    "category": "Office Supplies",
+    "unit": "pcs",
+    "unitCost": 230,
+    "supplier": "Deskline Office Supplies",
+    "description": "Kraft envelopes with gummed flap.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.39,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1007",
+    "name": "Hand Sanitizer 500ml",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 180,
+    "supplier": "PureShine Hygiene",
+    "description": "70% alcohol gel sanitizer with pump.",
+    "demand": {
+      "baseDailyUsage": 16,
+      "variability": 0.51,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1014",
+    "name": "Floor Cleaner 5L",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 520,
+    "supplier": "PureShine Hygiene",
+    "description": "Concentrated floor cleaner, pine fragrance.",
+    "demand": {
+      "baseDailyUsage": 7,
+      "variability": 0.52,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1021",
+    "name": "Liquid Hand Wash 5L",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 610,
+    "supplier": "PureShine Hygiene",
+    "description": "Antibacterial liquid hand wash refill.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.27,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1028",
+    "name": "Garbage Bags Large (roll of 30)",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 140,
+    "supplier": "PureShine Hygiene",
+    "description": "Heavy-duty black garbage bags, 30 per roll.",
+    "demand": {
+      "baseDailyUsage": 20,
+      "variability": 0.52,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1035",
+    "name": "Microfiber Cloth (pack of 10)",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 350,
+    "supplier": "PureShine Hygiene",
+    "description": "Lint-free microfiber cleaning cloths.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.42,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1042",
+    "name": "Toilet Cleaner 1L",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 120,
+    "supplier": "PureShine Hygiene",
+    "description": "Thick liquid toilet cleaner.",
+    "demand": {
+      "baseDailyUsage": 9,
+      "variability": 0.41,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1049",
+    "name": "Tissue Roll 2-ply (pack of 12)",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 330,
+    "supplier": "PureShine Hygiene",
+    "description": "Soft 2-ply toilet tissue rolls.",
+    "demand": {
+      "baseDailyUsage": 14,
+      "variability": 0.29,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1056",
+    "name": "Paper Towel Roll (pack of 6)",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 290,
+    "supplier": "PureShine Hygiene",
+    "description": "Absorbent kitchen paper towels.",
+    "demand": {
+      "baseDailyUsage": 8,
+      "variability": 0.53,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1063",
+    "name": "Mop with Bucket Set",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 1150,
+    "supplier": "PureShine Hygiene",
+    "description": "Spin mop with bucket and 2 refills.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.41,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1070",
+    "name": "Surface Disinfectant Spray",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 260,
+    "supplier": "PureShine Hygiene",
+    "description": "Kills 99.9% of germs, 500 ml.",
+    "demand": {
+      "baseDailyUsage": 7,
+      "variability": 0.51,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1077",
+    "name": "Nitrile Gloves (box of 100)",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 480,
+    "supplier": "PureShine Hygiene",
+    "description": "Powder-free nitrile examination gloves.",
+    "demand": {
+      "baseDailyUsage": 10,
+      "variability": 0.42,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "CLN-1084",
+    "name": "Broom Soft Grass",
+    "category": "Cleaning & Hygiene",
+    "unit": "pcs",
+    "unitCost": 160,
+    "supplier": "PureShine Hygiene",
+    "description": "Traditional soft grass broom.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.28,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1007",
+    "name": "Cordless Drill 12V",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 3200,
+    "supplier": "Forge & Bolt Tools",
+    "description": "12V lithium-ion cordless drill driver with 2 batteries.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.5,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1014",
+    "name": "Screwdriver Set 32pc",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 650,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Precision screwdriver bit set with handle.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.38,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1021",
+    "name": "Measuring Tape 5m",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 190,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Steel measuring tape with auto lock.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.54,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1028",
+    "name": "Adjustable Wrench 10in",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 420,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Chrome vanadium adjustable spanner.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.23,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1035",
+    "name": "Claw Hammer 500g",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 380,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Forged steel claw hammer with fibreglass handle.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.56,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1042",
+    "name": "Utility Knife",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 150,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Retractable box cutter with 5 spare blades.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.59,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1049",
+    "name": "Drill Bit Set HSS 13pc",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 560,
+    "supplier": "Forge & Bolt Tools",
+    "description": "High-speed steel drill bits 1.5-6.5 mm.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.6,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1056",
+    "name": "Cable Ties 200mm (pack of 100)",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 110,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Nylon cable ties, UV resistant.",
+    "demand": {
+      "baseDailyUsage": 9,
+      "variability": 0.34,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1063",
+    "name": "Hex Key Set Metric",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 260,
+    "supplier": "Forge & Bolt Tools",
+    "description": "9-piece ball-end hex key set.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.34,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1070",
+    "name": "Pliers Combination 8in",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 310,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Insulated combination pliers.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.4,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1077",
+    "name": "Wall Plugs & Screws Kit",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 240,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Assorted anchors and screws, 300 pieces.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.31,
+      "trend": "stable",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "TLS-1084",
+    "name": "Spirit Level 600mm",
+    "category": "Tools & Hardware",
+    "unit": "pcs",
+    "unitCost": 450,
+    "supplier": "Forge & Bolt Tools",
+    "description": "Aluminium spirit level with 3 vials.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.54,
+      "trend": "stable",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1007",
+    "name": "Safety Helmet ISI",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 290,
+    "supplier": "SafeGuard PPE",
+    "description": "HDPE safety helmet with ratchet adjustment.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.24,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1014",
+    "name": "Safety Shoes Steel Toe",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 1450,
+    "supplier": "SafeGuard PPE",
+    "description": "Leather safety shoes with steel toe cap.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.58,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1021",
+    "name": "Hi-Vis Reflective Vest",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 180,
+    "supplier": "SafeGuard PPE",
+    "description": "Fluorescent vest with reflective tape.",
+    "demand": {
+      "baseDailyUsage": 8,
+      "variability": 0.31,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1028",
+    "name": "Safety Goggles Clear",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 150,
+    "supplier": "SafeGuard PPE",
+    "description": "Anti-fog polycarbonate safety goggles.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.45,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1035",
+    "name": "Ear Plugs (box of 200)",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 900,
+    "supplier": "SafeGuard PPE",
+    "description": "Disposable foam ear plugs, SNR 37 dB.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.22,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1042",
+    "name": "Cut-Resistant Gloves",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 320,
+    "supplier": "SafeGuard PPE",
+    "description": "Level 5 cut-resistant work gloves.",
+    "demand": {
+      "baseDailyUsage": 7,
+      "variability": 0.38,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1049",
+    "name": "N95 Respirator (box of 20)",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 700,
+    "supplier": "SafeGuard PPE",
+    "description": "NIOSH N95 particulate respirators.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.21,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1056",
+    "name": "First Aid Kit Industrial",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 1650,
+    "supplier": "SafeGuard PPE",
+    "description": "50-person industrial first aid kit.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.57,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1063",
+    "name": "Fire Extinguisher ABC 4kg",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 2100,
+    "supplier": "SafeGuard PPE",
+    "description": "Dry powder ABC fire extinguisher, ISI marked.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.59,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1070",
+    "name": "Safety Harness Full Body",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 2450,
+    "supplier": "SafeGuard PPE",
+    "description": "Full body harness with double lanyard.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.53,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1077",
+    "name": "Warning Tape Roll",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 160,
+    "supplier": "SafeGuard PPE",
+    "description": "Red/white barricade tape, 250 m.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.23,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "SAF-1084",
+    "name": "Face Shield",
+    "category": "Safety Equipment",
+    "unit": "pcs",
+    "unitCost": 210,
+    "supplier": "SafeGuard PPE",
+    "description": "Clear PET face shield with headband.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.55,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1007",
+    "name": "Bottled Water 1L (case of 12)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 220,
+    "supplier": "GrainGate Foods",
+    "description": "Packaged drinking water, 12 x 1 litre.",
+    "demand": {
+      "baseDailyUsage": 40,
+      "variability": 0.38,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1014",
+    "name": "Instant Coffee 200g",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 480,
+    "supplier": "GrainGate Foods",
+    "description": "Pure instant coffee granules.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.58,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1021",
+    "name": "Tea Bags (box of 100)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 260,
+    "supplier": "GrainGate Foods",
+    "description": "Assam black tea bags.",
+    "demand": {
+      "baseDailyUsage": 7,
+      "variability": 0.34,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1028",
+    "name": "Sugar Sachets (box of 500)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 450,
+    "supplier": "GrainGate Foods",
+    "description": "5 g white sugar sachets.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.4,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1035",
+    "name": "Biscuits Assorted (carton of 48)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 960,
+    "supplier": "GrainGate Foods",
+    "description": "Assorted cream and glucose biscuits.",
+    "demand": {
+      "baseDailyUsage": 9,
+      "variability": 0.53,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1042",
+    "name": "Paper Cups 200ml (pack of 100)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 140,
+    "supplier": "GrainGate Foods",
+    "description": "Disposable paper cups for hot beverages.",
+    "demand": {
+      "baseDailyUsage": 15,
+      "variability": 0.32,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1049",
+    "name": "Energy Drink 250ml (case of 24)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 1680,
+    "supplier": "GrainGate Foods",
+    "description": "Carbonated energy drink cans.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.51,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1056",
+    "name": "Masala Peanuts 1kg",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 310,
+    "supplier": "GrainGate Foods",
+    "description": "Roasted spiced peanuts.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.22,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1063",
+    "name": "Fruit Juice 1L (case of 12)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 1140,
+    "supplier": "GrainGate Foods",
+    "description": "Mixed fruit juice tetra packs.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.53,
+      "trend": "spike",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1070",
+    "name": "Instant Noodles (carton of 48)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 620,
+    "supplier": "GrainGate Foods",
+    "description": "Masala instant noodles, 70 g packs.",
+    "demand": {
+      "baseDailyUsage": 8,
+      "variability": 0.25,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1077",
+    "name": "Milk Powder 1kg",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 520,
+    "supplier": "GrainGate Foods",
+    "description": "Dairy whitener for tea and coffee.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.45,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "FNB-1084",
+    "name": "Green Tea (box of 100)",
+    "category": "Food & Beverage",
+    "unit": "box",
+    "unitCost": 390,
+    "supplier": "GrainGate Foods",
+    "description": "Natural green tea bags.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.38,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1007",
+    "name": "Shampoo 650ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 340,
+    "supplier": "Lumina Personal Care",
+    "description": "Anti-dandruff shampoo, family pack.",
+    "demand": {
+      "baseDailyUsage": 8,
+      "variability": 0.3,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1014",
+    "name": "Bath Soap (pack of 4)",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 180,
+    "supplier": "Lumina Personal Care",
+    "description": "Moisturising bath soap bars.",
+    "demand": {
+      "baseDailyUsage": 14,
+      "variability": 0.5,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1021",
+    "name": "Toothpaste 200g",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 110,
+    "supplier": "Lumina Personal Care",
+    "description": "Fluoride toothpaste with cavity protection.",
+    "demand": {
+      "baseDailyUsage": 12,
+      "variability": 0.51,
+      "trend": "spike",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1028",
+    "name": "Body Lotion 400ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 290,
+    "supplier": "Lumina Personal Care",
+    "description": "Deep moisture body lotion.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.3,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1035",
+    "name": "Deodorant Spray 150ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 220,
+    "supplier": "Lumina Personal Care",
+    "description": "48-hour fresh deodorant spray.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.39,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1042",
+    "name": "Face Wash 100ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 160,
+    "supplier": "Lumina Personal Care",
+    "description": "Oil-control neem face wash.",
+    "demand": {
+      "baseDailyUsage": 7,
+      "variability": 0.48,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1049",
+    "name": "Shaving Cream 70g",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 95,
+    "supplier": "Lumina Personal Care",
+    "description": "Lather shaving cream for sensitive skin.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.32,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1056",
+    "name": "Hair Oil 300ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 210,
+    "supplier": "Lumina Personal Care",
+    "description": "Coconut hair oil enriched with vitamin E.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.53,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1063",
+    "name": "Sanitary Pads (pack of 30)",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 320,
+    "supplier": "Lumina Personal Care",
+    "description": "Ultra-thin sanitary pads with wings.",
+    "demand": {
+      "baseDailyUsage": 9,
+      "variability": 0.43,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1070",
+    "name": "Baby Diapers M (pack of 56)",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 899,
+    "supplier": "Lumina Personal Care",
+    "description": "Pant-style diapers, medium size.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.55,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1077",
+    "name": "Sunscreen SPF50 100ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 450,
+    "supplier": "Lumina Personal Care",
+    "description": "Broad-spectrum sunscreen lotion.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.21,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "PRC-1084",
+    "name": "Cotton Buds (pack of 200)",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 70,
+    "supplier": "Lumina Personal Care",
+    "description": "Paper-stem cotton buds.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.37,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1007",
+    "name": "Engine Oil 5W-30 4L",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 2350,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Fully synthetic engine oil, API SP.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.5,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1014",
+    "name": "Brake Pads Front Set",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 1450,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Ceramic front brake pads for compact cars.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.56,
+      "trend": "stable",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1021",
+    "name": "Air Filter Element",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 420,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Engine air filter for popular hatchbacks.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.6,
+      "trend": "spike",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1028",
+    "name": "Oil Filter",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 260,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Spin-on oil filter, standard thread.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.54,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1035",
+    "name": "Spark Plug Iridium",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 520,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Long-life iridium spark plug.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.45,
+      "trend": "stable",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1042",
+    "name": "Wiper Blade 22in",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 380,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Frameless all-season wiper blade.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.28,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1049",
+    "name": "Car Battery 35Ah",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 4800,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Maintenance-free 35Ah car battery.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.49,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1056",
+    "name": "Coolant 1L",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 290,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Ready-to-use long-life coolant.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.39,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1063",
+    "name": "Headlight Bulb H4",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 340,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Halogen H4 bulb 60/55W.",
+    "demand": {
+      "baseDailyUsage": 3,
+      "variability": 0.34,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1070",
+    "name": "Tyre Inflator Portable",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 2200,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "12V digital tyre inflator.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.39,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1077",
+    "name": "Brake Fluid DOT4 500ml",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 310,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "DOT 4 synthetic brake fluid.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.23,
+      "trend": "falling",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "AUT-1084",
+    "name": "Microfiber Car Wash Mitt",
+    "category": "Automotive Parts",
+    "unit": "pcs",
+    "unitCost": 240,
+    "supplier": "TorqueLine Auto Parts",
+    "description": "Scratch-free car wash mitt.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.37,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1007",
+    "name": "LED Bulb 9W (pack of 4)",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 360,
+    "supplier": "VoltWay Electricals",
+    "description": "Cool daylight LED bulbs, B22 base.",
+    "demand": {
+      "baseDailyUsage": 14,
+      "variability": 0.34,
+      "trend": "stable",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1014",
+    "name": "LED Tube Light 20W",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 290,
+    "supplier": "VoltWay Electricals",
+    "description": "4-foot LED batten, 2000 lumen.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.55,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1021",
+    "name": "Extension Board 4-Socket",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 520,
+    "supplier": "VoltWay Electricals",
+    "description": "Surge-protected extension with 3 m cord.",
+    "demand": {
+      "baseDailyUsage": 5,
+      "variability": 0.31,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1028",
+    "name": "Copper Wire 1.5 sqmm (90m)",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 1650,
+    "supplier": "VoltWay Electricals",
+    "description": "FR PVC insulated copper wire coil.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.47,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1035",
+    "name": "MCB 16A Single Pole",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 210,
+    "supplier": "VoltWay Electricals",
+    "description": "C-curve miniature circuit breaker.",
+    "demand": {
+      "baseDailyUsage": 4,
+      "variability": 0.35,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1042",
+    "name": "Ceiling Fan 1200mm",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 2350,
+    "supplier": "VoltWay Electricals",
+    "description": "Energy-efficient BLDC ceiling fan.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.37,
+      "trend": "rising",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1049",
+    "name": "Modular Switch 6A",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 55,
+    "supplier": "VoltWay Electricals",
+    "description": "Modular one-way switch, white.",
+    "demand": {
+      "baseDailyUsage": 12,
+      "variability": 0.57,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1056",
+    "name": "Electrical Tape (pack of 10)",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 150,
+    "supplier": "VoltWay Electricals",
+    "description": "PVC insulation tape, assorted colours.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.26,
+      "trend": "falling",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1063",
+    "name": "Emergency Light LED",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 899,
+    "supplier": "VoltWay Electricals",
+    "description": "Rechargeable emergency light, 4h backup.",
+    "demand": {
+      "baseDailyUsage": 2,
+      "variability": 0.42,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1070",
+    "name": "Door Bell Wireless",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 650,
+    "supplier": "VoltWay Electricals",
+    "description": "Plug-in wireless doorbell with 36 tunes.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.46,
+      "trend": "stable",
+      "warehouses": [
+        "DEL-03",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1077",
+    "name": "Socket 16A Modular",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 110,
+    "supplier": "VoltWay Electricals",
+    "description": "Modular 16A power socket.",
+    "demand": {
+      "baseDailyUsage": 6,
+      "variability": 0.48,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "DEL-03",
+        "MUM-02"
+      ]
+    }
+  },
+  {
+    "sku": "ELE-1084",
+    "name": "Inverter Battery 150Ah",
+    "category": "Electrical",
+    "unit": "pcs",
+    "unitCost": 12500,
+    "supplier": "VoltWay Electricals",
+    "description": "Tall tubular inverter battery.",
+    "demand": {
+      "baseDailyUsage": 1,
+      "variability": 0.36,
+      "trend": "stable",
+      "warehouses": [
+        "BLR-04",
+        "MUM-02",
+        "PUN-01"
+      ]
+    }
+  }
+]

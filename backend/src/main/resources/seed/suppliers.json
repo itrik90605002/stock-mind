@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Apex Electronics Distributors",
+    "contactEmail": "orders@apex-elec.example",
+    "phone": "+91 20 4110 2200",
+    "leadTimeDays": 7
+  },
+  {
+    "name": "BoxCraft Packaging",
+    "contactEmail": "sales@boxcraft.example",
+    "phone": "+91 22 6650 1180",
+    "leadTimeDays": 4
+  },
+  {
+    "name": "Deskline Office Supplies",
+    "contactEmail": "b2b@deskline.example",
+    "phone": "+91 11 4300 9900",
+    "leadTimeDays": 5
+  },
+  {
+    "name": "PureShine Hygiene",
+    "contactEmail": "trade@pureshine.example",
+    "phone": "+91 80 4012 7733",
+    "leadTimeDays": 6
+  },
+  {
+    "name": "Forge & Bolt Tools",
+    "contactEmail": "orders@forgebolt.example",
+    "phone": "+91 20 6720 4545",
+    "leadTimeDays": 10
+  },
+  {
+    "name": "SafeGuard PPE",
+    "contactEmail": "supply@safeguardppe.example",
+    "phone": "+91 79 4000 8181",
+    "leadTimeDays": 8
+  },
+  {
+    "name": "GrainGate Foods",
+    "contactEmail": "orders@graingate.example",
+    "phone": "+91 33 4455 6677",
+    "leadTimeDays": 3
+  },
+  {
+    "name": "Lumina Personal Care",
+    "contactEmail": "distribution@lumina.example",
+    "phone": "+91 22 4988 3210",
+    "leadTimeDays": 6
+  },
+  {
+    "name": "TorqueLine Auto Parts",
+    "contactEmail": "parts@torqueline.example",
+    "phone": "+91 44 4211 5600",
+    "leadTimeDays": 14
+  },
+  {
+    "name": "VoltWay Electricals",
+    "contactEmail": "sales@voltway.example",
+    "phone": "+91 20 4777 1919",
+    "leadTimeDays": 9
+  }
+]

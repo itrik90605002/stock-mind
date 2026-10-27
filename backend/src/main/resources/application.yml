@@ -1,0 +1,103 @@
+# =============================================================================
+# Warehouse Inventory System - backend configuration.
+# Every deploy-specific value reads an environment variable with a local-dev default.
+# See README.md -> "Configuration" for the full list.
+# =============================================================================
+spring:
+  application:
+    name: warehouse-backend
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/warehouse}
+    username: ${DATABASE_USERNAME:postgres}
+    password: ${DATABASE_PASSWORD:postgres}
+    hikari:
+      # Small pool: free-tier Postgres hosts allow few connections.
+      maximum-pool-size: ${DB_POOL_SIZE:5}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate          # schema is owned by Flyway migrations
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+          batch_size: 50
+        order_inserts: true
+  flyway:
+    enabled: true
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+
+server:
+  port: ${PORT:8080}
+  shutdown: graceful
+  error:
+    include-stacktrace: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  pattern:
+    # Every log line carries the request id set by RequestIdFilter.
+    level: "%5p [%X{requestId:-}]"
+  level:
+    # Hibernate logs optimistic-lock conflicts at ERROR before Spring translates them; they are
+    # expected under concurrency and retried by StockCommandExecutor, which logs them itself.
+    org.hibernate.orm.jdbc.batch: "OFF"
+
+app:
+  jwt:
+    # Must be >= 32 bytes. ALWAYS override JWT_SECRET in a deployment.
+    secret: ${JWT_SECRET:dev-only-secret-change-me-it-must-be-at-least-32-bytes}
+    expiration: ${JWT_EXPIRATION:PT12H}
+  cors:
+    # Comma-separated list, e.g. https://my-warehouse.vercel.app
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
+  stock:
+    # Attempts for a stock command that loses an optimistic-lock race before reporting a conflict.
+    max-attempts: 4
+    retry-backoff: PT0.05S
+    idempotency-retention: P7D
+  forecast:
+    # Usage history windows used for reorder suggestions.
+    short-window-days: 30
+    long-window-days: 90
+    # How often stock is reviewed/ordered; added to lead time when sizing an order.
+    review-period-days: 7
+    # z-score for safety stock (1.65 = ~95% service level).
+    service-level-z: 1.65
+    default-lead-time-days: 7
+  ai:
+    enabled: ${AI_ENABLED:true}
+    # Any OpenAI-compatible chat-completions API. Default: local Ollama.
+    base-url: ${AI_BASE_URL:http://localhost:11434/v1}
+    api-key: ${AI_API_KEY:}
+    model: ${AI_CHAT_MODEL:llama3.1}
+    timeout: ${AI_TIMEOUT:PT30S}
+    cooldown: PT1M
+    # Per-user limit on assistant questions.
+    questions-per-minute: ${AI_QUESTIONS_PER_MINUTE:10}
+    # Max rows any assistant query may return.
+    max-rows: 100
+    # Upper bound on suggestions explained by AI per forecast run (keeps free-tier usage low).
+    max-explanations: 40
+  security:
+    login-attempts-per-minute: 10
+  demo:
+    seed-data: ${DEMO_SEED_DATA:true}
+  jobs:
+    daily-cron: "0 30 1 * * *"     # 01:30 UTC
+    run-on-startup: true           # catches up after the host was asleep

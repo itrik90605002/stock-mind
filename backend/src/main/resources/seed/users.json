@@ -1,0 +1,65 @@
+[
+  {
+    "email": "admin@warehouse.local",
+    "password": "Admin@12345",
+    "fullName": "Aarav Admin",
+    "role": "ADMIN",
+    "warehouses": []
+  },
+  {
+    "email": "manager@warehouse.local",
+    "password": "Manager@123",
+    "fullName": "Meera Manager",
+    "role": "MANAGER",
+    "warehouses": [
+      "PUN-01",
+      "MUM-02"
+    ]
+  },
+  {
+    "email": "north.manager@warehouse.local",
+    "password": "Manager@123",
+    "fullName": "Nikhil Sharma",
+    "role": "MANAGER",
+    "warehouses": [
+      "DEL-03",
+      "BLR-04"
+    ]
+  },
+  {
+    "email": "clerk@warehouse.local",
+    "password": "Clerk@1234",
+    "fullName": "Kiran Clerk",
+    "role": "CLERK",
+    "warehouses": [
+      "PUN-01"
+    ]
+  },
+  {
+    "email": "mumbai.clerk@warehouse.local",
+    "password": "Clerk@1234",
+    "fullName": "Sana Shaikh",
+    "role": "CLERK",
+    "warehouses": [
+      "MUM-02"
+    ]
+  },
+  {
+    "email": "delhi.clerk@warehouse.local",
+    "password": "Clerk@1234",
+    "fullName": "Rohit Verma",
+    "role": "CLERK",
+    "warehouses": [
+      "DEL-03"
+    ]
+  },
+  {
+    "email": "blr.clerk@warehouse.local",
+    "password": "Clerk@1234",
+    "fullName": "Divya Rao",
+    "role": "CLERK",
+    "warehouses": [
+      "BLR-04"
+    ]
+  }
+]
