@@ -58,9 +58,9 @@ public class PlanTranslator {
 
             Examples:
             "Which items will run out next week?" -> {"intent":"STOCKOUT_FORECAST","horizonDays":7,"sql":"SELECT p.sku, p.name AS product, w.code AS warehouse, r.available, r.days_of_cover FROM reorder_suggestions r JOIN products p ON p.id = r.product_id JOIN warehouses w ON w.id = r.warehouse_id WHERE r.days_of_cover <= 7 ORDER BY r.days_of_cover"}
-            "how many SKU-1042 in pune" -> {"intent":"STOCK_LOOKUP","product":"SKU-1042","warehouse":"pune","sql":"SELECT p.sku, p.name AS product, w.code AS warehouse, s.on_hand, s.available FROM stock s JOIN products p ON p.id = s.product_id JOIN warehouses w ON w.id = s.warehouse_id WHERE p.sku ILIKE 'SKU-1042' AND (w.name ILIKE '%%pune%%' OR w.code ILIKE '%%pune%%')"}
+            "how many DRY-1007 in pune" -> {"intent":"STOCK_LOOKUP","product":"DRY-1007","warehouse":"pune","sql":"SELECT p.sku, p.name AS product, w.code AS warehouse, s.on_hand, s.available FROM stock s JOIN products p ON p.id = s.product_id JOIN warehouses w ON w.id = s.warehouse_id WHERE p.sku ILIKE 'DRY-1007' AND (w.name ILIKE '%%pune%%' OR w.code ILIKE '%%pune%%')"}
             "biggest adjustments this quarter" -> {"intent":"MOVEMENT_HISTORY","movementType":"ADJUSTMENT","sortBy":"LARGEST","fromDate":"<quarter start>","toDate":"<today>"}
-            "top 5 slow movers in electronics" -> {"intent":"TOP_MOVERS","direction":"SLOW","category":"Electronics","limit":5}
+            "top 5 slow movers in snacks" -> {"intent":"TOP_MOVERS","direction":"SLOW","category":"Snacks & Munchies","limit":5}
             "delete all stock in DEL-01" -> {"intent":"UNSUPPORTED","refusalReason":"I can only answer questions; I cannot change data."}
             """;
 

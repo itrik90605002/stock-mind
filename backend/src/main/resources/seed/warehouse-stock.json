@@ -1,3140 +1,3245 @@
 [
   {
     "warehouse": "PUN-01",
-    "name": "Pune Central DC",
+    "name": "Pune Mother Hub",
     "stock": [
       {
-        "sku": "SKU-1042",
-        "product": "USB-C Charging Cable 1m",
-        "openingStock": 775,
-        "reorderPoint": 162,
-        "dailyUsage": 18.0
+        "sku": "FRV-1007",
+        "product": "Tomato 500g",
+        "openingStock": 680,
+        "reorderPoint": 275,
+        "dailyUsage": 60.4
       },
       {
-        "sku": "ELC-1014",
-        "product": "Wireless Mouse",
-        "openingStock": 390,
-        "reorderPoint": 81,
-        "dailyUsage": 9.0
+        "sku": "FRV-1014",
+        "product": "Onion 1kg",
+        "openingStock": 510,
+        "reorderPoint": 232,
+        "dailyUsage": 63.6
       },
       {
-        "sku": "ELC-1021",
-        "product": "Bluetooth Earbuds",
-        "openingStock": 260,
-        "reorderPoint": 54,
-        "dailyUsage": 6.0
+        "sku": "FRV-1021",
+        "product": "Potato 1kg",
+        "openingStock": 685,
+        "reorderPoint": 239,
+        "dailyUsage": 50.3
       },
       {
-        "sku": "ELC-1028",
-        "product": "Power Bank 10000mAh",
-        "openingStock": 305,
-        "reorderPoint": 63,
-        "dailyUsage": 7.0
+        "sku": "FRV-1028",
+        "product": "Banana Robusta 6pcs",
+        "openingStock": 455,
+        "reorderPoint": 144,
+        "dailyUsage": 46.2
       },
       {
-        "sku": "ELC-1035",
-        "product": "HDMI Cable 2m",
-        "openingStock": 345,
-        "reorderPoint": 72,
-        "dailyUsage": 8.0
+        "sku": "FRV-1035",
+        "product": "Shimla Apple 4pcs",
+        "openingStock": 300,
+        "reorderPoint": 69,
+        "dailyUsage": 21.8
       },
       {
-        "sku": "ELC-1042",
-        "product": "Wall Charger 20W",
-        "openingStock": 515,
-        "reorderPoint": 108,
-        "dailyUsage": 12.0
+        "sku": "FRV-1042",
+        "product": "Coriander Leaves 100g",
+        "openingStock": 410,
+        "reorderPoint": 221,
+        "dailyUsage": 48.8
       },
       {
-        "sku": "ELC-1049",
-        "product": "Keyboard USB Wired",
+        "sku": "FRV-1049",
+        "product": "Green Chilli 100g",
+        "openingStock": 370,
+        "reorderPoint": 167,
+        "dailyUsage": 42.3
+      },
+      {
+        "sku": "FRV-1056",
+        "product": "Lemon 4pcs",
+        "openingStock": 300,
+        "reorderPoint": 149,
+        "dailyUsage": 31.3
+      },
+      {
+        "sku": "FRV-1063",
+        "product": "Cucumber 500g",
+        "openingStock": 230,
+        "reorderPoint": 100,
+        "dailyUsage": 24.6
+      },
+      {
+        "sku": "FRV-1070",
+        "product": "Ginger 200g",
+        "openingStock": 220,
+        "reorderPoint": 87,
+        "dailyUsage": 23.9
+      },
+      {
+        "sku": "FRV-1077",
+        "product": "Pomegranate 2pcs",
         "openingStock": 175,
-        "reorderPoint": 36,
-        "dailyUsage": 4.0
+        "reorderPoint": 56,
+        "dailyUsage": 14.5
       },
       {
-        "sku": "ELC-1063",
-        "product": "Smart Plug 16A",
-        "openingStock": 130,
-        "reorderPoint": 27,
-        "dailyUsage": 3.0
+        "sku": "FRV-1084",
+        "product": "Baby Spinach 200g",
+        "openingStock": 100,
+        "reorderPoint": 39,
+        "dailyUsage": 11.3
       },
       {
-        "sku": "ELC-1077",
-        "product": "MicroSD Card 64GB",
-        "openingStock": 430,
-        "reorderPoint": 90,
-        "dailyUsage": 10.0
+        "sku": "DRY-1007",
+        "product": "Toned Milk 500ml",
+        "openingStock": 920,
+        "reorderPoint": 276,
+        "dailyUsage": 79.9
       },
       {
-        "sku": "ELC-1084",
-        "product": "Ethernet Cable Cat6 5m",
-        "openingStock": 215,
-        "reorderPoint": 45,
-        "dailyUsage": 5.0
+        "sku": "DRY-1014",
+        "product": "Full Cream Milk 1L",
+        "openingStock": 325,
+        "reorderPoint": 164,
+        "dailyUsage": 38.5
       },
       {
-        "sku": "PKG-1007",
-        "product": "Corrugated Box Small (pack of 25)",
-        "openingStock": 875,
-        "reorderPoint": 132,
+        "sku": "DRY-1021",
+        "product": "Curd 400g",
+        "openingStock": 435,
+        "reorderPoint": 152,
+        "dailyUsage": 32.2
+      },
+      {
+        "sku": "DRY-1028",
+        "product": "Paneer 200g",
+        "openingStock": 205,
+        "reorderPoint": 95,
         "dailyUsage": 22.0
       },
       {
-        "sku": "PKG-1014",
-        "product": "Corrugated Box Medium (pack of 25)",
-        "openingStock": 715,
-        "reorderPoint": 108,
-        "dailyUsage": 18.0
+        "sku": "DRY-1035",
+        "product": "Salted Butter 100g",
+        "openingStock": 155,
+        "reorderPoint": 87,
+        "dailyUsage": 17.9
       },
       {
-        "sku": "PKG-1021",
-        "product": "Corrugated Box Large (pack of 10)",
-        "openingStock": 360,
+        "sku": "DRY-1042",
+        "product": "Brown Eggs 6pcs",
+        "openingStock": 340,
+        "reorderPoint": 144,
+        "dailyUsage": 31.5
+      },
+      {
+        "sku": "DRY-1049",
+        "product": "White Bread 400g",
+        "openingStock": 390,
+        "reorderPoint": 137,
+        "dailyUsage": 42.8
+      },
+      {
+        "sku": "DRY-1056",
+        "product": "Multigrain Bread 400g",
+        "openingStock": 145,
         "reorderPoint": 54,
-        "dailyUsage": 9.0
+        "dailyUsage": 13.7
       },
       {
-        "sku": "PKG-1028",
-        "product": "Bubble Wrap Roll 50m",
-        "openingStock": 240,
-        "reorderPoint": 36,
-        "dailyUsage": 6.0
-      },
-      {
-        "sku": "PKG-1035",
-        "product": "Packing Tape Brown (6 rolls)",
-        "openingStock": 995,
-        "reorderPoint": 150,
-        "dailyUsage": 25.0
-      },
-      {
-        "sku": "PKG-1049",
-        "product": "Courier Bags A4 (pack of 100)",
-        "openingStock": 595,
-        "reorderPoint": 90,
-        "dailyUsage": 15.0
-      },
-      {
-        "sku": "PKG-1056",
-        "product": "Fragile Labels (roll of 500)",
-        "openingStock": 160,
-        "reorderPoint": 24,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "PKG-1070",
-        "product": "Pallet Wooden 1200x1000",
-        "openingStock": 80,
-        "reorderPoint": 12,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "PKG-1084",
-        "product": "Shipping Labels 4x6 (roll of 500)",
-        "openingStock": 480,
-        "reorderPoint": 72,
+        "sku": "DRY-1063",
+        "product": "Cheese Slices 200g",
+        "openingStock": 145,
+        "reorderPoint": 60,
         "dailyUsage": 12.0
       },
       {
-        "sku": "OFF-1007",
-        "product": "A4 Copier Paper 75gsm (ream)",
-        "openingStock": 1225,
-        "reorderPoint": 210,
-        "dailyUsage": 30.0
+        "sku": "DRY-1070",
+        "product": "Buttermilk 500ml",
+        "openingStock": 195,
+        "reorderPoint": 68,
+        "dailyUsage": 18.5
       },
       {
-        "sku": "OFF-1014",
-        "product": "Ballpoint Pen Blue (box of 50)",
-        "openingStock": 330,
-        "reorderPoint": 56,
-        "dailyUsage": 8.0
+        "sku": "DRY-1077",
+        "product": "Fresh Cream 200ml",
+        "openingStock": 90,
+        "reorderPoint": 31,
+        "dailyUsage": 9.3
       },
       {
-        "sku": "OFF-1021",
-        "product": "Stapler Medium",
-        "openingStock": 85,
-        "reorderPoint": 14,
-        "dailyUsage": 2.0
+        "sku": "DRY-1084",
+        "product": "Greek Yogurt 100g",
+        "openingStock": 100,
+        "reorderPoint": 34,
+        "dailyUsage": 9.6
       },
       {
-        "sku": "OFF-1028",
-        "product": "Staple Pins No.10 (box of 20)",
-        "openingStock": 205,
-        "reorderPoint": 35,
-        "dailyUsage": 5.0
+        "sku": "STP-1007",
+        "product": "Whole Wheat Atta 5kg",
+        "openingStock": 830,
+        "reorderPoint": 162,
+        "dailyUsage": 15.5
       },
       {
-        "sku": "OFF-1035",
-        "product": "Sticky Notes 3x3 (pack of 12)",
-        "openingStock": 245,
-        "reorderPoint": 42,
-        "dailyUsage": 6.0
+        "sku": "STP-1014",
+        "product": "Basmati Rice 1kg",
+        "openingStock": 735,
+        "reorderPoint": 101,
+        "dailyUsage": 15.5
       },
       {
-        "sku": "OFF-1042",
-        "product": "Whiteboard Marker Set",
-        "openingStock": 165,
-        "reorderPoint": 28,
-        "dailyUsage": 4.0
+        "sku": "STP-1021",
+        "product": "Sona Masoori Rice 5kg",
+        "openingStock": 505,
+        "reorderPoint": 152,
+        "dailyUsage": 9.7
       },
       {
-        "sku": "OFF-1049",
-        "product": "Box File Lever Arch",
-        "openingStock": 205,
-        "reorderPoint": 35,
-        "dailyUsage": 5.0
+        "sku": "STP-1028",
+        "product": "Toor Dal 1kg",
+        "openingStock": 745,
+        "reorderPoint": 109,
+        "dailyUsage": 14.2
       },
       {
-        "sku": "OFF-1056",
-        "product": "Notebook A5 Ruled",
-        "openingStock": 570,
+        "sku": "STP-1035",
+        "product": "Moong Dal 500g",
+        "openingStock": 410,
         "reorderPoint": 98,
-        "dailyUsage": 14.0
+        "dailyUsage": 9.8
       },
       {
-        "sku": "OFF-1063",
-        "product": "Printer Toner 12A",
-        "openingStock": 85,
-        "reorderPoint": 14,
-        "dailyUsage": 2.0
+        "sku": "STP-1042",
+        "product": "Chana Dal 1kg",
+        "openingStock": 325,
+        "reorderPoint": 116,
+        "dailyUsage": 7.3
       },
       {
-        "sku": "OFF-1070",
-        "product": "Calculator Desktop 12-digit",
-        "openingStock": 45,
-        "reorderPoint": 7,
-        "dailyUsage": 1.0
+        "sku": "STP-1049",
+        "product": "Besan 500g",
+        "openingStock": 400,
+        "reorderPoint": 82,
+        "dailyUsage": 7.8
       },
       {
-        "sku": "OFF-1077",
-        "product": "Highlighter Set (pack of 5)",
-        "openingStock": 205,
-        "reorderPoint": 35,
-        "dailyUsage": 5.0
+        "sku": "STP-1056",
+        "product": "Sugar 1kg",
+        "openingStock": 1035,
+        "reorderPoint": 305,
+        "dailyUsage": 19.1
       },
       {
-        "sku": "OFF-1084",
-        "product": "Envelopes A4 Brown (pack of 50)",
-        "openingStock": 245,
-        "reorderPoint": 42,
+        "sku": "STP-1063",
+        "product": "Iodised Salt 1kg",
+        "openingStock": 860,
+        "reorderPoint": 129,
+        "dailyUsage": 17.1
+      },
+      {
+        "sku": "STP-1070",
+        "product": "Poha 500g",
+        "openingStock": 570,
+        "reorderPoint": 124,
+        "dailyUsage": 10.5
+      },
+      {
+        "sku": "STP-1077",
+        "product": "Rajma 500g",
+        "openingStock": 290,
+        "reorderPoint": 37,
+        "dailyUsage": 5.7
+      },
+      {
+        "sku": "STP-1084",
+        "product": "Sooji 500g",
+        "openingStock": 335,
+        "reorderPoint": 105,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "MSL-1007",
+        "product": "Sunflower Oil 1L",
+        "openingStock": 820,
+        "reorderPoint": 103,
+        "dailyUsage": 15.1
+      },
+      {
+        "sku": "MSL-1014",
+        "product": "Mustard Oil 1L",
+        "openingStock": 365,
+        "reorderPoint": 97,
+        "dailyUsage": 7.6
+      },
+      {
+        "sku": "MSL-1021",
+        "product": "Cow Ghee 500ml",
+        "openingStock": 255,
+        "reorderPoint": 95,
+        "dailyUsage": 6.4
+      },
+      {
+        "sku": "MSL-1028",
+        "product": "Turmeric Powder 100g",
+        "openingStock": 440,
+        "reorderPoint": 111,
+        "dailyUsage": 9.1
+      },
+      {
+        "sku": "MSL-1035",
+        "product": "Red Chilli Powder 100g",
+        "openingStock": 460,
+        "reorderPoint": 108,
+        "dailyUsage": 9.6
+      },
+      {
+        "sku": "MSL-1042",
+        "product": "Garam Masala 100g",
+        "openingStock": 330,
+        "reorderPoint": 104,
+        "dailyUsage": 7.9
+      },
+      {
+        "sku": "MSL-1049",
+        "product": "Cumin Seeds 100g",
+        "openingStock": 290,
+        "reorderPoint": 83,
+        "dailyUsage": 6.5
+      },
+      {
+        "sku": "MSL-1056",
+        "product": "Coriander Powder 100g",
+        "openingStock": 285,
+        "reorderPoint": 89,
+        "dailyUsage": 6.6
+      },
+      {
+        "sku": "MSL-1063",
+        "product": "Groundnut Oil 1L",
+        "openingStock": 170,
+        "reorderPoint": 59,
+        "dailyUsage": 3.7
+      },
+      {
+        "sku": "MSL-1070",
+        "product": "Black Pepper Whole 50g",
+        "openingStock": 190,
+        "reorderPoint": 39,
+        "dailyUsage": 4.8
+      },
+      {
+        "sku": "MSL-1077",
+        "product": "Tamarind 200g",
+        "openingStock": 140,
+        "reorderPoint": 39,
+        "dailyUsage": 2.6
+      },
+      {
+        "sku": "MSL-1084",
+        "product": "Kasuri Methi 25g",
+        "openingStock": 135,
+        "reorderPoint": 23,
+        "dailyUsage": 3.1
+      },
+      {
+        "sku": "SNK-1007",
+        "product": "Salted Potato Chips 52g",
+        "openingStock": 2695,
+        "reorderPoint": 653,
+        "dailyUsage": 53.9
+      },
+      {
+        "sku": "SNK-1014",
+        "product": "Masala Potato Chips 52g",
+        "openingStock": 2520,
+        "reorderPoint": 312,
+        "dailyUsage": 51.3
+      },
+      {
+        "sku": "SNK-1021",
+        "product": "Aloo Bhujia 200g",
+        "openingStock": 1190,
+        "reorderPoint": 349,
+        "dailyUsage": 27.6
+      },
+      {
+        "sku": "SNK-1028",
+        "product": "Roasted Peanuts 150g",
+        "openingStock": 635,
+        "reorderPoint": 113,
+        "dailyUsage": 15.8
+      },
+      {
+        "sku": "SNK-1035",
+        "product": "Cheese Nachos 150g",
+        "openingStock": 700,
+        "reorderPoint": 129,
+        "dailyUsage": 14.8
+      },
+      {
+        "sku": "SNK-1042",
+        "product": "Cream Biscuits 120g",
+        "openingStock": 1810,
+        "reorderPoint": 290,
+        "dailyUsage": 36.1
+      },
+      {
+        "sku": "SNK-1049",
+        "product": "Digestive Biscuits 250g",
+        "openingStock": 745,
+        "reorderPoint": 190,
+        "dailyUsage": 17.5
+      },
+      {
+        "sku": "SNK-1056",
+        "product": "Dark Chocolate Bar 80g",
+        "openingStock": 740,
+        "reorderPoint": 98,
+        "dailyUsage": 14.1
+      },
+      {
+        "sku": "SNK-1063",
+        "product": "Milk Chocolate 50g",
+        "openingStock": 1170,
+        "reorderPoint": 165,
+        "dailyUsage": 27.4
+      },
+      {
+        "sku": "SNK-1070",
+        "product": "Butter Popcorn 60g",
+        "openingStock": 590,
+        "reorderPoint": 104,
+        "dailyUsage": 12.1
+      },
+      {
+        "sku": "SNK-1077",
+        "product": "Mixed Dry Fruits 250g",
+        "openingStock": 285,
+        "reorderPoint": 62,
         "dailyUsage": 6.0
       },
       {
-        "sku": "CLN-1007",
-        "product": "Hand Sanitizer 500ml",
-        "openingStock": 670,
-        "reorderPoint": 128,
+        "sku": "SNK-1084",
+        "product": "Methi Khakhra 200g",
+        "openingStock": 235,
+        "reorderPoint": 89,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "BEV-1007",
+        "product": "Cola 750ml",
+        "openingStock": 2080,
+        "reorderPoint": 631,
+        "dailyUsage": 44.0
+      },
+      {
+        "sku": "BEV-1014",
+        "product": "Lemon Soda 750ml",
+        "openingStock": 1045,
+        "reorderPoint": 188,
+        "dailyUsage": 25.8
+      },
+      {
+        "sku": "BEV-1021",
+        "product": "Packaged Drinking Water 1L",
+        "openingStock": 3515,
+        "reorderPoint": 921,
+        "dailyUsage": 66.0
+      },
+      {
+        "sku": "BEV-1028",
+        "product": "Mixed Fruit Juice 1L",
+        "openingStock": 825,
+        "reorderPoint": 126,
+        "dailyUsage": 15.5
+      },
+      {
+        "sku": "BEV-1035",
+        "product": "Orange Juice 1L",
+        "openingStock": 310,
+        "reorderPoint": 108,
+        "dailyUsage": 7.8
+      },
+      {
+        "sku": "BEV-1042",
+        "product": "Energy Drink 250ml",
+        "openingStock": 635,
+        "reorderPoint": 172,
+        "dailyUsage": 14.1
+      },
+      {
+        "sku": "BEV-1049",
+        "product": "Cold Coffee 180ml",
+        "openingStock": 675,
+        "reorderPoint": 183,
+        "dailyUsage": 12.5
+      },
+      {
+        "sku": "BEV-1056",
+        "product": "Tender Coconut Water 200ml",
+        "openingStock": 830,
+        "reorderPoint": 237,
         "dailyUsage": 16.0
       },
       {
-        "sku": "CLN-1014",
-        "product": "Floor Cleaner 5L",
-        "openingStock": 295,
-        "reorderPoint": 56,
-        "dailyUsage": 7.0
+        "sku": "BEV-1063",
+        "product": "Tonic Water 300ml",
+        "openingStock": 180,
+        "reorderPoint": 34,
+        "dailyUsage": 3.6
       },
       {
-        "sku": "CLN-1021",
-        "product": "Liquid Hand Wash 5L",
+        "sku": "BEV-1070",
+        "product": "Mango Drink 600ml",
+        "openingStock": 1140,
+        "reorderPoint": 324,
+        "dailyUsage": 22.1
+      },
+      {
+        "sku": "BEV-1077",
+        "product": "Lemon Iced Tea 500ml",
+        "openingStock": 455,
+        "reorderPoint": 148,
+        "dailyUsage": 10.7
+      },
+      {
+        "sku": "BEV-1084",
+        "product": "Club Soda 750ml",
+        "openingStock": 780,
+        "reorderPoint": 216,
+        "dailyUsage": 14.8
+      },
+      {
+        "sku": "BRK-1007",
+        "product": "Masala Instant Noodles 70g",
+        "openingStock": 2660,
+        "reorderPoint": 544,
+        "dailyUsage": 51.3
+      },
+      {
+        "sku": "BRK-1014",
+        "product": "Corn Flakes 475g",
+        "openingStock": 405,
+        "reorderPoint": 65,
+        "dailyUsage": 7.9
+      },
+      {
+        "sku": "BRK-1021",
+        "product": "Rolled Oats 1kg",
+        "openingStock": 295,
+        "reorderPoint": 67,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "BRK-1028",
+        "product": "Fruit & Nut Muesli 500g",
         "openingStock": 255,
-        "reorderPoint": 48,
-        "dailyUsage": 6.0
+        "reorderPoint": 41,
+        "dailyUsage": 4.7
       },
       {
-        "sku": "CLN-1035",
-        "product": "Microfiber Cloth (pack of 10)",
-        "openingStock": 210,
-        "reorderPoint": 40,
-        "dailyUsage": 5.0
+        "sku": "BRK-1035",
+        "product": "Crunchy Peanut Butter 340g",
+        "openingStock": 260,
+        "reorderPoint": 92,
+        "dailyUsage": 5.8
       },
       {
-        "sku": "CLN-1042",
-        "product": "Toilet Cleaner 1L",
-        "openingStock": 380,
-        "reorderPoint": 72,
-        "dailyUsage": 9.0
+        "sku": "BRK-1042",
+        "product": "Mixed Fruit Jam 500g",
+        "openingStock": 310,
+        "reorderPoint": 41,
+        "dailyUsage": 5.7
       },
       {
-        "sku": "CLN-1049",
-        "product": "Tissue Roll 2-ply (pack of 12)",
-        "openingStock": 590,
-        "reorderPoint": 112,
-        "dailyUsage": 14.0
-      },
-      {
-        "sku": "CLN-1063",
-        "product": "Mop with Bucket Set",
-        "openingStock": 45,
-        "reorderPoint": 8,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "CLN-1070",
-        "product": "Surface Disinfectant Spray",
-        "openingStock": 295,
-        "reorderPoint": 56,
-        "dailyUsage": 7.0
-      },
-      {
-        "sku": "CLN-1077",
-        "product": "Nitrile Gloves (box of 100)",
-        "openingStock": 420,
-        "reorderPoint": 80,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "CLN-1084",
-        "product": "Broom Soft Grass",
-        "openingStock": 85,
-        "reorderPoint": 16,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "TLS-1007",
-        "product": "Cordless Drill 12V",
-        "openingStock": 50,
-        "reorderPoint": 12,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "TLS-1014",
-        "product": "Screwdriver Set 32pc",
-        "openingStock": 95,
-        "reorderPoint": 24,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "TLS-1021",
-        "product": "Measuring Tape 5m",
-        "openingStock": 185,
-        "reorderPoint": 48,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "TLS-1028",
-        "product": "Adjustable Wrench 10in",
-        "openingStock": 95,
-        "reorderPoint": 24,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "TLS-1035",
-        "product": "Claw Hammer 500g",
-        "openingStock": 95,
-        "reorderPoint": 24,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "TLS-1042",
-        "product": "Utility Knife",
-        "openingStock": 280,
-        "reorderPoint": 72,
-        "dailyUsage": 6.0
-      },
-      {
-        "sku": "TLS-1049",
-        "product": "Drill Bit Set HSS 13pc",
-        "openingStock": 95,
-        "reorderPoint": 24,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "TLS-1063",
-        "product": "Hex Key Set Metric",
-        "openingStock": 95,
-        "reorderPoint": 24,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "TLS-1070",
-        "product": "Pliers Combination 8in",
-        "openingStock": 95,
-        "reorderPoint": 24,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "TLS-1077",
-        "product": "Wall Plugs & Screws Kit",
-        "openingStock": 185,
-        "reorderPoint": 48,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "TLS-1084",
-        "product": "Spirit Level 600mm",
-        "openingStock": 50,
-        "reorderPoint": 12,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "SAF-1007",
-        "product": "Safety Helmet ISI",
-        "openingStock": 225,
-        "reorderPoint": 50,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "SAF-1014",
-        "product": "Safety Shoes Steel Toe",
-        "openingStock": 135,
-        "reorderPoint": 30,
-        "dailyUsage": 3.0
-      },
-      {
-        "sku": "SAF-1021",
-        "product": "Hi-Vis Reflective Vest",
-        "openingStock": 355,
-        "reorderPoint": 80,
+        "sku": "BRK-1049",
+        "product": "Honey 250g",
+        "openingStock": 330,
+        "reorderPoint": 125,
         "dailyUsage": 8.0
       },
       {
-        "sku": "SAF-1028",
-        "product": "Safety Goggles Clear",
-        "openingStock": 225,
-        "reorderPoint": 50,
-        "dailyUsage": 5.0
+        "sku": "BRK-1056",
+        "product": "Tomato Ketchup 950g",
+        "openingStock": 415,
+        "reorderPoint": 108,
+        "dailyUsage": 10.4
       },
       {
-        "sku": "SAF-1035",
-        "product": "Ear Plugs (box of 200)",
-        "openingStock": 90,
-        "reorderPoint": 20,
-        "dailyUsage": 2.0
+        "sku": "BRK-1063",
+        "product": "Ready-to-Eat Dal Makhani 300g",
+        "openingStock": 325,
+        "reorderPoint": 90,
+        "dailyUsage": 7.5
       },
       {
-        "sku": "SAF-1042",
-        "product": "Cut-Resistant Gloves",
+        "sku": "BRK-1070",
+        "product": "Instant Coffee 100g",
         "openingStock": 310,
-        "reorderPoint": 70,
+        "reorderPoint": 82,
         "dailyUsage": 7.0
       },
       {
-        "sku": "SAF-1049",
-        "product": "N95 Respirator (box of 20)",
-        "openingStock": 180,
-        "reorderPoint": 40,
-        "dailyUsage": 4.0
+        "sku": "BRK-1077",
+        "product": "Assam Tea 500g",
+        "openingStock": 520,
+        "reorderPoint": 63,
+        "dailyUsage": 10.4
       },
       {
-        "sku": "SAF-1056",
-        "product": "First Aid Kit Industrial",
-        "openingStock": 45,
-        "reorderPoint": 10,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "SAF-1063",
-        "product": "Fire Extinguisher ABC 4kg",
-        "openingStock": 45,
-        "reorderPoint": 10,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "SAF-1070",
-        "product": "Safety Harness Full Body",
-        "openingStock": 45,
-        "reorderPoint": 10,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "SAF-1077",
-        "product": "Warning Tape Roll",
-        "openingStock": 180,
-        "reorderPoint": 40,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "SAF-1084",
-        "product": "Face Shield",
-        "openingStock": 135,
-        "reorderPoint": 30,
-        "dailyUsage": 3.0
-      },
-      {
-        "sku": "FNB-1007",
-        "product": "Bottled Water 1L (case of 12)",
-        "openingStock": 1545,
-        "reorderPoint": 200,
-        "dailyUsage": 40.0
-      },
-      {
-        "sku": "FNB-1014",
-        "product": "Instant Coffee 200g",
-        "openingStock": 235,
-        "reorderPoint": 30,
-        "dailyUsage": 6.0
-      },
-      {
-        "sku": "FNB-1021",
-        "product": "Tea Bags (box of 100)",
-        "openingStock": 270,
-        "reorderPoint": 35,
-        "dailyUsage": 7.0
-      },
-      {
-        "sku": "FNB-1028",
-        "product": "Sugar Sachets (box of 500)",
-        "openingStock": 155,
-        "reorderPoint": 20,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "FNB-1035",
-        "product": "Biscuits Assorted (carton of 48)",
-        "openingStock": 350,
-        "reorderPoint": 45,
-        "dailyUsage": 9.0
-      },
-      {
-        "sku": "FNB-1042",
-        "product": "Paper Cups 200ml (pack of 100)",
-        "openingStock": 580,
-        "reorderPoint": 75,
-        "dailyUsage": 15.0
-      },
-      {
-        "sku": "FNB-1056",
-        "product": "Masala Peanuts 1kg",
-        "openingStock": 120,
-        "reorderPoint": 15,
-        "dailyUsage": 3.0
-      },
-      {
-        "sku": "FNB-1063",
-        "product": "Fruit Juice 1L (case of 12)",
-        "openingStock": 235,
-        "reorderPoint": 30,
-        "dailyUsage": 6.0
-      },
-      {
-        "sku": "FNB-1070",
-        "product": "Instant Noodles (carton of 48)",
-        "openingStock": 310,
-        "reorderPoint": 40,
-        "dailyUsage": 8.0
-      },
-      {
-        "sku": "FNB-1077",
-        "product": "Milk Powder 1kg",
-        "openingStock": 120,
-        "reorderPoint": 15,
-        "dailyUsage": 3.0
-      },
-      {
-        "sku": "FNB-1084",
-        "product": "Green Tea (box of 100)",
-        "openingStock": 120,
-        "reorderPoint": 15,
-        "dailyUsage": 3.0
+        "sku": "BRK-1084",
+        "product": "Masala Oats 39g",
+        "openingStock": 670,
+        "reorderPoint": 187,
+        "dailyUsage": 14.2
       },
       {
         "sku": "PRC-1007",
-        "product": "Shampoo 650ml",
-        "openingStock": 335,
-        "reorderPoint": 64,
-        "dailyUsage": 8.0
+        "product": "Bathing Soap 4x100g",
+        "openingStock": 740,
+        "reorderPoint": 145,
+        "dailyUsage": 15.0
       },
       {
         "sku": "PRC-1014",
-        "product": "Bath Soap (pack of 4)",
-        "openingStock": 590,
-        "reorderPoint": 112,
-        "dailyUsage": 14.0
+        "product": "Herbal Shampoo 340ml",
+        "openingStock": 300,
+        "reorderPoint": 57,
+        "dailyUsage": 6.1
       },
       {
         "sku": "PRC-1021",
-        "product": "Toothpaste 200g",
-        "openingStock": 505,
-        "reorderPoint": 96,
-        "dailyUsage": 12.0
+        "product": "Toothpaste 150g",
+        "openingStock": 625,
+        "reorderPoint": 157,
+        "dailyUsage": 11.9
       },
       {
         "sku": "PRC-1028",
-        "product": "Body Lotion 400ml",
-        "openingStock": 210,
-        "reorderPoint": 40,
-        "dailyUsage": 5.0
+        "product": "Soft Toothbrush 3pcs",
+        "openingStock": 285,
+        "reorderPoint": 67,
+        "dailyUsage": 6.6
       },
       {
         "sku": "PRC-1035",
-        "product": "Deodorant Spray 150ml",
-        "openingStock": 255,
-        "reorderPoint": 48,
-        "dailyUsage": 6.0
+        "product": "Hand Wash Refill 750ml",
+        "openingStock": 295,
+        "reorderPoint": 49,
+        "dailyUsage": 6.8
       },
       {
         "sku": "PRC-1042",
-        "product": "Face Wash 100ml",
-        "openingStock": 295,
-        "reorderPoint": 56,
-        "dailyUsage": 7.0
+        "product": "Body Lotion 400ml",
+        "openingStock": 220,
+        "reorderPoint": 52,
+        "dailyUsage": 4.1
       },
       {
         "sku": "PRC-1049",
-        "product": "Shaving Cream 70g",
-        "openingStock": 170,
-        "reorderPoint": 32,
-        "dailyUsage": 4.0
+        "product": "Sanitary Pads XL 15pcs",
+        "openingStock": 455,
+        "reorderPoint": 85,
+        "dailyUsage": 9.4
       },
       {
         "sku": "PRC-1056",
-        "product": "Hair Oil 300ml",
-        "openingStock": 255,
-        "reorderPoint": 48,
-        "dailyUsage": 6.0
+        "product": "Shaving Foam 200g",
+        "openingStock": 105,
+        "reorderPoint": 25,
+        "dailyUsage": 2.8
       },
       {
         "sku": "PRC-1063",
-        "product": "Sanitary Pads (pack of 30)",
-        "openingStock": 380,
-        "reorderPoint": 72,
-        "dailyUsage": 9.0
+        "product": "Coconut Hair Oil 300ml",
+        "openingStock": 265,
+        "reorderPoint": 69,
+        "dailyUsage": 5.5
       },
       {
         "sku": "PRC-1070",
-        "product": "Baby Diapers M (pack of 56)",
-        "openingStock": 255,
-        "reorderPoint": 48,
-        "dailyUsage": 6.0
+        "product": "Face Wash 100ml",
+        "openingStock": 250,
+        "reorderPoint": 45,
+        "dailyUsage": 5.5
+      },
+      {
+        "sku": "PRC-1077",
+        "product": "Sunscreen SPF 50 50g",
+        "openingStock": 150,
+        "reorderPoint": 39,
+        "dailyUsage": 2.8
       },
       {
         "sku": "PRC-1084",
-        "product": "Cotton Buds (pack of 200)",
-        "openingStock": 210,
-        "reorderPoint": 40,
-        "dailyUsage": 5.0
+        "product": "Lip Balm 4.5g",
+        "openingStock": 150,
+        "reorderPoint": 42,
+        "dailyUsage": 3.8
       },
       {
-        "sku": "AUT-1007",
-        "product": "Engine Oil 5W-30 4L",
-        "openingStock": 205,
-        "reorderPoint": 64,
-        "dailyUsage": 4.0
+        "sku": "HSH-1007",
+        "product": "Dishwash Liquid 750ml",
+        "openingStock": 570,
+        "reorderPoint": 186,
+        "dailyUsage": 13.1
       },
       {
-        "sku": "AUT-1014",
-        "product": "Brake Pads Front Set",
-        "openingStock": 105,
-        "reorderPoint": 32,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "AUT-1021",
-        "product": "Air Filter Element",
-        "openingStock": 205,
-        "reorderPoint": 64,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "AUT-1035",
-        "product": "Spark Plug Iridium",
-        "openingStock": 255,
-        "reorderPoint": 80,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "AUT-1049",
-        "product": "Car Battery 35Ah",
-        "openingStock": 55,
-        "reorderPoint": 16,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "AUT-1056",
-        "product": "Coolant 1L",
-        "openingStock": 205,
-        "reorderPoint": 64,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "AUT-1070",
-        "product": "Tyre Inflator Portable",
-        "openingStock": 55,
-        "reorderPoint": 16,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "AUT-1077",
-        "product": "Brake Fluid DOT4 500ml",
-        "openingStock": 105,
-        "reorderPoint": 32,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "AUT-1084",
-        "product": "Microfiber Car Wash Mitt",
-        "openingStock": 105,
-        "reorderPoint": 32,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "ELE-1007",
-        "product": "LED Bulb 9W (pack of 4)",
-        "openingStock": 635,
-        "reorderPoint": 154,
-        "dailyUsage": 14.0
-      },
-      {
-        "sku": "ELE-1014",
-        "product": "LED Tube Light 20W",
-        "openingStock": 275,
-        "reorderPoint": 66,
-        "dailyUsage": 6.0
-      },
-      {
-        "sku": "ELE-1021",
-        "product": "Extension Board 4-Socket",
-        "openingStock": 230,
-        "reorderPoint": 55,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "ELE-1028",
-        "product": "Copper Wire 1.5 sqmm (90m)",
-        "openingStock": 95,
-        "reorderPoint": 22,
-        "dailyUsage": 2.0
-      },
-      {
-        "sku": "ELE-1035",
-        "product": "MCB 16A Single Pole",
-        "openingStock": 185,
-        "reorderPoint": 44,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "ELE-1042",
-        "product": "Ceiling Fan 1200mm",
-        "openingStock": 50,
-        "reorderPoint": 11,
-        "dailyUsage": 1.0
-      },
-      {
-        "sku": "ELE-1049",
-        "product": "Modular Switch 6A",
-        "openingStock": 545,
-        "reorderPoint": 132,
+        "sku": "HSH-1014",
+        "product": "Detergent Powder 1kg",
+        "openingStock": 595,
+        "reorderPoint": 99,
         "dailyUsage": 12.0
       },
       {
-        "sku": "ELE-1056",
-        "product": "Electrical Tape (pack of 10)",
-        "openingStock": 275,
-        "reorderPoint": 66,
-        "dailyUsage": 6.0
+        "sku": "HSH-1021",
+        "product": "Liquid Detergent 1L",
+        "openingStock": 290,
+        "reorderPoint": 64,
+        "dailyUsage": 7.6
       },
       {
-        "sku": "ELE-1063",
-        "product": "Emergency Light LED",
-        "openingStock": 95,
-        "reorderPoint": 22,
-        "dailyUsage": 2.0
+        "sku": "HSH-1028",
+        "product": "Floor Cleaner 1L",
+        "openingStock": 360,
+        "reorderPoint": 46,
+        "dailyUsage": 6.9
       },
       {
-        "sku": "ELE-1070",
-        "product": "Door Bell Wireless",
-        "openingStock": 50,
-        "reorderPoint": 11,
-        "dailyUsage": 1.0
+        "sku": "HSH-1035",
+        "product": "Toilet Cleaner 500ml",
+        "openingStock": 400,
+        "reorderPoint": 65,
+        "dailyUsage": 8.2
       },
       {
-        "sku": "ELE-1084",
-        "product": "Inverter Battery 150Ah",
-        "openingStock": 50,
-        "reorderPoint": 11,
-        "dailyUsage": 1.0
+        "sku": "HSH-1042",
+        "product": "Garbage Bags Medium 30pcs",
+        "openingStock": 485,
+        "reorderPoint": 88,
+        "dailyUsage": 10.4
+      },
+      {
+        "sku": "HSH-1049",
+        "product": "Kitchen Towel 2 Rolls",
+        "openingStock": 280,
+        "reorderPoint": 99,
+        "dailyUsage": 7.3
+      },
+      {
+        "sku": "HSH-1056",
+        "product": "Toilet Paper 4 Rolls",
+        "openingStock": 305,
+        "reorderPoint": 78,
+        "dailyUsage": 7.6
+      },
+      {
+        "sku": "HSH-1063",
+        "product": "Scrub Pad 3pcs",
+        "openingStock": 550,
+        "reorderPoint": 113,
+        "dailyUsage": 10.1
+      },
+      {
+        "sku": "HSH-1070",
+        "product": "Mosquito Repellent Refill 45ml",
+        "openingStock": 360,
+        "reorderPoint": 123,
+        "dailyUsage": 8.5
+      },
+      {
+        "sku": "HSH-1077",
+        "product": "Aluminium Foil 9m",
+        "openingStock": 210,
+        "reorderPoint": 52,
+        "dailyUsage": 4.1
+      },
+      {
+        "sku": "HSH-1084",
+        "product": "Sandalwood Agarbatti 100g",
+        "openingStock": 310,
+        "reorderPoint": 99,
+        "dailyUsage": 6.4
+      },
+      {
+        "sku": "BBY-1007",
+        "product": "Baby Diapers M 40pcs",
+        "openingStock": 305,
+        "reorderPoint": 83,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "BBY-1014",
+        "product": "Baby Diapers L 34pcs",
+        "openingStock": 290,
+        "reorderPoint": 64,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "BBY-1021",
+        "product": "Baby Wipes 72pcs",
+        "openingStock": 475,
+        "reorderPoint": 101,
+        "dailyUsage": 9.4
+      },
+      {
+        "sku": "BBY-1028",
+        "product": "Baby Lotion 200ml",
+        "openingStock": 110,
+        "reorderPoint": 32,
+        "dailyUsage": 2.6
+      },
+      {
+        "sku": "BBY-1035",
+        "product": "Baby Shampoo 200ml",
+        "openingStock": 140,
+        "reorderPoint": 37,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "BBY-1042",
+        "product": "Baby Powder 200g",
+        "openingStock": 100,
+        "reorderPoint": 23,
+        "dailyUsage": 2.6
+      },
+      {
+        "sku": "BBY-1049",
+        "product": "Infant Formula Stage 1 400g",
+        "openingStock": 115,
+        "reorderPoint": 30,
+        "dailyUsage": 2.6
+      },
+      {
+        "sku": "BBY-1056",
+        "product": "Rice Baby Cereal 300g",
+        "openingStock": 105,
+        "reorderPoint": 32,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "BBY-1063",
+        "product": "Diaper Rash Cream 50g",
+        "openingStock": 60,
+        "reorderPoint": 15,
+        "dailyUsage": 1.5
+      },
+      {
+        "sku": "BBY-1070",
+        "product": "Baby Massage Oil 200ml",
+        "openingStock": 125,
+        "reorderPoint": 23,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "BBY-1077",
+        "product": "Feeding Bottle 250ml",
+        "openingStock": 75,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "BBY-1084",
+        "product": "Baby Soap 75g",
+        "openingStock": 230,
+        "reorderPoint": 60,
+        "dailyUsage": 4.4
       }
     ]
   },
   {
     "warehouse": "MUM-02",
-    "name": "Mumbai Port Warehouse",
+    "name": "Mumbai Andheri Dark Store",
     "stock": [
       {
-        "sku": "SKU-1042",
-        "product": "USB-C Charging Cable 1m",
-        "openingStock": 970,
-        "reorderPoint": 203,
-        "dailyUsage": 22.5
+        "sku": "FRV-1007",
+        "product": "Tomato 500g",
+        "openingStock": 670,
+        "reorderPoint": 187,
+        "dailyUsage": 48.7
       },
       {
-        "sku": "ELC-1014",
-        "product": "Wireless Mouse",
-        "openingStock": 485,
-        "reorderPoint": 101,
-        "dailyUsage": 11.2
+        "sku": "FRV-1014",
+        "product": "Onion 1kg",
+        "openingStock": 600,
+        "reorderPoint": 224,
+        "dailyUsage": 53.2
       },
       {
-        "sku": "ELC-1021",
-        "product": "Bluetooth Earbuds",
-        "openingStock": 325,
-        "reorderPoint": 68,
-        "dailyUsage": 7.5
+        "sku": "FRV-1021",
+        "product": "Potato 1kg",
+        "openingStock": 395,
+        "reorderPoint": 164,
+        "dailyUsage": 42.3
       },
       {
-        "sku": "ELC-1028",
-        "product": "Power Bank 10000mAh",
-        "openingStock": 380,
-        "reorderPoint": 80,
-        "dailyUsage": 8.8
-      },
-      {
-        "sku": "ELC-1035",
-        "product": "HDMI Cable 2m",
-        "openingStock": 430,
-        "reorderPoint": 90,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "ELC-1042",
-        "product": "Wall Charger 20W",
-        "openingStock": 645,
-        "reorderPoint": 135,
-        "dailyUsage": 15.0
-      },
-      {
-        "sku": "ELC-1049",
-        "product": "Keyboard USB Wired",
-        "openingStock": 215,
-        "reorderPoint": 45,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "ELC-1056",
-        "product": "Webcam 1080p",
-        "openingStock": 110,
-        "reorderPoint": 23,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "ELC-1063",
-        "product": "Smart Plug 16A",
-        "openingStock": 165,
-        "reorderPoint": 35,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "ELC-1070",
-        "product": "LED Desk Lamp",
-        "openingStock": 165,
-        "reorderPoint": 35,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "ELC-1077",
-        "product": "MicroSD Card 64GB",
-        "openingStock": 540,
-        "reorderPoint": 113,
-        "dailyUsage": 12.5
-      },
-      {
-        "sku": "ELC-1084",
-        "product": "Ethernet Cable Cat6 5m",
-        "openingStock": 270,
-        "reorderPoint": 56,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "PKG-1007",
-        "product": "Corrugated Box Small (pack of 25)",
-        "openingStock": 1090,
-        "reorderPoint": 165,
-        "dailyUsage": 27.5
-      },
-      {
-        "sku": "PKG-1014",
-        "product": "Corrugated Box Medium (pack of 25)",
-        "openingStock": 895,
-        "reorderPoint": 135,
-        "dailyUsage": 22.5
-      },
-      {
-        "sku": "PKG-1021",
-        "product": "Corrugated Box Large (pack of 10)",
-        "openingStock": 445,
-        "reorderPoint": 68,
-        "dailyUsage": 11.2
-      },
-      {
-        "sku": "PKG-1028",
-        "product": "Bubble Wrap Roll 50m",
-        "openingStock": 300,
-        "reorderPoint": 45,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "PKG-1035",
-        "product": "Packing Tape Brown (6 rolls)",
-        "openingStock": 1240,
-        "reorderPoint": 188,
-        "dailyUsage": 31.2
-      },
-      {
-        "sku": "PKG-1042",
-        "product": "Stretch Film Roll",
-        "openingStock": 400,
-        "reorderPoint": 60,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "PKG-1049",
-        "product": "Courier Bags A4 (pack of 100)",
-        "openingStock": 745,
-        "reorderPoint": 113,
-        "dailyUsage": 18.8
-      },
-      {
-        "sku": "PKG-1056",
-        "product": "Fragile Labels (roll of 500)",
-        "openingStock": 200,
-        "reorderPoint": 30,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "PKG-1063",
-        "product": "Paper Void Fill (5kg)",
-        "openingStock": 155,
-        "reorderPoint": 23,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "PKG-1070",
-        "product": "Pallet Wooden 1200x1000",
-        "openingStock": 100,
-        "reorderPoint": 15,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "PKG-1077",
-        "product": "Strapping Roll PP 12mm",
-        "openingStock": 155,
-        "reorderPoint": 23,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "OFF-1014",
-        "product": "Ballpoint Pen Blue (box of 50)",
-        "openingStock": 410,
-        "reorderPoint": 70,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "OFF-1021",
-        "product": "Stapler Medium",
-        "openingStock": 105,
-        "reorderPoint": 18,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "OFF-1028",
-        "product": "Staple Pins No.10 (box of 20)",
-        "openingStock": 255,
-        "reorderPoint": 44,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "OFF-1035",
-        "product": "Sticky Notes 3x3 (pack of 12)",
-        "openingStock": 310,
-        "reorderPoint": 53,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "OFF-1042",
-        "product": "Whiteboard Marker Set",
-        "openingStock": 205,
-        "reorderPoint": 35,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "OFF-1049",
-        "product": "Box File Lever Arch",
-        "openingStock": 255,
-        "reorderPoint": 44,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "OFF-1056",
-        "product": "Notebook A5 Ruled",
-        "openingStock": 715,
-        "reorderPoint": 123,
-        "dailyUsage": 17.5
-      },
-      {
-        "sku": "OFF-1063",
-        "product": "Printer Toner 12A",
-        "openingStock": 105,
-        "reorderPoint": 18,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "OFF-1070",
-        "product": "Calculator Desktop 12-digit",
-        "openingStock": 50,
-        "reorderPoint": 9,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "OFF-1077",
-        "product": "Highlighter Set (pack of 5)",
-        "openingStock": 255,
-        "reorderPoint": 44,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "CLN-1007",
-        "product": "Hand Sanitizer 500ml",
-        "openingStock": 840,
-        "reorderPoint": 160,
-        "dailyUsage": 20.0
-      },
-      {
-        "sku": "CLN-1014",
-        "product": "Floor Cleaner 5L",
-        "openingStock": 370,
-        "reorderPoint": 71,
-        "dailyUsage": 8.8
-      },
-      {
-        "sku": "CLN-1021",
-        "product": "Liquid Hand Wash 5L",
-        "openingStock": 315,
-        "reorderPoint": 60,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "CLN-1028",
-        "product": "Garbage Bags Large (roll of 30)",
-        "openingStock": 1045,
-        "reorderPoint": 200,
-        "dailyUsage": 25.0
-      },
-      {
-        "sku": "CLN-1035",
-        "product": "Microfiber Cloth (pack of 10)",
-        "openingStock": 260,
-        "reorderPoint": 50,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "CLN-1049",
-        "product": "Tissue Roll 2-ply (pack of 12)",
-        "openingStock": 735,
-        "reorderPoint": 140,
-        "dailyUsage": 17.5
-      },
-      {
-        "sku": "CLN-1056",
-        "product": "Paper Towel Roll (pack of 6)",
-        "openingStock": 420,
-        "reorderPoint": 80,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "CLN-1063",
-        "product": "Mop with Bucket Set",
-        "openingStock": 55,
-        "reorderPoint": 10,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "CLN-1070",
-        "product": "Surface Disinfectant Spray",
-        "openingStock": 370,
-        "reorderPoint": 71,
-        "dailyUsage": 8.8
-      },
-      {
-        "sku": "CLN-1077",
-        "product": "Nitrile Gloves (box of 100)",
-        "openingStock": 525,
-        "reorderPoint": 100,
-        "dailyUsage": 12.5
-      },
-      {
-        "sku": "CLN-1084",
-        "product": "Broom Soft Grass",
-        "openingStock": 105,
-        "reorderPoint": 20,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "TLS-1014",
-        "product": "Screwdriver Set 32pc",
-        "openingStock": 120,
-        "reorderPoint": 30,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "TLS-1021",
-        "product": "Measuring Tape 5m",
-        "openingStock": 235,
-        "reorderPoint": 60,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "TLS-1028",
-        "product": "Adjustable Wrench 10in",
-        "openingStock": 120,
-        "reorderPoint": 30,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "TLS-1035",
-        "product": "Claw Hammer 500g",
-        "openingStock": 120,
-        "reorderPoint": 30,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "TLS-1042",
-        "product": "Utility Knife",
-        "openingStock": 350,
-        "reorderPoint": 90,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "TLS-1049",
-        "product": "Drill Bit Set HSS 13pc",
-        "openingStock": 120,
-        "reorderPoint": 30,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "TLS-1056",
-        "product": "Cable Ties 200mm (pack of 100)",
-        "openingStock": 520,
-        "reorderPoint": 135,
-        "dailyUsage": 11.2
-      },
-      {
-        "sku": "TLS-1063",
-        "product": "Hex Key Set Metric",
-        "openingStock": 120,
-        "reorderPoint": 30,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "TLS-1070",
-        "product": "Pliers Combination 8in",
-        "openingStock": 120,
-        "reorderPoint": 30,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "TLS-1077",
-        "product": "Wall Plugs & Screws Kit",
-        "openingStock": 235,
-        "reorderPoint": 60,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "TLS-1084",
-        "product": "Spirit Level 600mm",
-        "openingStock": 60,
-        "reorderPoint": 15,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "SAF-1007",
-        "product": "Safety Helmet ISI",
-        "openingStock": 275,
-        "reorderPoint": 62,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "SAF-1014",
-        "product": "Safety Shoes Steel Toe",
-        "openingStock": 170,
-        "reorderPoint": 38,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "SAF-1021",
-        "product": "Hi-Vis Reflective Vest",
-        "openingStock": 445,
-        "reorderPoint": 100,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "SAF-1028",
-        "product": "Safety Goggles Clear",
-        "openingStock": 275,
-        "reorderPoint": 62,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "SAF-1035",
-        "product": "Ear Plugs (box of 200)",
-        "openingStock": 115,
-        "reorderPoint": 25,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "SAF-1042",
-        "product": "Cut-Resistant Gloves",
-        "openingStock": 390,
-        "reorderPoint": 88,
-        "dailyUsage": 8.8
-      },
-      {
-        "sku": "SAF-1049",
-        "product": "N95 Respirator (box of 20)",
-        "openingStock": 225,
-        "reorderPoint": 50,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "SAF-1056",
-        "product": "First Aid Kit Industrial",
-        "openingStock": 55,
-        "reorderPoint": 12,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "SAF-1063",
-        "product": "Fire Extinguisher ABC 4kg",
-        "openingStock": 55,
-        "reorderPoint": 12,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "SAF-1070",
-        "product": "Safety Harness Full Body",
-        "openingStock": 55,
-        "reorderPoint": 12,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "SAF-1077",
-        "product": "Warning Tape Roll",
-        "openingStock": 225,
-        "reorderPoint": 50,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "SAF-1084",
-        "product": "Face Shield",
-        "openingStock": 170,
-        "reorderPoint": 38,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "FNB-1007",
-        "product": "Bottled Water 1L (case of 12)",
-        "openingStock": 1930,
-        "reorderPoint": 250,
-        "dailyUsage": 50.0
-      },
-      {
-        "sku": "FNB-1014",
-        "product": "Instant Coffee 200g",
-        "openingStock": 290,
-        "reorderPoint": 38,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "FNB-1021",
-        "product": "Tea Bags (box of 100)",
-        "openingStock": 340,
-        "reorderPoint": 44,
-        "dailyUsage": 8.8
-      },
-      {
-        "sku": "FNB-1028",
-        "product": "Sugar Sachets (box of 500)",
-        "openingStock": 195,
-        "reorderPoint": 25,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "FNB-1035",
-        "product": "Biscuits Assorted (carton of 48)",
-        "openingStock": 435,
-        "reorderPoint": 56,
-        "dailyUsage": 11.2
-      },
-      {
-        "sku": "FNB-1042",
-        "product": "Paper Cups 200ml (pack of 100)",
-        "openingStock": 725,
-        "reorderPoint": 94,
-        "dailyUsage": 18.8
-      },
-      {
-        "sku": "FNB-1049",
-        "product": "Energy Drink 250ml (case of 24)",
-        "openingStock": 240,
-        "reorderPoint": 31,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "FNB-1063",
-        "product": "Fruit Juice 1L (case of 12)",
-        "openingStock": 290,
-        "reorderPoint": 38,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "FNB-1070",
-        "product": "Instant Noodles (carton of 48)",
-        "openingStock": 390,
-        "reorderPoint": 50,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "FNB-1077",
-        "product": "Milk Powder 1kg",
-        "openingStock": 150,
-        "reorderPoint": 19,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "FNB-1084",
-        "product": "Green Tea (box of 100)",
-        "openingStock": 150,
-        "reorderPoint": 19,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "PRC-1007",
-        "product": "Shampoo 650ml",
-        "openingStock": 420,
-        "reorderPoint": 80,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "PRC-1014",
-        "product": "Bath Soap (pack of 4)",
-        "openingStock": 735,
-        "reorderPoint": 140,
-        "dailyUsage": 17.5
-      },
-      {
-        "sku": "PRC-1021",
-        "product": "Toothpaste 200g",
-        "openingStock": 630,
-        "reorderPoint": 120,
-        "dailyUsage": 15.0
-      },
-      {
-        "sku": "PRC-1028",
-        "product": "Body Lotion 400ml",
-        "openingStock": 260,
-        "reorderPoint": 50,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "PRC-1035",
-        "product": "Deodorant Spray 150ml",
-        "openingStock": 315,
-        "reorderPoint": 60,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "PRC-1042",
-        "product": "Face Wash 100ml",
-        "openingStock": 370,
-        "reorderPoint": 71,
-        "dailyUsage": 8.8
-      },
-      {
-        "sku": "PRC-1049",
-        "product": "Shaving Cream 70g",
-        "openingStock": 210,
-        "reorderPoint": 40,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "PRC-1056",
-        "product": "Hair Oil 300ml",
-        "openingStock": 315,
-        "reorderPoint": 60,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "PRC-1063",
-        "product": "Sanitary Pads (pack of 30)",
-        "openingStock": 470,
-        "reorderPoint": 90,
-        "dailyUsage": 11.2
-      },
-      {
-        "sku": "PRC-1070",
-        "product": "Baby Diapers M (pack of 56)",
-        "openingStock": 315,
-        "reorderPoint": 60,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "PRC-1077",
-        "product": "Sunscreen SPF50 100ml",
-        "openingStock": 160,
-        "reorderPoint": 31,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "PRC-1084",
-        "product": "Cotton Buds (pack of 200)",
-        "openingStock": 260,
-        "reorderPoint": 50,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "AUT-1007",
-        "product": "Engine Oil 5W-30 4L",
-        "openingStock": 255,
-        "reorderPoint": 80,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "AUT-1014",
-        "product": "Brake Pads Front Set",
-        "openingStock": 130,
-        "reorderPoint": 40,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "AUT-1021",
-        "product": "Air Filter Element",
-        "openingStock": 255,
-        "reorderPoint": 80,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "AUT-1028",
-        "product": "Oil Filter",
-        "openingStock": 380,
-        "reorderPoint": 120,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "AUT-1035",
-        "product": "Spark Plug Iridium",
-        "openingStock": 315,
-        "reorderPoint": 100,
-        "dailyUsage": 6.2
-      },
-      {
-        "sku": "AUT-1042",
-        "product": "Wiper Blade 22in",
-        "openingStock": 195,
-        "reorderPoint": 61,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "AUT-1049",
-        "product": "Car Battery 35Ah",
-        "openingStock": 65,
-        "reorderPoint": 20,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "AUT-1056",
-        "product": "Coolant 1L",
-        "openingStock": 255,
-        "reorderPoint": 80,
-        "dailyUsage": 5.0
-      },
-      {
-        "sku": "AUT-1063",
-        "product": "Headlight Bulb H4",
-        "openingStock": 195,
-        "reorderPoint": 61,
-        "dailyUsage": 3.8
-      },
-      {
-        "sku": "AUT-1070",
-        "product": "Tyre Inflator Portable",
-        "openingStock": 65,
-        "reorderPoint": 20,
-        "dailyUsage": 1.2
-      },
-      {
-        "sku": "AUT-1077",
-        "product": "Brake Fluid DOT4 500ml",
-        "openingStock": 130,
-        "reorderPoint": 40,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "AUT-1084",
-        "product": "Microfiber Car Wash Mitt",
-        "openingStock": 130,
-        "reorderPoint": 40,
-        "dailyUsage": 2.5
-      },
-      {
-        "sku": "ELE-1007",
-        "product": "LED Bulb 9W (pack of 4)",
-        "openingStock": 790,
-        "reorderPoint": 193,
-        "dailyUsage": 17.5
-      },
-      {
-        "sku": "ELE-1014",
-        "product": "LED Tube Light 20W",
-        "openingStock": 340,
-        "reorderPoint": 83,
-        "dailyUsage": 7.5
-      },
-      {
-        "sku": "ELE-1021",
-        "product": "Extension Board 4-Socket",
+        "sku": "FRV-1028",
+        "product": "Banana Robusta 6pcs",
         "openingStock": 285,
+        "reorderPoint": 123,
+        "dailyUsage": 28.3
+      },
+      {
+        "sku": "FRV-1035",
+        "product": "Shimla Apple 4pcs",
+        "openingStock": 135,
+        "reorderPoint": 59,
+        "dailyUsage": 15.0
+      },
+      {
+        "sku": "FRV-1042",
+        "product": "Coriander Leaves 100g",
+        "openingStock": 400,
+        "reorderPoint": 104,
+        "dailyUsage": 34.2
+      },
+      {
+        "sku": "FRV-1049",
+        "product": "Green Chilli 100g",
+        "openingStock": 340,
+        "reorderPoint": 91,
+        "dailyUsage": 29.8
+      },
+      {
+        "sku": "FRV-1056",
+        "product": "Lemon 4pcs",
+        "openingStock": 220,
+        "reorderPoint": 99,
+        "dailyUsage": 25.2
+      },
+      {
+        "sku": "FRV-1063",
+        "product": "Cucumber 500g",
+        "openingStock": 175,
+        "reorderPoint": 59,
+        "dailyUsage": 17.1
+      },
+      {
+        "sku": "FRV-1070",
+        "product": "Ginger 200g",
+        "openingStock": 210,
+        "reorderPoint": 63,
+        "dailyUsage": 16.7
+      },
+      {
+        "sku": "FRV-1084",
+        "product": "Baby Spinach 200g",
+        "openingStock": 125,
+        "reorderPoint": 33,
+        "dailyUsage": 9.5
+      },
+      {
+        "sku": "DRY-1007",
+        "product": "Toned Milk 500ml",
+        "openingStock": 470,
+        "reorderPoint": 235,
+        "dailyUsage": 57.7
+      },
+      {
+        "sku": "DRY-1014",
+        "product": "Full Cream Milk 1L",
+        "openingStock": 385,
+        "reorderPoint": 163,
+        "dailyUsage": 37.9
+      },
+      {
+        "sku": "DRY-1021",
+        "product": "Curd 400g",
+        "openingStock": 355,
+        "reorderPoint": 134,
+        "dailyUsage": 29.8
+      },
+      {
+        "sku": "DRY-1028",
+        "product": "Paneer 200g",
+        "openingStock": 205,
+        "reorderPoint": 68,
+        "dailyUsage": 22.5
+      },
+      {
+        "sku": "DRY-1035",
+        "product": "Salted Butter 100g",
+        "openingStock": 120,
+        "reorderPoint": 60,
+        "dailyUsage": 13.8
+      },
+      {
+        "sku": "DRY-1042",
+        "product": "Brown Eggs 6pcs",
+        "openingStock": 230,
+        "reorderPoint": 109,
+        "dailyUsage": 24.7
+      },
+      {
+        "sku": "DRY-1049",
+        "product": "White Bread 400g",
+        "openingStock": 300,
+        "reorderPoint": 140,
+        "dailyUsage": 33.3
+      },
+      {
+        "sku": "DRY-1056",
+        "product": "Multigrain Bread 400g",
+        "openingStock": 105,
+        "reorderPoint": 55,
+        "dailyUsage": 11.8
+      },
+      {
+        "sku": "DRY-1063",
+        "product": "Cheese Slices 200g",
+        "openingStock": 85,
+        "reorderPoint": 31,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "DRY-1070",
+        "product": "Buttermilk 500ml",
+        "openingStock": 190,
+        "reorderPoint": 77,
+        "dailyUsage": 15.6
+      },
+      {
+        "sku": "DRY-1077",
+        "product": "Fresh Cream 200ml",
+        "openingStock": 80,
+        "reorderPoint": 20,
+        "dailyUsage": 6.4
+      },
+      {
+        "sku": "DRY-1084",
+        "product": "Greek Yogurt 100g",
+        "openingStock": 95,
+        "reorderPoint": 26,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "STP-1007",
+        "product": "Whole Wheat Atta 5kg",
+        "openingStock": 750,
+        "reorderPoint": 172,
+        "dailyUsage": 14.3
+      },
+      {
+        "sku": "STP-1014",
+        "product": "Basmati Rice 1kg",
+        "openingStock": 530,
+        "reorderPoint": 134,
+        "dailyUsage": 9.7
+      },
+      {
+        "sku": "STP-1021",
+        "product": "Sona Masoori Rice 5kg",
+        "openingStock": 285,
+        "reorderPoint": 61,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "STP-1028",
+        "product": "Toor Dal 1kg",
+        "openingStock": 435,
+        "reorderPoint": 144,
+        "dailyUsage": 9.9
+      },
+      {
+        "sku": "STP-1035",
+        "product": "Moong Dal 500g",
+        "openingStock": 335,
+        "reorderPoint": 131,
+        "dailyUsage": 8.4
+      },
+      {
+        "sku": "STP-1042",
+        "product": "Chana Dal 1kg",
+        "openingStock": 360,
+        "reorderPoint": 90,
+        "dailyUsage": 6.9
+      },
+      {
+        "sku": "STP-1049",
+        "product": "Besan 500g",
+        "openingStock": 330,
+        "reorderPoint": 102,
+        "dailyUsage": 6.5
+      },
+      {
+        "sku": "STP-1056",
+        "product": "Sugar 1kg",
+        "openingStock": 740,
+        "reorderPoint": 163,
+        "dailyUsage": 14.3
+      },
+      {
+        "sku": "STP-1063",
+        "product": "Iodised Salt 1kg",
+        "openingStock": 595,
+        "reorderPoint": 174,
+        "dailyUsage": 13.1
+      },
+      {
+        "sku": "STP-1070",
+        "product": "Poha 500g",
+        "openingStock": 430,
+        "reorderPoint": 117,
+        "dailyUsage": 8.2
+      },
+      {
+        "sku": "STP-1077",
+        "product": "Rajma 500g",
+        "openingStock": 205,
+        "reorderPoint": 33,
+        "dailyUsage": 3.9
+      },
+      {
+        "sku": "STP-1084",
+        "product": "Sooji 500g",
+        "openingStock": 260,
+        "reorderPoint": 53,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "MSL-1007",
+        "product": "Sunflower Oil 1L",
+        "openingStock": 595,
+        "reorderPoint": 88,
+        "dailyUsage": 11.3
+      },
+      {
+        "sku": "MSL-1014",
+        "product": "Mustard Oil 1L",
+        "openingStock": 310,
+        "reorderPoint": 56,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "MSL-1021",
+        "product": "Cow Ghee 500ml",
+        "openingStock": 305,
+        "reorderPoint": 53,
+        "dailyUsage": 6.1
+      },
+      {
+        "sku": "MSL-1028",
+        "product": "Turmeric Powder 100g",
+        "openingStock": 355,
+        "reorderPoint": 45,
+        "dailyUsage": 6.6
+      },
+      {
+        "sku": "MSL-1035",
+        "product": "Red Chilli Powder 100g",
+        "openingStock": 380,
+        "reorderPoint": 111,
+        "dailyUsage": 8.2
+      },
+      {
+        "sku": "MSL-1042",
+        "product": "Garam Masala 100g",
+        "openingStock": 285,
+        "reorderPoint": 63,
+        "dailyUsage": 5.8
+      },
+      {
+        "sku": "MSL-1049",
+        "product": "Cumin Seeds 100g",
+        "openingStock": 235,
+        "reorderPoint": 49,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "MSL-1056",
+        "product": "Coriander Powder 100g",
+        "openingStock": 250,
         "reorderPoint": 69,
+        "dailyUsage": 5.8
+      },
+      {
+        "sku": "MSL-1063",
+        "product": "Groundnut Oil 1L",
+        "openingStock": 155,
+        "reorderPoint": 34,
+        "dailyUsage": 3.3
+      },
+      {
+        "sku": "MSL-1070",
+        "product": "Black Pepper Whole 50g",
+        "openingStock": 155,
+        "reorderPoint": 46,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "MSL-1077",
+        "product": "Tamarind 200g",
+        "openingStock": 85,
+        "reorderPoint": 14,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "MSL-1084",
+        "product": "Kasuri Methi 25g",
+        "openingStock": 80,
+        "reorderPoint": 23,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "SNK-1007",
+        "product": "Salted Potato Chips 52g",
+        "openingStock": 1710,
+        "reorderPoint": 339,
+        "dailyUsage": 41.5
+      },
+      {
+        "sku": "SNK-1014",
+        "product": "Masala Potato Chips 52g",
+        "openingStock": 1760,
+        "reorderPoint": 552,
+        "dailyUsage": 35.0
+      },
+      {
+        "sku": "SNK-1021",
+        "product": "Aloo Bhujia 200g",
+        "openingStock": 850,
+        "reorderPoint": 139,
+        "dailyUsage": 19.9
+      },
+      {
+        "sku": "SNK-1028",
+        "product": "Roasted Peanuts 150g",
+        "openingStock": 420,
+        "reorderPoint": 78,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "SNK-1035",
+        "product": "Cheese Nachos 150g",
+        "openingStock": 530,
+        "reorderPoint": 99,
+        "dailyUsage": 11.3
+      },
+      {
+        "sku": "SNK-1042",
+        "product": "Cream Biscuits 120g",
+        "openingStock": 1490,
+        "reorderPoint": 407,
+        "dailyUsage": 31.4
+      },
+      {
+        "sku": "SNK-1049",
+        "product": "Digestive Biscuits 250g",
+        "openingStock": 615,
+        "reorderPoint": 128,
+        "dailyUsage": 11.7
+      },
+      {
+        "sku": "SNK-1056",
+        "product": "Dark Chocolate Bar 80g",
+        "openingStock": 525,
+        "reorderPoint": 118,
+        "dailyUsage": 11.0
+      },
+      {
+        "sku": "SNK-1063",
+        "product": "Milk Chocolate 50g",
+        "openingStock": 890,
+        "reorderPoint": 141,
+        "dailyUsage": 21.6
+      },
+      {
+        "sku": "SNK-1070",
+        "product": "Butter Popcorn 60g",
+        "openingStock": 460,
+        "reorderPoint": 142,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "SNK-1077",
+        "product": "Mixed Dry Fruits 250g",
+        "openingStock": 170,
+        "reorderPoint": 53,
+        "dailyUsage": 4.3
+      },
+      {
+        "sku": "SNK-1084",
+        "product": "Methi Khakhra 200g",
+        "openingStock": 195,
+        "reorderPoint": 56,
+        "dailyUsage": 4.8
+      },
+      {
+        "sku": "BEV-1007",
+        "product": "Cola 750ml",
+        "openingStock": 1590,
+        "reorderPoint": 208,
+        "dailyUsage": 29.0
+      },
+      {
+        "sku": "BEV-1014",
+        "product": "Lemon Soda 750ml",
+        "openingStock": 1035,
+        "reorderPoint": 298,
+        "dailyUsage": 21.4
+      },
+      {
+        "sku": "BEV-1021",
+        "product": "Packaged Drinking Water 1L",
+        "openingStock": 2370,
+        "reorderPoint": 531,
+        "dailyUsage": 50.5
+      },
+      {
+        "sku": "BEV-1028",
+        "product": "Mixed Fruit Juice 1L",
+        "openingStock": 570,
+        "reorderPoint": 172,
+        "dailyUsage": 10.8
+      },
+      {
+        "sku": "BEV-1035",
+        "product": "Orange Juice 1L",
+        "openingStock": 300,
+        "reorderPoint": 75,
         "dailyUsage": 6.2
       },
       {
-        "sku": "ELE-1028",
-        "product": "Copper Wire 1.5 sqmm (90m)",
-        "openingStock": 115,
-        "reorderPoint": 28,
-        "dailyUsage": 2.5
+        "sku": "BEV-1042",
+        "product": "Energy Drink 250ml",
+        "openingStock": 575,
+        "reorderPoint": 86,
+        "dailyUsage": 10.6
       },
       {
-        "sku": "ELE-1035",
-        "product": "MCB 16A Single Pole",
-        "openingStock": 230,
+        "sku": "BEV-1049",
+        "product": "Cold Coffee 180ml",
+        "openingStock": 490,
+        "reorderPoint": 76,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "BEV-1056",
+        "product": "Tender Coconut Water 200ml",
+        "openingStock": 390,
+        "reorderPoint": 60,
+        "dailyUsage": 9.9
+      },
+      {
+        "sku": "BEV-1063",
+        "product": "Tonic Water 300ml",
+        "openingStock": 160,
+        "reorderPoint": 29,
+        "dailyUsage": 3.3
+      },
+      {
+        "sku": "BEV-1070",
+        "product": "Mango Drink 600ml",
+        "openingStock": 710,
+        "reorderPoint": 185,
+        "dailyUsage": 14.2
+      },
+      {
+        "sku": "BEV-1077",
+        "product": "Lemon Iced Tea 500ml",
+        "openingStock": 380,
+        "reorderPoint": 116,
+        "dailyUsage": 7.6
+      },
+      {
+        "sku": "BEV-1084",
+        "product": "Club Soda 750ml",
+        "openingStock": 695,
+        "reorderPoint": 180,
+        "dailyUsage": 14.3
+      },
+      {
+        "sku": "BRK-1007",
+        "product": "Masala Instant Noodles 70g",
+        "openingStock": 2250,
+        "reorderPoint": 569,
+        "dailyUsage": 49.7
+      },
+      {
+        "sku": "BRK-1014",
+        "product": "Corn Flakes 475g",
+        "openingStock": 370,
+        "reorderPoint": 98,
+        "dailyUsage": 6.9
+      },
+      {
+        "sku": "BRK-1021",
+        "product": "Rolled Oats 1kg",
+        "openingStock": 235,
+        "reorderPoint": 53,
+        "dailyUsage": 5.8
+      },
+      {
+        "sku": "BRK-1028",
+        "product": "Fruit & Nut Muesli 500g",
+        "openingStock": 165,
+        "reorderPoint": 31,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "BRK-1035",
+        "product": "Crunchy Peanut Butter 340g",
+        "openingStock": 195,
+        "reorderPoint": 51,
+        "dailyUsage": 3.9
+      },
+      {
+        "sku": "BRK-1042",
+        "product": "Mixed Fruit Jam 500g",
+        "openingStock": 235,
         "reorderPoint": 55,
         "dailyUsage": 5.0
       },
       {
-        "sku": "ELE-1042",
-        "product": "Ceiling Fan 1200mm",
-        "openingStock": 60,
-        "reorderPoint": 14,
-        "dailyUsage": 1.2
+        "sku": "BRK-1049",
+        "product": "Honey 250g",
+        "openingStock": 185,
+        "reorderPoint": 50,
+        "dailyUsage": 4.8
       },
       {
-        "sku": "ELE-1049",
-        "product": "Modular Switch 6A",
-        "openingStock": 680,
+        "sku": "BRK-1063",
+        "product": "Ready-to-Eat Dal Makhani 300g",
+        "openingStock": 220,
+        "reorderPoint": 36,
+        "dailyUsage": 5.2
+      },
+      {
+        "sku": "BRK-1070",
+        "product": "Instant Coffee 100g",
+        "openingStock": 330,
+        "reorderPoint": 74,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "BRK-1077",
+        "product": "Assam Tea 500g",
+        "openingStock": 550,
+        "reorderPoint": 127,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "BRK-1084",
+        "product": "Masala Oats 39g",
+        "openingStock": 355,
+        "reorderPoint": 125,
+        "dailyUsage": 9.2
+      },
+      {
+        "sku": "PRC-1007",
+        "product": "Bathing Soap 4x100g",
+        "openingStock": 535,
         "reorderPoint": 165,
-        "dailyUsage": 15.0
+        "dailyUsage": 10.9
       },
       {
-        "sku": "ELE-1056",
-        "product": "Electrical Tape (pack of 10)",
-        "openingStock": 340,
-        "reorderPoint": 83,
-        "dailyUsage": 7.5
+        "sku": "PRC-1014",
+        "product": "Herbal Shampoo 340ml",
+        "openingStock": 240,
+        "reorderPoint": 62,
+        "dailyUsage": 5.0
       },
       {
-        "sku": "ELE-1063",
-        "product": "Emergency Light LED",
-        "openingStock": 115,
+        "sku": "PRC-1021",
+        "product": "Toothpaste 150g",
+        "openingStock": 390,
+        "reorderPoint": 94,
+        "dailyUsage": 9.9
+      },
+      {
+        "sku": "PRC-1035",
+        "product": "Hand Wash Refill 750ml",
+        "openingStock": 255,
+        "reorderPoint": 76,
+        "dailyUsage": 5.2
+      },
+      {
+        "sku": "PRC-1042",
+        "product": "Body Lotion 400ml",
+        "openingStock": 155,
+        "reorderPoint": 28,
+        "dailyUsage": 3.1
+      },
+      {
+        "sku": "PRC-1063",
+        "product": "Coconut Hair Oil 300ml",
+        "openingStock": 260,
+        "reorderPoint": 58,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "PRC-1070",
+        "product": "Face Wash 100ml",
+        "openingStock": 185,
+        "reorderPoint": 40,
+        "dailyUsage": 4.3
+      },
+      {
+        "sku": "PRC-1077",
+        "product": "Sunscreen SPF 50 50g",
+        "openingStock": 110,
         "reorderPoint": 28,
         "dailyUsage": 2.5
       },
       {
-        "sku": "ELE-1070",
-        "product": "Door Bell Wireless",
-        "openingStock": 60,
-        "reorderPoint": 14,
-        "dailyUsage": 1.2
+        "sku": "PRC-1084",
+        "product": "Lip Balm 4.5g",
+        "openingStock": 185,
+        "reorderPoint": 43,
+        "dailyUsage": 3.8
       },
       {
-        "sku": "ELE-1077",
-        "product": "Socket 16A Modular",
-        "openingStock": 340,
-        "reorderPoint": 83,
+        "sku": "HSH-1007",
+        "product": "Dishwash Liquid 750ml",
+        "openingStock": 395,
+        "reorderPoint": 92,
+        "dailyUsage": 9.6
+      },
+      {
+        "sku": "HSH-1014",
+        "product": "Detergent Powder 1kg",
+        "openingStock": 460,
+        "reorderPoint": 129,
+        "dailyUsage": 9.5
+      },
+      {
+        "sku": "HSH-1021",
+        "product": "Liquid Detergent 1L",
+        "openingStock": 285,
+        "reorderPoint": 92,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "HSH-1028",
+        "product": "Floor Cleaner 1L",
+        "openingStock": 270,
+        "reorderPoint": 39,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "HSH-1035",
+        "product": "Toilet Cleaner 500ml",
+        "openingStock": 365,
+        "reorderPoint": 63,
         "dailyUsage": 7.5
       },
       {
-        "sku": "ELE-1084",
-        "product": "Inverter Battery 150Ah",
-        "openingStock": 60,
-        "reorderPoint": 14,
+        "sku": "HSH-1042",
+        "product": "Garbage Bags Medium 30pcs",
+        "openingStock": 325,
+        "reorderPoint": 80,
+        "dailyUsage": 6.9
+      },
+      {
+        "sku": "HSH-1049",
+        "product": "Kitchen Towel 2 Rolls",
+        "openingStock": 265,
+        "reorderPoint": 73,
+        "dailyUsage": 4.8
+      },
+      {
+        "sku": "HSH-1063",
+        "product": "Scrub Pad 3pcs",
+        "openingStock": 350,
+        "reorderPoint": 125,
+        "dailyUsage": 8.7
+      },
+      {
+        "sku": "HSH-1070",
+        "product": "Mosquito Repellent Refill 45ml",
+        "openingStock": 385,
+        "reorderPoint": 85,
+        "dailyUsage": 7.7
+      },
+      {
+        "sku": "HSH-1077",
+        "product": "Aluminium Foil 9m",
+        "openingStock": 160,
+        "reorderPoint": 49,
+        "dailyUsage": 3.1
+      },
+      {
+        "sku": "HSH-1084",
+        "product": "Sandalwood Agarbatti 100g",
+        "openingStock": 195,
+        "reorderPoint": 40,
+        "dailyUsage": 4.1
+      },
+      {
+        "sku": "BBY-1007",
+        "product": "Baby Diapers M 40pcs",
+        "openingStock": 235,
+        "reorderPoint": 74,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "BBY-1014",
+        "product": "Baby Diapers L 34pcs",
+        "openingStock": 210,
+        "reorderPoint": 68,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "BBY-1021",
+        "product": "Baby Wipes 72pcs",
+        "openingStock": 345,
+        "reorderPoint": 71,
+        "dailyUsage": 6.4
+      },
+      {
+        "sku": "BBY-1028",
+        "product": "Baby Lotion 200ml",
+        "openingStock": 105,
+        "reorderPoint": 22,
+        "dailyUsage": 2.4
+      },
+      {
+        "sku": "BBY-1035",
+        "product": "Baby Shampoo 200ml",
+        "openingStock": 125,
+        "reorderPoint": 25,
+        "dailyUsage": 2.3
+      },
+      {
+        "sku": "BBY-1042",
+        "product": "Baby Powder 200g",
+        "openingStock": 95,
+        "reorderPoint": 19,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "BBY-1049",
+        "product": "Infant Formula Stage 1 400g",
+        "openingStock": 105,
+        "reorderPoint": 23,
+        "dailyUsage": 2.2
+      },
+      {
+        "sku": "BBY-1056",
+        "product": "Rice Baby Cereal 300g",
+        "openingStock": 85,
+        "reorderPoint": 27,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "BBY-1063",
+        "product": "Diaper Rash Cream 50g",
+        "openingStock": 45,
+        "reorderPoint": 15,
+        "dailyUsage": 1.1
+      },
+      {
+        "sku": "BBY-1070",
+        "product": "Baby Massage Oil 200ml",
+        "openingStock": 95,
+        "reorderPoint": 25,
+        "dailyUsage": 1.9
+      },
+      {
+        "sku": "BBY-1077",
+        "product": "Feeding Bottle 250ml",
+        "openingStock": 55,
+        "reorderPoint": 15,
         "dailyUsage": 1.2
+      },
+      {
+        "sku": "BBY-1084",
+        "product": "Baby Soap 75g",
+        "openingStock": 195,
+        "reorderPoint": 39,
+        "dailyUsage": 3.6
       }
     ]
   },
   {
     "warehouse": "DEL-03",
-    "name": "Delhi North Hub",
+    "name": "Delhi Rohini Dark Store",
     "stock": [
       {
-        "sku": "SKU-1042",
-        "product": "USB-C Charging Cable 1m",
-        "openingStock": 700,
-        "reorderPoint": 146,
-        "dailyUsage": 16.2
+        "sku": "FRV-1007",
+        "product": "Tomato 500g",
+        "openingStock": 530,
+        "reorderPoint": 155,
+        "dailyUsage": 40.0
       },
       {
-        "sku": "ELC-1014",
-        "product": "Wireless Mouse",
-        "openingStock": 350,
-        "reorderPoint": 73,
-        "dailyUsage": 8.1
+        "sku": "FRV-1014",
+        "product": "Onion 1kg",
+        "openingStock": 440,
+        "reorderPoint": 181,
+        "dailyUsage": 40.8
       },
       {
-        "sku": "ELC-1028",
-        "product": "Power Bank 10000mAh",
-        "openingStock": 275,
-        "reorderPoint": 57,
-        "dailyUsage": 6.3
+        "sku": "FRV-1021",
+        "product": "Potato 1kg",
+        "openingStock": 440,
+        "reorderPoint": 122,
+        "dailyUsage": 36.8
       },
       {
-        "sku": "ELC-1035",
-        "product": "HDMI Cable 2m",
-        "openingStock": 310,
-        "reorderPoint": 65,
-        "dailyUsage": 7.2
+        "sku": "FRV-1028",
+        "product": "Banana Robusta 6pcs",
+        "openingStock": 370,
+        "reorderPoint": 99,
+        "dailyUsage": 26.8
       },
       {
-        "sku": "ELC-1042",
-        "product": "Wall Charger 20W",
-        "openingStock": 465,
-        "reorderPoint": 98,
-        "dailyUsage": 10.8
-      },
-      {
-        "sku": "ELC-1049",
-        "product": "Keyboard USB Wired",
+        "sku": "FRV-1035",
+        "product": "Shimla Apple 4pcs",
         "openingStock": 160,
-        "reorderPoint": 33,
-        "dailyUsage": 3.6
+        "reorderPoint": 63,
+        "dailyUsage": 13.3
       },
       {
-        "sku": "ELC-1056",
-        "product": "Webcam 1080p",
-        "openingStock": 80,
-        "reorderPoint": 17,
-        "dailyUsage": 1.8
+        "sku": "FRV-1042",
+        "product": "Coriander Leaves 100g",
+        "openingStock": 460,
+        "reorderPoint": 131,
+        "dailyUsage": 34.8
       },
       {
-        "sku": "ELC-1063",
-        "product": "Smart Plug 16A",
-        "openingStock": 120,
-        "reorderPoint": 25,
-        "dailyUsage": 2.7
-      },
-      {
-        "sku": "ELC-1070",
-        "product": "LED Desk Lamp",
-        "openingStock": 120,
-        "reorderPoint": 25,
-        "dailyUsage": 2.7
-      },
-      {
-        "sku": "ELC-1077",
-        "product": "MicroSD Card 64GB",
-        "openingStock": 390,
-        "reorderPoint": 81,
-        "dailyUsage": 9.0
-      },
-      {
-        "sku": "ELC-1084",
-        "product": "Ethernet Cable Cat6 5m",
-        "openingStock": 195,
-        "reorderPoint": 41,
-        "dailyUsage": 4.5
-      },
-      {
-        "sku": "PKG-1007",
-        "product": "Corrugated Box Small (pack of 25)",
-        "openingStock": 785,
-        "reorderPoint": 119,
-        "dailyUsage": 19.8
-      },
-      {
-        "sku": "PKG-1014",
-        "product": "Corrugated Box Medium (pack of 25)",
-        "openingStock": 645,
-        "reorderPoint": 98,
-        "dailyUsage": 16.2
-      },
-      {
-        "sku": "PKG-1021",
-        "product": "Corrugated Box Large (pack of 10)",
-        "openingStock": 325,
-        "reorderPoint": 49,
-        "dailyUsage": 8.1
-      },
-      {
-        "sku": "PKG-1028",
-        "product": "Bubble Wrap Roll 50m",
-        "openingStock": 215,
-        "reorderPoint": 33,
-        "dailyUsage": 5.4
-      },
-      {
-        "sku": "PKG-1035",
-        "product": "Packing Tape Brown (6 rolls)",
-        "openingStock": 895,
-        "reorderPoint": 135,
-        "dailyUsage": 22.5
-      },
-      {
-        "sku": "PKG-1042",
-        "product": "Stretch Film Roll",
-        "openingStock": 290,
-        "reorderPoint": 44,
-        "dailyUsage": 7.2
-      },
-      {
-        "sku": "PKG-1049",
-        "product": "Courier Bags A4 (pack of 100)",
-        "openingStock": 535,
-        "reorderPoint": 81,
-        "dailyUsage": 13.5
-      },
-      {
-        "sku": "PKG-1056",
-        "product": "Fragile Labels (roll of 500)",
-        "openingStock": 145,
-        "reorderPoint": 22,
-        "dailyUsage": 3.6
-      },
-      {
-        "sku": "PKG-1063",
-        "product": "Paper Void Fill (5kg)",
-        "openingStock": 110,
-        "reorderPoint": 17,
-        "dailyUsage": 2.7
-      },
-      {
-        "sku": "PKG-1070",
-        "product": "Pallet Wooden 1200x1000",
-        "openingStock": 75,
-        "reorderPoint": 11,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "PKG-1077",
-        "product": "Strapping Roll PP 12mm",
-        "openingStock": 110,
-        "reorderPoint": 17,
-        "dailyUsage": 2.7
-      },
-      {
-        "sku": "PKG-1084",
-        "product": "Shipping Labels 4x6 (roll of 500)",
-        "openingStock": 430,
-        "reorderPoint": 65,
-        "dailyUsage": 10.8
-      },
-      {
-        "sku": "OFF-1007",
-        "product": "A4 Copier Paper 75gsm (ream)",
-        "openingStock": 1100,
-        "reorderPoint": 189,
-        "dailyUsage": 27.0
-      },
-      {
-        "sku": "OFF-1014",
-        "product": "Ballpoint Pen Blue (box of 50)",
+        "sku": "FRV-1049",
+        "product": "Green Chilli 100g",
         "openingStock": 295,
-        "reorderPoint": 51,
-        "dailyUsage": 7.2
+        "reorderPoint": 108,
+        "dailyUsage": 23.8
       },
       {
-        "sku": "OFF-1021",
-        "product": "Stapler Medium",
-        "openingStock": 75,
-        "reorderPoint": 13,
-        "dailyUsage": 1.8
+        "sku": "FRV-1056",
+        "product": "Lemon 4pcs",
+        "openingStock": 180,
+        "reorderPoint": 69,
+        "dailyUsage": 22.0
       },
       {
-        "sku": "OFF-1028",
-        "product": "Staple Pins No.10 (box of 20)",
-        "openingStock": 185,
-        "reorderPoint": 32,
-        "dailyUsage": 4.5
-      },
-      {
-        "sku": "OFF-1035",
-        "product": "Sticky Notes 3x3 (pack of 12)",
+        "sku": "FRV-1063",
+        "product": "Cucumber 500g",
         "openingStock": 225,
-        "reorderPoint": 38,
-        "dailyUsage": 5.4
+        "reorderPoint": 84,
+        "dailyUsage": 16.8
       },
       {
-        "sku": "OFF-1042",
-        "product": "Whiteboard Marker Set",
-        "openingStock": 150,
-        "reorderPoint": 26,
-        "dailyUsage": 3.6
+        "sku": "FRV-1070",
+        "product": "Ginger 200g",
+        "openingStock": 165,
+        "reorderPoint": 50,
+        "dailyUsage": 15.5
       },
       {
-        "sku": "OFF-1049",
-        "product": "Box File Lever Arch",
-        "openingStock": 185,
-        "reorderPoint": 32,
-        "dailyUsage": 4.5
+        "sku": "FRV-1077",
+        "product": "Pomegranate 2pcs",
+        "openingStock": 110,
+        "reorderPoint": 33,
+        "dailyUsage": 8.4
       },
       {
-        "sku": "OFF-1056",
-        "product": "Notebook A5 Ruled",
-        "openingStock": 515,
-        "reorderPoint": 89,
-        "dailyUsage": 12.6
+        "sku": "FRV-1084",
+        "product": "Baby Spinach 200g",
+        "openingStock": 100,
+        "reorderPoint": 23,
+        "dailyUsage": 7.6
       },
       {
-        "sku": "OFF-1063",
-        "product": "Printer Toner 12A",
-        "openingStock": 75,
-        "reorderPoint": 13,
-        "dailyUsage": 1.8
+        "sku": "DRY-1007",
+        "product": "Toned Milk 500ml",
+        "openingStock": 575,
+        "reorderPoint": 220,
+        "dailyUsage": 58.8
       },
       {
-        "sku": "OFF-1070",
-        "product": "Calculator Desktop 12-digit",
-        "openingStock": 40,
-        "reorderPoint": 7,
-        "dailyUsage": 0.9
+        "sku": "DRY-1014",
+        "product": "Full Cream Milk 1L",
+        "openingStock": 270,
+        "reorderPoint": 100,
+        "dailyUsage": 24.1
       },
       {
-        "sku": "OFF-1077",
-        "product": "Highlighter Set (pack of 5)",
-        "openingStock": 185,
-        "reorderPoint": 32,
-        "dailyUsage": 4.5
+        "sku": "DRY-1021",
+        "product": "Curd 400g",
+        "openingStock": 220,
+        "reorderPoint": 77,
+        "dailyUsage": 24.5
       },
       {
-        "sku": "OFF-1084",
-        "product": "Envelopes A4 Brown (pack of 50)",
-        "openingStock": 225,
-        "reorderPoint": 38,
-        "dailyUsage": 5.4
-      },
-      {
-        "sku": "CLN-1007",
-        "product": "Hand Sanitizer 500ml",
-        "openingStock": 605,
-        "reorderPoint": 116,
-        "dailyUsage": 14.4
-      },
-      {
-        "sku": "CLN-1014",
-        "product": "Floor Cleaner 5L",
-        "openingStock": 265,
-        "reorderPoint": 51,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "CLN-1021",
-        "product": "Liquid Hand Wash 5L",
-        "openingStock": 230,
-        "reorderPoint": 44,
-        "dailyUsage": 5.4
-      },
-      {
-        "sku": "CLN-1028",
-        "product": "Garbage Bags Large (roll of 30)",
-        "openingStock": 755,
-        "reorderPoint": 144,
+        "sku": "DRY-1028",
+        "product": "Paneer 200g",
+        "openingStock": 210,
+        "reorderPoint": 63,
         "dailyUsage": 18.0
       },
       {
-        "sku": "CLN-1035",
-        "product": "Microfiber Cloth (pack of 10)",
-        "openingStock": 190,
-        "reorderPoint": 36,
-        "dailyUsage": 4.5
+        "sku": "DRY-1035",
+        "product": "Salted Butter 100g",
+        "openingStock": 125,
+        "reorderPoint": 56,
+        "dailyUsage": 14.2
       },
       {
-        "sku": "CLN-1042",
-        "product": "Toilet Cleaner 1L",
-        "openingStock": 340,
-        "reorderPoint": 65,
-        "dailyUsage": 8.1
-      },
-      {
-        "sku": "CLN-1049",
-        "product": "Tissue Roll 2-ply (pack of 12)",
-        "openingStock": 530,
-        "reorderPoint": 101,
-        "dailyUsage": 12.6
-      },
-      {
-        "sku": "CLN-1056",
-        "product": "Paper Towel Roll (pack of 6)",
-        "openingStock": 305,
-        "reorderPoint": 58,
-        "dailyUsage": 7.2
-      },
-      {
-        "sku": "CLN-1063",
-        "product": "Mop with Bucket Set",
-        "openingStock": 40,
-        "reorderPoint": 8,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "CLN-1070",
-        "product": "Surface Disinfectant Spray",
-        "openingStock": 265,
-        "reorderPoint": 51,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "CLN-1084",
-        "product": "Broom Soft Grass",
-        "openingStock": 80,
-        "reorderPoint": 15,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "TLS-1007",
-        "product": "Cordless Drill 12V",
-        "openingStock": 45,
-        "reorderPoint": 11,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "TLS-1014",
-        "product": "Screwdriver Set 32pc",
-        "openingStock": 85,
-        "reorderPoint": 22,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "TLS-1021",
-        "product": "Measuring Tape 5m",
-        "openingStock": 170,
-        "reorderPoint": 44,
-        "dailyUsage": 3.6
-      },
-      {
-        "sku": "TLS-1028",
-        "product": "Adjustable Wrench 10in",
-        "openingStock": 85,
-        "reorderPoint": 22,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "TLS-1035",
-        "product": "Claw Hammer 500g",
-        "openingStock": 85,
-        "reorderPoint": 22,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "TLS-1042",
-        "product": "Utility Knife",
-        "openingStock": 250,
-        "reorderPoint": 65,
-        "dailyUsage": 5.4
-      },
-      {
-        "sku": "TLS-1049",
-        "product": "Drill Bit Set HSS 13pc",
-        "openingStock": 85,
-        "reorderPoint": 22,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "TLS-1056",
-        "product": "Cable Ties 200mm (pack of 100)",
-        "openingStock": 380,
-        "reorderPoint": 98,
-        "dailyUsage": 8.1
-      },
-      {
-        "sku": "TLS-1063",
-        "product": "Hex Key Set Metric",
-        "openingStock": 85,
-        "reorderPoint": 22,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "TLS-1070",
-        "product": "Pliers Combination 8in",
-        "openingStock": 85,
-        "reorderPoint": 22,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "TLS-1077",
-        "product": "Wall Plugs & Screws Kit",
-        "openingStock": 170,
-        "reorderPoint": 44,
-        "dailyUsage": 3.6
-      },
-      {
-        "sku": "TLS-1084",
-        "product": "Spirit Level 600mm",
-        "openingStock": 45,
-        "reorderPoint": 11,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "SAF-1007",
-        "product": "Safety Helmet ISI",
-        "openingStock": 200,
-        "reorderPoint": 45,
-        "dailyUsage": 4.5
-      },
-      {
-        "sku": "SAF-1014",
-        "product": "Safety Shoes Steel Toe",
-        "openingStock": 120,
-        "reorderPoint": 27,
-        "dailyUsage": 2.7
-      },
-      {
-        "sku": "SAF-1021",
-        "product": "Hi-Vis Reflective Vest",
-        "openingStock": 320,
-        "reorderPoint": 72,
-        "dailyUsage": 7.2
-      },
-      {
-        "sku": "SAF-1028",
-        "product": "Safety Goggles Clear",
-        "openingStock": 200,
-        "reorderPoint": 45,
-        "dailyUsage": 4.5
-      },
-      {
-        "sku": "SAF-1035",
-        "product": "Ear Plugs (box of 200)",
-        "openingStock": 80,
-        "reorderPoint": 18,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "SAF-1042",
-        "product": "Cut-Resistant Gloves",
-        "openingStock": 280,
-        "reorderPoint": 63,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "SAF-1049",
-        "product": "N95 Respirator (box of 20)",
-        "openingStock": 160,
-        "reorderPoint": 36,
-        "dailyUsage": 3.6
-      },
-      {
-        "sku": "SAF-1056",
-        "product": "First Aid Kit Industrial",
-        "openingStock": 40,
-        "reorderPoint": 9,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "SAF-1063",
-        "product": "Fire Extinguisher ABC 4kg",
-        "openingStock": 40,
-        "reorderPoint": 9,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "SAF-1070",
-        "product": "Safety Harness Full Body",
-        "openingStock": 40,
-        "reorderPoint": 9,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "SAF-1077",
-        "product": "Warning Tape Roll",
-        "openingStock": 160,
-        "reorderPoint": 36,
-        "dailyUsage": 3.6
-      },
-      {
-        "sku": "SAF-1084",
-        "product": "Face Shield",
-        "openingStock": 120,
-        "reorderPoint": 27,
-        "dailyUsage": 2.7
-      },
-      {
-        "sku": "FNB-1007",
-        "product": "Bottled Water 1L (case of 12)",
-        "openingStock": 1390,
-        "reorderPoint": 180,
-        "dailyUsage": 36.0
-      },
-      {
-        "sku": "FNB-1014",
-        "product": "Instant Coffee 200g",
-        "openingStock": 210,
-        "reorderPoint": 27,
-        "dailyUsage": 5.4
-      },
-      {
-        "sku": "FNB-1021",
-        "product": "Tea Bags (box of 100)",
-        "openingStock": 245,
-        "reorderPoint": 32,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "FNB-1028",
-        "product": "Sugar Sachets (box of 500)",
-        "openingStock": 140,
-        "reorderPoint": 18,
-        "dailyUsage": 3.6
-      },
-      {
-        "sku": "FNB-1042",
-        "product": "Paper Cups 200ml (pack of 100)",
-        "openingStock": 525,
-        "reorderPoint": 68,
-        "dailyUsage": 13.5
-      },
-      {
-        "sku": "FNB-1049",
-        "product": "Energy Drink 250ml (case of 24)",
+        "sku": "DRY-1042",
+        "product": "Brown Eggs 6pcs",
         "openingStock": 175,
-        "reorderPoint": 23,
-        "dailyUsage": 4.5
+        "reorderPoint": 55,
+        "dailyUsage": 18.3
       },
       {
-        "sku": "FNB-1056",
-        "product": "Masala Peanuts 1kg",
-        "openingStock": 105,
-        "reorderPoint": 14,
+        "sku": "DRY-1049",
+        "product": "White Bread 400g",
+        "openingStock": 370,
+        "reorderPoint": 120,
+        "dailyUsage": 27.5
+      },
+      {
+        "sku": "DRY-1056",
+        "product": "Multigrain Bread 400g",
+        "openingStock": 85,
+        "reorderPoint": 30,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "DRY-1063",
+        "product": "Cheese Slices 200g",
+        "openingStock": 90,
+        "reorderPoint": 28,
+        "dailyUsage": 7.4
+      },
+      {
+        "sku": "DRY-1070",
+        "product": "Buttermilk 500ml",
+        "openingStock": 165,
+        "reorderPoint": 42,
+        "dailyUsage": 12.5
+      },
+      {
+        "sku": "DRY-1077",
+        "product": "Fresh Cream 200ml",
+        "openingStock": 55,
+        "reorderPoint": 18,
+        "dailyUsage": 5.2
+      },
+      {
+        "sku": "STP-1007",
+        "product": "Whole Wheat Atta 5kg",
+        "openingStock": 525,
+        "reorderPoint": 175,
+        "dailyUsage": 11.0
+      },
+      {
+        "sku": "STP-1014",
+        "product": "Basmati Rice 1kg",
+        "openingStock": 460,
+        "reorderPoint": 106,
+        "dailyUsage": 8.4
+      },
+      {
+        "sku": "STP-1021",
+        "product": "Sona Masoori Rice 5kg",
+        "openingStock": 240,
+        "reorderPoint": 64,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "STP-1028",
+        "product": "Toor Dal 1kg",
+        "openingStock": 340,
+        "reorderPoint": 105,
+        "dailyUsage": 8.7
+      },
+      {
+        "sku": "STP-1035",
+        "product": "Moong Dal 500g",
+        "openingStock": 335,
+        "reorderPoint": 56,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "STP-1042",
+        "product": "Chana Dal 1kg",
+        "openingStock": 285,
+        "reorderPoint": 56,
+        "dailyUsage": 5.9
+      },
+      {
+        "sku": "STP-1049",
+        "product": "Besan 500g",
+        "openingStock": 270,
+        "reorderPoint": 72,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "STP-1056",
+        "product": "Sugar 1kg",
+        "openingStock": 660,
+        "reorderPoint": 193,
+        "dailyUsage": 13.4
+      },
+      {
+        "sku": "STP-1063",
+        "product": "Iodised Salt 1kg",
+        "openingStock": 600,
+        "reorderPoint": 140,
+        "dailyUsage": 11.2
+      },
+      {
+        "sku": "STP-1070",
+        "product": "Poha 500g",
+        "openingStock": 310,
+        "reorderPoint": 80,
+        "dailyUsage": 6.8
+      },
+      {
+        "sku": "STP-1077",
+        "product": "Rajma 500g",
+        "openingStock": 155,
+        "reorderPoint": 35,
+        "dailyUsage": 3.9
+      },
+      {
+        "sku": "STP-1084",
+        "product": "Sooji 500g",
+        "openingStock": 195,
+        "reorderPoint": 35,
+        "dailyUsage": 4.8
+      },
+      {
+        "sku": "MSL-1007",
+        "product": "Sunflower Oil 1L",
+        "openingStock": 595,
+        "reorderPoint": 123,
+        "dailyUsage": 10.9
+      },
+      {
+        "sku": "MSL-1014",
+        "product": "Mustard Oil 1L",
+        "openingStock": 320,
+        "reorderPoint": 52,
+        "dailyUsage": 6.1
+      },
+      {
+        "sku": "MSL-1021",
+        "product": "Cow Ghee 500ml",
+        "openingStock": 225,
+        "reorderPoint": 69,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "MSL-1028",
+        "product": "Turmeric Powder 100g",
+        "openingStock": 300,
+        "reorderPoint": 49,
+        "dailyUsage": 6.8
+      },
+      {
+        "sku": "MSL-1042",
+        "product": "Garam Masala 100g",
+        "openingStock": 205,
+        "reorderPoint": 80,
+        "dailyUsage": 5.1
+      },
+      {
+        "sku": "MSL-1049",
+        "product": "Cumin Seeds 100g",
+        "openingStock": 250,
+        "reorderPoint": 79,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "MSL-1056",
+        "product": "Coriander Powder 100g",
+        "openingStock": 265,
+        "reorderPoint": 49,
+        "dailyUsage": 5.1
+      },
+      {
+        "sku": "MSL-1063",
+        "product": "Groundnut Oil 1L",
+        "openingStock": 110,
+        "reorderPoint": 33,
+        "dailyUsage": 2.9
+      },
+      {
+        "sku": "MSL-1070",
+        "product": "Black Pepper Whole 50g",
+        "openingStock": 135,
+        "reorderPoint": 34,
         "dailyUsage": 2.7
       },
       {
-        "sku": "FNB-1063",
-        "product": "Fruit Juice 1L (case of 12)",
-        "openingStock": 210,
-        "reorderPoint": 27,
+        "sku": "MSL-1077",
+        "product": "Tamarind 200g",
+        "openingStock": 95,
+        "reorderPoint": 28,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "MSL-1084",
+        "product": "Kasuri Methi 25g",
+        "openingStock": 65,
+        "reorderPoint": 10,
+        "dailyUsage": 1.6
+      },
+      {
+        "sku": "SNK-1007",
+        "product": "Salted Potato Chips 52g",
+        "openingStock": 1670,
+        "reorderPoint": 532,
+        "dailyUsage": 35.1
+      },
+      {
+        "sku": "SNK-1014",
+        "product": "Masala Potato Chips 52g",
+        "openingStock": 1030,
+        "reorderPoint": 376,
+        "dailyUsage": 26.4
+      },
+      {
+        "sku": "SNK-1021",
+        "product": "Aloo Bhujia 200g",
+        "openingStock": 785,
+        "reorderPoint": 184,
+        "dailyUsage": 18.2
+      },
+      {
+        "sku": "SNK-1028",
+        "product": "Roasted Peanuts 150g",
+        "openingStock": 435,
+        "reorderPoint": 72,
+        "dailyUsage": 8.0
+      },
+      {
+        "sku": "SNK-1035",
+        "product": "Cheese Nachos 150g",
+        "openingStock": 430,
+        "reorderPoint": 161,
+        "dailyUsage": 10.8
+      },
+      {
+        "sku": "SNK-1042",
+        "product": "Cream Biscuits 120g",
+        "openingStock": 915,
+        "reorderPoint": 254,
+        "dailyUsage": 20.0
+      },
+      {
+        "sku": "SNK-1049",
+        "product": "Digestive Biscuits 250g",
+        "openingStock": 625,
+        "reorderPoint": 118,
+        "dailyUsage": 11.6
+      },
+      {
+        "sku": "SNK-1056",
+        "product": "Dark Chocolate Bar 80g",
+        "openingStock": 355,
+        "reorderPoint": 88,
+        "dailyUsage": 8.7
+      },
+      {
+        "sku": "SNK-1063",
+        "product": "Milk Chocolate 50g",
+        "openingStock": 730,
+        "reorderPoint": 159,
+        "dailyUsage": 15.8
+      },
+      {
+        "sku": "SNK-1070",
+        "product": "Butter Popcorn 60g",
+        "openingStock": 315,
+        "reorderPoint": 80,
+        "dailyUsage": 8.2
+      },
+      {
+        "sku": "SNK-1077",
+        "product": "Mixed Dry Fruits 250g",
+        "openingStock": 190,
+        "reorderPoint": 51,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "SNK-1084",
+        "product": "Methi Khakhra 200g",
+        "openingStock": 200,
+        "reorderPoint": 46,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "BEV-1007",
+        "product": "Cola 750ml",
+        "openingStock": 1270,
+        "reorderPoint": 287,
+        "dailyUsage": 28.8
+      },
+      {
+        "sku": "BEV-1014",
+        "product": "Lemon Soda 750ml",
+        "openingStock": 590,
+        "reorderPoint": 213,
+        "dailyUsage": 14.7
+      },
+      {
+        "sku": "BEV-1021",
+        "product": "Packaged Drinking Water 1L",
+        "openingStock": 2185,
+        "reorderPoint": 551,
+        "dailyUsage": 44.4
+      },
+      {
+        "sku": "BEV-1028",
+        "product": "Mixed Fruit Juice 1L",
+        "openingStock": 355,
+        "reorderPoint": 129,
+        "dailyUsage": 9.3
+      },
+      {
+        "sku": "BEV-1035",
+        "product": "Orange Juice 1L",
+        "openingStock": 200,
+        "reorderPoint": 58,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "BEV-1042",
+        "product": "Energy Drink 250ml",
+        "openingStock": 360,
+        "reorderPoint": 57,
+        "dailyUsage": 7.1
+      },
+      {
+        "sku": "BEV-1049",
+        "product": "Cold Coffee 180ml",
+        "openingStock": 435,
+        "reorderPoint": 76,
+        "dailyUsage": 8.2
+      },
+      {
+        "sku": "BEV-1056",
+        "product": "Tender Coconut Water 200ml",
+        "openingStock": 425,
+        "reorderPoint": 48,
+        "dailyUsage": 8.0
+      },
+      {
+        "sku": "BEV-1063",
+        "product": "Tonic Water 300ml",
+        "openingStock": 120,
+        "reorderPoint": 22,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "BEV-1070",
+        "product": "Mango Drink 600ml",
+        "openingStock": 480,
+        "reorderPoint": 148,
+        "dailyUsage": 11.7
+      },
+      {
+        "sku": "BEV-1077",
+        "product": "Lemon Iced Tea 500ml",
+        "openingStock": 205,
+        "reorderPoint": 75,
         "dailyUsage": 5.4
       },
       {
-        "sku": "FNB-1070",
-        "product": "Instant Noodles (carton of 48)",
-        "openingStock": 280,
-        "reorderPoint": 36,
-        "dailyUsage": 7.2
+        "sku": "BEV-1084",
+        "product": "Club Soda 750ml",
+        "openingStock": 435,
+        "reorderPoint": 77,
+        "dailyUsage": 10.0
       },
       {
-        "sku": "FNB-1084",
-        "product": "Green Tea (box of 100)",
-        "openingStock": 105,
-        "reorderPoint": 14,
-        "dailyUsage": 2.7
+        "sku": "BRK-1007",
+        "product": "Masala Instant Noodles 70g",
+        "openingStock": 1580,
+        "reorderPoint": 351,
+        "dailyUsage": 31.2
+      },
+      {
+        "sku": "BRK-1014",
+        "product": "Corn Flakes 475g",
+        "openingStock": 265,
+        "reorderPoint": 80,
+        "dailyUsage": 5.8
+      },
+      {
+        "sku": "BRK-1021",
+        "product": "Rolled Oats 1kg",
+        "openingStock": 215,
+        "reorderPoint": 60,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "BRK-1028",
+        "product": "Fruit & Nut Muesli 500g",
+        "openingStock": 120,
+        "reorderPoint": 43,
+        "dailyUsage": 3.1
+      },
+      {
+        "sku": "BRK-1035",
+        "product": "Crunchy Peanut Butter 340g",
+        "openingStock": 185,
+        "reorderPoint": 42,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "BRK-1042",
+        "product": "Mixed Fruit Jam 500g",
+        "openingStock": 160,
+        "reorderPoint": 44,
+        "dailyUsage": 4.1
+      },
+      {
+        "sku": "BRK-1049",
+        "product": "Honey 250g",
+        "openingStock": 220,
+        "reorderPoint": 48,
+        "dailyUsage": 4.4
+      },
+      {
+        "sku": "BRK-1056",
+        "product": "Tomato Ketchup 950g",
+        "openingStock": 320,
+        "reorderPoint": 55,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "BRK-1063",
+        "product": "Ready-to-Eat Dal Makhani 300g",
+        "openingStock": 180,
+        "reorderPoint": 40,
+        "dailyUsage": 4.6
+      },
+      {
+        "sku": "BRK-1070",
+        "product": "Instant Coffee 100g",
+        "openingStock": 220,
+        "reorderPoint": 43,
+        "dailyUsage": 4.7
+      },
+      {
+        "sku": "BRK-1077",
+        "product": "Assam Tea 500g",
+        "openingStock": 390,
+        "reorderPoint": 87,
+        "dailyUsage": 8.3
       },
       {
         "sku": "PRC-1007",
-        "product": "Shampoo 650ml",
-        "openingStock": 305,
-        "reorderPoint": 58,
-        "dailyUsage": 7.2
+        "product": "Bathing Soap 4x100g",
+        "openingStock": 370,
+        "reorderPoint": 121,
+        "dailyUsage": 9.3
       },
       {
         "sku": "PRC-1014",
-        "product": "Bath Soap (pack of 4)",
-        "openingStock": 530,
-        "reorderPoint": 101,
-        "dailyUsage": 12.6
+        "product": "Herbal Shampoo 340ml",
+        "openingStock": 245,
+        "reorderPoint": 68,
+        "dailyUsage": 5.0
       },
       {
         "sku": "PRC-1021",
-        "product": "Toothpaste 200g",
-        "openingStock": 455,
-        "reorderPoint": 87,
-        "dailyUsage": 10.8
+        "product": "Toothpaste 150g",
+        "openingStock": 360,
+        "reorderPoint": 90,
+        "dailyUsage": 8.6
       },
       {
         "sku": "PRC-1028",
-        "product": "Body Lotion 400ml",
-        "openingStock": 190,
-        "reorderPoint": 36,
-        "dailyUsage": 4.5
+        "product": "Soft Toothbrush 3pcs",
+        "openingStock": 180,
+        "reorderPoint": 43,
+        "dailyUsage": 4.1
       },
       {
         "sku": "PRC-1035",
-        "product": "Deodorant Spray 150ml",
-        "openingStock": 230,
-        "reorderPoint": 44,
-        "dailyUsage": 5.4
+        "product": "Hand Wash Refill 750ml",
+        "openingStock": 175,
+        "reorderPoint": 45,
+        "dailyUsage": 4.4
       },
       {
         "sku": "PRC-1042",
-        "product": "Face Wash 100ml",
-        "openingStock": 265,
-        "reorderPoint": 51,
-        "dailyUsage": 6.3
+        "product": "Body Lotion 400ml",
+        "openingStock": 125,
+        "reorderPoint": 21,
+        "dailyUsage": 2.8
       },
       {
         "sku": "PRC-1049",
-        "product": "Shaving Cream 70g",
-        "openingStock": 155,
-        "reorderPoint": 29,
-        "dailyUsage": 3.6
+        "product": "Sanitary Pads XL 15pcs",
+        "openingStock": 240,
+        "reorderPoint": 87,
+        "dailyUsage": 6.1
       },
       {
         "sku": "PRC-1056",
-        "product": "Hair Oil 300ml",
-        "openingStock": 230,
-        "reorderPoint": 44,
-        "dailyUsage": 5.4
+        "product": "Shaving Foam 200g",
+        "openingStock": 65,
+        "reorderPoint": 21,
+        "dailyUsage": 1.6
       },
       {
         "sku": "PRC-1063",
-        "product": "Sanitary Pads (pack of 30)",
-        "openingStock": 340,
-        "reorderPoint": 65,
-        "dailyUsage": 8.1
+        "product": "Coconut Hair Oil 300ml",
+        "openingStock": 185,
+        "reorderPoint": 46,
+        "dailyUsage": 3.9
       },
       {
         "sku": "PRC-1070",
-        "product": "Baby Diapers M (pack of 56)",
-        "openingStock": 230,
-        "reorderPoint": 44,
-        "dailyUsage": 5.4
+        "product": "Face Wash 100ml",
+        "openingStock": 160,
+        "reorderPoint": 27,
+        "dailyUsage": 3.7
       },
       {
         "sku": "PRC-1077",
-        "product": "Sunscreen SPF50 100ml",
-        "openingStock": 115,
-        "reorderPoint": 22,
-        "dailyUsage": 2.7
+        "product": "Sunscreen SPF 50 50g",
+        "openingStock": 85,
+        "reorderPoint": 23,
+        "dailyUsage": 1.7
       },
       {
         "sku": "PRC-1084",
-        "product": "Cotton Buds (pack of 200)",
-        "openingStock": 190,
-        "reorderPoint": 36,
-        "dailyUsage": 4.5
+        "product": "Lip Balm 4.5g",
+        "openingStock": 150,
+        "reorderPoint": 47,
+        "dailyUsage": 3.0
       },
       {
-        "sku": "AUT-1007",
-        "product": "Engine Oil 5W-30 4L",
-        "openingStock": 185,
-        "reorderPoint": 58,
-        "dailyUsage": 3.6
+        "sku": "HSH-1007",
+        "product": "Dishwash Liquid 750ml",
+        "openingStock": 365,
+        "reorderPoint": 98,
+        "dailyUsage": 8.3
       },
       {
-        "sku": "AUT-1014",
-        "product": "Brake Pads Front Set",
-        "openingStock": 95,
-        "reorderPoint": 29,
-        "dailyUsage": 1.8
+        "sku": "HSH-1014",
+        "product": "Detergent Powder 1kg",
+        "openingStock": 325,
+        "reorderPoint": 54,
+        "dailyUsage": 6.6
       },
       {
-        "sku": "AUT-1021",
-        "product": "Air Filter Element",
-        "openingStock": 185,
-        "reorderPoint": 58,
-        "dailyUsage": 3.6
+        "sku": "HSH-1021",
+        "product": "Liquid Detergent 1L",
+        "openingStock": 250,
+        "reorderPoint": 46,
+        "dailyUsage": 4.8
       },
       {
-        "sku": "AUT-1028",
-        "product": "Oil Filter",
-        "openingStock": 275,
-        "reorderPoint": 87,
-        "dailyUsage": 5.4
+        "sku": "HSH-1028",
+        "product": "Floor Cleaner 1L",
+        "openingStock": 235,
+        "reorderPoint": 69,
+        "dailyUsage": 4.9
       },
       {
-        "sku": "AUT-1035",
-        "product": "Spark Plug Iridium",
-        "openingStock": 230,
-        "reorderPoint": 72,
-        "dailyUsage": 4.5
+        "sku": "HSH-1035",
+        "product": "Toilet Cleaner 500ml",
+        "openingStock": 325,
+        "reorderPoint": 85,
+        "dailyUsage": 6.0
       },
       {
-        "sku": "AUT-1042",
-        "product": "Wiper Blade 22in",
-        "openingStock": 140,
+        "sku": "HSH-1042",
+        "product": "Garbage Bags Medium 30pcs",
+        "openingStock": 320,
+        "reorderPoint": 41,
+        "dailyUsage": 6.5
+      },
+      {
+        "sku": "HSH-1049",
+        "product": "Kitchen Towel 2 Rolls",
+        "openingStock": 265,
         "reorderPoint": 44,
-        "dailyUsage": 2.7
+        "dailyUsage": 5.1
       },
       {
-        "sku": "AUT-1049",
-        "product": "Car Battery 35Ah",
-        "openingStock": 50,
-        "reorderPoint": 15,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "AUT-1056",
-        "product": "Coolant 1L",
-        "openingStock": 185,
-        "reorderPoint": 58,
-        "dailyUsage": 3.6
-      },
-      {
-        "sku": "AUT-1063",
-        "product": "Headlight Bulb H4",
-        "openingStock": 140,
-        "reorderPoint": 44,
-        "dailyUsage": 2.7
-      },
-      {
-        "sku": "AUT-1070",
-        "product": "Tyre Inflator Portable",
-        "openingStock": 50,
-        "reorderPoint": 15,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "AUT-1077",
-        "product": "Brake Fluid DOT4 500ml",
-        "openingStock": 95,
-        "reorderPoint": 29,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "AUT-1084",
-        "product": "Microfiber Car Wash Mitt",
-        "openingStock": 95,
-        "reorderPoint": 29,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "ELE-1007",
-        "product": "LED Bulb 9W (pack of 4)",
-        "openingStock": 570,
-        "reorderPoint": 139,
-        "dailyUsage": 12.6
-      },
-      {
-        "sku": "ELE-1014",
-        "product": "LED Tube Light 20W",
-        "openingStock": 245,
-        "reorderPoint": 60,
-        "dailyUsage": 5.4
-      },
-      {
-        "sku": "ELE-1021",
-        "product": "Extension Board 4-Socket",
+        "sku": "HSH-1056",
+        "product": "Toilet Paper 4 Rolls",
         "openingStock": 205,
+        "reorderPoint": 37,
+        "dailyUsage": 4.1
+      },
+      {
+        "sku": "HSH-1063",
+        "product": "Scrub Pad 3pcs",
+        "openingStock": 265,
+        "reorderPoint": 101,
+        "dailyUsage": 6.9
+      },
+      {
+        "sku": "HSH-1070",
+        "product": "Mosquito Repellent Refill 45ml",
+        "openingStock": 285,
+        "reorderPoint": 47,
+        "dailyUsage": 6.4
+      },
+      {
+        "sku": "HSH-1084",
+        "product": "Sandalwood Agarbatti 100g",
+        "openingStock": 145,
         "reorderPoint": 50,
-        "dailyUsage": 4.5
+        "dailyUsage": 3.7
       },
       {
-        "sku": "ELE-1028",
-        "product": "Copper Wire 1.5 sqmm (90m)",
-        "openingStock": 85,
+        "sku": "BBY-1007",
+        "product": "Baby Diapers M 40pcs",
+        "openingStock": 150,
+        "reorderPoint": 31,
+        "dailyUsage": 3.3
+      },
+      {
+        "sku": "BBY-1014",
+        "product": "Baby Diapers L 34pcs",
+        "openingStock": 175,
+        "reorderPoint": 48,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "BBY-1021",
+        "product": "Baby Wipes 72pcs",
+        "openingStock": 215,
+        "reorderPoint": 36,
+        "dailyUsage": 5.5
+      },
+      {
+        "sku": "BBY-1028",
+        "product": "Baby Lotion 200ml",
+        "openingStock": 80,
         "reorderPoint": 20,
+        "dailyUsage": 1.6
+      },
+      {
+        "sku": "BBY-1035",
+        "product": "Baby Shampoo 200ml",
+        "openingStock": 85,
+        "reorderPoint": 18,
+        "dailyUsage": 1.7
+      },
+      {
+        "sku": "BBY-1042",
+        "product": "Baby Powder 200g",
+        "openingStock": 75,
+        "reorderPoint": 24,
         "dailyUsage": 1.8
       },
       {
-        "sku": "ELE-1035",
-        "product": "MCB 16A Single Pole",
-        "openingStock": 165,
-        "reorderPoint": 40,
-        "dailyUsage": 3.6
+        "sku": "BBY-1049",
+        "product": "Infant Formula Stage 1 400g",
+        "openingStock": 70,
+        "reorderPoint": 14,
+        "dailyUsage": 1.6
       },
       {
-        "sku": "ELE-1042",
-        "product": "Ceiling Fan 1200mm",
-        "openingStock": 45,
+        "sku": "BBY-1056",
+        "product": "Rice Baby Cereal 300g",
+        "openingStock": 90,
+        "reorderPoint": 24,
+        "dailyUsage": 1.9
+      },
+      {
+        "sku": "BBY-1063",
+        "product": "Diaper Rash Cream 50g",
+        "openingStock": 35,
         "reorderPoint": 10,
-        "dailyUsage": 0.9
+        "dailyUsage": 0.8
       },
       {
-        "sku": "ELE-1049",
-        "product": "Modular Switch 6A",
-        "openingStock": 490,
-        "reorderPoint": 119,
-        "dailyUsage": 10.8
+        "sku": "BBY-1077",
+        "product": "Feeding Bottle 250ml",
+        "openingStock": 35,
+        "reorderPoint": 6,
+        "dailyUsage": 0.8
       },
       {
-        "sku": "ELE-1056",
-        "product": "Electrical Tape (pack of 10)",
-        "openingStock": 245,
-        "reorderPoint": 60,
-        "dailyUsage": 5.4
-      },
-      {
-        "sku": "ELE-1063",
-        "product": "Emergency Light LED",
-        "openingStock": 85,
-        "reorderPoint": 20,
-        "dailyUsage": 1.8
-      },
-      {
-        "sku": "ELE-1070",
-        "product": "Door Bell Wireless",
-        "openingStock": 45,
-        "reorderPoint": 10,
-        "dailyUsage": 0.9
-      },
-      {
-        "sku": "ELE-1077",
-        "product": "Socket 16A Modular",
-        "openingStock": 245,
-        "reorderPoint": 60,
-        "dailyUsage": 5.4
+        "sku": "BBY-1084",
+        "product": "Baby Soap 75g",
+        "openingStock": 100,
+        "reorderPoint": 22,
+        "dailyUsage": 2.4
       }
     ]
   },
   {
     "warehouse": "BLR-04",
-    "name": "Bengaluru South Fulfilment",
+    "name": "Bengaluru HSR Dark Store",
     "stock": [
       {
-        "sku": "SKU-1042",
-        "product": "USB-C Charging Cable 1m",
-        "openingStock": 545,
-        "reorderPoint": 114,
-        "dailyUsage": 12.6
+        "sku": "FRV-1007",
+        "product": "Tomato 500g",
+        "openingStock": 365,
+        "reorderPoint": 113,
+        "dailyUsage": 30.5
       },
       {
-        "sku": "ELC-1014",
-        "product": "Wireless Mouse",
+        "sku": "FRV-1014",
+        "product": "Onion 1kg",
+        "openingStock": 405,
+        "reorderPoint": 127,
+        "dailyUsage": 32.7
+      },
+      {
+        "sku": "FRV-1021",
+        "product": "Potato 1kg",
+        "openingStock": 265,
+        "reorderPoint": 113,
+        "dailyUsage": 31.1
+      },
+      {
+        "sku": "FRV-1028",
+        "product": "Banana Robusta 6pcs",
+        "openingStock": 230,
+        "reorderPoint": 94,
+        "dailyUsage": 22.0
+      },
+      {
+        "sku": "FRV-1035",
+        "product": "Shimla Apple 4pcs",
+        "openingStock": 100,
+        "reorderPoint": 48,
+        "dailyUsage": 9.8
+      },
+      {
+        "sku": "FRV-1042",
+        "product": "Coriander Leaves 100g",
+        "openingStock": 325,
+        "reorderPoint": 93,
+        "dailyUsage": 23.7
+      },
+      {
+        "sku": "FRV-1049",
+        "product": "Green Chilli 100g",
+        "openingStock": 225,
+        "reorderPoint": 86,
+        "dailyUsage": 22.2
+      },
+      {
+        "sku": "FRV-1056",
+        "product": "Lemon 4pcs",
+        "openingStock": 155,
+        "reorderPoint": 55,
+        "dailyUsage": 14.5
+      },
+      {
+        "sku": "FRV-1063",
+        "product": "Cucumber 500g",
+        "openingStock": 155,
+        "reorderPoint": 53,
+        "dailyUsage": 11.8
+      },
+      {
+        "sku": "FRV-1070",
+        "product": "Ginger 200g",
+        "openingStock": 140,
+        "reorderPoint": 35,
+        "dailyUsage": 11.0
+      },
+      {
+        "sku": "FRV-1084",
+        "product": "Baby Spinach 200g",
+        "openingStock": 70,
+        "reorderPoint": 21,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "DRY-1007",
+        "product": "Toned Milk 500ml",
+        "openingStock": 490,
+        "reorderPoint": 239,
+        "dailyUsage": 48.7
+      },
+      {
+        "sku": "DRY-1014",
+        "product": "Full Cream Milk 1L",
+        "openingStock": 210,
+        "reorderPoint": 75,
+        "dailyUsage": 23.5
+      },
+      {
+        "sku": "DRY-1021",
+        "product": "Curd 400g",
+        "openingStock": 155,
+        "reorderPoint": 58,
+        "dailyUsage": 17.4
+      },
+      {
+        "sku": "DRY-1028",
+        "product": "Paneer 200g",
+        "openingStock": 125,
+        "reorderPoint": 71,
+        "dailyUsage": 14.5
+      },
+      {
+        "sku": "DRY-1035",
+        "product": "Salted Butter 100g",
+        "openingStock": 120,
+        "reorderPoint": 45,
+        "dailyUsage": 10.9
+      },
+      {
+        "sku": "DRY-1042",
+        "product": "Brown Eggs 6pcs",
+        "openingStock": 205,
+        "reorderPoint": 81,
+        "dailyUsage": 16.9
+      },
+      {
+        "sku": "DRY-1049",
+        "product": "White Bread 400g",
+        "openingStock": 305,
+        "reorderPoint": 80,
+        "dailyUsage": 21.9
+      },
+      {
+        "sku": "DRY-1056",
+        "product": "Multigrain Bread 400g",
+        "openingStock": 85,
+        "reorderPoint": 33,
+        "dailyUsage": 8.6
+      },
+      {
+        "sku": "DRY-1063",
+        "product": "Cheese Slices 200g",
+        "openingStock": 70,
+        "reorderPoint": 27,
+        "dailyUsage": 5.9
+      },
+      {
+        "sku": "DRY-1070",
+        "product": "Buttermilk 500ml",
+        "openingStock": 115,
+        "reorderPoint": 37,
+        "dailyUsage": 11.6
+      },
+      {
+        "sku": "DRY-1077",
+        "product": "Fresh Cream 200ml",
+        "openingStock": 35,
+        "reorderPoint": 16,
+        "dailyUsage": 4.4
+      },
+      {
+        "sku": "DRY-1084",
+        "product": "Greek Yogurt 100g",
+        "openingStock": 60,
+        "reorderPoint": 24,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "STP-1007",
+        "product": "Whole Wheat Atta 5kg",
+        "openingStock": 380,
+        "reorderPoint": 78,
+        "dailyUsage": 7.9
+      },
+      {
+        "sku": "STP-1014",
+        "product": "Basmati Rice 1kg",
+        "openingStock": 420,
+        "reorderPoint": 103,
+        "dailyUsage": 7.7
+      },
+      {
+        "sku": "STP-1021",
+        "product": "Sona Masoori Rice 5kg",
+        "openingStock": 210,
+        "reorderPoint": 46,
+        "dailyUsage": 3.9
+      },
+      {
+        "sku": "STP-1028",
+        "product": "Toor Dal 1kg",
+        "openingStock": 295,
+        "reorderPoint": 67,
+        "dailyUsage": 6.1
+      },
+      {
+        "sku": "STP-1035",
+        "product": "Moong Dal 500g",
         "openingStock": 275,
-        "reorderPoint": 57,
-        "dailyUsage": 6.3
+        "reorderPoint": 85,
+        "dailyUsage": 6.0
       },
       {
-        "sku": "ELC-1021",
-        "product": "Bluetooth Earbuds",
-        "openingStock": 185,
-        "reorderPoint": 38,
+        "sku": "STP-1042",
+        "product": "Chana Dal 1kg",
+        "openingStock": 275,
+        "reorderPoint": 34,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "STP-1049",
+        "product": "Besan 500g",
+        "openingStock": 180,
+        "reorderPoint": 61,
+        "dailyUsage": 4.7
+      },
+      {
+        "sku": "STP-1056",
+        "product": "Sugar 1kg",
+        "openingStock": 565,
+        "reorderPoint": 145,
+        "dailyUsage": 12.0
+      },
+      {
+        "sku": "STP-1063",
+        "product": "Iodised Salt 1kg",
+        "openingStock": 460,
+        "reorderPoint": 85,
+        "dailyUsage": 8.6
+      },
+      {
+        "sku": "STP-1070",
+        "product": "Poha 500g",
+        "openingStock": 320,
+        "reorderPoint": 42,
+        "dailyUsage": 6.5
+      },
+      {
+        "sku": "STP-1077",
+        "product": "Rajma 500g",
+        "openingStock": 135,
+        "reorderPoint": 29,
+        "dailyUsage": 3.1
+      },
+      {
+        "sku": "STP-1084",
+        "product": "Sooji 500g",
+        "openingStock": 170,
+        "reorderPoint": 32,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "MSL-1007",
+        "product": "Sunflower Oil 1L",
+        "openingStock": 540,
+        "reorderPoint": 119,
+        "dailyUsage": 9.9
+      },
+      {
+        "sku": "MSL-1014",
+        "product": "Mustard Oil 1L",
+        "openingStock": 160,
+        "reorderPoint": 51,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "MSL-1021",
+        "product": "Cow Ghee 500ml",
+        "openingStock": 180,
+        "reorderPoint": 53,
         "dailyUsage": 4.2
       },
       {
-        "sku": "ELC-1042",
-        "product": "Wall Charger 20W",
-        "openingStock": 365,
-        "reorderPoint": 76,
-        "dailyUsage": 8.4
+        "sku": "MSL-1028",
+        "product": "Turmeric Powder 100g",
+        "openingStock": 220,
+        "reorderPoint": 72,
+        "dailyUsage": 5.5
       },
       {
-        "sku": "ELC-1049",
-        "product": "Keyboard USB Wired",
-        "openingStock": 125,
-        "reorderPoint": 26,
-        "dailyUsage": 2.8
+        "sku": "MSL-1042",
+        "product": "Garam Masala 100g",
+        "openingStock": 155,
+        "reorderPoint": 41,
+        "dailyUsage": 3.3
       },
       {
-        "sku": "ELC-1056",
-        "product": "Webcam 1080p",
-        "openingStock": 65,
-        "reorderPoint": 13,
+        "sku": "MSL-1049",
+        "product": "Cumin Seeds 100g",
+        "openingStock": 145,
+        "reorderPoint": 47,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "MSL-1056",
+        "product": "Coriander Powder 100g",
+        "openingStock": 235,
+        "reorderPoint": 65,
+        "dailyUsage": 4.3
+      },
+      {
+        "sku": "MSL-1063",
+        "product": "Groundnut Oil 1L",
+        "openingStock": 100,
+        "reorderPoint": 22,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "MSL-1070",
+        "product": "Black Pepper Whole 50g",
+        "openingStock": 80,
+        "reorderPoint": 29,
+        "dailyUsage": 1.9
+      },
+      {
+        "sku": "MSL-1084",
+        "product": "Kasuri Methi 25g",
+        "openingStock": 70,
+        "reorderPoint": 11,
         "dailyUsage": 1.4
       },
       {
-        "sku": "ELC-1063",
-        "product": "Smart Plug 16A",
-        "openingStock": 95,
-        "reorderPoint": 19,
-        "dailyUsage": 2.1
+        "sku": "SNK-1007",
+        "product": "Salted Potato Chips 52g",
+        "openingStock": 1225,
+        "reorderPoint": 271,
+        "dailyUsage": 30.2
       },
       {
-        "sku": "ELC-1070",
-        "product": "LED Desk Lamp",
-        "openingStock": 95,
-        "reorderPoint": 19,
-        "dailyUsage": 2.1
+        "sku": "SNK-1014",
+        "product": "Masala Potato Chips 52g",
+        "openingStock": 1215,
+        "reorderPoint": 297,
+        "dailyUsage": 26.1
       },
       {
-        "sku": "ELC-1077",
-        "product": "MicroSD Card 64GB",
-        "openingStock": 305,
-        "reorderPoint": 63,
-        "dailyUsage": 7.0
+        "sku": "SNK-1021",
+        "product": "Aloo Bhujia 200g",
+        "openingStock": 680,
+        "reorderPoint": 183,
+        "dailyUsage": 14.5
       },
       {
-        "sku": "ELC-1084",
-        "product": "Ethernet Cable Cat6 5m",
-        "openingStock": 155,
-        "reorderPoint": 32,
-        "dailyUsage": 3.5
+        "sku": "SNK-1028",
+        "product": "Roasted Peanuts 150g",
+        "openingStock": 405,
+        "reorderPoint": 99,
+        "dailyUsage": 8.3
       },
       {
-        "sku": "PKG-1007",
-        "product": "Corrugated Box Small (pack of 25)",
-        "openingStock": 615,
-        "reorderPoint": 93,
-        "dailyUsage": 15.4
-      },
-      {
-        "sku": "PKG-1014",
-        "product": "Corrugated Box Medium (pack of 25)",
-        "openingStock": 500,
-        "reorderPoint": 76,
-        "dailyUsage": 12.6
-      },
-      {
-        "sku": "PKG-1021",
-        "product": "Corrugated Box Large (pack of 10)",
-        "openingStock": 250,
-        "reorderPoint": 38,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "PKG-1028",
-        "product": "Bubble Wrap Roll 50m",
-        "openingStock": 170,
-        "reorderPoint": 26,
-        "dailyUsage": 4.2
-      },
-      {
-        "sku": "PKG-1035",
-        "product": "Packing Tape Brown (6 rolls)",
-        "openingStock": 695,
-        "reorderPoint": 105,
-        "dailyUsage": 17.5
-      },
-      {
-        "sku": "PKG-1042",
-        "product": "Stretch Film Roll",
-        "openingStock": 225,
-        "reorderPoint": 34,
-        "dailyUsage": 5.6
-      },
-      {
-        "sku": "PKG-1049",
-        "product": "Courier Bags A4 (pack of 100)",
-        "openingStock": 420,
-        "reorderPoint": 63,
-        "dailyUsage": 10.5
-      },
-      {
-        "sku": "PKG-1056",
-        "product": "Fragile Labels (roll of 500)",
-        "openingStock": 115,
-        "reorderPoint": 17,
-        "dailyUsage": 2.8
-      },
-      {
-        "sku": "PKG-1063",
-        "product": "Paper Void Fill (5kg)",
-        "openingStock": 85,
-        "reorderPoint": 13,
-        "dailyUsage": 2.1
-      },
-      {
-        "sku": "PKG-1077",
-        "product": "Strapping Roll PP 12mm",
-        "openingStock": 85,
-        "reorderPoint": 13,
-        "dailyUsage": 2.1
-      },
-      {
-        "sku": "PKG-1084",
-        "product": "Shipping Labels 4x6 (roll of 500)",
+        "sku": "SNK-1035",
+        "product": "Cheese Nachos 150g",
         "openingStock": 335,
-        "reorderPoint": 51,
-        "dailyUsage": 8.4
+        "reorderPoint": 105,
+        "dailyUsage": 8.1
       },
       {
-        "sku": "OFF-1007",
-        "product": "A4 Copier Paper 75gsm (ream)",
-        "openingStock": 855,
-        "reorderPoint": 147,
+        "sku": "SNK-1042",
+        "product": "Cream Biscuits 120g",
+        "openingStock": 1040,
+        "reorderPoint": 258,
+        "dailyUsage": 19.5
+      },
+      {
+        "sku": "SNK-1049",
+        "product": "Digestive Biscuits 250g",
+        "openingStock": 345,
+        "reorderPoint": 103,
+        "dailyUsage": 7.8
+      },
+      {
+        "sku": "SNK-1056",
+        "product": "Dark Chocolate Bar 80g",
+        "openingStock": 375,
+        "reorderPoint": 104,
+        "dailyUsage": 7.7
+      },
+      {
+        "sku": "SNK-1063",
+        "product": "Milk Chocolate 50g",
+        "openingStock": 685,
+        "reorderPoint": 137,
+        "dailyUsage": 16.3
+      },
+      {
+        "sku": "SNK-1070",
+        "product": "Butter Popcorn 60g",
+        "openingStock": 350,
+        "reorderPoint": 102,
+        "dailyUsage": 6.8
+      },
+      {
+        "sku": "SNK-1077",
+        "product": "Mixed Dry Fruits 250g",
+        "openingStock": 135,
+        "reorderPoint": 32,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "SNK-1084",
+        "product": "Methi Khakhra 200g",
+        "openingStock": 190,
+        "reorderPoint": 51,
+        "dailyUsage": 3.7
+      },
+      {
+        "sku": "BEV-1007",
+        "product": "Cola 750ml",
+        "openingStock": 945,
+        "reorderPoint": 160,
         "dailyUsage": 21.0
       },
       {
-        "sku": "OFF-1014",
-        "product": "Ballpoint Pen Blue (box of 50)",
-        "openingStock": 230,
-        "reorderPoint": 40,
-        "dailyUsage": 5.6
+        "sku": "BEV-1014",
+        "product": "Lemon Soda 750ml",
+        "openingStock": 595,
+        "reorderPoint": 181,
+        "dailyUsage": 12.3
       },
       {
-        "sku": "OFF-1021",
-        "product": "Stapler Medium",
-        "openingStock": 60,
-        "reorderPoint": 10,
-        "dailyUsage": 1.4
+        "sku": "BEV-1021",
+        "product": "Packaged Drinking Water 1L",
+        "openingStock": 1500,
+        "reorderPoint": 316,
+        "dailyUsage": 32.5
       },
       {
-        "sku": "OFF-1028",
-        "product": "Staple Pins No.10 (box of 20)",
-        "openingStock": 145,
-        "reorderPoint": 25,
-        "dailyUsage": 3.5
+        "sku": "BEV-1028",
+        "product": "Mixed Fruit Juice 1L",
+        "openingStock": 425,
+        "reorderPoint": 95,
+        "dailyUsage": 8.5
       },
       {
-        "sku": "OFF-1035",
-        "product": "Sticky Notes 3x3 (pack of 12)",
-        "openingStock": 175,
+        "sku": "BEV-1035",
+        "product": "Orange Juice 1L",
+        "openingStock": 160,
         "reorderPoint": 30,
-        "dailyUsage": 4.2
+        "dailyUsage": 4.0
       },
       {
-        "sku": "OFF-1042",
-        "product": "Whiteboard Marker Set",
-        "openingStock": 115,
-        "reorderPoint": 20,
-        "dailyUsage": 2.8
+        "sku": "BEV-1049",
+        "product": "Cold Coffee 180ml",
+        "openingStock": 345,
+        "reorderPoint": 106,
+        "dailyUsage": 7.4
       },
       {
-        "sku": "OFF-1049",
-        "product": "Box File Lever Arch",
-        "openingStock": 145,
+        "sku": "BEV-1056",
+        "product": "Tender Coconut Water 200ml",
+        "openingStock": 355,
+        "reorderPoint": 94,
+        "dailyUsage": 6.6
+      },
+      {
+        "sku": "BEV-1063",
+        "product": "Tonic Water 300ml",
+        "openingStock": 135,
         "reorderPoint": 25,
-        "dailyUsage": 3.5
+        "dailyUsage": 2.5
       },
       {
-        "sku": "OFF-1056",
-        "product": "Notebook A5 Ruled",
-        "openingStock": 400,
-        "reorderPoint": 69,
-        "dailyUsage": 9.8
+        "sku": "BEV-1070",
+        "product": "Mango Drink 600ml",
+        "openingStock": 450,
+        "reorderPoint": 101,
+        "dailyUsage": 10.2
       },
       {
-        "sku": "OFF-1063",
-        "product": "Printer Toner 12A",
-        "openingStock": 60,
-        "reorderPoint": 10,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "OFF-1070",
-        "product": "Calculator Desktop 12-digit",
-        "openingStock": 30,
-        "reorderPoint": 5,
-        "dailyUsage": 0.7
-      },
-      {
-        "sku": "OFF-1077",
-        "product": "Highlighter Set (pack of 5)",
-        "openingStock": 145,
-        "reorderPoint": 25,
-        "dailyUsage": 3.5
-      },
-      {
-        "sku": "OFF-1084",
-        "product": "Envelopes A4 Brown (pack of 50)",
-        "openingStock": 175,
-        "reorderPoint": 30,
-        "dailyUsage": 4.2
-      },
-      {
-        "sku": "CLN-1007",
-        "product": "Hand Sanitizer 500ml",
-        "openingStock": 470,
-        "reorderPoint": 90,
-        "dailyUsage": 11.2
-      },
-      {
-        "sku": "CLN-1014",
-        "product": "Floor Cleaner 5L",
-        "openingStock": 210,
-        "reorderPoint": 40,
-        "dailyUsage": 4.9
-      },
-      {
-        "sku": "CLN-1021",
-        "product": "Liquid Hand Wash 5L",
-        "openingStock": 180,
-        "reorderPoint": 34,
-        "dailyUsage": 4.2
-      },
-      {
-        "sku": "CLN-1028",
-        "product": "Garbage Bags Large (roll of 30)",
-        "openingStock": 590,
-        "reorderPoint": 112,
-        "dailyUsage": 14.0
-      },
-      {
-        "sku": "CLN-1035",
-        "product": "Microfiber Cloth (pack of 10)",
-        "openingStock": 150,
-        "reorderPoint": 28,
-        "dailyUsage": 3.5
-      },
-      {
-        "sku": "CLN-1042",
-        "product": "Toilet Cleaner 1L",
-        "openingStock": 265,
-        "reorderPoint": 51,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "CLN-1049",
-        "product": "Tissue Roll 2-ply (pack of 12)",
-        "openingStock": 415,
-        "reorderPoint": 79,
-        "dailyUsage": 9.8
-      },
-      {
-        "sku": "CLN-1056",
-        "product": "Paper Towel Roll (pack of 6)",
-        "openingStock": 235,
-        "reorderPoint": 45,
-        "dailyUsage": 5.6
-      },
-      {
-        "sku": "CLN-1063",
-        "product": "Mop with Bucket Set",
-        "openingStock": 30,
-        "reorderPoint": 6,
-        "dailyUsage": 0.7
-      },
-      {
-        "sku": "CLN-1070",
-        "product": "Surface Disinfectant Spray",
-        "openingStock": 210,
-        "reorderPoint": 40,
-        "dailyUsage": 4.9
-      },
-      {
-        "sku": "CLN-1077",
-        "product": "Nitrile Gloves (box of 100)",
-        "openingStock": 295,
-        "reorderPoint": 56,
-        "dailyUsage": 7.0
-      },
-      {
-        "sku": "CLN-1084",
-        "product": "Broom Soft Grass",
-        "openingStock": 60,
-        "reorderPoint": 12,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "TLS-1007",
-        "product": "Cordless Drill 12V",
-        "openingStock": 35,
-        "reorderPoint": 9,
-        "dailyUsage": 0.7
-      },
-      {
-        "sku": "TLS-1014",
-        "product": "Screwdriver Set 32pc",
-        "openingStock": 65,
-        "reorderPoint": 17,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "TLS-1021",
-        "product": "Measuring Tape 5m",
-        "openingStock": 130,
-        "reorderPoint": 34,
-        "dailyUsage": 2.8
-      },
-      {
-        "sku": "TLS-1028",
-        "product": "Adjustable Wrench 10in",
-        "openingStock": 65,
-        "reorderPoint": 17,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "TLS-1035",
-        "product": "Claw Hammer 500g",
-        "openingStock": 65,
-        "reorderPoint": 17,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "TLS-1042",
-        "product": "Utility Knife",
-        "openingStock": 195,
-        "reorderPoint": 51,
-        "dailyUsage": 4.2
-      },
-      {
-        "sku": "TLS-1049",
-        "product": "Drill Bit Set HSS 13pc",
-        "openingStock": 65,
-        "reorderPoint": 17,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "TLS-1056",
-        "product": "Cable Ties 200mm (pack of 100)",
-        "openingStock": 295,
-        "reorderPoint": 76,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "TLS-1063",
-        "product": "Hex Key Set Metric",
-        "openingStock": 65,
-        "reorderPoint": 17,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "TLS-1070",
-        "product": "Pliers Combination 8in",
-        "openingStock": 65,
-        "reorderPoint": 17,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "SAF-1007",
-        "product": "Safety Helmet ISI",
-        "openingStock": 155,
-        "reorderPoint": 35,
-        "dailyUsage": 3.5
-      },
-      {
-        "sku": "SAF-1014",
-        "product": "Safety Shoes Steel Toe",
-        "openingStock": 95,
-        "reorderPoint": 21,
-        "dailyUsage": 2.1
-      },
-      {
-        "sku": "SAF-1021",
-        "product": "Hi-Vis Reflective Vest",
-        "openingStock": 250,
-        "reorderPoint": 56,
-        "dailyUsage": 5.6
-      },
-      {
-        "sku": "SAF-1028",
-        "product": "Safety Goggles Clear",
-        "openingStock": 155,
-        "reorderPoint": 35,
-        "dailyUsage": 3.5
-      },
-      {
-        "sku": "SAF-1035",
-        "product": "Ear Plugs (box of 200)",
-        "openingStock": 65,
-        "reorderPoint": 14,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "SAF-1042",
-        "product": "Cut-Resistant Gloves",
-        "openingStock": 220,
-        "reorderPoint": 49,
-        "dailyUsage": 4.9
-      },
-      {
-        "sku": "SAF-1049",
-        "product": "N95 Respirator (box of 20)",
-        "openingStock": 125,
-        "reorderPoint": 28,
-        "dailyUsage": 2.8
-      },
-      {
-        "sku": "SAF-1056",
-        "product": "First Aid Kit Industrial",
-        "openingStock": 35,
-        "reorderPoint": 7,
-        "dailyUsage": 0.7
-      },
-      {
-        "sku": "SAF-1063",
-        "product": "Fire Extinguisher ABC 4kg",
-        "openingStock": 35,
-        "reorderPoint": 7,
-        "dailyUsage": 0.7
-      },
-      {
-        "sku": "SAF-1070",
-        "product": "Safety Harness Full Body",
-        "openingStock": 35,
-        "reorderPoint": 7,
-        "dailyUsage": 0.7
-      },
-      {
-        "sku": "SAF-1077",
-        "product": "Warning Tape Roll",
-        "openingStock": 125,
-        "reorderPoint": 28,
-        "dailyUsage": 2.8
-      },
-      {
-        "sku": "SAF-1084",
-        "product": "Face Shield",
-        "openingStock": 95,
-        "reorderPoint": 21,
-        "dailyUsage": 2.1
-      },
-      {
-        "sku": "FNB-1007",
-        "product": "Bottled Water 1L (case of 12)",
-        "openingStock": 1080,
-        "reorderPoint": 140,
-        "dailyUsage": 28.0
-      },
-      {
-        "sku": "FNB-1014",
-        "product": "Instant Coffee 200g",
-        "openingStock": 165,
-        "reorderPoint": 21,
-        "dailyUsage": 4.2
-      },
-      {
-        "sku": "FNB-1021",
-        "product": "Tea Bags (box of 100)",
+        "sku": "BEV-1077",
+        "product": "Lemon Iced Tea 500ml",
         "openingStock": 190,
-        "reorderPoint": 25,
-        "dailyUsage": 4.9
+        "reorderPoint": 42,
+        "dailyUsage": 4.6
       },
       {
-        "sku": "FNB-1028",
-        "product": "Sugar Sachets (box of 500)",
-        "openingStock": 110,
+        "sku": "BEV-1084",
+        "product": "Club Soda 750ml",
+        "openingStock": 395,
+        "reorderPoint": 74,
+        "dailyUsage": 7.9
+      },
+      {
+        "sku": "BRK-1007",
+        "product": "Masala Instant Noodles 70g",
+        "openingStock": 1035,
+        "reorderPoint": 407,
+        "dailyUsage": 26.8
+      },
+      {
+        "sku": "BRK-1014",
+        "product": "Corn Flakes 475g",
+        "openingStock": 235,
+        "reorderPoint": 61,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "BRK-1021",
+        "product": "Rolled Oats 1kg",
+        "openingStock": 220,
+        "reorderPoint": 68,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "BRK-1028",
+        "product": "Fruit & Nut Muesli 500g",
+        "openingStock": 80,
         "reorderPoint": 14,
-        "dailyUsage": 2.8
+        "dailyUsage": 1.9
       },
       {
-        "sku": "FNB-1035",
-        "product": "Biscuits Assorted (carton of 48)",
-        "openingStock": 245,
-        "reorderPoint": 32,
-        "dailyUsage": 6.3
+        "sku": "BRK-1035",
+        "product": "Crunchy Peanut Butter 340g",
+        "openingStock": 165,
+        "reorderPoint": 35,
+        "dailyUsage": 3.4
       },
       {
-        "sku": "FNB-1042",
-        "product": "Paper Cups 200ml (pack of 100)",
-        "openingStock": 405,
-        "reorderPoint": 53,
-        "dailyUsage": 10.5
+        "sku": "BRK-1042",
+        "product": "Mixed Fruit Jam 500g",
+        "openingStock": 135,
+        "reorderPoint": 23,
+        "dailyUsage": 3.2
       },
       {
-        "sku": "FNB-1049",
-        "product": "Energy Drink 250ml (case of 24)",
-        "openingStock": 140,
-        "reorderPoint": 18,
+        "sku": "BRK-1049",
+        "product": "Honey 250g",
+        "openingStock": 170,
+        "reorderPoint": 43,
         "dailyUsage": 3.5
       },
       {
-        "sku": "FNB-1056",
-        "product": "Masala Peanuts 1kg",
-        "openingStock": 85,
-        "reorderPoint": 11,
-        "dailyUsage": 2.1
+        "sku": "BRK-1056",
+        "product": "Tomato Ketchup 950g",
+        "openingStock": 270,
+        "reorderPoint": 57,
+        "dailyUsage": 5.2
       },
       {
-        "sku": "FNB-1063",
-        "product": "Fruit Juice 1L (case of 12)",
-        "openingStock": 165,
-        "reorderPoint": 21,
-        "dailyUsage": 4.2
+        "sku": "BRK-1063",
+        "product": "Ready-to-Eat Dal Makhani 300g",
+        "openingStock": 185,
+        "reorderPoint": 45,
+        "dailyUsage": 3.8
       },
       {
-        "sku": "FNB-1070",
-        "product": "Instant Noodles (carton of 48)",
-        "openingStock": 220,
-        "reorderPoint": 28,
-        "dailyUsage": 5.6
+        "sku": "BRK-1070",
+        "product": "Instant Coffee 100g",
+        "openingStock": 170,
+        "reorderPoint": 24,
+        "dailyUsage": 4.0
       },
       {
-        "sku": "FNB-1077",
-        "product": "Milk Powder 1kg",
-        "openingStock": 85,
-        "reorderPoint": 11,
-        "dailyUsage": 2.1
+        "sku": "BRK-1077",
+        "product": "Assam Tea 500g",
+        "openingStock": 270,
+        "reorderPoint": 45,
+        "dailyUsage": 5.7
       },
       {
-        "sku": "FNB-1084",
-        "product": "Green Tea (box of 100)",
-        "openingStock": 85,
-        "reorderPoint": 11,
-        "dailyUsage": 2.1
+        "sku": "BRK-1084",
+        "product": "Masala Oats 39g",
+        "openingStock": 335,
+        "reorderPoint": 68,
+        "dailyUsage": 7.1
       },
       {
         "sku": "PRC-1007",
-        "product": "Shampoo 650ml",
-        "openingStock": 235,
-        "reorderPoint": 45,
-        "dailyUsage": 5.6
+        "product": "Bathing Soap 4x100g",
+        "openingStock": 400,
+        "reorderPoint": 118,
+        "dailyUsage": 8.5
       },
       {
         "sku": "PRC-1014",
-        "product": "Bath Soap (pack of 4)",
-        "openingStock": 415,
-        "reorderPoint": 79,
-        "dailyUsage": 9.8
+        "product": "Herbal Shampoo 340ml",
+        "openingStock": 145,
+        "reorderPoint": 56,
+        "dailyUsage": 3.8
       },
       {
         "sku": "PRC-1021",
-        "product": "Toothpaste 200g",
-        "openingStock": 355,
-        "reorderPoint": 68,
-        "dailyUsage": 8.4
+        "product": "Toothpaste 150g",
+        "openingStock": 260,
+        "reorderPoint": 56,
+        "dailyUsage": 5.8
       },
       {
         "sku": "PRC-1028",
-        "product": "Body Lotion 400ml",
-        "openingStock": 150,
-        "reorderPoint": 28,
-        "dailyUsage": 3.5
+        "product": "Soft Toothbrush 3pcs",
+        "openingStock": 175,
+        "reorderPoint": 27,
+        "dailyUsage": 4.0
       },
       {
         "sku": "PRC-1035",
-        "product": "Deodorant Spray 150ml",
-        "openingStock": 180,
-        "reorderPoint": 34,
-        "dailyUsage": 4.2
+        "product": "Hand Wash Refill 750ml",
+        "openingStock": 170,
+        "reorderPoint": 25,
+        "dailyUsage": 3.5
       },
       {
         "sku": "PRC-1042",
-        "product": "Face Wash 100ml",
-        "openingStock": 210,
-        "reorderPoint": 40,
-        "dailyUsage": 4.9
-      },
-      {
-        "sku": "PRC-1049",
-        "product": "Shaving Cream 70g",
-        "openingStock": 120,
-        "reorderPoint": 23,
-        "dailyUsage": 2.8
+        "product": "Body Lotion 400ml",
+        "openingStock": 115,
+        "reorderPoint": 17,
+        "dailyUsage": 2.3
       },
       {
         "sku": "PRC-1056",
-        "product": "Hair Oil 300ml",
-        "openingStock": 180,
-        "reorderPoint": 34,
-        "dailyUsage": 4.2
+        "product": "Shaving Foam 200g",
+        "openingStock": 60,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
       },
       {
         "sku": "PRC-1063",
-        "product": "Sanitary Pads (pack of 30)",
-        "openingStock": 265,
-        "reorderPoint": 51,
-        "dailyUsage": 6.3
+        "product": "Coconut Hair Oil 300ml",
+        "openingStock": 165,
+        "reorderPoint": 52,
+        "dailyUsage": 3.3
       },
       {
         "sku": "PRC-1070",
-        "product": "Baby Diapers M (pack of 56)",
-        "openingStock": 180,
-        "reorderPoint": 34,
-        "dailyUsage": 4.2
+        "product": "Face Wash 100ml",
+        "openingStock": 125,
+        "reorderPoint": 22,
+        "dailyUsage": 3.0
       },
       {
         "sku": "PRC-1077",
-        "product": "Sunscreen SPF50 100ml",
-        "openingStock": 90,
-        "reorderPoint": 17,
-        "dailyUsage": 2.1
+        "product": "Sunscreen SPF 50 50g",
+        "openingStock": 85,
+        "reorderPoint": 10,
+        "dailyUsage": 1.6
       },
       {
         "sku": "PRC-1084",
-        "product": "Cotton Buds (pack of 200)",
-        "openingStock": 150,
-        "reorderPoint": 28,
-        "dailyUsage": 3.5
+        "product": "Lip Balm 4.5g",
+        "openingStock": 105,
+        "reorderPoint": 30,
+        "dailyUsage": 2.0
       },
       {
-        "sku": "AUT-1007",
-        "product": "Engine Oil 5W-30 4L",
-        "openingStock": 145,
-        "reorderPoint": 45,
-        "dailyUsage": 2.8
+        "sku": "HSH-1007",
+        "product": "Dishwash Liquid 750ml",
+        "openingStock": 275,
+        "reorderPoint": 64,
+        "dailyUsage": 6.4
       },
       {
-        "sku": "AUT-1021",
-        "product": "Air Filter Element",
-        "openingStock": 145,
-        "reorderPoint": 45,
-        "dailyUsage": 2.8
+        "sku": "HSH-1021",
+        "product": "Liquid Detergent 1L",
+        "openingStock": 225,
+        "reorderPoint": 31,
+        "dailyUsage": 4.9
       },
       {
-        "sku": "AUT-1028",
-        "product": "Oil Filter",
-        "openingStock": 215,
-        "reorderPoint": 68,
-        "dailyUsage": 4.2
+        "sku": "HSH-1028",
+        "product": "Floor Cleaner 1L",
+        "openingStock": 165,
+        "reorderPoint": 57,
+        "dailyUsage": 3.9
       },
       {
-        "sku": "AUT-1042",
-        "product": "Wiper Blade 22in",
-        "openingStock": 110,
+        "sku": "HSH-1035",
+        "product": "Toilet Cleaner 500ml",
+        "openingStock": 190,
         "reorderPoint": 34,
-        "dailyUsage": 2.1
+        "dailyUsage": 3.9
       },
       {
-        "sku": "AUT-1049",
-        "product": "Car Battery 35Ah",
-        "openingStock": 40,
-        "reorderPoint": 12,
-        "dailyUsage": 0.7
+        "sku": "HSH-1042",
+        "product": "Garbage Bags Medium 30pcs",
+        "openingStock": 260,
+        "reorderPoint": 57,
+        "dailyUsage": 5.7
       },
       {
-        "sku": "AUT-1056",
-        "product": "Coolant 1L",
-        "openingStock": 145,
-        "reorderPoint": 45,
+        "sku": "HSH-1049",
+        "product": "Kitchen Towel 2 Rolls",
+        "openingStock": 200,
+        "reorderPoint": 35,
+        "dailyUsage": 3.7
+      },
+      {
+        "sku": "HSH-1056",
+        "product": "Toilet Paper 4 Rolls",
+        "openingStock": 170,
+        "reorderPoint": 33,
+        "dailyUsage": 3.4
+      },
+      {
+        "sku": "HSH-1063",
+        "product": "Scrub Pad 3pcs",
+        "openingStock": 275,
+        "reorderPoint": 44,
+        "dailyUsage": 6.5
+      },
+      {
+        "sku": "HSH-1084",
+        "product": "Sandalwood Agarbatti 100g",
+        "openingStock": 130,
+        "reorderPoint": 46,
+        "dailyUsage": 2.9
+      },
+      {
+        "sku": "BBY-1007",
+        "product": "Baby Diapers M 40pcs",
+        "openingStock": 115,
+        "reorderPoint": 19,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "BBY-1014",
+        "product": "Baby Diapers L 34pcs",
+        "openingStock": 120,
+        "reorderPoint": 29,
         "dailyUsage": 2.8
       },
       {
-        "sku": "AUT-1063",
-        "product": "Headlight Bulb H4",
-        "openingStock": 110,
-        "reorderPoint": 34,
-        "dailyUsage": 2.1
+        "sku": "BBY-1028",
+        "product": "Baby Lotion 200ml",
+        "openingStock": 65,
+        "reorderPoint": 17,
+        "dailyUsage": 1.6
       },
       {
-        "sku": "AUT-1070",
-        "product": "Tyre Inflator Portable",
-        "openingStock": 40,
-        "reorderPoint": 12,
-        "dailyUsage": 0.7
-      },
-      {
-        "sku": "AUT-1084",
-        "product": "Microfiber Car Wash Mitt",
+        "sku": "BBY-1035",
+        "product": "Baby Shampoo 200ml",
         "openingStock": 75,
         "reorderPoint": 23,
-        "dailyUsage": 1.4
+        "dailyUsage": 1.5
       },
       {
-        "sku": "ELE-1014",
-        "product": "LED Tube Light 20W",
-        "openingStock": 195,
-        "reorderPoint": 47,
-        "dailyUsage": 4.2
+        "sku": "BBY-1042",
+        "product": "Baby Powder 200g",
+        "openingStock": 75,
+        "reorderPoint": 20,
+        "dailyUsage": 1.6
       },
       {
-        "sku": "ELE-1021",
-        "product": "Extension Board 4-Socket",
-        "openingStock": 160,
-        "reorderPoint": 39,
-        "dailyUsage": 3.5
+        "sku": "BBY-1049",
+        "product": "Infant Formula Stage 1 400g",
+        "openingStock": 60,
+        "reorderPoint": 20,
+        "dailyUsage": 1.6
       },
       {
-        "sku": "ELE-1028",
-        "product": "Copper Wire 1.5 sqmm (90m)",
-        "openingStock": 65,
-        "reorderPoint": 16,
-        "dailyUsage": 1.4
+        "sku": "BBY-1056",
+        "product": "Rice Baby Cereal 300g",
+        "openingStock": 70,
+        "reorderPoint": 20,
+        "dailyUsage": 1.5
       },
       {
-        "sku": "ELE-1035",
-        "product": "MCB 16A Single Pole",
-        "openingStock": 130,
-        "reorderPoint": 31,
-        "dailyUsage": 2.8
-      },
-      {
-        "sku": "ELE-1042",
-        "product": "Ceiling Fan 1200mm",
-        "openingStock": 35,
-        "reorderPoint": 8,
+        "sku": "BBY-1063",
+        "product": "Diaper Rash Cream 50g",
+        "openingStock": 25,
+        "reorderPoint": 10,
         "dailyUsage": 0.7
       },
       {
-        "sku": "ELE-1049",
-        "product": "Modular Switch 6A",
-        "openingStock": 380,
-        "reorderPoint": 93,
-        "dailyUsage": 8.4
+        "sku": "BBY-1070",
+        "product": "Baby Massage Oil 200ml",
+        "openingStock": 75,
+        "reorderPoint": 12,
+        "dailyUsage": 1.6
       },
       {
-        "sku": "ELE-1056",
-        "product": "Electrical Tape (pack of 10)",
-        "openingStock": 195,
-        "reorderPoint": 47,
-        "dailyUsage": 4.2
-      },
-      {
-        "sku": "ELE-1063",
-        "product": "Emergency Light LED",
-        "openingStock": 65,
-        "reorderPoint": 16,
-        "dailyUsage": 1.4
-      },
-      {
-        "sku": "ELE-1077",
-        "product": "Socket 16A Modular",
-        "openingStock": 195,
-        "reorderPoint": 47,
-        "dailyUsage": 4.2
-      },
-      {
-        "sku": "ELE-1084",
-        "product": "Inverter Battery 150Ah",
+        "sku": "BBY-1077",
+        "product": "Feeding Bottle 250ml",
         "openingStock": 35,
-        "reorderPoint": 8,
+        "reorderPoint": 7,
         "dailyUsage": 0.7
+      },
+      {
+        "sku": "BBY-1084",
+        "product": "Baby Soap 75g",
+        "openingStock": 100,
+        "reorderPoint": 20,
+        "dailyUsage": 2.6
       }
     ]
   }

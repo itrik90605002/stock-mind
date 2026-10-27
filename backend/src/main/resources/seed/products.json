@@ -1,1561 +1,1561 @@
 [
   {
-    "sku": "SKU-1042",
-    "name": "USB-C Charging Cable 1m",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 149,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Braided USB-C to USB-C cable, 60W PD, 1 metre.",
+    "sku": "FRV-1007",
+    "name": "Tomato 500g",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 18,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Firm red hybrid tomatoes, sorted and packed daily.",
     "demand": {
-      "variability": 0.53,
+      "variability": 0.33,
       "trend": "stable"
     }
   },
   {
-    "sku": "ELC-1014",
-    "name": "Wireless Mouse",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 499,
-    "supplier": "Apex Electronics Distributors",
-    "description": "2.4 GHz wireless optical mouse with nano receiver.",
+    "sku": "FRV-1014",
+    "name": "Onion 1kg",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 32,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Medium red onions, cleaned and graded.",
     "demand": {
-      "variability": 0.23,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "ELC-1021",
-    "name": "Bluetooth Earbuds",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 1299,
-    "supplier": "Apex Electronics Distributors",
-    "description": "True wireless earbuds with charging case, 20h battery.",
-    "demand": {
-      "variability": 0.22,
-      "trend": "spike"
-    }
-  },
-  {
-    "sku": "ELC-1028",
-    "name": "Power Bank 10000mAh",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 899,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Slim lithium-polymer power bank with dual USB output.",
-    "demand": {
-      "variability": 0.43,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "ELC-1035",
-    "name": "HDMI Cable 2m",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 249,
-    "supplier": "Apex Electronics Distributors",
-    "description": "High-speed HDMI 2.0 cable supporting 4K at 60Hz.",
-    "demand": {
-      "variability": 0.32,
+      "variability": 0.21,
       "trend": "stable"
     }
   },
   {
-    "sku": "ELC-1042",
-    "name": "Wall Charger 20W",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 399,
-    "supplier": "Apex Electronics Distributors",
-    "description": "USB-C PD fast wall charger, BIS certified.",
-    "demand": {
-      "variability": 0.24,
-      "trend": "spike"
-    }
-  },
-  {
-    "sku": "ELC-1049",
-    "name": "Keyboard USB Wired",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 549,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Full-size wired keyboard with spill-resistant design.",
-    "demand": {
-      "variability": 0.43,
-      "trend": "spike"
-    }
-  },
-  {
-    "sku": "ELC-1056",
-    "name": "Webcam 1080p",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 1799,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Full HD webcam with built-in noise-reducing microphone.",
-    "demand": {
-      "variability": 0.51,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "ELC-1063",
-    "name": "Smart Plug 16A",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 799,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Wi-Fi smart plug with energy monitoring.",
-    "demand": {
-      "variability": 0.52,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "ELC-1070",
-    "name": "LED Desk Lamp",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 999,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Dimmable LED desk lamp with USB charging port.",
-    "demand": {
-      "variability": 0.55,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "ELC-1077",
-    "name": "MicroSD Card 64GB",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 449,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Class 10 UHS-I microSDXC card with adapter.",
-    "demand": {
-      "variability": 0.5,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "ELC-1084",
-    "name": "Ethernet Cable Cat6 5m",
-    "category": "Electronics",
-    "unit": "pcs",
-    "unitCost": 299,
-    "supplier": "Apex Electronics Distributors",
-    "description": "Cat6 UTP patch cable, 5 metres.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1007",
-    "name": "Corrugated Box Small (pack of 25)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 450,
-    "supplier": "BoxCraft Packaging",
-    "description": "3-ply corrugated boxes, 20x15x10 cm, pack of 25.",
-    "demand": {
-      "variability": 0.54,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1014",
-    "name": "Corrugated Box Medium (pack of 25)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 650,
-    "supplier": "BoxCraft Packaging",
-    "description": "5-ply corrugated boxes, 35x25x20 cm, pack of 25.",
-    "demand": {
-      "variability": 0.31,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "PKG-1021",
-    "name": "Corrugated Box Large (pack of 10)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 520,
-    "supplier": "BoxCraft Packaging",
-    "description": "5-ply boxes, 60x40x40 cm, pack of 10.",
-    "demand": {
-      "variability": 0.27,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1028",
-    "name": "Bubble Wrap Roll 50m",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 780,
-    "supplier": "BoxCraft Packaging",
-    "description": "Air bubble cushioning roll, 1 m wide, 50 m long.",
-    "demand": {
-      "variability": 0.5,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "PKG-1035",
-    "name": "Packing Tape Brown (6 rolls)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 330,
-    "supplier": "BoxCraft Packaging",
-    "description": "48 mm x 65 m BOPP tape, pack of 6.",
-    "demand": {
-      "variability": 0.36,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1042",
-    "name": "Stretch Film Roll",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 690,
-    "supplier": "BoxCraft Packaging",
-    "description": "23 micron hand stretch film for pallet wrapping.",
-    "demand": {
-      "variability": 0.48,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1049",
-    "name": "Courier Bags A4 (pack of 100)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 420,
-    "supplier": "BoxCraft Packaging",
-    "description": "Tamper-proof poly mailers, A4 size, pack of 100.",
-    "demand": {
-      "variability": 0.27,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1056",
-    "name": "Fragile Labels (roll of 500)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 210,
-    "supplier": "BoxCraft Packaging",
-    "description": "Printed 'Fragile - Handle with care' labels.",
-    "demand": {
-      "variability": 0.31,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1063",
-    "name": "Paper Void Fill (5kg)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 380,
-    "supplier": "BoxCraft Packaging",
-    "description": "Recycled kraft paper void fill.",
-    "demand": {
-      "variability": 0.44,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1070",
-    "name": "Pallet Wooden 1200x1000",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 950,
-    "supplier": "BoxCraft Packaging",
-    "description": "Heat-treated wooden pallet, 4-way entry.",
-    "demand": {
-      "variability": 0.36,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "PKG-1077",
-    "name": "Strapping Roll PP 12mm",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 560,
-    "supplier": "BoxCraft Packaging",
-    "description": "Polypropylene strapping roll, 12 mm.",
-    "demand": {
-      "variability": 0.22,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PKG-1084",
-    "name": "Shipping Labels 4x6 (roll of 500)",
-    "category": "Packaging",
-    "unit": "box",
-    "unitCost": 360,
-    "supplier": "BoxCraft Packaging",
-    "description": "Direct thermal shipping labels, 4x6 inch.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "OFF-1007",
-    "name": "A4 Copier Paper 75gsm (ream)",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 310,
-    "supplier": "Deskline Office Supplies",
-    "description": "500 sheets per ream, 75 gsm, bright white.",
-    "demand": {
-      "variability": 0.41,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "OFF-1014",
-    "name": "Ballpoint Pen Blue (box of 50)",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 250,
-    "supplier": "Deskline Office Supplies",
-    "description": "Smooth-writing ballpoint pens, box of 50.",
+    "sku": "FRV-1021",
+    "name": "Potato 1kg",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 28,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Washed table potatoes, uniform size.",
     "demand": {
       "variability": 0.26,
       "trend": "stable"
     }
   },
   {
-    "sku": "OFF-1021",
-    "name": "Stapler Medium",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 180,
-    "supplier": "Deskline Office Supplies",
-    "description": "Metal stapler, 25-sheet capacity.",
-    "demand": {
-      "variability": 0.54,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "OFF-1028",
-    "name": "Staple Pins No.10 (box of 20)",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 120,
-    "supplier": "Deskline Office Supplies",
-    "description": "No.10 staple pins, 20 small boxes.",
+    "sku": "FRV-1028",
+    "name": "Banana Robusta 6pcs",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 34,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Ripe Robusta bananas, half dozen.",
     "demand": {
       "variability": 0.24,
       "trend": "stable"
     }
   },
   {
-    "sku": "OFF-1035",
-    "name": "Sticky Notes 3x3 (pack of 12)",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 290,
-    "supplier": "Deskline Office Supplies",
-    "description": "Assorted colour sticky notes, 100 sheets each.",
-    "demand": {
-      "variability": 0.28,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "OFF-1042",
-    "name": "Whiteboard Marker Set",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 220,
-    "supplier": "Deskline Office Supplies",
-    "description": "Set of 4 dry-erase markers.",
-    "demand": {
-      "variability": 0.59,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "OFF-1049",
-    "name": "Box File Lever Arch",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 140,
-    "supplier": "Deskline Office Supplies",
-    "description": "Lever arch box file, foolscap size.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "OFF-1056",
-    "name": "Notebook A5 Ruled",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 85,
-    "supplier": "Deskline Office Supplies",
-    "description": "200-page ruled notebook, A5.",
-    "demand": {
-      "variability": 0.52,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "OFF-1063",
-    "name": "Printer Toner 12A",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 1450,
-    "supplier": "Deskline Office Supplies",
-    "description": "Compatible toner cartridge, 2000 pages.",
-    "demand": {
-      "variability": 0.49,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "OFF-1070",
-    "name": "Calculator Desktop 12-digit",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 450,
-    "supplier": "Deskline Office Supplies",
-    "description": "Solar and battery desktop calculator.",
-    "demand": {
-      "variability": 0.38,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "OFF-1077",
-    "name": "Highlighter Set (pack of 5)",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 160,
-    "supplier": "Deskline Office Supplies",
-    "description": "Fluorescent highlighters, 5 colours.",
-    "demand": {
-      "variability": 0.39,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "OFF-1084",
-    "name": "Envelopes A4 Brown (pack of 50)",
-    "category": "Office Supplies",
-    "unit": "pcs",
-    "unitCost": 230,
-    "supplier": "Deskline Office Supplies",
-    "description": "Kraft envelopes with gummed flap.",
-    "demand": {
-      "variability": 0.39,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1007",
-    "name": "Hand Sanitizer 500ml",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 180,
-    "supplier": "PureShine Hygiene",
-    "description": "70% alcohol gel sanitizer with pump.",
-    "demand": {
-      "variability": 0.51,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1014",
-    "name": "Floor Cleaner 5L",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 520,
-    "supplier": "PureShine Hygiene",
-    "description": "Concentrated floor cleaner, pine fragrance.",
-    "demand": {
-      "variability": 0.52,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "CLN-1021",
-    "name": "Liquid Hand Wash 5L",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 610,
-    "supplier": "PureShine Hygiene",
-    "description": "Antibacterial liquid hand wash refill.",
-    "demand": {
-      "variability": 0.27,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1028",
-    "name": "Garbage Bags Large (roll of 30)",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 140,
-    "supplier": "PureShine Hygiene",
-    "description": "Heavy-duty black garbage bags, 30 per roll.",
-    "demand": {
-      "variability": 0.52,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1035",
-    "name": "Microfiber Cloth (pack of 10)",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 350,
-    "supplier": "PureShine Hygiene",
-    "description": "Lint-free microfiber cleaning cloths.",
-    "demand": {
-      "variability": 0.42,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1042",
-    "name": "Toilet Cleaner 1L",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 120,
-    "supplier": "PureShine Hygiene",
-    "description": "Thick liquid toilet cleaner.",
-    "demand": {
-      "variability": 0.41,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1049",
-    "name": "Tissue Roll 2-ply (pack of 12)",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 330,
-    "supplier": "PureShine Hygiene",
-    "description": "Soft 2-ply toilet tissue rolls.",
-    "demand": {
-      "variability": 0.29,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "CLN-1056",
-    "name": "Paper Towel Roll (pack of 6)",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 290,
-    "supplier": "PureShine Hygiene",
-    "description": "Absorbent kitchen paper towels.",
-    "demand": {
-      "variability": 0.53,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1063",
-    "name": "Mop with Bucket Set",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 1150,
-    "supplier": "PureShine Hygiene",
-    "description": "Spin mop with bucket and 2 refills.",
-    "demand": {
-      "variability": 0.41,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "CLN-1070",
-    "name": "Surface Disinfectant Spray",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 260,
-    "supplier": "PureShine Hygiene",
-    "description": "Kills 99.9% of germs, 500 ml.",
-    "demand": {
-      "variability": 0.51,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1077",
-    "name": "Nitrile Gloves (box of 100)",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 480,
-    "supplier": "PureShine Hygiene",
-    "description": "Powder-free nitrile examination gloves.",
-    "demand": {
-      "variability": 0.42,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "CLN-1084",
-    "name": "Broom Soft Grass",
-    "category": "Cleaning & Hygiene",
-    "unit": "pcs",
-    "unitCost": 160,
-    "supplier": "PureShine Hygiene",
-    "description": "Traditional soft grass broom.",
-    "demand": {
-      "variability": 0.28,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1007",
-    "name": "Cordless Drill 12V",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 3200,
-    "supplier": "Forge & Bolt Tools",
-    "description": "12V lithium-ion cordless drill driver with 2 batteries.",
-    "demand": {
-      "variability": 0.5,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1014",
-    "name": "Screwdriver Set 32pc",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 650,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Precision screwdriver bit set with handle.",
-    "demand": {
-      "variability": 0.38,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "TLS-1021",
-    "name": "Measuring Tape 5m",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 190,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Steel measuring tape with auto lock.",
-    "demand": {
-      "variability": 0.54,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1028",
-    "name": "Adjustable Wrench 10in",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 420,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Chrome vanadium adjustable spanner.",
-    "demand": {
-      "variability": 0.23,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1035",
-    "name": "Claw Hammer 500g",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 380,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Forged steel claw hammer with fibreglass handle.",
-    "demand": {
-      "variability": 0.56,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1042",
-    "name": "Utility Knife",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 150,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Retractable box cutter with 5 spare blades.",
-    "demand": {
-      "variability": 0.59,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1049",
-    "name": "Drill Bit Set HSS 13pc",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 560,
-    "supplier": "Forge & Bolt Tools",
-    "description": "High-speed steel drill bits 1.5-6.5 mm.",
-    "demand": {
-      "variability": 0.6,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1056",
-    "name": "Cable Ties 200mm (pack of 100)",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 110,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Nylon cable ties, UV resistant.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1063",
-    "name": "Hex Key Set Metric",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 260,
-    "supplier": "Forge & Bolt Tools",
-    "description": "9-piece ball-end hex key set.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "TLS-1070",
-    "name": "Pliers Combination 8in",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 310,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Insulated combination pliers.",
-    "demand": {
-      "variability": 0.4,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1077",
-    "name": "Wall Plugs & Screws Kit",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 240,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Assorted anchors and screws, 300 pieces.",
-    "demand": {
-      "variability": 0.31,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "TLS-1084",
-    "name": "Spirit Level 600mm",
-    "category": "Tools & Hardware",
-    "unit": "pcs",
-    "unitCost": 450,
-    "supplier": "Forge & Bolt Tools",
-    "description": "Aluminium spirit level with 3 vials.",
-    "demand": {
-      "variability": 0.54,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1007",
-    "name": "Safety Helmet ISI",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 290,
-    "supplier": "SafeGuard PPE",
-    "description": "HDPE safety helmet with ratchet adjustment.",
-    "demand": {
-      "variability": 0.24,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1014",
-    "name": "Safety Shoes Steel Toe",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 1450,
-    "supplier": "SafeGuard PPE",
-    "description": "Leather safety shoes with steel toe cap.",
-    "demand": {
-      "variability": 0.58,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1021",
-    "name": "Hi-Vis Reflective Vest",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 180,
-    "supplier": "SafeGuard PPE",
-    "description": "Fluorescent vest with reflective tape.",
-    "demand": {
-      "variability": 0.31,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1028",
-    "name": "Safety Goggles Clear",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 150,
-    "supplier": "SafeGuard PPE",
-    "description": "Anti-fog polycarbonate safety goggles.",
-    "demand": {
-      "variability": 0.45,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1035",
-    "name": "Ear Plugs (box of 200)",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 900,
-    "supplier": "SafeGuard PPE",
-    "description": "Disposable foam ear plugs, SNR 37 dB.",
-    "demand": {
-      "variability": 0.22,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1042",
-    "name": "Cut-Resistant Gloves",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 320,
-    "supplier": "SafeGuard PPE",
-    "description": "Level 5 cut-resistant work gloves.",
-    "demand": {
-      "variability": 0.38,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1049",
-    "name": "N95 Respirator (box of 20)",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 700,
-    "supplier": "SafeGuard PPE",
-    "description": "NIOSH N95 particulate respirators.",
-    "demand": {
-      "variability": 0.21,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "SAF-1056",
-    "name": "First Aid Kit Industrial",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 1650,
-    "supplier": "SafeGuard PPE",
-    "description": "50-person industrial first aid kit.",
-    "demand": {
-      "variability": 0.57,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1063",
-    "name": "Fire Extinguisher ABC 4kg",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 2100,
-    "supplier": "SafeGuard PPE",
-    "description": "Dry powder ABC fire extinguisher, ISI marked.",
-    "demand": {
-      "variability": 0.59,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1070",
-    "name": "Safety Harness Full Body",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 2450,
-    "supplier": "SafeGuard PPE",
-    "description": "Full body harness with double lanyard.",
-    "demand": {
-      "variability": 0.53,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1077",
-    "name": "Warning Tape Roll",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 160,
-    "supplier": "SafeGuard PPE",
-    "description": "Red/white barricade tape, 250 m.",
-    "demand": {
-      "variability": 0.23,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "SAF-1084",
-    "name": "Face Shield",
-    "category": "Safety Equipment",
-    "unit": "pcs",
-    "unitCost": 210,
-    "supplier": "SafeGuard PPE",
-    "description": "Clear PET face shield with headband.",
-    "demand": {
-      "variability": 0.55,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FNB-1007",
-    "name": "Bottled Water 1L (case of 12)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 220,
-    "supplier": "GrainGate Foods",
-    "description": "Packaged drinking water, 12 x 1 litre.",
-    "demand": {
-      "variability": 0.38,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FNB-1014",
-    "name": "Instant Coffee 200g",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 480,
-    "supplier": "GrainGate Foods",
-    "description": "Pure instant coffee granules.",
-    "demand": {
-      "variability": 0.58,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "FNB-1021",
-    "name": "Tea Bags (box of 100)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 260,
-    "supplier": "GrainGate Foods",
-    "description": "Assam black tea bags.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FNB-1028",
-    "name": "Sugar Sachets (box of 500)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 450,
-    "supplier": "GrainGate Foods",
-    "description": "5 g white sugar sachets.",
-    "demand": {
-      "variability": 0.4,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FNB-1035",
-    "name": "Biscuits Assorted (carton of 48)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 960,
-    "supplier": "GrainGate Foods",
-    "description": "Assorted cream and glucose biscuits.",
-    "demand": {
-      "variability": 0.53,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FNB-1042",
-    "name": "Paper Cups 200ml (pack of 100)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 140,
-    "supplier": "GrainGate Foods",
-    "description": "Disposable paper cups for hot beverages.",
-    "demand": {
-      "variability": 0.32,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FNB-1049",
-    "name": "Energy Drink 250ml (case of 24)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 1680,
-    "supplier": "GrainGate Foods",
-    "description": "Carbonated energy drink cans.",
-    "demand": {
-      "variability": 0.51,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "FNB-1056",
-    "name": "Masala Peanuts 1kg",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 310,
-    "supplier": "GrainGate Foods",
-    "description": "Roasted spiced peanuts.",
-    "demand": {
-      "variability": 0.22,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "FNB-1063",
-    "name": "Fruit Juice 1L (case of 12)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 1140,
-    "supplier": "GrainGate Foods",
-    "description": "Mixed fruit juice tetra packs.",
-    "demand": {
-      "variability": 0.53,
-      "trend": "spike"
-    }
-  },
-  {
-    "sku": "FNB-1070",
-    "name": "Instant Noodles (carton of 48)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 620,
-    "supplier": "GrainGate Foods",
-    "description": "Masala instant noodles, 70 g packs.",
-    "demand": {
-      "variability": 0.25,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FNB-1077",
-    "name": "Milk Powder 1kg",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 520,
-    "supplier": "GrainGate Foods",
-    "description": "Dairy whitener for tea and coffee.",
-    "demand": {
-      "variability": 0.45,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "FNB-1084",
-    "name": "Green Tea (box of 100)",
-    "category": "Food & Beverage",
-    "unit": "box",
-    "unitCost": 390,
-    "supplier": "GrainGate Foods",
-    "description": "Natural green tea bags.",
-    "demand": {
-      "variability": 0.38,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1007",
-    "name": "Shampoo 650ml",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 340,
-    "supplier": "Lumina Personal Care",
-    "description": "Anti-dandruff shampoo, family pack.",
-    "demand": {
-      "variability": 0.3,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1014",
-    "name": "Bath Soap (pack of 4)",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 180,
-    "supplier": "Lumina Personal Care",
-    "description": "Moisturising bath soap bars.",
-    "demand": {
-      "variability": 0.5,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "PRC-1021",
-    "name": "Toothpaste 200g",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 110,
-    "supplier": "Lumina Personal Care",
-    "description": "Fluoride toothpaste with cavity protection.",
-    "demand": {
-      "variability": 0.51,
-      "trend": "spike"
-    }
-  },
-  {
-    "sku": "PRC-1028",
-    "name": "Body Lotion 400ml",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 290,
-    "supplier": "Lumina Personal Care",
-    "description": "Deep moisture body lotion.",
-    "demand": {
-      "variability": 0.3,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1035",
-    "name": "Deodorant Spray 150ml",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 220,
-    "supplier": "Lumina Personal Care",
-    "description": "48-hour fresh deodorant spray.",
-    "demand": {
-      "variability": 0.39,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1042",
-    "name": "Face Wash 100ml",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 160,
-    "supplier": "Lumina Personal Care",
-    "description": "Oil-control neem face wash.",
-    "demand": {
-      "variability": 0.48,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1049",
-    "name": "Shaving Cream 70g",
-    "category": "Personal Care",
-    "unit": "pcs",
+    "sku": "FRV-1035",
+    "name": "Shimla Apple 4pcs",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
     "unitCost": 95,
-    "supplier": "Lumina Personal Care",
-    "description": "Lather shaving cream for sensitive skin.",
-    "demand": {
-      "variability": 0.32,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1056",
-    "name": "Hair Oil 300ml",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 210,
-    "supplier": "Lumina Personal Care",
-    "description": "Coconut hair oil enriched with vitamin E.",
-    "demand": {
-      "variability": 0.53,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "PRC-1063",
-    "name": "Sanitary Pads (pack of 30)",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 320,
-    "supplier": "Lumina Personal Care",
-    "description": "Ultra-thin sanitary pads with wings.",
-    "demand": {
-      "variability": 0.43,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1070",
-    "name": "Baby Diapers M (pack of 56)",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 899,
-    "supplier": "Lumina Personal Care",
-    "description": "Pant-style diapers, medium size.",
-    "demand": {
-      "variability": 0.55,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1077",
-    "name": "Sunscreen SPF50 100ml",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 450,
-    "supplier": "Lumina Personal Care",
-    "description": "Broad-spectrum sunscreen lotion.",
-    "demand": {
-      "variability": 0.21,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "PRC-1084",
-    "name": "Cotton Buds (pack of 200)",
-    "category": "Personal Care",
-    "unit": "pcs",
-    "unitCost": 70,
-    "supplier": "Lumina Personal Care",
-    "description": "Paper-stem cotton buds.",
-    "demand": {
-      "variability": 0.37,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "AUT-1007",
-    "name": "Engine Oil 5W-30 4L",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 2350,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Fully synthetic engine oil, API SP.",
-    "demand": {
-      "variability": 0.5,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "AUT-1014",
-    "name": "Brake Pads Front Set",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 1450,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Ceramic front brake pads for compact cars.",
-    "demand": {
-      "variability": 0.56,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "AUT-1021",
-    "name": "Air Filter Element",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 420,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Engine air filter for popular hatchbacks.",
-    "demand": {
-      "variability": 0.6,
-      "trend": "spike"
-    }
-  },
-  {
-    "sku": "AUT-1028",
-    "name": "Oil Filter",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 260,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Spin-on oil filter, standard thread.",
-    "demand": {
-      "variability": 0.54,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "AUT-1035",
-    "name": "Spark Plug Iridium",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 520,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Long-life iridium spark plug.",
-    "demand": {
-      "variability": 0.45,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "AUT-1042",
-    "name": "Wiper Blade 22in",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 380,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Frameless all-season wiper blade.",
-    "demand": {
-      "variability": 0.28,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "AUT-1049",
-    "name": "Car Battery 35Ah",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 4800,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Maintenance-free 35Ah car battery.",
-    "demand": {
-      "variability": 0.49,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "AUT-1056",
-    "name": "Coolant 1L",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 290,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Ready-to-use long-life coolant.",
-    "demand": {
-      "variability": 0.39,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "AUT-1063",
-    "name": "Headlight Bulb H4",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 340,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Halogen H4 bulb 60/55W.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "AUT-1070",
-    "name": "Tyre Inflator Portable",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 2200,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "12V digital tyre inflator.",
-    "demand": {
-      "variability": 0.39,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "AUT-1077",
-    "name": "Brake Fluid DOT4 500ml",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 310,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "DOT 4 synthetic brake fluid.",
-    "demand": {
-      "variability": 0.23,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "AUT-1084",
-    "name": "Microfiber Car Wash Mitt",
-    "category": "Automotive Parts",
-    "unit": "pcs",
-    "unitCost": 240,
-    "supplier": "TorqueLine Auto Parts",
-    "description": "Scratch-free car wash mitt.",
-    "demand": {
-      "variability": 0.37,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "ELE-1007",
-    "name": "LED Bulb 9W (pack of 4)",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 360,
-    "supplier": "VoltWay Electricals",
-    "description": "Cool daylight LED bulbs, B22 base.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "ELE-1014",
-    "name": "LED Tube Light 20W",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 290,
-    "supplier": "VoltWay Electricals",
-    "description": "4-foot LED batten, 2000 lumen.",
-    "demand": {
-      "variability": 0.55,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "ELE-1021",
-    "name": "Extension Board 4-Socket",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 520,
-    "supplier": "VoltWay Electricals",
-    "description": "Surge-protected extension with 3 m cord.",
-    "demand": {
-      "variability": 0.31,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "ELE-1028",
-    "name": "Copper Wire 1.5 sqmm (90m)",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 1650,
-    "supplier": "VoltWay Electricals",
-    "description": "FR PVC insulated copper wire coil.",
-    "demand": {
-      "variability": 0.47,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "ELE-1035",
-    "name": "MCB 16A Single Pole",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 210,
-    "supplier": "VoltWay Electricals",
-    "description": "C-curve miniature circuit breaker.",
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Crisp red apples from Himachal, 4 per pack.",
     "demand": {
       "variability": 0.35,
       "trend": "rising"
     }
   },
   {
-    "sku": "ELE-1042",
-    "name": "Ceiling Fan 1200mm",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 2350,
-    "supplier": "VoltWay Electricals",
-    "description": "Energy-efficient BLDC ceiling fan.",
+    "sku": "FRV-1042",
+    "name": "Coriander Leaves 100g",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 9,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Fresh coriander bunch, roots trimmed.",
     "demand": {
-      "variability": 0.37,
+      "variability": 0.34,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "FRV-1049",
+    "name": "Green Chilli 100g",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 8,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Medium-hot green chillies.",
+    "demand": {
+      "variability": 0.38,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "FRV-1056",
+    "name": "Lemon 4pcs",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 16,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Juicy local lemons.",
+    "demand": {
+      "variability": 0.22,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "FRV-1063",
+    "name": "Cucumber 500g",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 18,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Green salad cucumbers.",
+    "demand": {
+      "variability": 0.28,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "FRV-1070",
+    "name": "Ginger 200g",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 22,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Fresh ginger root, washed.",
+    "demand": {
+      "variability": 0.21,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "FRV-1077",
+    "name": "Pomegranate 2pcs",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 110,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Bhagwa pomegranates, deep red arils.",
+    "demand": {
+      "variability": 0.24,
       "trend": "rising"
     }
   },
   {
-    "sku": "ELE-1049",
-    "name": "Modular Switch 6A",
-    "category": "Electrical",
+    "sku": "FRV-1084",
+    "name": "Baby Spinach 200g",
+    "category": "Fruits & Vegetables",
+    "unit": "pack",
+    "unitCost": 32,
+    "supplier": "Green Valley Farm Fresh",
+    "description": "Hydroponic baby spinach, ready to cook.",
+    "demand": {
+      "variability": 0.3,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1007",
+    "name": "Toned Milk 500ml",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 26,
+    "supplier": "Morning Fields Dairy",
+    "description": "Pasteurised toned milk, 3% fat.",
+    "demand": {
+      "variability": 0.21,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1014",
+    "name": "Full Cream Milk 1L",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 64,
+    "supplier": "Morning Fields Dairy",
+    "description": "Pasteurised full cream milk, 6% fat.",
+    "demand": {
+      "variability": 0.24,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1021",
+    "name": "Curd 400g",
+    "category": "Dairy, Bread & Eggs",
     "unit": "pcs",
+    "unitCost": 35,
+    "supplier": "Morning Fields Dairy",
+    "description": "Set curd in a sealed cup.",
+    "demand": {
+      "variability": 0.33,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1028",
+    "name": "Paneer 200g",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 78,
+    "supplier": "Morning Fields Dairy",
+    "description": "Soft malai paneer block, vacuum packed.",
+    "demand": {
+      "variability": 0.31,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "DRY-1035",
+    "name": "Salted Butter 100g",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 52,
+    "supplier": "Morning Fields Dairy",
+    "description": "Pasteurised table butter.",
+    "demand": {
+      "variability": 0.24,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1042",
+    "name": "Brown Eggs 6pcs",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 48,
+    "supplier": "Morning Fields Dairy",
+    "description": "Farm-fresh brown eggs, half dozen.",
+    "demand": {
+      "variability": 0.32,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1049",
+    "name": "White Bread 400g",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 30,
+    "supplier": "Morning Fields Dairy",
+    "description": "Soft sandwich bread, sliced.",
+    "demand": {
+      "variability": 0.36,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1056",
+    "name": "Multigrain Bread 400g",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 42,
+    "supplier": "Morning Fields Dairy",
+    "description": "Sliced bread with oats, flax and millet.",
+    "demand": {
+      "variability": 0.2,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "DRY-1063",
+    "name": "Cheese Slices 200g",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 115,
+    "supplier": "Morning Fields Dairy",
+    "description": "Processed cheese, 10 slices.",
+    "demand": {
+      "variability": 0.36,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DRY-1070",
+    "name": "Buttermilk 500ml",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
+    "unitCost": 18,
+    "supplier": "Morning Fields Dairy",
+    "description": "Spiced chaas, ready to drink.",
+    "demand": {
+      "variability": 0.34,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "DRY-1077",
+    "name": "Fresh Cream 200ml",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pack",
     "unitCost": 55,
-    "supplier": "VoltWay Electricals",
-    "description": "Modular one-way switch, white.",
+    "supplier": "Morning Fields Dairy",
+    "description": "Low-fat cooking cream, tetra pack.",
     "demand": {
-      "variability": 0.57,
+      "variability": 0.27,
+      "trend": "spike"
+    }
+  },
+  {
+    "sku": "DRY-1084",
+    "name": "Greek Yogurt 100g",
+    "category": "Dairy, Bread & Eggs",
+    "unit": "pcs",
+    "unitCost": 38,
+    "supplier": "Morning Fields Dairy",
+    "description": "High-protein plain Greek yogurt.",
+    "demand": {
+      "variability": 0.23,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "STP-1007",
+    "name": "Whole Wheat Atta 5kg",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 210,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Chakki-ground whole wheat flour.",
+    "demand": {
+      "variability": 0.54,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1014",
+    "name": "Basmati Rice 1kg",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 115,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Long-grain aged basmati rice.",
+    "demand": {
+      "variability": 0.32,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1021",
+    "name": "Sona Masoori Rice 5kg",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 290,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Everyday medium-grain rice.",
+    "demand": {
+      "variability": 0.23,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1028",
+    "name": "Toor Dal 1kg",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 145,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Unpolished split pigeon peas.",
+    "demand": {
+      "variability": 0.23,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1035",
+    "name": "Moong Dal 500g",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 72,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Yellow split moong, cleaned.",
+    "demand": {
+      "variability": 0.5,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1042",
+    "name": "Chana Dal 1kg",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 98,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Split Bengal gram.",
+    "demand": {
+      "variability": 0.41,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1049",
+    "name": "Besan 500g",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 52,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Fine gram flour for snacks and sweets.",
+    "demand": {
+      "variability": 0.48,
+      "trend": "spike"
+    }
+  },
+  {
+    "sku": "STP-1056",
+    "name": "Sugar 1kg",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 44,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Refined crystal sugar.",
+    "demand": {
+      "variability": 0.46,
+      "trend": "spike"
+    }
+  },
+  {
+    "sku": "STP-1063",
+    "name": "Iodised Salt 1kg",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 20,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Free-flowing iodised salt.",
+    "demand": {
+      "variability": 0.39,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1070",
+    "name": "Poha 500g",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 34,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Medium-thick flattened rice.",
+    "demand": {
+      "variability": 0.54,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "STP-1077",
+    "name": "Rajma 500g",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 78,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Red kidney beans.",
+    "demand": {
+      "variability": 0.33,
       "trend": "falling"
     }
   },
   {
-    "sku": "ELE-1056",
-    "name": "Electrical Tape (pack of 10)",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 150,
-    "supplier": "VoltWay Electricals",
-    "description": "PVC insulation tape, assorted colours.",
+    "sku": "STP-1084",
+    "name": "Sooji 500g",
+    "category": "Atta, Rice & Dal",
+    "unit": "pack",
+    "unitCost": 28,
+    "supplier": "Annapurna Staples Traders",
+    "description": "Fine semolina.",
     "demand": {
-      "variability": 0.26,
-      "trend": "falling"
+      "variability": 0.39,
+      "trend": "stable"
     }
   },
   {
-    "sku": "ELE-1063",
-    "name": "Emergency Light LED",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 899,
-    "supplier": "VoltWay Electricals",
-    "description": "Rechargeable emergency light, 4h backup.",
+    "sku": "MSL-1007",
+    "name": "Sunflower Oil 1L",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 128,
+    "supplier": "Spice Route Wholesale",
+    "description": "Refined sunflower oil, pouch.",
+    "demand": {
+      "variability": 0.49,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "MSL-1014",
+    "name": "Mustard Oil 1L",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 152,
+    "supplier": "Spice Route Wholesale",
+    "description": "Cold-pressed kachi ghani mustard oil.",
     "demand": {
       "variability": 0.42,
       "trend": "stable"
     }
   },
   {
-    "sku": "ELE-1070",
-    "name": "Door Bell Wireless",
-    "category": "Electrical",
-    "unit": "pcs",
-    "unitCost": 650,
-    "supplier": "VoltWay Electricals",
-    "description": "Plug-in wireless doorbell with 36 tunes.",
+    "sku": "MSL-1021",
+    "name": "Cow Ghee 500ml",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 310,
+    "supplier": "Spice Route Wholesale",
+    "description": "Pure cow ghee, granular texture.",
     "demand": {
-      "variability": 0.46,
+      "variability": 0.5,
+      "trend": "spike"
+    }
+  },
+  {
+    "sku": "MSL-1028",
+    "name": "Turmeric Powder 100g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 26,
+    "supplier": "Spice Route Wholesale",
+    "description": "Ground turmeric, high curcumin.",
+    "demand": {
+      "variability": 0.4,
       "trend": "stable"
     }
   },
   {
-    "sku": "ELE-1077",
-    "name": "Socket 16A Modular",
-    "category": "Electrical",
+    "sku": "MSL-1035",
+    "name": "Red Chilli Powder 100g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 32,
+    "supplier": "Spice Route Wholesale",
+    "description": "Bright red chilli powder, medium heat.",
+    "demand": {
+      "variability": 0.45,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "MSL-1042",
+    "name": "Garam Masala 100g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 58,
+    "supplier": "Spice Route Wholesale",
+    "description": "Blend of 12 whole spices.",
+    "demand": {
+      "variability": 0.22,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "MSL-1049",
+    "name": "Cumin Seeds 100g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 42,
+    "supplier": "Spice Route Wholesale",
+    "description": "Whole jeera, machine cleaned.",
+    "demand": {
+      "variability": 0.28,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "MSL-1056",
+    "name": "Coriander Powder 100g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 24,
+    "supplier": "Spice Route Wholesale",
+    "description": "Ground dhania.",
+    "demand": {
+      "variability": 0.3,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "MSL-1063",
+    "name": "Groundnut Oil 1L",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 175,
+    "supplier": "Spice Route Wholesale",
+    "description": "Filtered groundnut oil.",
+    "demand": {
+      "variability": 0.23,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "MSL-1070",
+    "name": "Black Pepper Whole 50g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 65,
+    "supplier": "Spice Route Wholesale",
+    "description": "Bold Malabar peppercorns.",
+    "demand": {
+      "variability": 0.28,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "MSL-1077",
+    "name": "Tamarind 200g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 38,
+    "supplier": "Spice Route Wholesale",
+    "description": "Seedless tamarind block.",
+    "demand": {
+      "variability": 0.24,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "MSL-1084",
+    "name": "Kasuri Methi 25g",
+    "category": "Masala, Oil & Ghee",
+    "unit": "pack",
+    "unitCost": 22,
+    "supplier": "Spice Route Wholesale",
+    "description": "Dried fenugreek leaves.",
+    "demand": {
+      "variability": 0.3,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1007",
+    "name": "Salted Potato Chips 52g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 16,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Classic salted potato chips.",
+    "demand": {
+      "variability": 0.42,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1014",
+    "name": "Masala Potato Chips 52g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 16,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Tangy masala potato chips.",
+    "demand": {
+      "variability": 0.33,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1021",
+    "name": "Aloo Bhujia 200g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 42,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Crispy spiced potato sev.",
+    "demand": {
+      "variability": 0.33,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1028",
+    "name": "Roasted Peanuts 150g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 35,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Salted roasted peanuts.",
+    "demand": {
+      "variability": 0.27,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1035",
+    "name": "Cheese Nachos 150g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 55,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Corn tortilla chips with cheese seasoning.",
+    "demand": {
+      "variability": 0.29,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "SNK-1042",
+    "name": "Cream Biscuits 120g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 22,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Chocolate cream sandwich biscuits.",
+    "demand": {
+      "variability": 0.53,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1049",
+    "name": "Digestive Biscuits 250g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 48,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Whole wheat digestive biscuits.",
+    "demand": {
+      "variability": 0.43,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1056",
+    "name": "Dark Chocolate Bar 80g",
+    "category": "Snacks & Munchies",
+    "unit": "pcs",
+    "unitCost": 85,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "55% cocoa dark chocolate.",
+    "demand": {
+      "variability": 0.41,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "SNK-1063",
+    "name": "Milk Chocolate 50g",
+    "category": "Snacks & Munchies",
+    "unit": "pcs",
+    "unitCost": 38,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Creamy milk chocolate bar.",
+    "demand": {
+      "variability": 0.26,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "SNK-1070",
+    "name": "Butter Popcorn 60g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 26,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Microwave popcorn, butter flavour.",
+    "demand": {
+      "variability": 0.46,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "SNK-1077",
+    "name": "Mixed Dry Fruits 250g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 260,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Almonds, cashews and raisins.",
+    "demand": {
+      "variability": 0.26,
+      "trend": "spike"
+    }
+  },
+  {
+    "sku": "SNK-1084",
+    "name": "Methi Khakhra 200g",
+    "category": "Snacks & Munchies",
+    "unit": "pack",
+    "unitCost": 45,
+    "supplier": "Crunchtime Snacks Distribution",
+    "description": "Roasted wheat crisps with fenugreek.",
+    "demand": {
+      "variability": 0.33,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BEV-1007",
+    "name": "Cola 750ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 32,
+    "supplier": "FizzFlow Beverages",
+    "description": "Carbonated cola, PET bottle.",
+    "demand": {
+      "variability": 0.55,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "BEV-1014",
+    "name": "Lemon Soda 750ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 30,
+    "supplier": "FizzFlow Beverages",
+    "description": "Clear lemon-lime soft drink.",
+    "demand": {
+      "variability": 0.42,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "BEV-1021",
+    "name": "Packaged Drinking Water 1L",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 14,
+    "supplier": "FizzFlow Beverages",
+    "description": "Purified water with added minerals.",
+    "demand": {
+      "variability": 0.39,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BEV-1028",
+    "name": "Mixed Fruit Juice 1L",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 92,
+    "supplier": "FizzFlow Beverages",
+    "description": "No added preservatives, tetra pack.",
+    "demand": {
+      "variability": 0.44,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BEV-1035",
+    "name": "Orange Juice 1L",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 105,
+    "supplier": "FizzFlow Beverages",
+    "description": "100% orange juice, not from concentrate.",
+    "demand": {
+      "variability": 0.49,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BEV-1042",
+    "name": "Energy Drink 250ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 85,
+    "supplier": "FizzFlow Beverages",
+    "description": "Caffeinated energy drink, can.",
+    "demand": {
+      "variability": 0.47,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "BEV-1049",
+    "name": "Cold Coffee 180ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 32,
+    "supplier": "FizzFlow Beverages",
+    "description": "Ready-to-drink cafe-style cold coffee.",
+    "demand": {
+      "variability": 0.28,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "BEV-1056",
+    "name": "Tender Coconut Water 200ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 38,
+    "supplier": "FizzFlow Beverages",
+    "description": "Natural coconut water, no added sugar.",
+    "demand": {
+      "variability": 0.21,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BEV-1063",
+    "name": "Tonic Water 300ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 42,
+    "supplier": "FizzFlow Beverages",
+    "description": "Premium Indian tonic water, can.",
+    "demand": {
+      "variability": 0.31,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BEV-1070",
+    "name": "Mango Drink 600ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 30,
+    "supplier": "FizzFlow Beverages",
+    "description": "Alphonso mango fruit drink.",
+    "demand": {
+      "variability": 0.29,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "BEV-1077",
+    "name": "Lemon Iced Tea 500ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 35,
+    "supplier": "FizzFlow Beverages",
+    "description": "Brewed black tea with lemon.",
+    "demand": {
+      "variability": 0.27,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BEV-1084",
+    "name": "Club Soda 750ml",
+    "category": "Cold Drinks & Juices",
+    "unit": "pcs",
+    "unitCost": 18,
+    "supplier": "FizzFlow Beverages",
+    "description": "Carbonated soda water.",
+    "demand": {
+      "variability": 0.53,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1007",
+    "name": "Masala Instant Noodles 70g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pack",
+    "unitCost": 13,
+    "supplier": "QuickBite Foods",
+    "description": "2-minute noodles with masala tastemaker.",
+    "demand": {
+      "variability": 0.51,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1014",
+    "name": "Corn Flakes 475g",
+    "category": "Breakfast & Instant Food",
+    "unit": "box",
+    "unitCost": 165,
+    "supplier": "QuickBite Foods",
+    "description": "Crunchy toasted corn flakes.",
+    "demand": {
+      "variability": 0.31,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1021",
+    "name": "Rolled Oats 1kg",
+    "category": "Breakfast & Instant Food",
+    "unit": "pack",
+    "unitCost": 175,
+    "supplier": "QuickBite Foods",
+    "description": "Whole grain rolled oats.",
+    "demand": {
+      "variability": 0.43,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "BRK-1028",
+    "name": "Fruit & Nut Muesli 500g",
+    "category": "Breakfast & Instant Food",
+    "unit": "box",
+    "unitCost": 295,
+    "supplier": "QuickBite Foods",
+    "description": "Baked muesli with nuts and dried fruit.",
+    "demand": {
+      "variability": 0.34,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1035",
+    "name": "Crunchy Peanut Butter 340g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pcs",
+    "unitCost": 165,
+    "supplier": "QuickBite Foods",
+    "description": "Unsweetened crunchy peanut butter.",
+    "demand": {
+      "variability": 0.52,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "BRK-1042",
+    "name": "Mixed Fruit Jam 500g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pcs",
+    "unitCost": 125,
+    "supplier": "QuickBite Foods",
+    "description": "Fruit jam, glass jar.",
+    "demand": {
+      "variability": 0.36,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "BRK-1049",
+    "name": "Honey 250g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pcs",
+    "unitCost": 135,
+    "supplier": "QuickBite Foods",
+    "description": "Multiflora honey, squeeze bottle.",
+    "demand": {
+      "variability": 0.29,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "BRK-1056",
+    "name": "Tomato Ketchup 950g",
+    "category": "Breakfast & Instant Food",
     "unit": "pcs",
     "unitCost": 110,
-    "supplier": "VoltWay Electricals",
-    "description": "Modular 16A power socket.",
+    "supplier": "QuickBite Foods",
+    "description": "Classic tomato ketchup.",
+    "demand": {
+      "variability": 0.29,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1063",
+    "name": "Ready-to-Eat Dal Makhani 300g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pack",
+    "unitCost": 95,
+    "supplier": "QuickBite Foods",
+    "description": "Heat-and-eat retort pouch.",
+    "demand": {
+      "variability": 0.4,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1070",
+    "name": "Instant Coffee 100g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pcs",
+    "unitCost": 245,
+    "supplier": "QuickBite Foods",
+    "description": "Pure instant coffee granules, jar.",
+    "demand": {
+      "variability": 0.29,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1077",
+    "name": "Assam Tea 500g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pack",
+    "unitCost": 210,
+    "supplier": "QuickBite Foods",
+    "description": "Strong CTC Assam tea leaves.",
+    "demand": {
+      "variability": 0.4,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BRK-1084",
+    "name": "Masala Oats 39g",
+    "category": "Breakfast & Instant Food",
+    "unit": "pack",
+    "unitCost": 14,
+    "supplier": "QuickBite Foods",
+    "description": "Single-serve savoury oats.",
+    "demand": {
+      "variability": 0.51,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1007",
+    "name": "Bathing Soap 4x100g",
+    "category": "Personal Care",
+    "unit": "pack",
+    "unitCost": 120,
+    "supplier": "Lumina Personal Care",
+    "description": "Moisturising bathing bars, value pack.",
+    "demand": {
+      "variability": 0.34,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1014",
+    "name": "Herbal Shampoo 340ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 185,
+    "supplier": "Lumina Personal Care",
+    "description": "Mild everyday shampoo.",
+    "demand": {
+      "variability": 0.28,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1021",
+    "name": "Toothpaste 150g",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 92,
+    "supplier": "Lumina Personal Care",
+    "description": "Fluoride toothpaste for cavity protection.",
+    "demand": {
+      "variability": 0.55,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1028",
+    "name": "Soft Toothbrush 3pcs",
+    "category": "Personal Care",
+    "unit": "pack",
+    "unitCost": 85,
+    "supplier": "Lumina Personal Care",
+    "description": "Soft-bristle toothbrushes.",
+    "demand": {
+      "variability": 0.38,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1035",
+    "name": "Hand Wash Refill 750ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 99,
+    "supplier": "Lumina Personal Care",
+    "description": "Germ-protection liquid hand wash.",
+    "demand": {
+      "variability": 0.23,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1042",
+    "name": "Body Lotion 400ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 245,
+    "supplier": "Lumina Personal Care",
+    "description": "Deep moisture lotion for dry skin.",
+    "demand": {
+      "variability": 0.22,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "PRC-1049",
+    "name": "Sanitary Pads XL 15pcs",
+    "category": "Personal Care",
+    "unit": "pack",
+    "unitCost": 145,
+    "supplier": "Lumina Personal Care",
+    "description": "Ultra-thin pads with wings.",
+    "demand": {
+      "variability": 0.24,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1056",
+    "name": "Shaving Foam 200g",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 165,
+    "supplier": "Lumina Personal Care",
+    "description": "Sensitive-skin shaving foam.",
+    "demand": {
+      "variability": 0.42,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "PRC-1063",
+    "name": "Coconut Hair Oil 300ml",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 115,
+    "supplier": "Lumina Personal Care",
+    "description": "Pure coconut oil.",
     "demand": {
       "variability": 0.48,
       "trend": "stable"
     }
   },
   {
-    "sku": "ELE-1084",
-    "name": "Inverter Battery 150Ah",
-    "category": "Electrical",
+    "sku": "PRC-1070",
+    "name": "Face Wash 100ml",
+    "category": "Personal Care",
     "unit": "pcs",
-    "unitCost": 12500,
-    "supplier": "VoltWay Electricals",
-    "description": "Tall tubular inverter battery.",
+    "unitCost": 135,
+    "supplier": "Lumina Personal Care",
+    "description": "Oil-control neem face wash.",
+    "demand": {
+      "variability": 0.35,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "PRC-1077",
+    "name": "Sunscreen SPF 50 50g",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 260,
+    "supplier": "Lumina Personal Care",
+    "description": "Broad-spectrum matte sunscreen.",
+    "demand": {
+      "variability": 0.22,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "PRC-1084",
+    "name": "Lip Balm 4.5g",
+    "category": "Personal Care",
+    "unit": "pcs",
+    "unitCost": 75,
+    "supplier": "Lumina Personal Care",
+    "description": "Moisturising lip balm.",
+    "demand": {
+      "variability": 0.33,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "HSH-1007",
+    "name": "Dishwash Liquid 750ml",
+    "category": "Household & Cleaning",
+    "unit": "pcs",
+    "unitCost": 115,
+    "supplier": "PureShine Hygiene",
+    "description": "Lemon dishwash gel.",
+    "demand": {
+      "variability": 0.55,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1014",
+    "name": "Detergent Powder 1kg",
+    "category": "Household & Cleaning",
+    "unit": "pack",
+    "unitCost": 120,
+    "supplier": "PureShine Hygiene",
+    "description": "Front and top load detergent powder.",
+    "demand": {
+      "variability": 0.39,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1021",
+    "name": "Liquid Detergent 1L",
+    "category": "Household & Cleaning",
+    "unit": "pcs",
+    "unitCost": 195,
+    "supplier": "PureShine Hygiene",
+    "description": "Machine-wash liquid detergent.",
+    "demand": {
+      "variability": 0.54,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "HSH-1028",
+    "name": "Floor Cleaner 1L",
+    "category": "Household & Cleaning",
+    "unit": "pcs",
+    "unitCost": 155,
+    "supplier": "PureShine Hygiene",
+    "description": "Disinfectant floor cleaner, floral.",
+    "demand": {
+      "variability": 0.5,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1035",
+    "name": "Toilet Cleaner 500ml",
+    "category": "Household & Cleaning",
+    "unit": "pcs",
+    "unitCost": 85,
+    "supplier": "PureShine Hygiene",
+    "description": "Thick liquid toilet cleaner.",
+    "demand": {
+      "variability": 0.2,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1042",
+    "name": "Garbage Bags Medium 30pcs",
+    "category": "Household & Cleaning",
+    "unit": "roll",
+    "unitCost": 85,
+    "supplier": "PureShine Hygiene",
+    "description": "Biodegradable garbage bags, 19x21 in.",
+    "demand": {
+      "variability": 0.45,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1049",
+    "name": "Kitchen Towel 2 Rolls",
+    "category": "Household & Cleaning",
+    "unit": "pack",
+    "unitCost": 110,
+    "supplier": "PureShine Hygiene",
+    "description": "Absorbent 2-ply kitchen towels.",
+    "demand": {
+      "variability": 0.44,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1056",
+    "name": "Toilet Paper 4 Rolls",
+    "category": "Household & Cleaning",
+    "unit": "pack",
+    "unitCost": 140,
+    "supplier": "PureShine Hygiene",
+    "description": "Soft 2-ply toilet tissue.",
+    "demand": {
+      "variability": 0.39,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1063",
+    "name": "Scrub Pad 3pcs",
+    "category": "Household & Cleaning",
+    "unit": "pack",
+    "unitCost": 30,
+    "supplier": "PureShine Hygiene",
+    "description": "Heavy-duty utensil scrub pads.",
+    "demand": {
+      "variability": 0.29,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1070",
+    "name": "Mosquito Repellent Refill 45ml",
+    "category": "Household & Cleaning",
+    "unit": "pcs",
+    "unitCost": 82,
+    "supplier": "PureShine Hygiene",
+    "description": "Liquid vaporiser refill, 45 nights.",
+    "demand": {
+      "variability": 0.42,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "HSH-1077",
+    "name": "Aluminium Foil 9m",
+    "category": "Household & Cleaning",
+    "unit": "roll",
+    "unitCost": 95,
+    "supplier": "PureShine Hygiene",
+    "description": "Food-grade kitchen foil.",
+    "demand": {
+      "variability": 0.24,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "HSH-1084",
+    "name": "Sandalwood Agarbatti 100g",
+    "category": "Household & Cleaning",
+    "unit": "pack",
+    "unitCost": 55,
+    "supplier": "PureShine Hygiene",
+    "description": "Incense sticks, sandalwood fragrance.",
+    "demand": {
+      "variability": 0.35,
+      "trend": "spike"
+    }
+  },
+  {
+    "sku": "BBY-1007",
+    "name": "Baby Diapers M 40pcs",
+    "category": "Baby Care",
+    "unit": "pack",
+    "unitCost": 620,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Pant-style diapers, 7-12 kg.",
     "demand": {
       "variability": 0.36,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1014",
+    "name": "Baby Diapers L 34pcs",
+    "category": "Baby Care",
+    "unit": "pack",
+    "unitCost": 640,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Pant-style diapers, 9-14 kg.",
+    "demand": {
+      "variability": 0.53,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1021",
+    "name": "Baby Wipes 72pcs",
+    "category": "Baby Care",
+    "unit": "pack",
+    "unitCost": 145,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Water-based fragrance-free wipes.",
+    "demand": {
+      "variability": 0.51,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1028",
+    "name": "Baby Lotion 200ml",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 195,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Mild lotion for newborn skin.",
+    "demand": {
+      "variability": 0.29,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1035",
+    "name": "Baby Shampoo 200ml",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 210,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Tear-free baby shampoo.",
+    "demand": {
+      "variability": 0.38,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1042",
+    "name": "Baby Powder 200g",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 165,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Talc-free baby powder.",
+    "demand": {
+      "variability": 0.26,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "BBY-1049",
+    "name": "Infant Formula Stage 1 400g",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 425,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Starter formula, 0-6 months.",
+    "demand": {
+      "variability": 0.52,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1056",
+    "name": "Rice Baby Cereal 300g",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 245,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Fortified rice cereal, 6 months+.",
+    "demand": {
+      "variability": 0.5,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1063",
+    "name": "Diaper Rash Cream 50g",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 185,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Zinc oxide rash cream.",
+    "demand": {
+      "variability": 0.3,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1070",
+    "name": "Baby Massage Oil 200ml",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 175,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Ayurvedic massage oil.",
+    "demand": {
+      "variability": 0.42,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "BBY-1077",
+    "name": "Feeding Bottle 250ml",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 245,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "BPA-free anti-colic bottle.",
+    "demand": {
+      "variability": 0.41,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "BBY-1084",
+    "name": "Baby Soap 75g",
+    "category": "Baby Care",
+    "unit": "pcs",
+    "unitCost": 55,
+    "supplier": "LittleSteps Baby Essentials",
+    "description": "Glycerine baby soap.",
+    "demand": {
+      "variability": 0.25,
       "trend": "stable"
     }
   }

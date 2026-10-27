@@ -7,11 +7,11 @@ import { Alert, Badge, Card, Empty, formatDate, formatDateTime, humanize, Loadin
 
 const EXAMPLES = [
   'Which items will run out next week?',
-  'How many SKU-1042 do we have in Pune?',
+  'How many DRY-1007 do we have in Pune?',
   'Show the biggest stock adjustments this month',
-  'Top 5 slowest moving electronics',
-  'Which purchase orders from Apex are still open?',
-  'What should I reorder for the Mumbai warehouse?',
+  'Top 5 slowest moving snacks',
+  'Which purchase orders from Morning Fields are still open?',
+  'What should I reorder for the Andheri dark store?',
 ];
 
 const QUICK: { label: string; plan: QueryPlan }[] = [

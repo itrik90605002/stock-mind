@@ -1,22 +1,22 @@
 [
   {
     "code": "PUN-01",
-    "name": "Pune Central DC",
+    "name": "Pune Mother Hub",
     "address": "Plot 14, Chakan MIDC Phase II, Pune 410501"
   },
   {
     "code": "MUM-02",
-    "name": "Mumbai Port Warehouse",
-    "address": "Gala 7-9, JNPT Road, Navi Mumbai 400707"
+    "name": "Mumbai Andheri Dark Store",
+    "address": "Unit 3, Marol Industrial Estate, Andheri East, Mumbai 400059"
   },
   {
     "code": "DEL-03",
-    "name": "Delhi North Hub",
-    "address": "Khasra 221, Alipur, Delhi 110036"
+    "name": "Delhi Rohini Dark Store",
+    "address": "B-12, Sector 7, Rohini, Delhi 110085"
   },
   {
     "code": "BLR-04",
-    "name": "Bengaluru South Fulfilment",
-    "address": "Survey 48, Jigani Industrial Area, Bengaluru 560105"
+    "name": "Bengaluru HSR Dark Store",
+    "address": "Site 221, 27th Main, HSR Layout Sector 2, Bengaluru 560102"
   }
 ]

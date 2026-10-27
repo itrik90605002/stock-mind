@@ -174,7 +174,7 @@ final class HistorySimulator {
         if (damage && stock >= 3) {
             int qty = 1 + rnd.nextInt(3);
             apply(p.pair(), at(day, 17, 30), "ADJUSTMENT", -qty,
-                    rnd.nextBoolean() ? "Damaged in handling" : "Water damage found during inspection",
+                    rnd.nextBoolean() ? "Damaged in handling" : "Expired - removed from shelf",
                     "MANUAL", null, users.clerk(p.pair().warehouseId()));
         } else if (!damage) {
             int qty = (1 + rnd.nextInt(3)) * (rnd.nextBoolean() || stock < 3 ? 1 : -1);
@@ -385,9 +385,9 @@ final class HistorySimulator {
 
     private static double weekdayMultiplier(LocalDate day) {
         return switch (day.getDayOfWeek()) {
-            case SUNDAY -> 0.35;
-            case SATURDAY -> 0.7;
-            default -> 1.1;
+            case SUNDAY -> 1.3;
+            case SATURDAY -> 1.25;
+            default -> 0.9;
         };
     }
 
