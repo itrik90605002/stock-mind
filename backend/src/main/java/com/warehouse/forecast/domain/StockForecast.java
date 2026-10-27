@@ -15,10 +15,6 @@ import jakarta.persistence.Table;
 import java.math.BigDecimal;
 import java.time.Instant;
 
-/**
- * Usage statistics and the reorder suggestion for one product in one warehouse, recomputed from
- * the ledger by {@link com.warehouse.forecast.service.ForecastService}. Read-only for the rest of the app.
- */
 @Entity
 @Table(name = "stock_forecasts")
 public class StockForecast {
@@ -33,7 +29,6 @@ public class StockForecast {
                         WHERE l.product_id = f.product_id AND o.warehouse_id = f.warehouse_id
                           AND (o.status = 'DRAFT' OR (o.status <> 'CANCELLED' AND o.created_at > f.computed_at)))
             """;
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -53,7 +48,6 @@ public class StockForecast {
     @Column(name = "usage_stddev", nullable = false)
     private BigDecimal usageStddev;
 
-    /** Change of the last 14 days' usage versus the 14 days before, in percent; null when there is no baseline. */
     @Column(name = "trend_pct")
     private BigDecimal trendPct;
 
@@ -66,11 +60,9 @@ public class StockForecast {
     @Column(nullable = false)
     private int available;
 
-    /** Units still expected on open purchase orders. */
     @Column(nullable = false)
     private int incoming;
 
-    /** Available stock divided by average daily usage; null when there is no usage. */
     @Column(name = "days_of_cover")
     private BigDecimal daysOfCover;
 
@@ -78,9 +70,6 @@ public class StockForecast {
     private int suggestedQty;
 
     private String explanation;
-
-    @Column(name = "explanation_by_ai", nullable = false)
-    private boolean explanationByAi;
 
     @Column(name = "computed_at", nullable = false)
     private Instant computedAt;
@@ -135,10 +124,6 @@ public class StockForecast {
 
     public String getExplanation() {
         return explanation;
-    }
-
-    public boolean isExplanationByAi() {
-        return explanationByAi;
     }
 
     public Instant getComputedAt() {

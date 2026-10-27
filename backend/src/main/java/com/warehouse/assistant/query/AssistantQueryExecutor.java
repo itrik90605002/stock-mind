@@ -72,8 +72,6 @@ public class AssistantQueryExecutor {
         });
     }
 
-    // ------------------------------------------------------------------ intents
-
     private QueryResult stock(ValidatedPlan plan, boolean lowOnly) {
         Query q = new Query("""
                 SELECT p.sku, p.name, p.category, w.code AS warehouse, s.on_hand, s.reserved,
@@ -297,14 +295,11 @@ public class AssistantQueryExecutor {
                 + (rows.truncated ? " across the groups shown." : "."));
     }
 
-    // ------------------------------------------------------------------ helpers
-
     private static String count(Rows rows, String singular, String plural) {
         int n = rows.list.size();
         return (rows.truncated ? "more than " + n : String.valueOf(n)) + " " + (n == 1 && !rows.truncated ? singular : plural);
     }
 
-    /** Builder for one query: constant SQL plus constant filter fragments and bind parameters. */
     private final class Query {
         private final StringBuilder sql;
         private final MapSqlParameterSource params = new MapSqlParameterSource();
@@ -377,7 +372,6 @@ public class AssistantQueryExecutor {
         }
     }
 
-    /** Converts JDBC types to JSON-friendly ones (Timestamp -> Instant, Date -> LocalDate). */
     private static Map<String, Object> toRow(ResultSet rs) throws SQLException {
         ResultSetMetaData meta = rs.getMetaData();
         Map<String, Object> row = new LinkedHashMap<>();

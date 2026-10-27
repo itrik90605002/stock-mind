@@ -1,4 +1,3 @@
-/** Typed wrappers for every backend endpoint used by the UI. */
 import { newIdempotencyKey, query, request } from './client';
 import type {
   AssistantAnswer, AssistantStatus, AuthResponse, ConsistencyReport, Dashboard, ForecastRunResult, Movement, MovementType, Movers, NavCounts, Page, Product, ProductInput, PurchaseOrder, PurchaseOrderInput, PurchaseOrderStatus, QueryLog, QueryPlan, ReorderSuggestion, Role, StockRow, Supplier, Transfer, TransferStatus, User, ValuationRow, Warehouse,

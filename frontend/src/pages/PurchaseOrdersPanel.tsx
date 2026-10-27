@@ -8,7 +8,6 @@ import { PlusIcon } from '../components/icons';
 import { PurchaseOrderForm } from '../components/PurchaseOrderForm';
 import { Alert, Async, Badge, Card, Empty, formatDate, money, num, Pagination, todayIso, WarehouseSelect } from '../components/ui';
 
-/** Status filters in lifecycle order, named by what each status needs. The key is kept in the URL (?view=). */
 const VIEWS: { key: string; label: string; status: PurchaseOrderStatus | ''; open?: boolean }[] = [
   { key: 'open', label: 'All open', status: '', open: true },
   { key: 'draft', label: 'To place', status: 'DRAFT' },
@@ -22,7 +21,6 @@ const VIEWS: { key: string; label: string; status: PurchaseOrderStatus | ''; ope
 export const isLate = (po: PurchaseOrder) =>
   (po.status === 'ORDERED' || po.status === 'PARTIALLY_RECEIVED') && !!po.expectedDate && po.expectedDate < todayIso();
 
-/** Replenish step 2: purchase orders from draft to placed to received. Receiving books the stock in. */
 export function PurchaseOrdersPanel() {
   const { myWarehouses, canManage } = useAuth();
   const navigate = useNavigate();

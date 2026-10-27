@@ -28,8 +28,6 @@ export function AdminPage() {
   );
 }
 
-// ------------------------------------------------------------------ users
-
 function UsersTab() {
   const { user: me } = useAuth();
   const users = useApi(() => userApi.list(), []);
@@ -133,8 +131,6 @@ function DeactivateUser({ user, onClose, onDone }: { user: User; onClose: () => 
   );
 }
 
-// ------------------------------------------------------------------ warehouses
-
 function WarehousesTab() {
   const { warehouses, refreshWarehouses } = useAuth();
   const [editing, setEditing] = useState<Warehouse | 'new' | null>(null);
@@ -194,8 +190,6 @@ function WarehouseForm({ warehouse, onClose, onSaved }: { warehouse?: Warehouse;
   );
 }
 
-// ------------------------------------------------------------------ AI log & system
-
 function AiLogTab() {
   const [page, setPage] = useState(0);
   const logs = useApi(() => assistantApi.logs(page), [page]);
@@ -233,7 +227,7 @@ function SystemTab() {
   const run = () => action.run(async () => {
     const r = await jobApi.runDaily();
     setResult(`Analysed ${num(r.forecast.pairsAnalysed)} product/warehouse pairs in ${num(r.forecast.durationMs)} ms: `
-      + `${num(r.forecast.suggestions)} reorder suggestions (${num(r.forecast.aiExplanations)} explained by AI). `
+      + `${num(r.forecast.suggestions)} reorder suggestions. `
       + `Purged ${num(r.idempotencyRecordsPurged)} old idempotency records.`);
   });
   return (

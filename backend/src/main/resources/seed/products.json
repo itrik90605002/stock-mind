@@ -8,15 +8,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Braided USB-C to USB-C cable, 60W PD, 1 metre.",
     "demand": {
-      "baseDailyUsage": 18,
       "variability": 0.53,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -28,15 +21,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "2.4 GHz wireless optical mouse with nano receiver.",
     "demand": {
-      "baseDailyUsage": 9,
       "variability": 0.23,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -48,14 +34,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "True wireless earbuds with charging case, 20h battery.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.22,
-      "trend": "spike",
-      "warehouses": [
-        "BLR-04",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "spike"
     }
   },
   {
@@ -67,14 +47,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Slim lithium-polymer power bank with dual USB output.",
     "demand": {
-      "baseDailyUsage": 7,
       "variability": 0.43,
-      "trend": "rising",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -86,14 +60,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "High-speed HDMI 2.0 cable supporting 4K at 60Hz.",
     "demand": {
-      "baseDailyUsage": 8,
       "variability": 0.32,
-      "trend": "stable",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -105,15 +73,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "USB-C PD fast wall charger, BIS certified.",
     "demand": {
-      "baseDailyUsage": 12,
       "variability": 0.24,
-      "trend": "spike",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "spike"
     }
   },
   {
@@ -125,15 +86,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Full-size wired keyboard with spill-resistant design.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.43,
-      "trend": "spike",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "spike"
     }
   },
   {
@@ -145,14 +99,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Full HD webcam with built-in noise-reducing microphone.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.51,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -164,15 +112,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Wi-Fi smart plug with energy monitoring.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.52,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -184,14 +125,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Dimmable LED desk lamp with USB charging port.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.55,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -203,15 +138,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Class 10 UHS-I microSDXC card with adapter.",
     "demand": {
-      "baseDailyUsage": 10,
       "variability": 0.5,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -223,15 +151,8 @@
     "supplier": "Apex Electronics Distributors",
     "description": "Cat6 UTP patch cable, 5 metres.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.34,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -243,15 +164,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "3-ply corrugated boxes, 20x15x10 cm, pack of 25.",
     "demand": {
-      "baseDailyUsage": 22,
       "variability": 0.54,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -263,15 +177,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "5-ply corrugated boxes, 35x25x20 cm, pack of 25.",
     "demand": {
-      "baseDailyUsage": 18,
       "variability": 0.31,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -283,15 +190,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "5-ply boxes, 60x40x40 cm, pack of 10.",
     "demand": {
-      "baseDailyUsage": 9,
       "variability": 0.27,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -303,15 +203,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "Air bubble cushioning roll, 1 m wide, 50 m long.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.5,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -323,15 +216,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "48 mm x 65 m BOPP tape, pack of 6.",
     "demand": {
-      "baseDailyUsage": 25,
       "variability": 0.36,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -343,14 +229,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "23 micron hand stretch film for pallet wrapping.",
     "demand": {
-      "baseDailyUsage": 8,
       "variability": 0.48,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -362,15 +242,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "Tamper-proof poly mailers, A4 size, pack of 100.",
     "demand": {
-      "baseDailyUsage": 15,
       "variability": 0.27,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -382,15 +255,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "Printed 'Fragile - Handle with care' labels.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.31,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -402,14 +268,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "Recycled kraft paper void fill.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.44,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -421,14 +281,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "Heat-treated wooden pallet, 4-way entry.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.36,
-      "trend": "rising",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -440,14 +294,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "Polypropylene strapping roll, 12 mm.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.22,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -459,14 +307,8 @@
     "supplier": "BoxCraft Packaging",
     "description": "Direct thermal shipping labels, 4x6 inch.",
     "demand": {
-      "baseDailyUsage": 12,
       "variability": 0.34,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -478,14 +320,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "500 sheets per ream, 75 gsm, bright white.",
     "demand": {
-      "baseDailyUsage": 30,
       "variability": 0.41,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -497,15 +333,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Smooth-writing ballpoint pens, box of 50.",
     "demand": {
-      "baseDailyUsage": 8,
       "variability": 0.26,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -517,15 +346,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Metal stapler, 25-sheet capacity.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.54,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -537,15 +359,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "No.10 staple pins, 20 small boxes.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.24,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -557,15 +372,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Assorted colour sticky notes, 100 sheets each.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.28,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -577,15 +385,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Set of 4 dry-erase markers.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.59,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -597,15 +398,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Lever arch box file, foolscap size.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.34,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -617,15 +411,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "200-page ruled notebook, A5.",
     "demand": {
-      "baseDailyUsage": 14,
       "variability": 0.52,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -637,15 +424,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Compatible toner cartridge, 2000 pages.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.49,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -657,15 +437,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Solar and battery desktop calculator.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.38,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -677,15 +450,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Fluorescent highlighters, 5 colours.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.39,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -697,14 +463,8 @@
     "supplier": "Deskline Office Supplies",
     "description": "Kraft envelopes with gummed flap.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.39,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -716,15 +476,8 @@
     "supplier": "PureShine Hygiene",
     "description": "70% alcohol gel sanitizer with pump.",
     "demand": {
-      "baseDailyUsage": 16,
       "variability": 0.51,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -736,15 +489,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Concentrated floor cleaner, pine fragrance.",
     "demand": {
-      "baseDailyUsage": 7,
       "variability": 0.52,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -756,15 +502,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Antibacterial liquid hand wash refill.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.27,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -776,14 +515,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Heavy-duty black garbage bags, 30 per roll.",
     "demand": {
-      "baseDailyUsage": 20,
       "variability": 0.52,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -795,15 +528,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Lint-free microfiber cleaning cloths.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.42,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -815,14 +541,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Thick liquid toilet cleaner.",
     "demand": {
-      "baseDailyUsage": 9,
       "variability": 0.41,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -834,15 +554,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Soft 2-ply toilet tissue rolls.",
     "demand": {
-      "baseDailyUsage": 14,
       "variability": 0.29,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -854,14 +567,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Absorbent kitchen paper towels.",
     "demand": {
-      "baseDailyUsage": 8,
       "variability": 0.53,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -873,15 +580,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Spin mop with bucket and 2 refills.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.41,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -893,15 +593,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Kills 99.9% of germs, 500 ml.",
     "demand": {
-      "baseDailyUsage": 7,
       "variability": 0.51,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -913,14 +606,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Powder-free nitrile examination gloves.",
     "demand": {
-      "baseDailyUsage": 10,
       "variability": 0.42,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -932,15 +619,8 @@
     "supplier": "PureShine Hygiene",
     "description": "Traditional soft grass broom.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.28,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -952,14 +632,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "12V lithium-ion cordless drill driver with 2 batteries.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.5,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -971,15 +645,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Precision screwdriver bit set with handle.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.38,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -991,15 +658,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Steel measuring tape with auto lock.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.54,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1011,15 +671,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Chrome vanadium adjustable spanner.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.23,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1031,15 +684,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Forged steel claw hammer with fibreglass handle.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.56,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1051,15 +697,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Retractable box cutter with 5 spare blades.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.59,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1071,15 +710,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "High-speed steel drill bits 1.5-6.5 mm.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.6,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1091,14 +723,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Nylon cable ties, UV resistant.",
     "demand": {
-      "baseDailyUsage": 9,
       "variability": 0.34,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1110,15 +736,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "9-piece ball-end hex key set.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.34,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -1130,15 +749,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Insulated combination pliers.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.4,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1150,14 +762,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Assorted anchors and screws, 300 pieces.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.31,
-      "trend": "stable",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1169,14 +775,8 @@
     "supplier": "Forge & Bolt Tools",
     "description": "Aluminium spirit level with 3 vials.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.54,
-      "trend": "stable",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1188,15 +788,8 @@
     "supplier": "SafeGuard PPE",
     "description": "HDPE safety helmet with ratchet adjustment.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.24,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1208,15 +801,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Leather safety shoes with steel toe cap.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.58,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1228,15 +814,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Fluorescent vest with reflective tape.",
     "demand": {
-      "baseDailyUsage": 8,
       "variability": 0.31,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1248,15 +827,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Anti-fog polycarbonate safety goggles.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.45,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1268,15 +840,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Disposable foam ear plugs, SNR 37 dB.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.22,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1288,15 +853,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Level 5 cut-resistant work gloves.",
     "demand": {
-      "baseDailyUsage": 7,
       "variability": 0.38,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1308,15 +866,8 @@
     "supplier": "SafeGuard PPE",
     "description": "NIOSH N95 particulate respirators.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.21,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -1328,15 +879,8 @@
     "supplier": "SafeGuard PPE",
     "description": "50-person industrial first aid kit.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.57,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1348,15 +892,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Dry powder ABC fire extinguisher, ISI marked.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.59,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1368,15 +905,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Full body harness with double lanyard.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.53,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1388,15 +918,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Red/white barricade tape, 250 m.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.23,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1408,15 +931,8 @@
     "supplier": "SafeGuard PPE",
     "description": "Clear PET face shield with headband.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.55,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1428,15 +944,8 @@
     "supplier": "GrainGate Foods",
     "description": "Packaged drinking water, 12 x 1 litre.",
     "demand": {
-      "baseDailyUsage": 40,
       "variability": 0.38,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1448,15 +957,8 @@
     "supplier": "GrainGate Foods",
     "description": "Pure instant coffee granules.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.58,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -1468,15 +970,8 @@
     "supplier": "GrainGate Foods",
     "description": "Assam black tea bags.",
     "demand": {
-      "baseDailyUsage": 7,
       "variability": 0.34,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1488,15 +983,8 @@
     "supplier": "GrainGate Foods",
     "description": "5 g white sugar sachets.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.4,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1508,14 +996,8 @@
     "supplier": "GrainGate Foods",
     "description": "Assorted cream and glucose biscuits.",
     "demand": {
-      "baseDailyUsage": 9,
       "variability": 0.53,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1527,15 +1009,8 @@
     "supplier": "GrainGate Foods",
     "description": "Disposable paper cups for hot beverages.",
     "demand": {
-      "baseDailyUsage": 15,
       "variability": 0.32,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1547,14 +1022,8 @@
     "supplier": "GrainGate Foods",
     "description": "Carbonated energy drink cans.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.51,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -1566,14 +1035,8 @@
     "supplier": "GrainGate Foods",
     "description": "Roasted spiced peanuts.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.22,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -1585,15 +1048,8 @@
     "supplier": "GrainGate Foods",
     "description": "Mixed fruit juice tetra packs.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.53,
-      "trend": "spike",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "spike"
     }
   },
   {
@@ -1605,15 +1061,8 @@
     "supplier": "GrainGate Foods",
     "description": "Masala instant noodles, 70 g packs.",
     "demand": {
-      "baseDailyUsage": 8,
       "variability": 0.25,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1625,14 +1074,8 @@
     "supplier": "GrainGate Foods",
     "description": "Dairy whitener for tea and coffee.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.45,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -1644,15 +1087,8 @@
     "supplier": "GrainGate Foods",
     "description": "Natural green tea bags.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.38,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1664,15 +1100,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Anti-dandruff shampoo, family pack.",
     "demand": {
-      "baseDailyUsage": 8,
       "variability": 0.3,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1684,15 +1113,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Moisturising bath soap bars.",
     "demand": {
-      "baseDailyUsage": 14,
       "variability": 0.5,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -1704,15 +1126,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Fluoride toothpaste with cavity protection.",
     "demand": {
-      "baseDailyUsage": 12,
       "variability": 0.51,
-      "trend": "spike",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "spike"
     }
   },
   {
@@ -1724,15 +1139,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Deep moisture body lotion.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.3,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1744,15 +1152,8 @@
     "supplier": "Lumina Personal Care",
     "description": "48-hour fresh deodorant spray.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.39,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1764,15 +1165,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Oil-control neem face wash.",
     "demand": {
-      "baseDailyUsage": 7,
       "variability": 0.48,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1784,15 +1178,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Lather shaving cream for sensitive skin.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.32,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1804,15 +1191,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Coconut hair oil enriched with vitamin E.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.53,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -1824,15 +1204,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Ultra-thin sanitary pads with wings.",
     "demand": {
-      "baseDailyUsage": 9,
       "variability": 0.43,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1844,15 +1217,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Pant-style diapers, medium size.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.55,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1864,14 +1230,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Broad-spectrum sunscreen lotion.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.21,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1883,15 +1243,8 @@
     "supplier": "Lumina Personal Care",
     "description": "Paper-stem cotton buds.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.37,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -1903,15 +1256,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Fully synthetic engine oil, API SP.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.5,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -1923,14 +1269,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Ceramic front brake pads for compact cars.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.56,
-      "trend": "stable",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1942,15 +1282,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Engine air filter for popular hatchbacks.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.6,
-      "trend": "spike",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "spike"
     }
   },
   {
@@ -1962,14 +1295,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Spin-on oil filter, standard thread.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.54,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -1981,14 +1308,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Long-life iridium spark plug.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.45,
-      "trend": "stable",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2000,14 +1321,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Frameless all-season wiper blade.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.28,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2019,15 +1334,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Maintenance-free 35Ah car battery.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.49,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2039,15 +1347,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Ready-to-use long-life coolant.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.39,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -2059,14 +1360,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Halogen H4 bulb 60/55W.",
     "demand": {
-      "baseDailyUsage": 3,
       "variability": 0.34,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2078,15 +1373,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "12V digital tyre inflator.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.39,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -2098,14 +1386,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "DOT 4 synthetic brake fluid.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.23,
-      "trend": "falling",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -2117,15 +1399,8 @@
     "supplier": "TorqueLine Auto Parts",
     "description": "Scratch-free car wash mitt.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.37,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -2137,14 +1412,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Cool daylight LED bulbs, B22 base.",
     "demand": {
-      "baseDailyUsage": 14,
       "variability": 0.34,
-      "trend": "stable",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2156,15 +1425,8 @@
     "supplier": "VoltWay Electricals",
     "description": "4-foot LED batten, 2000 lumen.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.55,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -2176,15 +1438,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Surge-protected extension with 3 m cord.",
     "demand": {
-      "baseDailyUsage": 5,
       "variability": 0.31,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2196,15 +1451,8 @@
     "supplier": "VoltWay Electricals",
     "description": "FR PVC insulated copper wire coil.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.47,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -2216,15 +1464,8 @@
     "supplier": "VoltWay Electricals",
     "description": "C-curve miniature circuit breaker.",
     "demand": {
-      "baseDailyUsage": 4,
       "variability": 0.35,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -2236,15 +1477,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Energy-efficient BLDC ceiling fan.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.37,
-      "trend": "rising",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "rising"
     }
   },
   {
@@ -2256,15 +1490,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Modular one-way switch, white.",
     "demand": {
-      "baseDailyUsage": 12,
       "variability": 0.57,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -2276,15 +1503,8 @@
     "supplier": "VoltWay Electricals",
     "description": "PVC insulation tape, assorted colours.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.26,
-      "trend": "falling",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "falling"
     }
   },
   {
@@ -2296,15 +1516,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Rechargeable emergency light, 4h backup.",
     "demand": {
-      "baseDailyUsage": 2,
       "variability": 0.42,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2316,14 +1529,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Plug-in wireless doorbell with 36 tunes.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.46,
-      "trend": "stable",
-      "warehouses": [
-        "DEL-03",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2335,14 +1542,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Modular 16A power socket.",
     "demand": {
-      "baseDailyUsage": 6,
       "variability": 0.48,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "DEL-03",
-        "MUM-02"
-      ]
+      "trend": "stable"
     }
   },
   {
@@ -2354,14 +1555,8 @@
     "supplier": "VoltWay Electricals",
     "description": "Tall tubular inverter battery.",
     "demand": {
-      "baseDailyUsage": 1,
       "variability": 0.36,
-      "trend": "stable",
-      "warehouses": [
-        "BLR-04",
-        "MUM-02",
-        "PUN-01"
-      ]
+      "trend": "stable"
     }
   }
 ]

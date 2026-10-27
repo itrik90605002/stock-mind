@@ -7,7 +7,6 @@ import { Field, FormActions, Modal, preventDefault } from './ui';
 
 const UNITS = ['pcs', 'box', 'kg', 'l', 'm', 'pack', 'roll', 'pair'];
 
-/** Create or edit a product (Managers). The SKU is fixed once created. */
 export function ProductForm({ product, onClose, onSaved }: {
   product?: Product; onClose: () => void; onSaved: (p: Product) => void;
 }) {

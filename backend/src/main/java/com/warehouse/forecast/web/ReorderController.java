@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-/** AI-assisted reorder suggestions. */
 @RestController
 @RequestMapping("/api/reorder")
 public class ReorderController {
@@ -39,7 +38,6 @@ public class ReorderController {
         return reorderService.suggestions(user, warehouseId);
     }
 
-    /** Recomputes all forecasts now instead of waiting for the daily job. */
     @PostMapping("/recompute")
     @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
     public ForecastRunResult recompute() {

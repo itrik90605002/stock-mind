@@ -1,11 +1,6 @@
 import { DependencyList, useCallback, useEffect, useRef, useState } from 'react';
 import { newIdempotencyKey } from './client';
 
-/**
- * Loads data on mount (and when {@code deps} change) and exposes loading/error state plus a
- * {@code reload} function for refreshing after a mutation. Stale responses (from an earlier
- * dependency value) are ignored.
- */
 export function useApi<T>(load: () => Promise<T>, deps: DependencyList = []) {
   const [data, setData] = useState<T | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -36,10 +31,6 @@ export function useApi<T>(load: () => Promise<T>, deps: DependencyList = []) {
   return { data, error, loading, reload, setData };
 }
 
-/**
- * Wraps a mutation: tracks a busy flag and the last error/success message so forms and buttons
- * can show feedback with one line of code.
- */
 export function useAction() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);

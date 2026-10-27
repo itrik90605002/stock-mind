@@ -38,7 +38,6 @@ public class WarehouseService {
         this.clock = clock;
     }
 
-    /** Every warehouse, flagged with whether the user may act on it (transfers can target any warehouse). */
     @Transactional(readOnly = true)
     public List<WarehouseResponse> list(AuthUser user) {
         return repository.findAllByOrderByCodeAsc().stream()
@@ -65,7 +64,6 @@ public class WarehouseService {
         return WarehouseResponse.from(warehouse, true);
     }
 
-    /** Only an empty warehouse with no open transfers or purchase orders can be deactivated. */
     @Transactional
     public WarehouseResponse deactivate(Long id) {
         Warehouse warehouse = find(id);

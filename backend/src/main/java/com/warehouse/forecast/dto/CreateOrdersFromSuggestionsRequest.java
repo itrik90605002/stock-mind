@@ -8,7 +8,6 @@ import jakarta.validation.constraints.Size;
 
 import java.util.List;
 
-/** Selected suggestions (possibly with edited quantities) to turn into draft purchase orders. */
 public record CreateOrdersFromSuggestionsRequest(@NotNull @Size(min = 1, max = 200) List<@Valid Item> items) {
 
     public record Item(@NotNull Long productId, @NotNull Long warehouseId, @Min(1) @Max(1_000_000) int quantity) {

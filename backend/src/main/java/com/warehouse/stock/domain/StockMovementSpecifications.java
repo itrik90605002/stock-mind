@@ -5,7 +5,6 @@ import org.springframework.data.jpa.domain.Specification;
 import java.time.Instant;
 import java.util.Collection;
 
-/** Composable filters for the ledger view. A {@code null} argument means "no filter". */
 public final class StockMovementSpecifications {
 
     private StockMovementSpecifications() {

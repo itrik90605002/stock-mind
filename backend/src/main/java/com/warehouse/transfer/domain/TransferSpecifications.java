@@ -9,7 +9,6 @@ public final class TransferSpecifications {
     private TransferSpecifications() {
     }
 
-    /** Transfers leaving or arriving at any of the warehouses. */
     public static Specification<Transfer> involving(Collection<Long> warehouseIds) {
         return (root, query, cb) -> cb.or(
                 root.get("source").get("id").in(warehouseIds),

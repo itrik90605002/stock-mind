@@ -1,10 +1,5 @@
 package com.warehouse.assistant.query;
 
-/**
- * Describes one result column so the frontend can format values without guessing.
- *
- * @param type one of {@code text, number, decimal, money, date, datetime, status}
- */
 public record Column(String key, String label, String type) {
 
     public static Column text(String key, String label) {

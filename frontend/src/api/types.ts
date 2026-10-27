@@ -1,4 +1,3 @@
-/** API contracts, mirroring the backend DTOs. */
 
 export type Role = 'ADMIN' | 'MANAGER' | 'CLERK';
 export type MovementType = 'RECEIPT' | 'ISSUE' | 'ADJUSTMENT' | 'TRANSFER_OUT' | 'TRANSFER_IN';
@@ -179,12 +178,11 @@ export interface ReorderSuggestion {
   suggestedQty: number;
   estimatedCost: number;
   explanation: string | null;
-  explanationByAi: boolean;
   computedAt: string;
 }
 
 export interface ForecastRunResult {
-  computedAt: string; pairsAnalysed: number; suggestions: number; aiExplanations: number; durationMs: number;
+  computedAt: string; pairsAnalysed: number; suggestions: number; durationMs: number;
 }
 
 export interface QueryPlan {
@@ -221,6 +219,17 @@ export interface AssistantAnswer {
   message: string | null;
   usedAi: boolean;
   durationMs: number;
+  aiSql: AiSqlAnswer | null;
+}
+
+export interface AiSqlAnswer {
+  sql: string | null;
+  answered: boolean;
+  summary: string | null;
+  columns: AnswerColumn[];
+  rows: Record<string, unknown>[];
+  truncated: boolean;
+  message: string | null;
 }
 
 export interface AssistantStatus { enabled: boolean; available: boolean; model: string }
@@ -251,13 +260,11 @@ export interface DashboardStats {
 
 export interface TrendPoint { day: string; unitsIn: number; unitsOut: number }
 
-/** The next step a purchase order or transfer is waiting for, in journey order. */
 export type TaskKind = 'PLACE_ORDER' | 'RECEIVE_DELIVERY' | 'DISPATCH_TRANSFER' | 'RECEIVE_TRANSFER';
 
 export interface Task {
   kind: TaskKind;
   documentId: number;
-  /** Supplier name for purchase orders, "SRC → DST" for transfers. */
   title: string;
   warehouseCode: string;
   units: number;
@@ -266,7 +273,6 @@ export interface Task {
   late: boolean;
 }
 
-/** Sidebar badge counts. {@code toReorder} is 0 for Clerks. */
 export interface NavCounts { toReorder: number; purchaseOrders: number; transfers: number; late: number }
 
 export interface TaskGroup { kind: TaskKind; count: number; late: number; items: Task[] }
@@ -274,7 +280,6 @@ export interface TaskGroup { kind: TaskKind; count: number; late: number; items:
 export interface Dashboard {
   stats: DashboardStats;
   urgentReorders: ReorderSuggestion[];
-  /** Only the steps the user may perform; empty groups included. */
   tasks: TaskGroup[];
   recentMovements: Movement[];
   trend: TrendPoint[];

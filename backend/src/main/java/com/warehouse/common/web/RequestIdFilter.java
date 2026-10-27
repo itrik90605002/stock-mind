@@ -14,10 +14,6 @@ import java.io.IOException;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
-/**
- * Tags every request with an id (taken from {@code X-Request-Id} or generated), puts it in the
- * logging MDC and echoes it in the response, so a user-reported error can be traced in the logs.
- */
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class RequestIdFilter extends OncePerRequestFilter {

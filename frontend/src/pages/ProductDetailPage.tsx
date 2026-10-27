@@ -12,7 +12,6 @@ import {
 
 type Dialog = { kind: 'issue' | 'adjust' | 'settings'; row: StockRow } | null;
 
-/** One product across the user's warehouses: stock, the actions on it, and its movement history. */
 export function ProductDetailPage() {
   const id = Number(useParams().id);
   const { canManage } = useAuth();
@@ -39,16 +38,29 @@ export function ProductDetailPage() {
   return (
     <Async state={product}>{p => (
       <>
-        <Link to="/inventory" className="small">← Inventory</Link>
+        <Link to="/inventory" className="back-link small">← Stock</Link>
         <PageHeader title={p.name}
-                    subtitle={<><span className="mono">{p.sku}</span> · {p.category} · {p.unit} · {moneyExact(p.unitCost)} per {p.unit}{p.archived && <> · <Badge value="CANCELLED" label="archived" /></>}</>}
+                    subtitle={<><span className="mono">{p.sku}</span>{p.archived && <> · <Badge value="CANCELLED" label="archived" /></>}</>}
                     actions={canManage && <>
                       <button className="btn btn-ghost" onClick={() => setEditing(true)}>Edit</button>
                       <button className="btn btn-ghost" onClick={toggleArchive} disabled={action.busy}>{p.archived ? 'Restore' : 'Archive'}</button>
                     </>} />
         <Alert>{action.error}</Alert>
         <Alert kind="success">{notice}</Alert>
-        <div className="grid-3">
+        <div className="stack">
+          <Card title="Details">
+            <dl className="facts">
+              <div><dt>Supplier</dt><dd>{p.supplierName ?? '—'}</dd></div>
+              <div><dt>Category</dt><dd>{p.category}</dd></div>
+              <div><dt>Unit</dt><dd>{p.unit}</dd></div>
+              <div><dt>Unit cost</dt><dd>{moneyExact(p.unitCost)}</dd></div>
+            </dl>
+            {p.description && <p className="muted">{p.description}</p>}
+            <div className="next-links next-links-row">
+              <Link to="/replenish">Reorder suggestions →</Link>
+              {canManage && <Link to="/transfers?new=1">Move stock between warehouses →</Link>}
+            </div>
+          </Card>
           <Card title="Stock by warehouse" className="flush">
             <Async state={stock}>{rows => rows.length === 0 ? <Empty>Not stocked in any of your warehouses.</Empty> : (
               <div className="table-wrap"><table>
@@ -78,36 +90,25 @@ export function ProductDetailPage() {
               </table></div>
             )}</Async>
           </Card>
-          <Card title="Details">
-            <dl className="facts">
-              <div><dt>Supplier</dt><dd>{p.supplierName ?? '—'}</dd></div>
-              <div><dt>Unit</dt><dd>{p.unit}</dd></div>
-            </dl>
-            {p.description && <p className="muted">{p.description}</p>}
-            <div className="next-links">
-              <Link to="/replenish">Reorder suggestions →</Link>
-              {canManage && <Link to="/transfers?new=1">Move stock between warehouses →</Link>}
-            </div>
+          <Card title="Recent movements" className="flush" actions={<Link to={`/movements?productId=${id}`} className="small">Full history →</Link>}>
+            <Async state={movements}>{data => data.content.length === 0 ? <Empty>No movements yet.</Empty> : (
+              <div className="table-wrap"><table>
+                <thead><tr><th>When</th><th>Type</th><th>Warehouse</th><th className="num">Qty</th><th className="num">Balance</th><th>Reason</th><th>By</th></tr></thead>
+                <tbody>{data.content.map(m => (
+                  <tr key={m.id}>
+                    <td className="nowrap small">{formatDateTime(m.createdAt)}</td>
+                    <td><Badge value={m.type} /></td>
+                    <td>{m.warehouse.code}</td>
+                    <td className="num"><Delta value={m.quantity} /></td>
+                    <td className="num">{num(m.balanceAfter)}</td>
+                    <td className="small">{m.reason ?? '—'}</td>
+                    <td className="small">{m.userName}</td>
+                  </tr>
+                ))}</tbody>
+              </table></div>
+            )}</Async>
           </Card>
         </div>
-        <Card title="Recent movements" className="flush" actions={<Link to={`/movements?productId=${id}`} className="small">Full history →</Link>}>
-          <Async state={movements}>{data => data.content.length === 0 ? <Empty>No movements yet.</Empty> : (
-            <div className="table-wrap"><table>
-              <thead><tr><th>When</th><th>Type</th><th>Warehouse</th><th className="num">Qty</th><th className="num">Balance</th><th>Reason</th><th>By</th></tr></thead>
-              <tbody>{data.content.map(m => (
-                <tr key={m.id}>
-                  <td className="nowrap small">{formatDateTime(m.createdAt)}</td>
-                  <td><Badge value={m.type} /></td>
-                  <td>{m.warehouse.code}</td>
-                  <td className="num"><Delta value={m.quantity} /></td>
-                  <td className="num">{num(m.balanceAfter)}</td>
-                  <td className="small">{m.reason ?? '—'}</td>
-                  <td className="small">{m.userName}</td>
-                </tr>
-              ))}</tbody>
-            </table></div>
-          )}</Async>
-        </Card>
         {dialog?.kind === 'issue' && <IssueModal row={dialog.row} onClose={() => setDialog(null)} onDone={done} />}
         {dialog?.kind === 'adjust' && <AdjustModal row={dialog.row} onClose={() => setDialog(null)} onDone={done} />}
         {dialog?.kind === 'settings' && <SettingsModal row={dialog.row} onClose={() => setDialog(null)} onDone={done} />}

@@ -7,7 +7,6 @@ import { PlusIcon } from '../components/icons';
 import { ProductForm } from '../components/ProductForm';
 import { Async, Badge, Card, Empty, moneyExact, Pagination } from '../components/ui';
 
-/** Inventory → Product catalogue: the products shared by all warehouses. Managers add and edit them here. */
 export function CatalogPanel() {
   const { canManage } = useAuth();
   const navigate = useNavigate();

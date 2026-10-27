@@ -1,10 +1,6 @@
 import type { TrendPoint } from '../api/types';
 import { num } from './ui';
 
-/**
- * Grouped daily bars of units in (receipts, transfers in) and units out (issues, transfers out).
- * Plain SVG; scales to its container width.
- */
 export function ActivityChart({ points }: { points: TrendPoint[] }) {
   const width = 720;
   const height = 180;

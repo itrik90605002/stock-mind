@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/** Suppliers: readable by everyone, managed by Managers and Admins. */
 @RestController
 @RequestMapping("/api/suppliers")
 public class SupplierController {

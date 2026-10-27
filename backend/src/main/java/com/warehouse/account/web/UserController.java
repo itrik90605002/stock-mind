@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/** User management (Admin only). */
 @RestController
 @RequestMapping("/api/users")
 @PreAuthorize("hasRole('ADMIN')")

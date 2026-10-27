@@ -10,7 +10,6 @@ import {
 
 const STEPS = ['Draft · stock reserved', 'Dispatched · in transit', 'Received'];
 
-/** The transfer's position on the Draft → Dispatched → Received path, and what happens next. */
 function lifecycle(t: Transfer) {
   switch (t.status) {
     case 'DRAFT':

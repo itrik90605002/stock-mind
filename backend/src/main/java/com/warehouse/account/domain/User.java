@@ -19,10 +19,6 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-/**
- * A person using the system. Managers and Clerks act only on the warehouses assigned to them;
- * Admins implicitly see every warehouse.
- */
 @Entity
 @Table(name = "users")
 public class User {
@@ -47,7 +43,6 @@ public class User {
     @Column(nullable = false)
     private boolean active;
 
-    /** Why the account was deactivated, shown to admins. */
     @Column(name = "status_reason")
     private String statusReason;
 
@@ -61,7 +56,6 @@ public class User {
     private Set<Warehouse> warehouses = new HashSet<>();
 
     protected User() {
-        // for JPA
     }
 
     public User(String email, String passwordHash, String fullName, Role role, Instant createdAt) {

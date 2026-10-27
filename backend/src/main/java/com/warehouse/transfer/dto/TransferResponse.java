@@ -10,13 +10,11 @@ import com.warehouse.warehouse.dto.WarehouseRef;
 import java.time.Instant;
 import java.util.List;
 
-/** @param lines empty in list responses, populated in detail responses */
 public record TransferResponse(Long id, WarehouseRef source, WarehouseRef destination, TransferStatus status,
                                String note, int totalUnits, int lineCount, String createdBy, Instant createdAt,
                                String dispatchedBy, Instant dispatchedAt, String receivedBy, Instant receivedAt,
                                Instant cancelledAt, List<Line> lines) {
 
-    /** @param shortfall units lost in transit (dispatched but not received) */
     public record Line(Long id, ProductRef product, int quantity, Integer receivedQuantity, int shortfall) {
 
         static Line from(TransferLine l) {

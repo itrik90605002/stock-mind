@@ -4,7 +4,6 @@ import org.springframework.data.jpa.domain.Specification;
 
 import java.util.Collection;
 
-/** Composable filters for the stock list. A {@code null} argument means "no filter". */
 public final class StockLevelSpecifications {
 
     private StockLevelSpecifications() {
@@ -33,7 +32,6 @@ public final class StockLevelSpecifications {
         return (root, query, cb) -> cb.isFalse(root.get("product").get("archived"));
     }
 
-    /** Available (on hand - reserved) at or below the reorder point. */
     public static Specification<StockLevel> lowOnly(boolean lowOnly) {
         return !lowOnly ? null : (root, query, cb) -> cb.le(
                 cb.diff(root.<Integer>get("onHand"), root.<Integer>get("reserved")), root.<Integer>get("reorderPoint"));

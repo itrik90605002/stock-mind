@@ -8,16 +8,11 @@ import com.warehouse.warehouse.dto.WarehouseRef;
 import java.math.BigDecimal;
 import java.time.Instant;
 
-/**
- * A suggested purchase for one product in one warehouse. The quantity is computed by formula;
- * {@code explanation} is a one-line rationale written by AI when available ({@code explanationByAi}),
- * otherwise generated from the same numbers.
- */
 public record ReorderSuggestion(Long id, ProductRef product, String category, WarehouseRef warehouse,
                                 Long supplierId, String supplierName, BigDecimal unitCost,
                                 BigDecimal avgDailyUsage, BigDecimal trendPct, int leadTimeDays, int safetyStock,
                                 int available, int incoming, BigDecimal daysOfCover, int suggestedQty,
-                                BigDecimal estimatedCost, String explanation, boolean explanationByAi,
+                                BigDecimal estimatedCost, String explanation,
                                 Instant computedAt) {
 
     public static ReorderSuggestion from(StockForecast f) {
@@ -27,6 +22,6 @@ public record ReorderSuggestion(Long id, ProductRef product, String category, Wa
                 p.getSupplier() == null ? null : p.getSupplier().getName(), p.getUnitCost(), f.getAvgDailyUsage(),
                 f.getTrendPct(), f.getLeadTimeDays(), f.getSafetyStock(), f.getAvailable(), f.getIncoming(),
                 f.getDaysOfCover(), f.getSuggestedQty(), p.getUnitCost().multiply(BigDecimal.valueOf(f.getSuggestedQty())),
-                f.getExplanation(), f.isExplanationByAi(), f.getComputedAt());
+                f.getExplanation(), f.getComputedAt());
     }
 }

@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/** Lets an admin run the daily job on demand. */
 @RestController
 @RequestMapping("/api/jobs")
 @PreAuthorize("hasRole('ADMIN')")

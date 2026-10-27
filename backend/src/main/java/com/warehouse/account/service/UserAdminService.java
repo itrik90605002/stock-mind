@@ -18,7 +18,6 @@ import java.time.Clock;
 import java.util.List;
 import java.util.Set;
 
-/** Admin-only user management. */
 @Service
 public class UserAdminService {
 

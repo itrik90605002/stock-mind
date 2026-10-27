@@ -29,11 +29,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * An order placed with a supplier for delivery to one warehouse. The entity enforces the state
- * machine and receipt limits; receipts book stock through the ledger in
- * {@link com.warehouse.purchasing.service.PurchaseOrderService}.
- */
 @Entity
 @Table(name = "purchase_orders")
 public class PurchaseOrder {
@@ -82,7 +77,6 @@ public class PurchaseOrder {
     private List<PurchaseOrderLine> lines = new ArrayList<>();
 
     protected PurchaseOrder() {
-        // for JPA
     }
 
     public PurchaseOrder(Supplier supplier, Warehouse warehouse, LocalDate expectedDate, String note, User createdBy,
@@ -104,7 +98,6 @@ public class PurchaseOrder {
         lines.add(new PurchaseOrderLine(this, product, quantity, unitCost));
     }
 
-    /** Replaces header and lines of a draft. */
     public void reviseDraft(Supplier supplier, Warehouse warehouse, LocalDate expectedDate, String note) {
         requireStatus("edit", PurchaseOrderStatus.DRAFT);
         this.supplier = supplier;
@@ -126,11 +119,6 @@ public class PurchaseOrder {
         }
     }
 
-    /**
-     * Books a delivery against the order's lines.
-     *
-     * @param unitsByLineId units received per line id (only lines with deliveries)
-     */
     public void receive(Map<Long, Integer> unitsByLineId, Instant now) {
         requireStatus("receive", PurchaseOrderStatus.ORDERED, PurchaseOrderStatus.PARTIALLY_RECEIVED);
         if (unitsByLineId.isEmpty()) {
@@ -151,7 +139,6 @@ public class PurchaseOrder {
         appendNote("Cancelled: " + reason);
     }
 
-    /** Accepts a partial delivery as final; remaining quantities are no longer expected. */
     public void closeShort(String reason, Instant now) {
         requireStatus("close", PurchaseOrderStatus.PARTIALLY_RECEIVED);
         this.status = PurchaseOrderStatus.RECEIVED;
@@ -186,7 +173,6 @@ public class PurchaseOrder {
         return lines.stream().mapToInt(PurchaseOrderLine::getQuantity).sum();
     }
 
-    /** Units still expected; zero once the order is closed (received in full, closed short or cancelled). */
     public int remainingUnits() {
         return PurchaseOrderStatus.OPEN_FOR_RECEIPT.contains(status)
                 ? lines.stream().mapToInt(PurchaseOrderLine::remaining).sum() : 0;

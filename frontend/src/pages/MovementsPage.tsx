@@ -19,7 +19,6 @@ function reference(m: Movement) {
   return <span className="muted">{m.referenceType === 'OPENING' ? 'opening' : 'manual'}</span>;
 }
 
-/** The append-only stock ledger, with reversal of manual entries and a ledger-vs-stock consistency check. */
 export function MovementsPage() {
   const { myWarehouses, canManage } = useAuth();
   const [params] = useSearchParams();

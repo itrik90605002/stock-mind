@@ -16,7 +16,6 @@ function Meter({ row }: { row: StockRow }) {
   return <div className={`meter ${cls}`} title={`${pct}% of 2× reorder point`}><span style={{ width: `${pct}%` }} /></div>;
 }
 
-/** Inventory → Stock levels: on hand, reserved and available per product and warehouse, with stock actions. */
 export function StockPanel() {
   const { myWarehouses, canManage } = useAuth();
   const [params, setParams] = useSearchParams();

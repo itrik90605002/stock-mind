@@ -40,10 +40,6 @@ import static com.warehouse.purchasing.domain.PurchaseOrderSpecifications.inWare
 import static com.warehouse.purchasing.domain.PurchaseOrderSpecifications.openOnly;
 import static com.warehouse.purchasing.domain.PurchaseOrderSpecifications.withStatus;
 
-/**
- * Purchase orders. Receipts book RECEIPT movements through the ledger in the same transaction
- * as the order update, via {@link StockCommandExecutor} (retries + idempotency).
- */
 @Service
 public class PurchaseOrderService {
 
@@ -96,7 +92,6 @@ public class PurchaseOrderService {
         return createDrafts(List.of(request), user, idempotencyKey).orders().getFirst();
     }
 
-    /** Creates several drafts atomically: either all are created or none. */
     public CreatedPurchaseOrders createDrafts(List<PurchaseOrderRequest> requests, AuthUser user,
                                               String idempotencyKey) {
         requests.forEach(r -> access.require(user, r.warehouseId()));
@@ -110,7 +105,6 @@ public class PurchaseOrderService {
                 }).toList()));
     }
 
-    /** Replaces a draft's header and lines. */
     public PurchaseOrderResponse revise(Long id, PurchaseOrderRequest request, AuthUser user) {
         access.require(user, request.warehouseId());
         return executor.execute("po.revise", user.id(), null, PurchaseOrderResponse.class, () -> {
@@ -126,7 +120,6 @@ public class PurchaseOrderService {
         });
     }
 
-    /** Places the order with the supplier. Expected date defaults to today + supplier lead time. */
     public PurchaseOrderResponse place(Long id, AuthUser user) {
         return executor.execute("po.place", user.id(), null, PurchaseOrderResponse.class, () -> {
             PurchaseOrder po = find(id);
@@ -136,7 +129,6 @@ public class PurchaseOrderService {
         });
     }
 
-    /** Books a (possibly partial) delivery: one RECEIPT ledger entry per line received. */
     public PurchaseOrderResponse receive(Long id, ReceivePurchaseOrderRequest request, AuthUser user,
                                          String idempotencyKey) {
         Map<Long, Integer> units = new LinkedHashMap<>();

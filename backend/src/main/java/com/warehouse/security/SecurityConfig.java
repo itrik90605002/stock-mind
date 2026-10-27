@@ -21,15 +21,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.List;
 
-/**
- * Stateless JWT security.
- *
- * <ul>
- *   <li>Public: login, API docs, health.</li>
- *   <li>Everything else requires a token; role checks live on controllers via {@code @PreAuthorize},
- *       warehouse checks in {@link WarehouseAccess}.</li>
- * </ul>
- */
 @Configuration
 @EnableMethodSecurity
 public class SecurityConfig {

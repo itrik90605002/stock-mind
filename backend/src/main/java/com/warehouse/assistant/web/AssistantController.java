@@ -23,7 +23,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/** Plain-English inventory questions. */
 @RestController
 @RequestMapping("/api/assistant")
 @Validated
@@ -50,13 +49,11 @@ public class AssistantController {
         return service.runPlan(request.plan(), user);
     }
 
-    /** The caller's recent questions. */
     @GetMapping("/history")
     public List<QueryLogResponse> history(@AuthenticationPrincipal AuthUser user) {
         return service.history(user);
     }
 
-    /** Every user's questions, plans and outcomes, for review. */
     @GetMapping("/logs")
     @PreAuthorize("hasRole('ADMIN')")
     public PageResponse<QueryLogResponse> logs(@RequestParam(defaultValue = "0") @Min(0) int page,

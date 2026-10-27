@@ -18,16 +18,6 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Calls any OpenAI-compatible {@code POST /chat/completions} endpoint. The same code serves
- * <ul>
- *   <li>local development with Ollama: {@code base-url=http://localhost:11434/v1}, {@code model=llama3.1}</li>
- *   <li>a hosted provider such as Gemini's OpenAI-compatible endpoint: change base URL, API key and model</li>
- * </ul>
- *
- * <p>Requests use temperature 0 and JSON response format. A minimal circuit breaker protects
- * latency: after a failure, calls are skipped for {@code app.ai.cooldown}.
- */
 @Component
 public class OpenAiCompatibleChatClient implements ChatClient {
 
@@ -49,9 +39,7 @@ public class OpenAiCompatibleChatClient implements ChatClient {
         // Buffering sends a Content-Length header instead of a chunked body; some OpenAI-compatible
         // servers and proxies reject chunked requests.
         RestClient.Builder configured = builder.requestFactory(new BufferingClientHttpRequestFactory(requestFactory));
-        if (StringUtils.hasText(settings.baseUrl())) {
-            configured.baseUrl(settings.baseUrl());
-        }
+        configured.baseUrl(settings.effectiveBaseUrl());
         if (StringUtils.hasText(settings.apiKey())) {
             configured.defaultHeaders(headers -> headers.setBearerAuth(settings.apiKey()));
         }
@@ -60,13 +48,13 @@ public class OpenAiCompatibleChatClient implements ChatClient {
 
     @Override
     public String completeJson(String systemPrompt, String userMessage) {
-        if (!settings.enabled()) {
-            throw new AiUnavailableException("AI features are disabled");
+        if (!settings.active()) {
+            throw new AiUnavailableException("AI features are disabled or no API key is set");
         }
         if (clock.instant().isBefore(unavailableUntil)) {
             throw new AiUnavailableException("AI service is temporarily unavailable");
         }
-        ChatRequest request = new ChatRequest(settings.model(), List.of(
+        ChatRequest request = new ChatRequest(settings.effectiveModel(), List.of(
                 new Message("system", systemPrompt),
                 new Message("user", userMessage)), 0.0, Map.of("type", "json_object"));
         try {
@@ -91,17 +79,17 @@ public class OpenAiCompatibleChatClient implements ChatClient {
 
     @Override
     public boolean isAvailable() {
-        return settings.enabled() && !clock.instant().isBefore(unavailableUntil);
+        return settings.active() && !clock.instant().isBefore(unavailableUntil);
     }
 
     @Override
     public boolean isEnabled() {
-        return settings.enabled();
+        return settings.active();
     }
 
     @Override
     public String modelName() {
-        return settings.model();
+        return settings.effectiveModel();
     }
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -112,7 +100,6 @@ public class OpenAiCompatibleChatClient implements ChatClient {
     record Message(String role, String content) {
     }
 
-    /** The subset of the OpenAI chat-completion response we use. */
     record ChatResponse(List<Choice> choices) {
         record Choice(Message message) {
         }

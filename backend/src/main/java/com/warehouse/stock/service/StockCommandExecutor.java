@@ -62,13 +62,6 @@ public class StockCommandExecutor {
         this.clock = clock;
     }
 
-    /**
-     * @param operation      stable name of the command, e.g. {@code "stock.issue"}
-     * @param userId         the acting user (keys are scoped per user)
-     * @param idempotencyKey value of the {@code Idempotency-Key} header, or {@code null}
-     * @param responseType   type of the command's result, used to restore a stored response
-     * @param command        the work; must map its result to a DTO before returning (it runs inside the transaction)
-     */
     public <T> T execute(String operation, Long userId, String idempotencyKey, Class<T> responseType,
                          Supplier<T> command) {
         String key = normalizeKey(idempotencyKey);

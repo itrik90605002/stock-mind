@@ -23,7 +23,6 @@ import static com.warehouse.product.domain.ProductSpecifications.fromSupplier;
 import static com.warehouse.product.domain.ProductSpecifications.inCategory;
 import static com.warehouse.product.domain.ProductSpecifications.matches;
 
-/** Product catalogue management. Stock per warehouse lives in the stock module. */
 @Service
 public class ProductService {
 

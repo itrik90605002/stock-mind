@@ -31,10 +31,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Stock levels and manual stock commands. Commands accept an optional {@code Idempotency-Key}
- * header; repeating a request with the same key returns the original result.
- */
 @RestController
 @RequestMapping("/api/stock")
 @Validated
@@ -89,7 +85,6 @@ public class StockController {
         return commands.updateSettings(request, user);
     }
 
-    /** Rebuilds stock from the ledger and reports any difference. */
     @GetMapping("/consistency")
     @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
     public ConsistencyReport consistency(@AuthenticationPrincipal AuthUser user,

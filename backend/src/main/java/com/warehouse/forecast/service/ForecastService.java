@@ -20,7 +20,6 @@ import java.time.LocalDate;
 import java.time.ZoneOffset;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -73,30 +72,26 @@ public class ForecastService {
     private static final String INSERT_SQL = """
             INSERT INTO stock_forecasts (product_id, warehouse_id, avg_daily_usage, usage_stddev, trend_pct,
                 lead_time_days, safety_stock, available, incoming, days_of_cover, suggested_qty, explanation,
-                explanation_by_ai, computed_at)
+                computed_at)
             VALUES (:productId, :warehouseId, :avg, :stddev, :trend, :lead, :safety, :available, :incoming, :cover,
-                :suggested, :explanation, :byAi, :computedAt)
+                :suggested, :explanation, :computedAt)
             """;
 
     private final NamedParameterJdbcTemplate jdbc;
     private final TransactionTemplate readTx;
     private final TransactionTemplate writeTx;
-    private final ExplanationWriter explanationWriter;
     private final AppProperties.Forecast settings;
-    private final int maxAiExplanations;
     private final Clock clock;
     private final ReentrantLock runLock = new ReentrantLock();
 
     public ForecastService(NamedParameterJdbcTemplate jdbc, PlatformTransactionManager transactionManager,
-                           ExplanationWriter explanationWriter, AppProperties properties, Clock clock) {
+                           AppProperties properties, Clock clock) {
         this.jdbc = jdbc;
         this.readTx = new TransactionTemplate(transactionManager);
         this.readTx.setReadOnly(true);
         this.readTx.setIsolationLevel(TransactionTemplate.ISOLATION_REPEATABLE_READ);
         this.writeTx = new TransactionTemplate(transactionManager);
-        this.explanationWriter = explanationWriter;
         this.settings = properties.forecast();
-        this.maxAiExplanations = properties.ai().maxExplanations();
         this.clock = clock;
     }
 
@@ -130,23 +125,19 @@ public class ForecastService {
                         usage, level.available(), incoming, level.reorderPoint(), level.leadTime()), settings)));
             }
 
-            Map<Integer, String> explanations = new HashMap<>();
-            Map<Integer, String> aiTexts = explain(computed, explanations);
-
             writeTx.executeWithoutResult(status -> {
                 jdbc.getJdbcTemplate().update("DELETE FROM stock_forecasts");
                 MapSqlParameterSource[] batch = new MapSqlParameterSource[computed.size()];
                 for (int i = 0; i < computed.size(); i++) {
-                    batch[i] = row(computed.get(i), explanations.get(i), aiTexts.containsKey(i), now);
+                    batch[i] = row(computed.get(i), explain(computed.get(i)), now);
                 }
                 jdbc.batchUpdate(INSERT_SQL, batch);
             });
 
             int suggestions = (int) computed.stream().filter(c -> c.result().suggestedQty() > 0).count();
             long duration = System.currentTimeMillis() - started;
-            log.info("Forecast run: {} pairs, {} suggestions, {} AI explanations in {} ms", computed.size(),
-                    suggestions, aiTexts.size(), duration);
-            return new ForecastRunResult(now, computed.size(), suggestions, aiTexts.size(), duration);
+            log.info("Forecast run: {} pairs, {} suggestions in {} ms", computed.size(), suggestions, duration);
+            return new ForecastRunResult(now, computed.size(), suggestions, duration);
         } finally {
             runLock.unlock();
         }
@@ -179,31 +170,16 @@ public class ForecastService {
         return new Inputs(levels, usage, incoming);
     }
 
-    /** Fills {@code explanations} (index -> text) and returns the subset written by AI. */
-    private Map<Integer, String> explain(List<Computed> computed, Map<Integer, String> explanations) {
-        List<ExplanationWriter.Facts> facts = new ArrayList<>();
-        for (int i = 0; i < computed.size(); i++) {
-            Computed c = computed.get(i);
-            if (c.result().suggestedQty() > 0) {
-                ExplanationWriter.Facts f = new ExplanationWriter.Facts(i, c.level().sku(), c.level().name(),
-                        c.level().warehouseCode(), c.level().unit(), c.result().avgDailyUsage(), c.result().trendPct(),
-                        c.result().daysOfCover(), c.level().leadTime(), c.level().available(), c.incoming(),
-                        c.result().safetyStock(), c.result().suggestedQty());
-                facts.add(f);
-                explanations.put(i, ExplanationWriter.template(f, settings.reviewPeriodDays()));
-            }
+    private String explain(Computed c) {
+        if (c.result().suggestedQty() <= 0) {
+            return null;
         }
-        List<ExplanationWriter.Facts> mostUrgent = facts.stream()
-                .sorted(Comparator.comparing((ExplanationWriter.Facts f) ->
-                        f.daysOfCover() == null ? Double.MAX_VALUE : f.daysOfCover()))
-                .limit(maxAiExplanations)
-                .toList();
-        Map<Integer, String> aiTexts = explanationWriter.aiExplanations(mostUrgent);
-        explanations.putAll(aiTexts);
-        return aiTexts;
+        return ReorderExplanation.of(new ReorderExplanation.Facts(c.level().unit(), c.result().avgDailyUsage(),
+                c.result().trendPct(), c.result().daysOfCover(), c.level().leadTime(), c.level().available(),
+                c.incoming(), c.result().safetyStock(), c.result().suggestedQty()), settings.reviewPeriodDays());
     }
 
-    private static MapSqlParameterSource row(Computed c, String explanation, boolean byAi, Instant now) {
+    private static MapSqlParameterSource row(Computed c, String explanation, Instant now) {
         ReorderMath.Result r = c.result();
         return new MapSqlParameterSource()
                 .addValue("productId", c.level().pair().productId())
@@ -218,7 +194,6 @@ public class ForecastService {
                 .addValue("cover", r.daysOfCover() == null ? null : scale(Math.min(r.daysOfCover(), 99_999), 1))
                 .addValue("suggested", r.suggestedQty())
                 .addValue("explanation", explanation)
-                .addValue("byAi", byAi)
                 .addValue("computedAt", Timestamp.from(now));
     }
 

@@ -28,12 +28,6 @@ public class RateLimiter {
         this.clock = clock;
     }
 
-    /**
-     * Records one hit for {@code key} and throws when more than {@code perMinute} hits happened in
-     * the last minute.
-     *
-     * @throws TooManyRequestsException when the limit is exceeded
-     */
     public void check(String key, int perMinute, String message) {
         long now = clock.millis();
         if (hits.size() > PRUNE_THRESHOLD) {

@@ -1,19 +1,12 @@
-/**
- * Minimal fetch wrapper: adds the base URL, bearer token and optional Idempotency-Key, parses
- * JSON, and turns the backend's RFC 7807 problem responses into {@link ApiError}s.
- */
 
 const BASE_URL = (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(/\/$/, '') ?? 'http://localhost:8080';
 const TOKEN_KEY = 'wms.token';
 
-/** Error thrown for any non-2xx response. */
 export class ApiError extends Error {
   constructor(
     message: string,
     readonly status: number,
-    /** Business-rule code from the backend, e.g. INSUFFICIENT_STOCK. */
     readonly code?: string,
-    /** Field → message, for validation errors. */
     readonly fieldErrors?: Record<string, string>,
   ) {
     super(message);
@@ -34,13 +27,11 @@ export const tokenStore = {
   clear: () => safeStorage(() => localStorage.removeItem(TOKEN_KEY), undefined),
 };
 
-/** Fired when the server rejects our token, so the auth context can log out. */
 export const UNAUTHORIZED_EVENT = 'wms:unauthorized';
 
 type Method = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
 
 export interface RequestOptions {
-  /** Sent as Idempotency-Key so a retried stock command is applied only once. */
   idempotencyKey?: string;
 }
 
@@ -83,7 +74,6 @@ export async function request<T>(method: Method, path: string, body?: unknown, o
   return (text ? JSON.parse(text) : undefined) as T;
 }
 
-/** Builds a query string, skipping empty values. */
 export function query(params: Record<string, string | number | boolean | undefined | null>): string {
   const search = new URLSearchParams();
   Object.entries(params).forEach(([key, value]) => {

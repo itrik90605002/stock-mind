@@ -27,7 +27,6 @@ public class IdempotencyRecord {
     @Column(name = "idem_key", nullable = false)
     private String key;
 
-    /** Which command produced the response; reusing a key for a different command is rejected. */
     @Column(nullable = false)
     private String operation;
 
@@ -38,7 +37,6 @@ public class IdempotencyRecord {
     private Instant createdAt;
 
     protected IdempotencyRecord() {
-        // for JPA
     }
 
     public IdempotencyRecord(Long userId, String key, String operation, String responseJson, Instant createdAt) {

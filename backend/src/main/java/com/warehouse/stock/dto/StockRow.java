@@ -6,7 +6,6 @@ import com.warehouse.warehouse.dto.WarehouseRef;
 
 import java.math.BigDecimal;
 
-/** One product in one warehouse, as shown on the stock page. */
 public record StockRow(Long id, ProductRef product, String category, WarehouseRef warehouse, int onHand,
                        int reserved, int available, int reorderPoint, Integer leadTimeDays, boolean low,
                        BigDecimal unitCost, BigDecimal value, long version) {

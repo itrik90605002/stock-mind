@@ -33,7 +33,6 @@ public class AuthController {
         this.loginAttemptsPerMinute = properties.security().loginAttemptsPerMinute();
     }
 
-    /** Rate limited per client IP to slow down password guessing. */
     @PostMapping("/login")
     public AuthResponse login(@Valid @RequestBody LoginRequest request, HttpServletRequest http) {
         rateLimiter.check("login:" + http.getRemoteAddr(), loginAttemptsPerMinute,

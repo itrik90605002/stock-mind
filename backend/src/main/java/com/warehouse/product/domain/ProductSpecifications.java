@@ -2,13 +2,11 @@ package com.warehouse.product.domain;
 
 import org.springframework.data.jpa.domain.Specification;
 
-/** Composable filters for the product list. */
 public final class ProductSpecifications {
 
     private ProductSpecifications() {
     }
 
-    /** Case-insensitive match on SKU or name; no-op when the text is blank. */
     public static Specification<Product> matches(String text) {
         if (text == null || text.isBlank()) {
             return null;

@@ -23,13 +23,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Translates exceptions into RFC 7807 {@link ProblemDetail} responses so every error the API
- * returns has the same shape: {@code {status, title, detail, code?, errors?}}.
- *
- * <p>Extends {@link ResponseEntityExceptionHandler}, which already maps Spring MVC's own
- * exceptions (malformed JSON, missing parameters, unknown routes ...) to the right 4xx status.
- */
 @RestControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
@@ -47,7 +40,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return pd;
     }
 
-    /** Invalid request body ({@code @Valid}): returns a field → message map. */
     @Override
     protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
                                                                   HttpHeaders headers, HttpStatusCode status,
@@ -62,7 +54,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return ResponseEntity.badRequest().body(pd);
     }
 
-    /** Invalid query/path parameters ({@code @RequestParam @Max ...}). */
     @Override
     protected ResponseEntity<Object> handleHandlerMethodValidationException(HandlerMethodValidationException ex,
                                                                             HttpHeaders headers,
@@ -93,7 +84,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return problem(HttpStatus.TOO_MANY_REQUESTS, "Too many requests", ex.getMessage());
     }
 
-    /** Lost an optimistic-lock race even after retries: the client should retry. */
     @ExceptionHandler({ConcurrentUpdateException.class, ObjectOptimisticLockingFailureException.class})
     public ProblemDetail handleConcurrentUpdate(RuntimeException ex) {
         ProblemDetail pd = problem(HttpStatus.CONFLICT, "Concurrent update",
@@ -102,7 +92,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return pd;
     }
 
-    /** A database constraint caught something the service layer did not (duplicate key, negative stock ...). */
     @ExceptionHandler(DataIntegrityViolationException.class)
     public ProblemDetail handleDataIntegrity(DataIntegrityViolationException ex) {
         log.warn("Data integrity violation: {}", ex.getMostSpecificCause().getMessage());

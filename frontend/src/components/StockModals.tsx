@@ -43,7 +43,6 @@ export function IssueModal({ row, onClose, onDone }: Props) {
 
 const ADJUST_REASONS = ['Cycle count correction', 'Damaged', 'Lost / missing', 'Found stock', 'Expired'];
 
-/** Count corrections, damage and loss. A reason is mandatory and lands in the ledger. */
 export function AdjustModal({ row, onClose, onDone }: Props) {
   const [direction, setDirection] = useState<'down' | 'up'>('down');
   const [quantity, setQuantity] = useState(1);
@@ -86,7 +85,6 @@ export function AdjustModal({ row, onClose, onDone }: Props) {
   );
 }
 
-/** Reorder point and lead-time override for one product in one warehouse (Managers). */
 export function SettingsModal({ row, onClose, onDone }: Props) {
   const [reorderPoint, setReorderPoint] = useState(row.reorderPoint);
   const [leadTime, setLeadTime] = useState<string>(row.leadTimeDays == null ? '' : String(row.leadTimeDays));

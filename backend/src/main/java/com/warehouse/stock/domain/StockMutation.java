@@ -14,7 +14,6 @@ public final class StockMutation {
     private StockMutation() {
     }
 
-    /** Signed on-hand change (receipt, issue, adjustment, transfer in). */
     public static StockMovement change(StockLevel level, MovementType type, int delta, String reason,
                                        ReferenceType referenceType, Long referenceId, Long reversesId,
                                        User user, Instant now) {
@@ -23,7 +22,6 @@ public final class StockMutation {
                 referenceType, referenceId, reversesId, user, now);
     }
 
-    /** Ships previously reserved stock out of the warehouse. */
     public static StockMovement consumeReservation(StockLevel level, int quantity, String reason, Long transferId,
                                                    User user, Instant now) {
         level.consumeReservation(quantity, now);

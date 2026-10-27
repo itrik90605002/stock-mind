@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/** Product catalogue: readable by everyone, managed by Managers and Admins. */
 @RestController
 @RequestMapping("/api/products")
 @Validated

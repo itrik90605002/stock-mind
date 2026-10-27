@@ -40,7 +40,6 @@ public class PurchaseOrderLine {
     private BigDecimal unitCost;
 
     protected PurchaseOrderLine() {
-        // for JPA
     }
 
     PurchaseOrderLine(PurchaseOrder purchaseOrder, Product product, int quantity, BigDecimal unitCost) {

@@ -64,7 +64,6 @@ public class StockMovement {
     @Column(name = "reverses_id")
     private Long reversesId;
 
-    /** Who recorded it; null for system-generated entries. */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
@@ -73,7 +72,6 @@ public class StockMovement {
     private Instant createdAt;
 
     protected StockMovement() {
-        // for JPA
     }
 
     StockMovement(Product product, Warehouse warehouse, MovementType type, int quantity, int balanceAfter,

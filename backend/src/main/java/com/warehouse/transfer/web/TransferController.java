@@ -25,10 +25,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * Transfers between warehouses. Managers create and cancel; Clerks and Managers dispatch (at the
- * source) and receive (at the destination).
- */
 @RestController
 @RequestMapping("/api/transfers")
 @Validated

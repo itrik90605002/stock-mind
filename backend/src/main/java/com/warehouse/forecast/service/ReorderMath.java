@@ -24,20 +24,9 @@ public final class ReorderMath {
     private ReorderMath() {
     }
 
-    /**
-     * @param dailyUsage   outbound units per day over the long window, oldest first
-     * @param available    on hand minus reserved
-     * @param incoming     units still expected on open purchase orders
-     * @param reorderPoint manager-set minimum
-     * @param leadTimeDays days from ordering to delivery
-     */
     public record Inputs(int[] dailyUsage, int available, int incoming, int reorderPoint, int leadTimeDays) {
     }
 
-    /**
-     * @param trendPct    last 14 days vs the 14 days before, percent; null without a baseline
-     * @param daysOfCover available / avg daily usage; null when there is no usage
-     */
     public record Result(double avgDailyUsage, double stddev, Double trendPct, int safetyStock, Double daysOfCover,
                          int reorderTrigger, int orderUpTo, int suggestedQty) {
     }

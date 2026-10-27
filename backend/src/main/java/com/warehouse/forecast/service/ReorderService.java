@@ -23,7 +23,6 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-/** Reorder suggestions and turning them into draft purchase orders. */
 @Service
 public class ReorderService {
 
@@ -48,10 +47,6 @@ public class ReorderService {
         return new ReorderSuggestionsResponse(forecastRepository.lastComputedAt().orElse(null), suggestions);
     }
 
-    /**
-     * Creates one draft purchase order per (preferred supplier, warehouse) from the selected items.
-     * All drafts are created in one transaction.
-     */
     public CreatedPurchaseOrders createOrders(CreateOrdersFromSuggestionsRequest request, AuthUser user,
                                               String idempotencyKey) {
         Map<Long, Product> products = productRepository.findWithSupplierByIdIn(

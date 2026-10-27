@@ -4,11 +4,9 @@ import { PickedProduct, ProductPicker } from './ui';
 export interface Line {
   product: PickedProduct | null;
   quantity: number;
-  /** Purchase orders only; empty = product's unit cost. */
   unitCost?: string;
 }
 
-/** Editable list of product lines used by the transfer and purchase-order forms. */
 export function LineEditor({ lines, onChange, withCost }: { lines: Line[]; onChange: (lines: Line[]) => void; withCost?: boolean }) {
   const update = (i: number, patch: Partial<Line>) => onChange(lines.map((l, j) => (j === i ? { ...l, ...patch } : l)));
   return (
@@ -32,7 +30,6 @@ export function LineEditor({ lines, onChange, withCost }: { lines: Line[]; onCha
   );
 }
 
-/** Returns an error message when lines are incomplete or repeat a product, else null. */
 export function validateLines(lines: Line[]): string | null {
   if (lines.some(l => !l.product)) return 'Choose a product on every line.';
   if (lines.some(l => !(l.quantity > 0))) return 'Every quantity must be at least 1.';

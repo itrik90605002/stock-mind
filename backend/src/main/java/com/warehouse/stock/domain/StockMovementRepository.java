@@ -25,7 +25,6 @@ public interface StockMovementRepository extends JpaRepository<StockMovement, Lo
 
     boolean existsByReversesId(Long reversesId);
 
-    /** Of the given movement ids, those that have already been reversed. */
     @Query("select m.reversesId from StockMovement m where m.reversesId in :ids")
     List<Long> findReversedAmong(@Param("ids") Collection<Long> ids);
 

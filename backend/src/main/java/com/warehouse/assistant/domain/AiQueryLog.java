@@ -11,7 +11,6 @@ import jakarta.persistence.Table;
 
 import java.time.Instant;
 
-/** Audit record of one assistant question: what was asked, how it was interpreted and what happened. */
 @Entity
 @Table(name = "ai_query_logs")
 public class AiQueryLog {
@@ -26,7 +25,6 @@ public class AiQueryLog {
     @Column(nullable = false)
     private String question;
 
-    /** The plan as produced by the model (or sent by a quick query), before validation. */
     @Column(name = "plan_json")
     private String planJson;
 
@@ -46,7 +44,6 @@ public class AiQueryLog {
     private Instant createdAt;
 
     protected AiQueryLog() {
-        // for JPA
     }
 
     public AiQueryLog(Long userId, String question, String planJson, QueryOutcome outcome, String message,

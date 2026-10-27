@@ -1,7 +1,6 @@
-import { FormEvent, useEffect, useRef, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { FormEvent, useState } from 'react';
 import { assistantApi } from '../api/endpoints';
-import type { AnswerColumn, AssistantAnswer, QueryPlan } from '../api/types';
+import type { AiSqlAnswer, AnswerColumn, AssistantAnswer, QueryPlan } from '../api/types';
 import { useAction, useApi } from '../api/useApi';
 import { SendIcon, SparklesIcon } from '../components/icons';
 import { Alert, Badge, Card, Empty, formatDate, formatDateTime, humanize, Loading, money, num, PageHeader } from '../components/ui';
@@ -15,7 +14,6 @@ const EXAMPLES = [
   'What should I reorder for the Mumbai warehouse?',
 ];
 
-/** Quick questions that run fixed plans directly — they work even when AI is unavailable. */
 const QUICK: { label: string; plan: QueryPlan }[] = [
   { label: 'Running out in 7 days', plan: { intent: 'STOCKOUT_FORECAST', horizonDays: 7 } },
   { label: 'Low stock', plan: { intent: 'LOW_STOCK' } },
@@ -45,11 +43,6 @@ const QUICK_PREFIX = 'Quick query: ';
 
 const isNumeric = (c: AnswerColumn) => ['number', 'decimal', 'money'].includes(c.type);
 
-/**
- * Plain-English questions. The model only picks one of a fixed set of queries and fills in
- * filters; the server validates that plan, applies the user's warehouse permissions and runs a
- * prewritten read-only query. The interpreted plan is shown so the user can check it.
- */
 export function AssistantPage() {
   const [question, setQuestion] = useState('');
   const [answer, setAnswer] = useState<AssistantAnswer | null>(null);
@@ -67,24 +60,12 @@ export function AssistantPage() {
     setAnswer(await assistantApi.run(plan));
     void history.reload();
   });
-  // A question handed over from elsewhere (the Home page ask box) is asked once on arrival.
-  const [params, setParams] = useSearchParams();
-  const handedOver = useRef(false);
-  useEffect(() => {
-    const q = params.get('q')?.trim();
-    if (!q || handedOver.current) return;
-    handedOver.current = true;
-    setParams({}, { replace: true });
-    void ask(q);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   const submit = (e: FormEvent) => { e.preventDefault(); if (question.trim()) void ask(question.trim()); };
 
   return (
     <>
       <PageHeader title="Ask about your inventory"
-                  subtitle="Ask in plain English. Answers come straight from live data — the AI only decides which question to run."
+                  subtitle="Ask in plain English. You get two answers from live data: a built-in query the AI picked, and a query the AI wrote."
                   actions={status.data && (
                     <span className="ai-status muted">
                       <span className={`dot ${status.data.available ? 'dot-ok' : 'dot-bad'}`} />
@@ -132,31 +113,52 @@ export function AssistantPage() {
 }
 
 function AnswerView({ answer }: { answer: AssistantAnswer }) {
-  if (answer.outcome !== 'ANSWERED') {
-    const kind = answer.outcome === 'FAILED' ? 'error' : answer.outcome === 'AI_UNAVAILABLE' ? 'info' : 'warn';
-    return <Alert kind={kind}>{answer.message}</Alert>;
-  }
   return (
-    <Card className="flush">
-      <div style={{ padding: '1rem 1.2rem 0' }}>
-        <span className="plan-chip" title="How your question was understood">{answer.usedAi && <SparklesIcon size={14} />}{answer.interpretation}</span>
-        <p className="answer-summary">{answer.summary}</p>
+    <>
+      <Card title="System-built query" className="flush">
+        {answer.outcome !== 'ANSWERED' ? <div className="answer-head"><Alert kind={answer.outcome === 'FAILED' ? 'error' : answer.outcome === 'AI_UNAVAILABLE' ? 'info' : 'warn'}>{answer.message}</Alert></div> : (
+          <>
+            <div className="answer-head">
+              <span className="plan-chip" title="How your question was understood">{answer.usedAi && <SparklesIcon size={14} />}{answer.interpretation}</span>
+              <p className="answer-summary">{answer.summary}</p>
+            </div>
+            <ResultTable columns={answer.columns} rows={answer.rows} />
+            <div className="pagination small muted">
+              {answer.truncated && 'Showing the first rows only. '}{answer.intent && `Query: ${humanize(answer.intent)}`} · {answer.durationMs} ms
+            </div>
+          </>
+        )}
+      </Card>
+      {answer.aiSql && <AiSqlView result={answer.aiSql} />}
+    </>
+  );
+}
+
+function AiSqlView({ result }: { result: AiSqlAnswer }) {
+  return (
+    <Card title={<><SparklesIcon size={14} /> AI-built query</>} className="flush">
+      <div className="answer-head">
+        {result.sql && <details className="sql"><summary className="small">Show SQL</summary><pre>{result.sql}</pre></details>}
+        {result.answered ? <p className="answer-summary">{result.summary}</p> : <Alert kind="warn">{result.message}</Alert>}
       </div>
-      {answer.rows.length === 0 ? <Empty>No matching records.</Empty> : (
-        <div className="table-wrap"><table>
-          <thead><tr>{answer.columns.map(c => <th key={c.key} className={isNumeric(c) ? 'num' : ''}>{c.label}</th>)}</tr></thead>
-          <tbody>{answer.rows.map((row, i) => (
-            <tr key={i}>{answer.columns.map(c => (
-              <td key={c.key} className={`${isNumeric(c) ? 'num' : ''} ${c.key === 'explanation' || c.key === 'reason' ? 'small' : ''} ${c.key === 'sku' ? 'mono nowrap' : ''}`}>
-                {c.key === 'late' && row[c.key] ? <Badge value="LOW" label="late" /> : cell(row[c.key], c)}
-              </td>
-            ))}</tr>
-          ))}</tbody>
-        </table></div>
-      )}
-      <div className="pagination small muted">
-        {answer.truncated && 'Showing the first rows only. '}{answer.intent && `Query: ${humanize(answer.intent)}`} · {answer.durationMs} ms
-      </div>
+      {result.answered && <ResultTable columns={result.columns} rows={result.rows} />}
+      {result.truncated && <div className="pagination small muted">Showing the first rows only.</div>}
     </Card>
+  );
+}
+
+function ResultTable({ columns, rows }: { columns: AnswerColumn[]; rows: Record<string, unknown>[] }) {
+  if (rows.length === 0) return <Empty>No matching records.</Empty>;
+  return (
+    <div className="table-wrap"><table>
+      <thead><tr>{columns.map(c => <th key={c.key} className={isNumeric(c) ? 'num' : ''}>{humanize(c.label)}</th>)}</tr></thead>
+      <tbody>{rows.map((row, i) => (
+        <tr key={i}>{columns.map(c => (
+          <td key={c.key} className={`${isNumeric(c) ? 'num' : ''} ${c.key === 'explanation' || c.key === 'reason' ? 'small' : ''} ${c.key === 'sku' ? 'mono nowrap' : ''}`}>
+            {c.key === 'late' && row[c.key] ? <Badge value="LOW" label="late" /> : cell(row[c.key], c)}
+          </td>
+        ))}</tr>
+      ))}</tbody>
+    </table></div>
   );
 }

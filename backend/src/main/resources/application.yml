@@ -1,8 +1,3 @@
-# =============================================================================
-# Warehouse Inventory System - backend configuration.
-# Every deploy-specific value reads an environment variable with a local-dev default.
-# See README.md -> "Configuration" for the full list.
-# =============================================================================
 spring:
   application:
     name: warehouse-backend
@@ -51,7 +46,6 @@ springdoc:
 
 logging:
   pattern:
-    # Every log line carries the request id set by RequestIdFilter.
     level: "%5p [%X{requestId:-}]"
   level:
     # Hibernate logs optimistic-lock conflicts at ERROR before Spring translates them; they are
@@ -64,36 +58,30 @@ app:
     secret: ${JWT_SECRET:dev-only-secret-change-me-it-must-be-at-least-32-bytes}
     expiration: ${JWT_EXPIRATION:PT12H}
   cors:
-    # Comma-separated list, e.g. https://my-warehouse.vercel.app
     allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
   stock:
-    # Attempts for a stock command that loses an optimistic-lock race before reporting a conflict.
     max-attempts: 4
     retry-backoff: PT0.05S
     idempotency-retention: P7D
   forecast:
-    # Usage history windows used for reorder suggestions.
     short-window-days: 30
     long-window-days: 90
-    # How often stock is reviewed/ordered; added to lead time when sizing an order.
     review-period-days: 7
     # z-score for safety stock (1.65 = ~95% service level).
     service-level-z: 1.65
     default-lead-time-days: 7
   ai:
     enabled: ${AI_ENABLED:true}
-    # Any OpenAI-compatible chat-completions API. Default: local Ollama.
-    base-url: ${AI_BASE_URL:http://localhost:11434/v1}
+    # gemini (default model gemini-2.5-flash) or openai (default model gpt-4o-mini).
+    provider: ${AI_PROVIDER:gemini}
+    # Without a key, AI stays off and the app uses its non-AI fallbacks.
     api-key: ${AI_API_KEY:}
-    model: ${AI_CHAT_MODEL:llama3.1}
+    model: ${AI_CHAT_MODEL:}
+    base-url: ${AI_BASE_URL:}
     timeout: ${AI_TIMEOUT:PT30S}
     cooldown: PT1M
-    # Per-user limit on assistant questions.
     questions-per-minute: ${AI_QUESTIONS_PER_MINUTE:10}
-    # Max rows any assistant query may return.
     max-rows: 100
-    # Upper bound on suggestions explained by AI per forecast run (keeps free-tier usage low).
-    max-explanations: 40
   security:
     login-attempts-per-minute: 10
   demo:

@@ -11,7 +11,6 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.util.List;
 
-/** @param lines empty in list responses, populated in detail responses */
 public record PurchaseOrderResponse(Long id, Long supplierId, String supplierName, WarehouseRef warehouse,
                                     PurchaseOrderStatus status, LocalDate expectedDate, String note,
                                     int totalUnits, int remainingUnits, BigDecimal totalValue, int lineCount,

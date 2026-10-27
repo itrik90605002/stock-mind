@@ -1,11 +1,8 @@
-/** Small presentational building blocks shared by all pages. */
 import { FormEvent, ReactNode, useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { productApi } from '../api/endpoints';
 import type { Product, Warehouse } from '../api/types';
 import { CheckIcon, CloseIcon } from './icons';
-
-// ------------------------------------------------------------------ formatting
 
 const numberFormat = new Intl.NumberFormat('en-IN');
 const moneyFormat = new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 });
@@ -25,13 +22,10 @@ export const formatDateTime = (iso: string | null | undefined) =>
 
 export const humanize = (value: string) => value.replace(/_/g, ' ').toLowerCase();
 
-/** Today as YYYY-MM-DD in local time. */
 export const todayIso = () => {
   const d = new Date();
   return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
 };
-
-// ------------------------------------------------------------------ feedback
 
 export function Alert({ kind = 'error', children }: { kind?: 'error' | 'success' | 'info' | 'warn'; children: ReactNode }) {
   if (!children) return null;
@@ -46,7 +40,6 @@ export function Empty({ children }: { children: ReactNode }) {
   return <div className="empty">{children}</div>;
 }
 
-/** Renders loading / error / content for a {@code useApi} result. */
 export function Async<T>({ state, children }: {
   state: { data: T | null; error: string | null; loading: boolean };
   children: (data: T) => ReactNode;
@@ -55,8 +48,6 @@ export function Async<T>({ state, children }: {
   if (state.loading && state.data === null) return <Loading />;
   return state.data === null ? null : <>{children(state.data)}</>;
 }
-
-// ------------------------------------------------------------------ badges & numbers
 
 const TONE: Record<string, string> = {
   RECEIPT: 'ok', TRANSFER_IN: 'ok', ISSUE: 'info', TRANSFER_OUT: 'info', ADJUSTMENT: 'warn',
@@ -71,12 +62,9 @@ export function Badge({ value, label }: { value: string; label?: string }) {
   return <span className={`badge badge-${TONE[value] ?? 'muted'}`}>{label ?? humanize(value)}</span>;
 }
 
-/** Signed quantity: green for stock in, red for stock out. */
 export function Delta({ value }: { value: number }) {
   return <span className={`delta ${value > 0 ? 'delta-in' : 'delta-out'}`}>{value > 0 ? `+${num(value)}` : num(value)}</span>;
 }
-
-// ------------------------------------------------------------------ layout pieces
 
 export function PageHeader({ title, subtitle, actions }: { title: string; subtitle?: ReactNode; actions?: ReactNode }) {
   return (
@@ -106,26 +94,16 @@ export function Card({ title, actions, children, className = '' }: {
   );
 }
 
-/**
- * Route-based tabs for a section page (Inventory, Replenish). Tabs with a {@code step} number read as
- * consecutive steps of one workflow. Each tab has its own URL, so links and the back button land on it.
- */
-export function SectionTabs({ tabs }: { tabs: { to: string; label: string; end?: boolean; step?: number }[] }) {
+export function SectionTabs({ tabs }: { tabs: { to: string; label: string; end?: boolean }[] }) {
   return (
     <nav className="tabs" aria-label="Section">
       {tabs.map(t => (
-        <NavLink key={t.to} to={t.to} end={t.end} className={({ isActive }) => `tab ${isActive ? 'active' : ''}`}>
-          {t.step != null && <span className="step-no">{t.step}</span>}{t.label}
-        </NavLink>
+        <NavLink key={t.to} to={t.to} end={t.end} className={({ isActive }) => `tab ${isActive ? 'active' : ''}`}>{t.label}</NavLink>
       ))}
     </nav>
   );
 }
 
-/**
- * Where a document sits in its lifecycle, with what happens next. {@code current} is the index of the
- * step reached; {@code stopped} marks a document that left the normal path (cancelled, closed short).
- */
 export function Lifecycle({ steps, current, stopped, next }: {
   steps: string[]; current: number; stopped?: string; next?: ReactNode;
 }) {
@@ -168,9 +146,6 @@ export function Pagination({ page, totalPages, total, onChange }: {
   );
 }
 
-// ------------------------------------------------------------------ modal & forms
-
-/** Accessible dialog: closes on Escape or backdrop click; focus moves into it on open. */
 export function Modal({ title, onClose, children, wide }: { title: string; onClose: () => void; children: ReactNode; wide?: boolean }) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -205,7 +180,6 @@ export function Field({ label, error, hint, children, span }: {
   );
 }
 
-/** Standard modal form footer with error display. */
 export function FormActions({ busy, error, submitLabel, onCancel }: {
   busy: boolean; error: string | null; submitLabel: string; onCancel: () => void;
 }) {
@@ -234,10 +208,8 @@ export function WarehouseSelect({ warehouses, value, onChange, allLabel, require
   );
 }
 
-/** The product fields a picker needs to display a selection. */
 export type PickedProduct = Pick<Product, 'id' | 'sku' | 'name' | 'unit'> & Partial<Pick<Product, 'unitCost'>>;
 
-/** Type-ahead product search (SKU or name). */
 export function ProductPicker({ value, onChange, placeholder = 'Search SKU or name…' }: {
   value: PickedProduct | null; onChange: (p: Product | null) => void; placeholder?: string;
 }) {

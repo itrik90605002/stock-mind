@@ -26,12 +26,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Movement of stock from one warehouse to another. The entity enforces the state machine; the
- * matching stock changes are made by {@link com.warehouse.transfer.service.TransferService}
- * through the ledger. The {@link Version} column stops two users dispatching or receiving the
- * same transfer twice.
- */
 @Entity
 @Table(name = "transfers")
 public class Transfer {
@@ -88,7 +82,6 @@ public class Transfer {
     private List<TransferLine> lines = new ArrayList<>();
 
     protected Transfer() {
-        // for JPA
     }
 
     public Transfer(Warehouse source, Warehouse destination, String note, User createdBy, Instant now) {
@@ -115,9 +108,6 @@ public class Transfer {
         this.dispatchedAt = now;
     }
 
-    /**
-     * @param receivedByLineId received quantity per line id; lines not listed are received in full
-     */
     public void markReceived(Map<Long, Integer> receivedByLineId, User user, Instant now) {
         requireStatus(TransferStatus.DISPATCHED, "receive");
         for (Long lineId : receivedByLineId.keySet()) {

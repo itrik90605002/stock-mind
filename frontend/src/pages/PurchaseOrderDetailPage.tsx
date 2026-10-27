@@ -13,7 +13,6 @@ import { isLate } from './PurchaseOrdersPanel';
 
 const STEPS = ['Draft', 'Placed with supplier', 'Delivery received'];
 
-/** The PO's position on the Draft → Placed → Received path, and what the viewer should do next. */
 function lifecycle(po: PurchaseOrder, canManage: boolean) {
   switch (po.status) {
     case 'DRAFT':

@@ -41,7 +41,6 @@ public class StockLedgerService {
         this.clock = clock;
     }
 
-    /** Goods in from a supplier (or another inbound document). */
     public StockMovement receive(Long productId, Long warehouseId, int quantity, ReferenceType referenceType,
                                  Long referenceId, String reason, Long userId) {
         requirePositive(quantity);
@@ -51,7 +50,6 @@ public class StockLedgerService {
                 null, user(userId), now()));
     }
 
-    /** Goods out of the business. Fails if not enough <em>available</em> stock. */
     public StockMovement issue(Long productId, Long warehouseId, int quantity, String reason, Long userId) {
         requirePositive(quantity);
         StockLevel level = level(productId, warehouseId);
@@ -59,11 +57,6 @@ public class StockLedgerService {
                 null, user(userId), now()));
     }
 
-    /**
-     * Signed correction. Negative adjustments may only remove available stock.
-     *
-     * @param reversesId the movement this entry reverses, or {@code null}
-     */
     public StockMovement adjust(Long productId, Long warehouseId, int delta, String reason, Long reversesId,
                                 Long userId) {
         StockLevel level = level(productId, warehouseId);
@@ -71,7 +64,6 @@ public class StockLedgerService {
                 reversesId, user(userId), now()));
     }
 
-    /** Holds stock for a draft transfer; no ledger entry because on-hand does not change. */
     public void reserve(Long productId, Long warehouseId, int quantity) {
         requirePositive(quantity);
         StockLevel level = level(productId, warehouseId);
@@ -84,7 +76,6 @@ public class StockLedgerService {
         StockMutation.release(level(productId, warehouseId), quantity, now());
     }
 
-    /** Ships reserved stock to another warehouse (TRANSFER_OUT). */
     public StockMovement dispatchReserved(Long productId, Long warehouseId, int quantity, Long transferId,
                                           String reason, Long userId) {
         requirePositive(quantity);
@@ -92,7 +83,6 @@ public class StockLedgerService {
         return save(StockMutation.consumeReservation(level, quantity, reason, transferId, user(userId), now()));
     }
 
-    /** Stock arriving from another warehouse (TRANSFER_IN). */
     public StockMovement transferIn(Long productId, Long warehouseId, int quantity, Long transferId, String reason,
                                     Long userId) {
         requirePositive(quantity);

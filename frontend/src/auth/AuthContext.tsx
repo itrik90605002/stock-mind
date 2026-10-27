@@ -7,15 +7,12 @@ const USER_KEY = 'wms.user';
 
 interface AuthState {
   user: User | null;
-  /** Every warehouse, flagged with whether the user may act on it. Empty until loaded. */
   warehouses: Warehouse[];
-  /** Warehouses the user is assigned to (all, for Admins). */
   myWarehouses: Warehouse[];
   login: (email: string, password: string) => Promise<User>;
   logout: () => void;
   refreshWarehouses: () => Promise<void>;
   hasRole: (...roles: Role[]) => boolean;
-  /** Managers and Admins. */
   canManage: boolean;
 }
 
@@ -39,7 +36,6 @@ function saveUser(user: User | null) {
   }
 }
 
-/** Holds the signed-in user and the warehouse list. The JWT lives in localStorage and is sent by the API client. */
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(loadUser);
   const [warehouses, setWarehouses] = useState<Warehouse[]>([]);
@@ -63,7 +59,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return response.user;
   }, []);
 
-  // On start (and after login) refresh the profile, so role or warehouse changes made by an admin apply.
   useEffect(() => {
     if (!user) return;
     authApi.me().then(fresh => { saveUser(fresh); setUser(fresh); }).catch(() => undefined);
@@ -71,7 +66,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user?.id]);
 
-  // The token expired or the account was deactivated: drop the session.
   useEffect(() => {
     window.addEventListener(UNAUTHORIZED_EVENT, logout);
     return () => window.removeEventListener(UNAUTHORIZED_EVENT, logout);

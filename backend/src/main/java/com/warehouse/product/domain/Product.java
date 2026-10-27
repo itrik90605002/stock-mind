@@ -15,10 +15,6 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.Objects;
 
-/**
- * A stock-keeping unit. Quantities are whole numbers of {@link #unit} (pcs, box, kg ...).
- * Archived products keep their history but cannot be received, ordered or transferred.
- */
 @Entity
 @Table(name = "products")
 public class Product {
@@ -44,7 +40,6 @@ public class Product {
 
     private String description;
 
-    /** Preferred supplier, used when turning reorder suggestions into purchase orders. */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "supplier_id")
     private Supplier supplier;
@@ -59,7 +54,6 @@ public class Product {
     private Instant updatedAt;
 
     protected Product() {
-        // for JPA
     }
 
     public Product(String sku, String name, String category, String unit, BigDecimal unitCost, String description,

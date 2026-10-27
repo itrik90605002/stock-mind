@@ -26,7 +26,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-/** Purchase orders. Managers create, place, cancel and close; Clerks and Managers receive deliveries. */
 @RestController
 @RequestMapping("/api/purchase-orders")
 @Validated
@@ -40,7 +39,6 @@ public class PurchaseOrderController {
         this.service = service;
     }
 
-    /** {@code open=true} limits to draft, ordered and partially received orders. */
     @GetMapping
     public PageResponse<PurchaseOrderResponse> list(@AuthenticationPrincipal AuthUser user,
                                                     @RequestParam(required = false) PurchaseOrderStatus status,

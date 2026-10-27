@@ -29,7 +29,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDate;
 import java.time.ZoneOffset;
 
-/** The stock ledger: read-only history plus reversal of manual entries. */
 @RestController
 @RequestMapping("/api/movements")
 @Validated
@@ -43,7 +42,6 @@ public class MovementController {
         this.commands = commands;
     }
 
-    /** Newest first. {@code from}/{@code to} are inclusive calendar dates (UTC). */
     @GetMapping
     public PageResponse<MovementResponse> list(@AuthenticationPrincipal AuthUser user,
                                                @RequestParam(required = false) Long warehouseId,
@@ -65,7 +63,6 @@ public class MovementController {
         return queries.movement(user, id);
     }
 
-    /** Appends an entry that cancels a manual movement; the original stays in the ledger. */
     @PostMapping("/{id}/reverse")
     @ResponseStatus(HttpStatus.CREATED)
     @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")

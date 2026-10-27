@@ -30,13 +30,11 @@ final class HistorySimulator {
     static final int DAYS = 90;
     private static final int NEGLECTED_PAIRS = 10;
 
-    // ------------------------------------------------------------ inputs
-
     record Pair(long productId, long warehouseId) {
     }
 
     record PairProfile(Pair pair, long supplierId, int supplierLeadDays, double meanDaily, double variability,
-                       String trend, int reorderPoint, int orderUpTo) {
+                       String trend, int openingStock, int reorderPoint, int orderUpTo) {
     }
 
     record Users(Map<Long, Long> clerkByWarehouse, Map<Long, Long> managerByWarehouse, long adminId) {
@@ -49,9 +47,6 @@ final class HistorySimulator {
         }
     }
 
-    // ------------------------------------------------------------ outputs
-
-    /** A ledger entry; {@code docRef} points into {@link #orders} or {@link #transfers} by index. */
     record Movement(Instant at, long productId, long warehouseId, String type, int quantity, int balanceAfter,
                     String reason, String referenceType, Integer docRef, long userId) {
     }
@@ -104,8 +99,6 @@ final class HistorySimulator {
     final Map<Pair, Integer> reserved = new HashMap<>();
     final Map<Pair, Integer> reorderPoints = new HashMap<>();
 
-    // ------------------------------------------------------------ state
-
     private final List<PairProfile> profiles;
     private final Users users;
     private final Instant now;
@@ -127,10 +120,8 @@ final class HistorySimulator {
         pickNeglectedPairs();
         profiles.forEach(p -> reorderPoints.put(p.pair(), p.reorderPoint()));
 
-        // Opening balances on day 0.
         for (PairProfile p : profiles) {
-            int opening = p.orderUpTo() + rnd.nextInt(Math.max(1, p.orderUpTo() / 4));
-            apply(p.pair(), at(start, 7, 0), "RECEIPT", opening, "Opening balance", "OPENING", null,
+            apply(p.pair(), at(start, 7, 0), "RECEIPT", p.openingStock(), "Opening balance", "OPENING", null,
                     users.manager(p.pair().warehouseId()));
         }
 
@@ -151,8 +142,6 @@ final class HistorySimulator {
         }
         finishingTouches();
     }
-
-    // ------------------------------------------------------------ daily steps
 
     private void issue(PairProfile p, LocalDate day, int d) {
         double mean = p.meanDaily() * trendMultiplier(p.trend(), d) * weekdayMultiplier(day);
@@ -283,7 +272,6 @@ final class HistorySimulator {
         }
     }
 
-    /** Moves stock from the warehouse with the most cover to the one with the least, for one product. */
     private void rebalance(LocalDate day) {
         Map<Long, List<PairProfile>> byProduct = new HashMap<>();
         profiles.forEach(p -> byProduct.computeIfAbsent(p.pair().productId(), k -> new ArrayList<>()).add(p));
@@ -324,9 +312,7 @@ final class HistorySimulator {
                 "TRANSFER", transfers.size() - 1, users.clerk(richest.pair().warehouseId()));
     }
 
-    /** Current documents that make the demo interesting: drafts, an in-transit transfer, a cancelled order. */
     private void finishingTouches() {
-        // A draft transfer reserving stock (shows "reserved" and the dispatch workflow).
         PairProfile big = profiles.stream()
                 .filter(p -> onHand.getOrDefault(p.pair(), 0) > 60)
                 .max(Comparator.comparingInt(p -> onHand.get(p.pair()))).orElse(null);
@@ -344,7 +330,6 @@ final class HistorySimulator {
                 reserved.merge(big.pair(), qty, Integer::sum);
             }
         }
-        // A cancelled order from last month.
         if (!profiles.isEmpty()) {
             PairProfile p = profiles.get(rnd.nextInt(profiles.size()));
             Order o = new Order(p.supplierId(), p.pair().warehouseId(), at(today.minusDays(25), 12, 0),
@@ -356,8 +341,6 @@ final class HistorySimulator {
             orders.add(o);
         }
     }
-
-    // ------------------------------------------------------------ helpers
 
     private void apply(Pair pair, Instant at, String type, int qty, String reason, String referenceType,
                        Integer docRef, long userId) {

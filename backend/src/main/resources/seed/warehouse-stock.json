@@ -1,0 +1,3141 @@
+[
+  {
+    "warehouse": "PUN-01",
+    "name": "Pune Central DC",
+    "stock": [
+      {
+        "sku": "SKU-1042",
+        "product": "USB-C Charging Cable 1m",
+        "openingStock": 775,
+        "reorderPoint": 162,
+        "dailyUsage": 18.0
+      },
+      {
+        "sku": "ELC-1014",
+        "product": "Wireless Mouse",
+        "openingStock": 390,
+        "reorderPoint": 81,
+        "dailyUsage": 9.0
+      },
+      {
+        "sku": "ELC-1021",
+        "product": "Bluetooth Earbuds",
+        "openingStock": 260,
+        "reorderPoint": 54,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "ELC-1028",
+        "product": "Power Bank 10000mAh",
+        "openingStock": 305,
+        "reorderPoint": 63,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "ELC-1035",
+        "product": "HDMI Cable 2m",
+        "openingStock": 345,
+        "reorderPoint": 72,
+        "dailyUsage": 8.0
+      },
+      {
+        "sku": "ELC-1042",
+        "product": "Wall Charger 20W",
+        "openingStock": 515,
+        "reorderPoint": 108,
+        "dailyUsage": 12.0
+      },
+      {
+        "sku": "ELC-1049",
+        "product": "Keyboard USB Wired",
+        "openingStock": 175,
+        "reorderPoint": 36,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "ELC-1063",
+        "product": "Smart Plug 16A",
+        "openingStock": 130,
+        "reorderPoint": 27,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "ELC-1077",
+        "product": "MicroSD Card 64GB",
+        "openingStock": 430,
+        "reorderPoint": 90,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "ELC-1084",
+        "product": "Ethernet Cable Cat6 5m",
+        "openingStock": 215,
+        "reorderPoint": 45,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "PKG-1007",
+        "product": "Corrugated Box Small (pack of 25)",
+        "openingStock": 875,
+        "reorderPoint": 132,
+        "dailyUsage": 22.0
+      },
+      {
+        "sku": "PKG-1014",
+        "product": "Corrugated Box Medium (pack of 25)",
+        "openingStock": 715,
+        "reorderPoint": 108,
+        "dailyUsage": 18.0
+      },
+      {
+        "sku": "PKG-1021",
+        "product": "Corrugated Box Large (pack of 10)",
+        "openingStock": 360,
+        "reorderPoint": 54,
+        "dailyUsage": 9.0
+      },
+      {
+        "sku": "PKG-1028",
+        "product": "Bubble Wrap Roll 50m",
+        "openingStock": 240,
+        "reorderPoint": 36,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "PKG-1035",
+        "product": "Packing Tape Brown (6 rolls)",
+        "openingStock": 995,
+        "reorderPoint": 150,
+        "dailyUsage": 25.0
+      },
+      {
+        "sku": "PKG-1049",
+        "product": "Courier Bags A4 (pack of 100)",
+        "openingStock": 595,
+        "reorderPoint": 90,
+        "dailyUsage": 15.0
+      },
+      {
+        "sku": "PKG-1056",
+        "product": "Fragile Labels (roll of 500)",
+        "openingStock": 160,
+        "reorderPoint": 24,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "PKG-1070",
+        "product": "Pallet Wooden 1200x1000",
+        "openingStock": 80,
+        "reorderPoint": 12,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "PKG-1084",
+        "product": "Shipping Labels 4x6 (roll of 500)",
+        "openingStock": 480,
+        "reorderPoint": 72,
+        "dailyUsage": 12.0
+      },
+      {
+        "sku": "OFF-1007",
+        "product": "A4 Copier Paper 75gsm (ream)",
+        "openingStock": 1225,
+        "reorderPoint": 210,
+        "dailyUsage": 30.0
+      },
+      {
+        "sku": "OFF-1014",
+        "product": "Ballpoint Pen Blue (box of 50)",
+        "openingStock": 330,
+        "reorderPoint": 56,
+        "dailyUsage": 8.0
+      },
+      {
+        "sku": "OFF-1021",
+        "product": "Stapler Medium",
+        "openingStock": 85,
+        "reorderPoint": 14,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "OFF-1028",
+        "product": "Staple Pins No.10 (box of 20)",
+        "openingStock": 205,
+        "reorderPoint": 35,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "OFF-1035",
+        "product": "Sticky Notes 3x3 (pack of 12)",
+        "openingStock": 245,
+        "reorderPoint": 42,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "OFF-1042",
+        "product": "Whiteboard Marker Set",
+        "openingStock": 165,
+        "reorderPoint": 28,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "OFF-1049",
+        "product": "Box File Lever Arch",
+        "openingStock": 205,
+        "reorderPoint": 35,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "OFF-1056",
+        "product": "Notebook A5 Ruled",
+        "openingStock": 570,
+        "reorderPoint": 98,
+        "dailyUsage": 14.0
+      },
+      {
+        "sku": "OFF-1063",
+        "product": "Printer Toner 12A",
+        "openingStock": 85,
+        "reorderPoint": 14,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "OFF-1070",
+        "product": "Calculator Desktop 12-digit",
+        "openingStock": 45,
+        "reorderPoint": 7,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "OFF-1077",
+        "product": "Highlighter Set (pack of 5)",
+        "openingStock": 205,
+        "reorderPoint": 35,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "OFF-1084",
+        "product": "Envelopes A4 Brown (pack of 50)",
+        "openingStock": 245,
+        "reorderPoint": 42,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "CLN-1007",
+        "product": "Hand Sanitizer 500ml",
+        "openingStock": 670,
+        "reorderPoint": 128,
+        "dailyUsage": 16.0
+      },
+      {
+        "sku": "CLN-1014",
+        "product": "Floor Cleaner 5L",
+        "openingStock": 295,
+        "reorderPoint": 56,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "CLN-1021",
+        "product": "Liquid Hand Wash 5L",
+        "openingStock": 255,
+        "reorderPoint": 48,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "CLN-1035",
+        "product": "Microfiber Cloth (pack of 10)",
+        "openingStock": 210,
+        "reorderPoint": 40,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "CLN-1042",
+        "product": "Toilet Cleaner 1L",
+        "openingStock": 380,
+        "reorderPoint": 72,
+        "dailyUsage": 9.0
+      },
+      {
+        "sku": "CLN-1049",
+        "product": "Tissue Roll 2-ply (pack of 12)",
+        "openingStock": 590,
+        "reorderPoint": 112,
+        "dailyUsage": 14.0
+      },
+      {
+        "sku": "CLN-1063",
+        "product": "Mop with Bucket Set",
+        "openingStock": 45,
+        "reorderPoint": 8,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "CLN-1070",
+        "product": "Surface Disinfectant Spray",
+        "openingStock": 295,
+        "reorderPoint": 56,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "CLN-1077",
+        "product": "Nitrile Gloves (box of 100)",
+        "openingStock": 420,
+        "reorderPoint": 80,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "CLN-1084",
+        "product": "Broom Soft Grass",
+        "openingStock": 85,
+        "reorderPoint": 16,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "TLS-1007",
+        "product": "Cordless Drill 12V",
+        "openingStock": 50,
+        "reorderPoint": 12,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "TLS-1014",
+        "product": "Screwdriver Set 32pc",
+        "openingStock": 95,
+        "reorderPoint": 24,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "TLS-1021",
+        "product": "Measuring Tape 5m",
+        "openingStock": 185,
+        "reorderPoint": 48,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "TLS-1028",
+        "product": "Adjustable Wrench 10in",
+        "openingStock": 95,
+        "reorderPoint": 24,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "TLS-1035",
+        "product": "Claw Hammer 500g",
+        "openingStock": 95,
+        "reorderPoint": 24,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "TLS-1042",
+        "product": "Utility Knife",
+        "openingStock": 280,
+        "reorderPoint": 72,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "TLS-1049",
+        "product": "Drill Bit Set HSS 13pc",
+        "openingStock": 95,
+        "reorderPoint": 24,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "TLS-1063",
+        "product": "Hex Key Set Metric",
+        "openingStock": 95,
+        "reorderPoint": 24,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "TLS-1070",
+        "product": "Pliers Combination 8in",
+        "openingStock": 95,
+        "reorderPoint": 24,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "TLS-1077",
+        "product": "Wall Plugs & Screws Kit",
+        "openingStock": 185,
+        "reorderPoint": 48,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "TLS-1084",
+        "product": "Spirit Level 600mm",
+        "openingStock": 50,
+        "reorderPoint": 12,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "SAF-1007",
+        "product": "Safety Helmet ISI",
+        "openingStock": 225,
+        "reorderPoint": 50,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "SAF-1014",
+        "product": "Safety Shoes Steel Toe",
+        "openingStock": 135,
+        "reorderPoint": 30,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "SAF-1021",
+        "product": "Hi-Vis Reflective Vest",
+        "openingStock": 355,
+        "reorderPoint": 80,
+        "dailyUsage": 8.0
+      },
+      {
+        "sku": "SAF-1028",
+        "product": "Safety Goggles Clear",
+        "openingStock": 225,
+        "reorderPoint": 50,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "SAF-1035",
+        "product": "Ear Plugs (box of 200)",
+        "openingStock": 90,
+        "reorderPoint": 20,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "SAF-1042",
+        "product": "Cut-Resistant Gloves",
+        "openingStock": 310,
+        "reorderPoint": 70,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "SAF-1049",
+        "product": "N95 Respirator (box of 20)",
+        "openingStock": 180,
+        "reorderPoint": 40,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "SAF-1056",
+        "product": "First Aid Kit Industrial",
+        "openingStock": 45,
+        "reorderPoint": 10,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "SAF-1063",
+        "product": "Fire Extinguisher ABC 4kg",
+        "openingStock": 45,
+        "reorderPoint": 10,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "SAF-1070",
+        "product": "Safety Harness Full Body",
+        "openingStock": 45,
+        "reorderPoint": 10,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "SAF-1077",
+        "product": "Warning Tape Roll",
+        "openingStock": 180,
+        "reorderPoint": 40,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "SAF-1084",
+        "product": "Face Shield",
+        "openingStock": 135,
+        "reorderPoint": 30,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "FNB-1007",
+        "product": "Bottled Water 1L (case of 12)",
+        "openingStock": 1545,
+        "reorderPoint": 200,
+        "dailyUsage": 40.0
+      },
+      {
+        "sku": "FNB-1014",
+        "product": "Instant Coffee 200g",
+        "openingStock": 235,
+        "reorderPoint": 30,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "FNB-1021",
+        "product": "Tea Bags (box of 100)",
+        "openingStock": 270,
+        "reorderPoint": 35,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "FNB-1028",
+        "product": "Sugar Sachets (box of 500)",
+        "openingStock": 155,
+        "reorderPoint": 20,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "FNB-1035",
+        "product": "Biscuits Assorted (carton of 48)",
+        "openingStock": 350,
+        "reorderPoint": 45,
+        "dailyUsage": 9.0
+      },
+      {
+        "sku": "FNB-1042",
+        "product": "Paper Cups 200ml (pack of 100)",
+        "openingStock": 580,
+        "reorderPoint": 75,
+        "dailyUsage": 15.0
+      },
+      {
+        "sku": "FNB-1056",
+        "product": "Masala Peanuts 1kg",
+        "openingStock": 120,
+        "reorderPoint": 15,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "FNB-1063",
+        "product": "Fruit Juice 1L (case of 12)",
+        "openingStock": 235,
+        "reorderPoint": 30,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "FNB-1070",
+        "product": "Instant Noodles (carton of 48)",
+        "openingStock": 310,
+        "reorderPoint": 40,
+        "dailyUsage": 8.0
+      },
+      {
+        "sku": "FNB-1077",
+        "product": "Milk Powder 1kg",
+        "openingStock": 120,
+        "reorderPoint": 15,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "FNB-1084",
+        "product": "Green Tea (box of 100)",
+        "openingStock": 120,
+        "reorderPoint": 15,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "PRC-1007",
+        "product": "Shampoo 650ml",
+        "openingStock": 335,
+        "reorderPoint": 64,
+        "dailyUsage": 8.0
+      },
+      {
+        "sku": "PRC-1014",
+        "product": "Bath Soap (pack of 4)",
+        "openingStock": 590,
+        "reorderPoint": 112,
+        "dailyUsage": 14.0
+      },
+      {
+        "sku": "PRC-1021",
+        "product": "Toothpaste 200g",
+        "openingStock": 505,
+        "reorderPoint": 96,
+        "dailyUsage": 12.0
+      },
+      {
+        "sku": "PRC-1028",
+        "product": "Body Lotion 400ml",
+        "openingStock": 210,
+        "reorderPoint": 40,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "PRC-1035",
+        "product": "Deodorant Spray 150ml",
+        "openingStock": 255,
+        "reorderPoint": 48,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "PRC-1042",
+        "product": "Face Wash 100ml",
+        "openingStock": 295,
+        "reorderPoint": 56,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "PRC-1049",
+        "product": "Shaving Cream 70g",
+        "openingStock": 170,
+        "reorderPoint": 32,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "PRC-1056",
+        "product": "Hair Oil 300ml",
+        "openingStock": 255,
+        "reorderPoint": 48,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "PRC-1063",
+        "product": "Sanitary Pads (pack of 30)",
+        "openingStock": 380,
+        "reorderPoint": 72,
+        "dailyUsage": 9.0
+      },
+      {
+        "sku": "PRC-1070",
+        "product": "Baby Diapers M (pack of 56)",
+        "openingStock": 255,
+        "reorderPoint": 48,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "PRC-1084",
+        "product": "Cotton Buds (pack of 200)",
+        "openingStock": 210,
+        "reorderPoint": 40,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "AUT-1007",
+        "product": "Engine Oil 5W-30 4L",
+        "openingStock": 205,
+        "reorderPoint": 64,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "AUT-1014",
+        "product": "Brake Pads Front Set",
+        "openingStock": 105,
+        "reorderPoint": 32,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "AUT-1021",
+        "product": "Air Filter Element",
+        "openingStock": 205,
+        "reorderPoint": 64,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "AUT-1035",
+        "product": "Spark Plug Iridium",
+        "openingStock": 255,
+        "reorderPoint": 80,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "AUT-1049",
+        "product": "Car Battery 35Ah",
+        "openingStock": 55,
+        "reorderPoint": 16,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "AUT-1056",
+        "product": "Coolant 1L",
+        "openingStock": 205,
+        "reorderPoint": 64,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "AUT-1070",
+        "product": "Tyre Inflator Portable",
+        "openingStock": 55,
+        "reorderPoint": 16,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "AUT-1077",
+        "product": "Brake Fluid DOT4 500ml",
+        "openingStock": 105,
+        "reorderPoint": 32,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "AUT-1084",
+        "product": "Microfiber Car Wash Mitt",
+        "openingStock": 105,
+        "reorderPoint": 32,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "ELE-1007",
+        "product": "LED Bulb 9W (pack of 4)",
+        "openingStock": 635,
+        "reorderPoint": 154,
+        "dailyUsage": 14.0
+      },
+      {
+        "sku": "ELE-1014",
+        "product": "LED Tube Light 20W",
+        "openingStock": 275,
+        "reorderPoint": 66,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "ELE-1021",
+        "product": "Extension Board 4-Socket",
+        "openingStock": 230,
+        "reorderPoint": 55,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "ELE-1028",
+        "product": "Copper Wire 1.5 sqmm (90m)",
+        "openingStock": 95,
+        "reorderPoint": 22,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "ELE-1035",
+        "product": "MCB 16A Single Pole",
+        "openingStock": 185,
+        "reorderPoint": 44,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "ELE-1042",
+        "product": "Ceiling Fan 1200mm",
+        "openingStock": 50,
+        "reorderPoint": 11,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "ELE-1049",
+        "product": "Modular Switch 6A",
+        "openingStock": 545,
+        "reorderPoint": 132,
+        "dailyUsage": 12.0
+      },
+      {
+        "sku": "ELE-1056",
+        "product": "Electrical Tape (pack of 10)",
+        "openingStock": 275,
+        "reorderPoint": 66,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "ELE-1063",
+        "product": "Emergency Light LED",
+        "openingStock": 95,
+        "reorderPoint": 22,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "ELE-1070",
+        "product": "Door Bell Wireless",
+        "openingStock": 50,
+        "reorderPoint": 11,
+        "dailyUsage": 1.0
+      },
+      {
+        "sku": "ELE-1084",
+        "product": "Inverter Battery 150Ah",
+        "openingStock": 50,
+        "reorderPoint": 11,
+        "dailyUsage": 1.0
+      }
+    ]
+  },
+  {
+    "warehouse": "MUM-02",
+    "name": "Mumbai Port Warehouse",
+    "stock": [
+      {
+        "sku": "SKU-1042",
+        "product": "USB-C Charging Cable 1m",
+        "openingStock": 970,
+        "reorderPoint": 203,
+        "dailyUsage": 22.5
+      },
+      {
+        "sku": "ELC-1014",
+        "product": "Wireless Mouse",
+        "openingStock": 485,
+        "reorderPoint": 101,
+        "dailyUsage": 11.2
+      },
+      {
+        "sku": "ELC-1021",
+        "product": "Bluetooth Earbuds",
+        "openingStock": 325,
+        "reorderPoint": 68,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "ELC-1028",
+        "product": "Power Bank 10000mAh",
+        "openingStock": 380,
+        "reorderPoint": 80,
+        "dailyUsage": 8.8
+      },
+      {
+        "sku": "ELC-1035",
+        "product": "HDMI Cable 2m",
+        "openingStock": 430,
+        "reorderPoint": 90,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "ELC-1042",
+        "product": "Wall Charger 20W",
+        "openingStock": 645,
+        "reorderPoint": 135,
+        "dailyUsage": 15.0
+      },
+      {
+        "sku": "ELC-1049",
+        "product": "Keyboard USB Wired",
+        "openingStock": 215,
+        "reorderPoint": 45,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "ELC-1056",
+        "product": "Webcam 1080p",
+        "openingStock": 110,
+        "reorderPoint": 23,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "ELC-1063",
+        "product": "Smart Plug 16A",
+        "openingStock": 165,
+        "reorderPoint": 35,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "ELC-1070",
+        "product": "LED Desk Lamp",
+        "openingStock": 165,
+        "reorderPoint": 35,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "ELC-1077",
+        "product": "MicroSD Card 64GB",
+        "openingStock": 540,
+        "reorderPoint": 113,
+        "dailyUsage": 12.5
+      },
+      {
+        "sku": "ELC-1084",
+        "product": "Ethernet Cable Cat6 5m",
+        "openingStock": 270,
+        "reorderPoint": 56,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "PKG-1007",
+        "product": "Corrugated Box Small (pack of 25)",
+        "openingStock": 1090,
+        "reorderPoint": 165,
+        "dailyUsage": 27.5
+      },
+      {
+        "sku": "PKG-1014",
+        "product": "Corrugated Box Medium (pack of 25)",
+        "openingStock": 895,
+        "reorderPoint": 135,
+        "dailyUsage": 22.5
+      },
+      {
+        "sku": "PKG-1021",
+        "product": "Corrugated Box Large (pack of 10)",
+        "openingStock": 445,
+        "reorderPoint": 68,
+        "dailyUsage": 11.2
+      },
+      {
+        "sku": "PKG-1028",
+        "product": "Bubble Wrap Roll 50m",
+        "openingStock": 300,
+        "reorderPoint": 45,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "PKG-1035",
+        "product": "Packing Tape Brown (6 rolls)",
+        "openingStock": 1240,
+        "reorderPoint": 188,
+        "dailyUsage": 31.2
+      },
+      {
+        "sku": "PKG-1042",
+        "product": "Stretch Film Roll",
+        "openingStock": 400,
+        "reorderPoint": 60,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "PKG-1049",
+        "product": "Courier Bags A4 (pack of 100)",
+        "openingStock": 745,
+        "reorderPoint": 113,
+        "dailyUsage": 18.8
+      },
+      {
+        "sku": "PKG-1056",
+        "product": "Fragile Labels (roll of 500)",
+        "openingStock": 200,
+        "reorderPoint": 30,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "PKG-1063",
+        "product": "Paper Void Fill (5kg)",
+        "openingStock": 155,
+        "reorderPoint": 23,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "PKG-1070",
+        "product": "Pallet Wooden 1200x1000",
+        "openingStock": 100,
+        "reorderPoint": 15,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "PKG-1077",
+        "product": "Strapping Roll PP 12mm",
+        "openingStock": 155,
+        "reorderPoint": 23,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "OFF-1014",
+        "product": "Ballpoint Pen Blue (box of 50)",
+        "openingStock": 410,
+        "reorderPoint": 70,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "OFF-1021",
+        "product": "Stapler Medium",
+        "openingStock": 105,
+        "reorderPoint": 18,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "OFF-1028",
+        "product": "Staple Pins No.10 (box of 20)",
+        "openingStock": 255,
+        "reorderPoint": 44,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "OFF-1035",
+        "product": "Sticky Notes 3x3 (pack of 12)",
+        "openingStock": 310,
+        "reorderPoint": 53,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "OFF-1042",
+        "product": "Whiteboard Marker Set",
+        "openingStock": 205,
+        "reorderPoint": 35,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "OFF-1049",
+        "product": "Box File Lever Arch",
+        "openingStock": 255,
+        "reorderPoint": 44,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "OFF-1056",
+        "product": "Notebook A5 Ruled",
+        "openingStock": 715,
+        "reorderPoint": 123,
+        "dailyUsage": 17.5
+      },
+      {
+        "sku": "OFF-1063",
+        "product": "Printer Toner 12A",
+        "openingStock": 105,
+        "reorderPoint": 18,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "OFF-1070",
+        "product": "Calculator Desktop 12-digit",
+        "openingStock": 50,
+        "reorderPoint": 9,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "OFF-1077",
+        "product": "Highlighter Set (pack of 5)",
+        "openingStock": 255,
+        "reorderPoint": 44,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "CLN-1007",
+        "product": "Hand Sanitizer 500ml",
+        "openingStock": 840,
+        "reorderPoint": 160,
+        "dailyUsage": 20.0
+      },
+      {
+        "sku": "CLN-1014",
+        "product": "Floor Cleaner 5L",
+        "openingStock": 370,
+        "reorderPoint": 71,
+        "dailyUsage": 8.8
+      },
+      {
+        "sku": "CLN-1021",
+        "product": "Liquid Hand Wash 5L",
+        "openingStock": 315,
+        "reorderPoint": 60,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "CLN-1028",
+        "product": "Garbage Bags Large (roll of 30)",
+        "openingStock": 1045,
+        "reorderPoint": 200,
+        "dailyUsage": 25.0
+      },
+      {
+        "sku": "CLN-1035",
+        "product": "Microfiber Cloth (pack of 10)",
+        "openingStock": 260,
+        "reorderPoint": 50,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "CLN-1049",
+        "product": "Tissue Roll 2-ply (pack of 12)",
+        "openingStock": 735,
+        "reorderPoint": 140,
+        "dailyUsage": 17.5
+      },
+      {
+        "sku": "CLN-1056",
+        "product": "Paper Towel Roll (pack of 6)",
+        "openingStock": 420,
+        "reorderPoint": 80,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "CLN-1063",
+        "product": "Mop with Bucket Set",
+        "openingStock": 55,
+        "reorderPoint": 10,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "CLN-1070",
+        "product": "Surface Disinfectant Spray",
+        "openingStock": 370,
+        "reorderPoint": 71,
+        "dailyUsage": 8.8
+      },
+      {
+        "sku": "CLN-1077",
+        "product": "Nitrile Gloves (box of 100)",
+        "openingStock": 525,
+        "reorderPoint": 100,
+        "dailyUsage": 12.5
+      },
+      {
+        "sku": "CLN-1084",
+        "product": "Broom Soft Grass",
+        "openingStock": 105,
+        "reorderPoint": 20,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TLS-1014",
+        "product": "Screwdriver Set 32pc",
+        "openingStock": 120,
+        "reorderPoint": 30,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TLS-1021",
+        "product": "Measuring Tape 5m",
+        "openingStock": 235,
+        "reorderPoint": 60,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "TLS-1028",
+        "product": "Adjustable Wrench 10in",
+        "openingStock": 120,
+        "reorderPoint": 30,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TLS-1035",
+        "product": "Claw Hammer 500g",
+        "openingStock": 120,
+        "reorderPoint": 30,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TLS-1042",
+        "product": "Utility Knife",
+        "openingStock": 350,
+        "reorderPoint": 90,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "TLS-1049",
+        "product": "Drill Bit Set HSS 13pc",
+        "openingStock": 120,
+        "reorderPoint": 30,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TLS-1056",
+        "product": "Cable Ties 200mm (pack of 100)",
+        "openingStock": 520,
+        "reorderPoint": 135,
+        "dailyUsage": 11.2
+      },
+      {
+        "sku": "TLS-1063",
+        "product": "Hex Key Set Metric",
+        "openingStock": 120,
+        "reorderPoint": 30,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TLS-1070",
+        "product": "Pliers Combination 8in",
+        "openingStock": 120,
+        "reorderPoint": 30,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TLS-1077",
+        "product": "Wall Plugs & Screws Kit",
+        "openingStock": 235,
+        "reorderPoint": 60,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "TLS-1084",
+        "product": "Spirit Level 600mm",
+        "openingStock": 60,
+        "reorderPoint": 15,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "SAF-1007",
+        "product": "Safety Helmet ISI",
+        "openingStock": 275,
+        "reorderPoint": 62,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "SAF-1014",
+        "product": "Safety Shoes Steel Toe",
+        "openingStock": 170,
+        "reorderPoint": 38,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "SAF-1021",
+        "product": "Hi-Vis Reflective Vest",
+        "openingStock": 445,
+        "reorderPoint": 100,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "SAF-1028",
+        "product": "Safety Goggles Clear",
+        "openingStock": 275,
+        "reorderPoint": 62,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "SAF-1035",
+        "product": "Ear Plugs (box of 200)",
+        "openingStock": 115,
+        "reorderPoint": 25,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "SAF-1042",
+        "product": "Cut-Resistant Gloves",
+        "openingStock": 390,
+        "reorderPoint": 88,
+        "dailyUsage": 8.8
+      },
+      {
+        "sku": "SAF-1049",
+        "product": "N95 Respirator (box of 20)",
+        "openingStock": 225,
+        "reorderPoint": 50,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "SAF-1056",
+        "product": "First Aid Kit Industrial",
+        "openingStock": 55,
+        "reorderPoint": 12,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "SAF-1063",
+        "product": "Fire Extinguisher ABC 4kg",
+        "openingStock": 55,
+        "reorderPoint": 12,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "SAF-1070",
+        "product": "Safety Harness Full Body",
+        "openingStock": 55,
+        "reorderPoint": 12,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "SAF-1077",
+        "product": "Warning Tape Roll",
+        "openingStock": 225,
+        "reorderPoint": 50,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "SAF-1084",
+        "product": "Face Shield",
+        "openingStock": 170,
+        "reorderPoint": 38,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "FNB-1007",
+        "product": "Bottled Water 1L (case of 12)",
+        "openingStock": 1930,
+        "reorderPoint": 250,
+        "dailyUsage": 50.0
+      },
+      {
+        "sku": "FNB-1014",
+        "product": "Instant Coffee 200g",
+        "openingStock": 290,
+        "reorderPoint": 38,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "FNB-1021",
+        "product": "Tea Bags (box of 100)",
+        "openingStock": 340,
+        "reorderPoint": 44,
+        "dailyUsage": 8.8
+      },
+      {
+        "sku": "FNB-1028",
+        "product": "Sugar Sachets (box of 500)",
+        "openingStock": 195,
+        "reorderPoint": 25,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "FNB-1035",
+        "product": "Biscuits Assorted (carton of 48)",
+        "openingStock": 435,
+        "reorderPoint": 56,
+        "dailyUsage": 11.2
+      },
+      {
+        "sku": "FNB-1042",
+        "product": "Paper Cups 200ml (pack of 100)",
+        "openingStock": 725,
+        "reorderPoint": 94,
+        "dailyUsage": 18.8
+      },
+      {
+        "sku": "FNB-1049",
+        "product": "Energy Drink 250ml (case of 24)",
+        "openingStock": 240,
+        "reorderPoint": 31,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "FNB-1063",
+        "product": "Fruit Juice 1L (case of 12)",
+        "openingStock": 290,
+        "reorderPoint": 38,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "FNB-1070",
+        "product": "Instant Noodles (carton of 48)",
+        "openingStock": 390,
+        "reorderPoint": 50,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "FNB-1077",
+        "product": "Milk Powder 1kg",
+        "openingStock": 150,
+        "reorderPoint": 19,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "FNB-1084",
+        "product": "Green Tea (box of 100)",
+        "openingStock": 150,
+        "reorderPoint": 19,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "PRC-1007",
+        "product": "Shampoo 650ml",
+        "openingStock": 420,
+        "reorderPoint": 80,
+        "dailyUsage": 10.0
+      },
+      {
+        "sku": "PRC-1014",
+        "product": "Bath Soap (pack of 4)",
+        "openingStock": 735,
+        "reorderPoint": 140,
+        "dailyUsage": 17.5
+      },
+      {
+        "sku": "PRC-1021",
+        "product": "Toothpaste 200g",
+        "openingStock": 630,
+        "reorderPoint": 120,
+        "dailyUsage": 15.0
+      },
+      {
+        "sku": "PRC-1028",
+        "product": "Body Lotion 400ml",
+        "openingStock": 260,
+        "reorderPoint": 50,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "PRC-1035",
+        "product": "Deodorant Spray 150ml",
+        "openingStock": 315,
+        "reorderPoint": 60,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "PRC-1042",
+        "product": "Face Wash 100ml",
+        "openingStock": 370,
+        "reorderPoint": 71,
+        "dailyUsage": 8.8
+      },
+      {
+        "sku": "PRC-1049",
+        "product": "Shaving Cream 70g",
+        "openingStock": 210,
+        "reorderPoint": 40,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "PRC-1056",
+        "product": "Hair Oil 300ml",
+        "openingStock": 315,
+        "reorderPoint": 60,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "PRC-1063",
+        "product": "Sanitary Pads (pack of 30)",
+        "openingStock": 470,
+        "reorderPoint": 90,
+        "dailyUsage": 11.2
+      },
+      {
+        "sku": "PRC-1070",
+        "product": "Baby Diapers M (pack of 56)",
+        "openingStock": 315,
+        "reorderPoint": 60,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "PRC-1077",
+        "product": "Sunscreen SPF50 100ml",
+        "openingStock": 160,
+        "reorderPoint": 31,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "PRC-1084",
+        "product": "Cotton Buds (pack of 200)",
+        "openingStock": 260,
+        "reorderPoint": 50,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "AUT-1007",
+        "product": "Engine Oil 5W-30 4L",
+        "openingStock": 255,
+        "reorderPoint": 80,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "AUT-1014",
+        "product": "Brake Pads Front Set",
+        "openingStock": 130,
+        "reorderPoint": 40,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "AUT-1021",
+        "product": "Air Filter Element",
+        "openingStock": 255,
+        "reorderPoint": 80,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "AUT-1028",
+        "product": "Oil Filter",
+        "openingStock": 380,
+        "reorderPoint": 120,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "AUT-1035",
+        "product": "Spark Plug Iridium",
+        "openingStock": 315,
+        "reorderPoint": 100,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "AUT-1042",
+        "product": "Wiper Blade 22in",
+        "openingStock": 195,
+        "reorderPoint": 61,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "AUT-1049",
+        "product": "Car Battery 35Ah",
+        "openingStock": 65,
+        "reorderPoint": 20,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "AUT-1056",
+        "product": "Coolant 1L",
+        "openingStock": 255,
+        "reorderPoint": 80,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "AUT-1063",
+        "product": "Headlight Bulb H4",
+        "openingStock": 195,
+        "reorderPoint": 61,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "AUT-1070",
+        "product": "Tyre Inflator Portable",
+        "openingStock": 65,
+        "reorderPoint": 20,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "AUT-1077",
+        "product": "Brake Fluid DOT4 500ml",
+        "openingStock": 130,
+        "reorderPoint": 40,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "AUT-1084",
+        "product": "Microfiber Car Wash Mitt",
+        "openingStock": 130,
+        "reorderPoint": 40,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "ELE-1007",
+        "product": "LED Bulb 9W (pack of 4)",
+        "openingStock": 790,
+        "reorderPoint": 193,
+        "dailyUsage": 17.5
+      },
+      {
+        "sku": "ELE-1014",
+        "product": "LED Tube Light 20W",
+        "openingStock": 340,
+        "reorderPoint": 83,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "ELE-1021",
+        "product": "Extension Board 4-Socket",
+        "openingStock": 285,
+        "reorderPoint": 69,
+        "dailyUsage": 6.2
+      },
+      {
+        "sku": "ELE-1028",
+        "product": "Copper Wire 1.5 sqmm (90m)",
+        "openingStock": 115,
+        "reorderPoint": 28,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "ELE-1035",
+        "product": "MCB 16A Single Pole",
+        "openingStock": 230,
+        "reorderPoint": 55,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "ELE-1042",
+        "product": "Ceiling Fan 1200mm",
+        "openingStock": 60,
+        "reorderPoint": 14,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "ELE-1049",
+        "product": "Modular Switch 6A",
+        "openingStock": 680,
+        "reorderPoint": 165,
+        "dailyUsage": 15.0
+      },
+      {
+        "sku": "ELE-1056",
+        "product": "Electrical Tape (pack of 10)",
+        "openingStock": 340,
+        "reorderPoint": 83,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "ELE-1063",
+        "product": "Emergency Light LED",
+        "openingStock": 115,
+        "reorderPoint": 28,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "ELE-1070",
+        "product": "Door Bell Wireless",
+        "openingStock": 60,
+        "reorderPoint": 14,
+        "dailyUsage": 1.2
+      },
+      {
+        "sku": "ELE-1077",
+        "product": "Socket 16A Modular",
+        "openingStock": 340,
+        "reorderPoint": 83,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "ELE-1084",
+        "product": "Inverter Battery 150Ah",
+        "openingStock": 60,
+        "reorderPoint": 14,
+        "dailyUsage": 1.2
+      }
+    ]
+  },
+  {
+    "warehouse": "DEL-03",
+    "name": "Delhi North Hub",
+    "stock": [
+      {
+        "sku": "SKU-1042",
+        "product": "USB-C Charging Cable 1m",
+        "openingStock": 700,
+        "reorderPoint": 146,
+        "dailyUsage": 16.2
+      },
+      {
+        "sku": "ELC-1014",
+        "product": "Wireless Mouse",
+        "openingStock": 350,
+        "reorderPoint": 73,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "ELC-1028",
+        "product": "Power Bank 10000mAh",
+        "openingStock": 275,
+        "reorderPoint": 57,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "ELC-1035",
+        "product": "HDMI Cable 2m",
+        "openingStock": 310,
+        "reorderPoint": 65,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "ELC-1042",
+        "product": "Wall Charger 20W",
+        "openingStock": 465,
+        "reorderPoint": 98,
+        "dailyUsage": 10.8
+      },
+      {
+        "sku": "ELC-1049",
+        "product": "Keyboard USB Wired",
+        "openingStock": 160,
+        "reorderPoint": 33,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "ELC-1056",
+        "product": "Webcam 1080p",
+        "openingStock": 80,
+        "reorderPoint": 17,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "ELC-1063",
+        "product": "Smart Plug 16A",
+        "openingStock": 120,
+        "reorderPoint": 25,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "ELC-1070",
+        "product": "LED Desk Lamp",
+        "openingStock": 120,
+        "reorderPoint": 25,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "ELC-1077",
+        "product": "MicroSD Card 64GB",
+        "openingStock": 390,
+        "reorderPoint": 81,
+        "dailyUsage": 9.0
+      },
+      {
+        "sku": "ELC-1084",
+        "product": "Ethernet Cable Cat6 5m",
+        "openingStock": 195,
+        "reorderPoint": 41,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "PKG-1007",
+        "product": "Corrugated Box Small (pack of 25)",
+        "openingStock": 785,
+        "reorderPoint": 119,
+        "dailyUsage": 19.8
+      },
+      {
+        "sku": "PKG-1014",
+        "product": "Corrugated Box Medium (pack of 25)",
+        "openingStock": 645,
+        "reorderPoint": 98,
+        "dailyUsage": 16.2
+      },
+      {
+        "sku": "PKG-1021",
+        "product": "Corrugated Box Large (pack of 10)",
+        "openingStock": 325,
+        "reorderPoint": 49,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "PKG-1028",
+        "product": "Bubble Wrap Roll 50m",
+        "openingStock": 215,
+        "reorderPoint": 33,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "PKG-1035",
+        "product": "Packing Tape Brown (6 rolls)",
+        "openingStock": 895,
+        "reorderPoint": 135,
+        "dailyUsage": 22.5
+      },
+      {
+        "sku": "PKG-1042",
+        "product": "Stretch Film Roll",
+        "openingStock": 290,
+        "reorderPoint": 44,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "PKG-1049",
+        "product": "Courier Bags A4 (pack of 100)",
+        "openingStock": 535,
+        "reorderPoint": 81,
+        "dailyUsage": 13.5
+      },
+      {
+        "sku": "PKG-1056",
+        "product": "Fragile Labels (roll of 500)",
+        "openingStock": 145,
+        "reorderPoint": 22,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "PKG-1063",
+        "product": "Paper Void Fill (5kg)",
+        "openingStock": 110,
+        "reorderPoint": 17,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "PKG-1070",
+        "product": "Pallet Wooden 1200x1000",
+        "openingStock": 75,
+        "reorderPoint": 11,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "PKG-1077",
+        "product": "Strapping Roll PP 12mm",
+        "openingStock": 110,
+        "reorderPoint": 17,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "PKG-1084",
+        "product": "Shipping Labels 4x6 (roll of 500)",
+        "openingStock": 430,
+        "reorderPoint": 65,
+        "dailyUsage": 10.8
+      },
+      {
+        "sku": "OFF-1007",
+        "product": "A4 Copier Paper 75gsm (ream)",
+        "openingStock": 1100,
+        "reorderPoint": 189,
+        "dailyUsage": 27.0
+      },
+      {
+        "sku": "OFF-1014",
+        "product": "Ballpoint Pen Blue (box of 50)",
+        "openingStock": 295,
+        "reorderPoint": 51,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "OFF-1021",
+        "product": "Stapler Medium",
+        "openingStock": 75,
+        "reorderPoint": 13,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "OFF-1028",
+        "product": "Staple Pins No.10 (box of 20)",
+        "openingStock": 185,
+        "reorderPoint": 32,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "OFF-1035",
+        "product": "Sticky Notes 3x3 (pack of 12)",
+        "openingStock": 225,
+        "reorderPoint": 38,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "OFF-1042",
+        "product": "Whiteboard Marker Set",
+        "openingStock": 150,
+        "reorderPoint": 26,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "OFF-1049",
+        "product": "Box File Lever Arch",
+        "openingStock": 185,
+        "reorderPoint": 32,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "OFF-1056",
+        "product": "Notebook A5 Ruled",
+        "openingStock": 515,
+        "reorderPoint": 89,
+        "dailyUsage": 12.6
+      },
+      {
+        "sku": "OFF-1063",
+        "product": "Printer Toner 12A",
+        "openingStock": 75,
+        "reorderPoint": 13,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "OFF-1070",
+        "product": "Calculator Desktop 12-digit",
+        "openingStock": 40,
+        "reorderPoint": 7,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "OFF-1077",
+        "product": "Highlighter Set (pack of 5)",
+        "openingStock": 185,
+        "reorderPoint": 32,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "OFF-1084",
+        "product": "Envelopes A4 Brown (pack of 50)",
+        "openingStock": 225,
+        "reorderPoint": 38,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "CLN-1007",
+        "product": "Hand Sanitizer 500ml",
+        "openingStock": 605,
+        "reorderPoint": 116,
+        "dailyUsage": 14.4
+      },
+      {
+        "sku": "CLN-1014",
+        "product": "Floor Cleaner 5L",
+        "openingStock": 265,
+        "reorderPoint": 51,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "CLN-1021",
+        "product": "Liquid Hand Wash 5L",
+        "openingStock": 230,
+        "reorderPoint": 44,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "CLN-1028",
+        "product": "Garbage Bags Large (roll of 30)",
+        "openingStock": 755,
+        "reorderPoint": 144,
+        "dailyUsage": 18.0
+      },
+      {
+        "sku": "CLN-1035",
+        "product": "Microfiber Cloth (pack of 10)",
+        "openingStock": 190,
+        "reorderPoint": 36,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "CLN-1042",
+        "product": "Toilet Cleaner 1L",
+        "openingStock": 340,
+        "reorderPoint": 65,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "CLN-1049",
+        "product": "Tissue Roll 2-ply (pack of 12)",
+        "openingStock": 530,
+        "reorderPoint": 101,
+        "dailyUsage": 12.6
+      },
+      {
+        "sku": "CLN-1056",
+        "product": "Paper Towel Roll (pack of 6)",
+        "openingStock": 305,
+        "reorderPoint": 58,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "CLN-1063",
+        "product": "Mop with Bucket Set",
+        "openingStock": 40,
+        "reorderPoint": 8,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "CLN-1070",
+        "product": "Surface Disinfectant Spray",
+        "openingStock": 265,
+        "reorderPoint": 51,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "CLN-1084",
+        "product": "Broom Soft Grass",
+        "openingStock": 80,
+        "reorderPoint": 15,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "TLS-1007",
+        "product": "Cordless Drill 12V",
+        "openingStock": 45,
+        "reorderPoint": 11,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "TLS-1014",
+        "product": "Screwdriver Set 32pc",
+        "openingStock": 85,
+        "reorderPoint": 22,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "TLS-1021",
+        "product": "Measuring Tape 5m",
+        "openingStock": 170,
+        "reorderPoint": 44,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "TLS-1028",
+        "product": "Adjustable Wrench 10in",
+        "openingStock": 85,
+        "reorderPoint": 22,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "TLS-1035",
+        "product": "Claw Hammer 500g",
+        "openingStock": 85,
+        "reorderPoint": 22,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "TLS-1042",
+        "product": "Utility Knife",
+        "openingStock": 250,
+        "reorderPoint": 65,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "TLS-1049",
+        "product": "Drill Bit Set HSS 13pc",
+        "openingStock": 85,
+        "reorderPoint": 22,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "TLS-1056",
+        "product": "Cable Ties 200mm (pack of 100)",
+        "openingStock": 380,
+        "reorderPoint": 98,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "TLS-1063",
+        "product": "Hex Key Set Metric",
+        "openingStock": 85,
+        "reorderPoint": 22,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "TLS-1070",
+        "product": "Pliers Combination 8in",
+        "openingStock": 85,
+        "reorderPoint": 22,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "TLS-1077",
+        "product": "Wall Plugs & Screws Kit",
+        "openingStock": 170,
+        "reorderPoint": 44,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "TLS-1084",
+        "product": "Spirit Level 600mm",
+        "openingStock": 45,
+        "reorderPoint": 11,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "SAF-1007",
+        "product": "Safety Helmet ISI",
+        "openingStock": 200,
+        "reorderPoint": 45,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "SAF-1014",
+        "product": "Safety Shoes Steel Toe",
+        "openingStock": 120,
+        "reorderPoint": 27,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "SAF-1021",
+        "product": "Hi-Vis Reflective Vest",
+        "openingStock": 320,
+        "reorderPoint": 72,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "SAF-1028",
+        "product": "Safety Goggles Clear",
+        "openingStock": 200,
+        "reorderPoint": 45,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "SAF-1035",
+        "product": "Ear Plugs (box of 200)",
+        "openingStock": 80,
+        "reorderPoint": 18,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "SAF-1042",
+        "product": "Cut-Resistant Gloves",
+        "openingStock": 280,
+        "reorderPoint": 63,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "SAF-1049",
+        "product": "N95 Respirator (box of 20)",
+        "openingStock": 160,
+        "reorderPoint": 36,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "SAF-1056",
+        "product": "First Aid Kit Industrial",
+        "openingStock": 40,
+        "reorderPoint": 9,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "SAF-1063",
+        "product": "Fire Extinguisher ABC 4kg",
+        "openingStock": 40,
+        "reorderPoint": 9,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "SAF-1070",
+        "product": "Safety Harness Full Body",
+        "openingStock": 40,
+        "reorderPoint": 9,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "SAF-1077",
+        "product": "Warning Tape Roll",
+        "openingStock": 160,
+        "reorderPoint": 36,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "SAF-1084",
+        "product": "Face Shield",
+        "openingStock": 120,
+        "reorderPoint": 27,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "FNB-1007",
+        "product": "Bottled Water 1L (case of 12)",
+        "openingStock": 1390,
+        "reorderPoint": 180,
+        "dailyUsage": 36.0
+      },
+      {
+        "sku": "FNB-1014",
+        "product": "Instant Coffee 200g",
+        "openingStock": 210,
+        "reorderPoint": 27,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "FNB-1021",
+        "product": "Tea Bags (box of 100)",
+        "openingStock": 245,
+        "reorderPoint": 32,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "FNB-1028",
+        "product": "Sugar Sachets (box of 500)",
+        "openingStock": 140,
+        "reorderPoint": 18,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "FNB-1042",
+        "product": "Paper Cups 200ml (pack of 100)",
+        "openingStock": 525,
+        "reorderPoint": 68,
+        "dailyUsage": 13.5
+      },
+      {
+        "sku": "FNB-1049",
+        "product": "Energy Drink 250ml (case of 24)",
+        "openingStock": 175,
+        "reorderPoint": 23,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "FNB-1056",
+        "product": "Masala Peanuts 1kg",
+        "openingStock": 105,
+        "reorderPoint": 14,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "FNB-1063",
+        "product": "Fruit Juice 1L (case of 12)",
+        "openingStock": 210,
+        "reorderPoint": 27,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "FNB-1070",
+        "product": "Instant Noodles (carton of 48)",
+        "openingStock": 280,
+        "reorderPoint": 36,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "FNB-1084",
+        "product": "Green Tea (box of 100)",
+        "openingStock": 105,
+        "reorderPoint": 14,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "PRC-1007",
+        "product": "Shampoo 650ml",
+        "openingStock": 305,
+        "reorderPoint": 58,
+        "dailyUsage": 7.2
+      },
+      {
+        "sku": "PRC-1014",
+        "product": "Bath Soap (pack of 4)",
+        "openingStock": 530,
+        "reorderPoint": 101,
+        "dailyUsage": 12.6
+      },
+      {
+        "sku": "PRC-1021",
+        "product": "Toothpaste 200g",
+        "openingStock": 455,
+        "reorderPoint": 87,
+        "dailyUsage": 10.8
+      },
+      {
+        "sku": "PRC-1028",
+        "product": "Body Lotion 400ml",
+        "openingStock": 190,
+        "reorderPoint": 36,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "PRC-1035",
+        "product": "Deodorant Spray 150ml",
+        "openingStock": 230,
+        "reorderPoint": 44,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "PRC-1042",
+        "product": "Face Wash 100ml",
+        "openingStock": 265,
+        "reorderPoint": 51,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "PRC-1049",
+        "product": "Shaving Cream 70g",
+        "openingStock": 155,
+        "reorderPoint": 29,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "PRC-1056",
+        "product": "Hair Oil 300ml",
+        "openingStock": 230,
+        "reorderPoint": 44,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "PRC-1063",
+        "product": "Sanitary Pads (pack of 30)",
+        "openingStock": 340,
+        "reorderPoint": 65,
+        "dailyUsage": 8.1
+      },
+      {
+        "sku": "PRC-1070",
+        "product": "Baby Diapers M (pack of 56)",
+        "openingStock": 230,
+        "reorderPoint": 44,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "PRC-1077",
+        "product": "Sunscreen SPF50 100ml",
+        "openingStock": 115,
+        "reorderPoint": 22,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "PRC-1084",
+        "product": "Cotton Buds (pack of 200)",
+        "openingStock": 190,
+        "reorderPoint": 36,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "AUT-1007",
+        "product": "Engine Oil 5W-30 4L",
+        "openingStock": 185,
+        "reorderPoint": 58,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "AUT-1014",
+        "product": "Brake Pads Front Set",
+        "openingStock": 95,
+        "reorderPoint": 29,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "AUT-1021",
+        "product": "Air Filter Element",
+        "openingStock": 185,
+        "reorderPoint": 58,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "AUT-1028",
+        "product": "Oil Filter",
+        "openingStock": 275,
+        "reorderPoint": 87,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "AUT-1035",
+        "product": "Spark Plug Iridium",
+        "openingStock": 230,
+        "reorderPoint": 72,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "AUT-1042",
+        "product": "Wiper Blade 22in",
+        "openingStock": 140,
+        "reorderPoint": 44,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "AUT-1049",
+        "product": "Car Battery 35Ah",
+        "openingStock": 50,
+        "reorderPoint": 15,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "AUT-1056",
+        "product": "Coolant 1L",
+        "openingStock": 185,
+        "reorderPoint": 58,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "AUT-1063",
+        "product": "Headlight Bulb H4",
+        "openingStock": 140,
+        "reorderPoint": 44,
+        "dailyUsage": 2.7
+      },
+      {
+        "sku": "AUT-1070",
+        "product": "Tyre Inflator Portable",
+        "openingStock": 50,
+        "reorderPoint": 15,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "AUT-1077",
+        "product": "Brake Fluid DOT4 500ml",
+        "openingStock": 95,
+        "reorderPoint": 29,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "AUT-1084",
+        "product": "Microfiber Car Wash Mitt",
+        "openingStock": 95,
+        "reorderPoint": 29,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "ELE-1007",
+        "product": "LED Bulb 9W (pack of 4)",
+        "openingStock": 570,
+        "reorderPoint": 139,
+        "dailyUsage": 12.6
+      },
+      {
+        "sku": "ELE-1014",
+        "product": "LED Tube Light 20W",
+        "openingStock": 245,
+        "reorderPoint": 60,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "ELE-1021",
+        "product": "Extension Board 4-Socket",
+        "openingStock": 205,
+        "reorderPoint": 50,
+        "dailyUsage": 4.5
+      },
+      {
+        "sku": "ELE-1028",
+        "product": "Copper Wire 1.5 sqmm (90m)",
+        "openingStock": 85,
+        "reorderPoint": 20,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "ELE-1035",
+        "product": "MCB 16A Single Pole",
+        "openingStock": 165,
+        "reorderPoint": 40,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "ELE-1042",
+        "product": "Ceiling Fan 1200mm",
+        "openingStock": 45,
+        "reorderPoint": 10,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "ELE-1049",
+        "product": "Modular Switch 6A",
+        "openingStock": 490,
+        "reorderPoint": 119,
+        "dailyUsage": 10.8
+      },
+      {
+        "sku": "ELE-1056",
+        "product": "Electrical Tape (pack of 10)",
+        "openingStock": 245,
+        "reorderPoint": 60,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "ELE-1063",
+        "product": "Emergency Light LED",
+        "openingStock": 85,
+        "reorderPoint": 20,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "ELE-1070",
+        "product": "Door Bell Wireless",
+        "openingStock": 45,
+        "reorderPoint": 10,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "ELE-1077",
+        "product": "Socket 16A Modular",
+        "openingStock": 245,
+        "reorderPoint": 60,
+        "dailyUsage": 5.4
+      }
+    ]
+  },
+  {
+    "warehouse": "BLR-04",
+    "name": "Bengaluru South Fulfilment",
+    "stock": [
+      {
+        "sku": "SKU-1042",
+        "product": "USB-C Charging Cable 1m",
+        "openingStock": 545,
+        "reorderPoint": 114,
+        "dailyUsage": 12.6
+      },
+      {
+        "sku": "ELC-1014",
+        "product": "Wireless Mouse",
+        "openingStock": 275,
+        "reorderPoint": 57,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "ELC-1021",
+        "product": "Bluetooth Earbuds",
+        "openingStock": 185,
+        "reorderPoint": 38,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "ELC-1042",
+        "product": "Wall Charger 20W",
+        "openingStock": 365,
+        "reorderPoint": 76,
+        "dailyUsage": 8.4
+      },
+      {
+        "sku": "ELC-1049",
+        "product": "Keyboard USB Wired",
+        "openingStock": 125,
+        "reorderPoint": 26,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "ELC-1056",
+        "product": "Webcam 1080p",
+        "openingStock": 65,
+        "reorderPoint": 13,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "ELC-1063",
+        "product": "Smart Plug 16A",
+        "openingStock": 95,
+        "reorderPoint": 19,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "ELC-1070",
+        "product": "LED Desk Lamp",
+        "openingStock": 95,
+        "reorderPoint": 19,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "ELC-1077",
+        "product": "MicroSD Card 64GB",
+        "openingStock": 305,
+        "reorderPoint": 63,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "ELC-1084",
+        "product": "Ethernet Cable Cat6 5m",
+        "openingStock": 155,
+        "reorderPoint": 32,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "PKG-1007",
+        "product": "Corrugated Box Small (pack of 25)",
+        "openingStock": 615,
+        "reorderPoint": 93,
+        "dailyUsage": 15.4
+      },
+      {
+        "sku": "PKG-1014",
+        "product": "Corrugated Box Medium (pack of 25)",
+        "openingStock": 500,
+        "reorderPoint": 76,
+        "dailyUsage": 12.6
+      },
+      {
+        "sku": "PKG-1021",
+        "product": "Corrugated Box Large (pack of 10)",
+        "openingStock": 250,
+        "reorderPoint": 38,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "PKG-1028",
+        "product": "Bubble Wrap Roll 50m",
+        "openingStock": 170,
+        "reorderPoint": 26,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "PKG-1035",
+        "product": "Packing Tape Brown (6 rolls)",
+        "openingStock": 695,
+        "reorderPoint": 105,
+        "dailyUsage": 17.5
+      },
+      {
+        "sku": "PKG-1042",
+        "product": "Stretch Film Roll",
+        "openingStock": 225,
+        "reorderPoint": 34,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "PKG-1049",
+        "product": "Courier Bags A4 (pack of 100)",
+        "openingStock": 420,
+        "reorderPoint": 63,
+        "dailyUsage": 10.5
+      },
+      {
+        "sku": "PKG-1056",
+        "product": "Fragile Labels (roll of 500)",
+        "openingStock": 115,
+        "reorderPoint": 17,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "PKG-1063",
+        "product": "Paper Void Fill (5kg)",
+        "openingStock": 85,
+        "reorderPoint": 13,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "PKG-1077",
+        "product": "Strapping Roll PP 12mm",
+        "openingStock": 85,
+        "reorderPoint": 13,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "PKG-1084",
+        "product": "Shipping Labels 4x6 (roll of 500)",
+        "openingStock": 335,
+        "reorderPoint": 51,
+        "dailyUsage": 8.4
+      },
+      {
+        "sku": "OFF-1007",
+        "product": "A4 Copier Paper 75gsm (ream)",
+        "openingStock": 855,
+        "reorderPoint": 147,
+        "dailyUsage": 21.0
+      },
+      {
+        "sku": "OFF-1014",
+        "product": "Ballpoint Pen Blue (box of 50)",
+        "openingStock": 230,
+        "reorderPoint": 40,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "OFF-1021",
+        "product": "Stapler Medium",
+        "openingStock": 60,
+        "reorderPoint": 10,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "OFF-1028",
+        "product": "Staple Pins No.10 (box of 20)",
+        "openingStock": 145,
+        "reorderPoint": 25,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "OFF-1035",
+        "product": "Sticky Notes 3x3 (pack of 12)",
+        "openingStock": 175,
+        "reorderPoint": 30,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "OFF-1042",
+        "product": "Whiteboard Marker Set",
+        "openingStock": 115,
+        "reorderPoint": 20,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "OFF-1049",
+        "product": "Box File Lever Arch",
+        "openingStock": 145,
+        "reorderPoint": 25,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "OFF-1056",
+        "product": "Notebook A5 Ruled",
+        "openingStock": 400,
+        "reorderPoint": 69,
+        "dailyUsage": 9.8
+      },
+      {
+        "sku": "OFF-1063",
+        "product": "Printer Toner 12A",
+        "openingStock": 60,
+        "reorderPoint": 10,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "OFF-1070",
+        "product": "Calculator Desktop 12-digit",
+        "openingStock": 30,
+        "reorderPoint": 5,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "OFF-1077",
+        "product": "Highlighter Set (pack of 5)",
+        "openingStock": 145,
+        "reorderPoint": 25,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "OFF-1084",
+        "product": "Envelopes A4 Brown (pack of 50)",
+        "openingStock": 175,
+        "reorderPoint": 30,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "CLN-1007",
+        "product": "Hand Sanitizer 500ml",
+        "openingStock": 470,
+        "reorderPoint": 90,
+        "dailyUsage": 11.2
+      },
+      {
+        "sku": "CLN-1014",
+        "product": "Floor Cleaner 5L",
+        "openingStock": 210,
+        "reorderPoint": 40,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "CLN-1021",
+        "product": "Liquid Hand Wash 5L",
+        "openingStock": 180,
+        "reorderPoint": 34,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "CLN-1028",
+        "product": "Garbage Bags Large (roll of 30)",
+        "openingStock": 590,
+        "reorderPoint": 112,
+        "dailyUsage": 14.0
+      },
+      {
+        "sku": "CLN-1035",
+        "product": "Microfiber Cloth (pack of 10)",
+        "openingStock": 150,
+        "reorderPoint": 28,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "CLN-1042",
+        "product": "Toilet Cleaner 1L",
+        "openingStock": 265,
+        "reorderPoint": 51,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "CLN-1049",
+        "product": "Tissue Roll 2-ply (pack of 12)",
+        "openingStock": 415,
+        "reorderPoint": 79,
+        "dailyUsage": 9.8
+      },
+      {
+        "sku": "CLN-1056",
+        "product": "Paper Towel Roll (pack of 6)",
+        "openingStock": 235,
+        "reorderPoint": 45,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "CLN-1063",
+        "product": "Mop with Bucket Set",
+        "openingStock": 30,
+        "reorderPoint": 6,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "CLN-1070",
+        "product": "Surface Disinfectant Spray",
+        "openingStock": 210,
+        "reorderPoint": 40,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "CLN-1077",
+        "product": "Nitrile Gloves (box of 100)",
+        "openingStock": 295,
+        "reorderPoint": 56,
+        "dailyUsage": 7.0
+      },
+      {
+        "sku": "CLN-1084",
+        "product": "Broom Soft Grass",
+        "openingStock": 60,
+        "reorderPoint": 12,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "TLS-1007",
+        "product": "Cordless Drill 12V",
+        "openingStock": 35,
+        "reorderPoint": 9,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "TLS-1014",
+        "product": "Screwdriver Set 32pc",
+        "openingStock": 65,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "TLS-1021",
+        "product": "Measuring Tape 5m",
+        "openingStock": 130,
+        "reorderPoint": 34,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "TLS-1028",
+        "product": "Adjustable Wrench 10in",
+        "openingStock": 65,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "TLS-1035",
+        "product": "Claw Hammer 500g",
+        "openingStock": 65,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "TLS-1042",
+        "product": "Utility Knife",
+        "openingStock": 195,
+        "reorderPoint": 51,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "TLS-1049",
+        "product": "Drill Bit Set HSS 13pc",
+        "openingStock": 65,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "TLS-1056",
+        "product": "Cable Ties 200mm (pack of 100)",
+        "openingStock": 295,
+        "reorderPoint": 76,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "TLS-1063",
+        "product": "Hex Key Set Metric",
+        "openingStock": 65,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "TLS-1070",
+        "product": "Pliers Combination 8in",
+        "openingStock": 65,
+        "reorderPoint": 17,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "SAF-1007",
+        "product": "Safety Helmet ISI",
+        "openingStock": 155,
+        "reorderPoint": 35,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "SAF-1014",
+        "product": "Safety Shoes Steel Toe",
+        "openingStock": 95,
+        "reorderPoint": 21,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "SAF-1021",
+        "product": "Hi-Vis Reflective Vest",
+        "openingStock": 250,
+        "reorderPoint": 56,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "SAF-1028",
+        "product": "Safety Goggles Clear",
+        "openingStock": 155,
+        "reorderPoint": 35,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "SAF-1035",
+        "product": "Ear Plugs (box of 200)",
+        "openingStock": 65,
+        "reorderPoint": 14,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "SAF-1042",
+        "product": "Cut-Resistant Gloves",
+        "openingStock": 220,
+        "reorderPoint": 49,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "SAF-1049",
+        "product": "N95 Respirator (box of 20)",
+        "openingStock": 125,
+        "reorderPoint": 28,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "SAF-1056",
+        "product": "First Aid Kit Industrial",
+        "openingStock": 35,
+        "reorderPoint": 7,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "SAF-1063",
+        "product": "Fire Extinguisher ABC 4kg",
+        "openingStock": 35,
+        "reorderPoint": 7,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "SAF-1070",
+        "product": "Safety Harness Full Body",
+        "openingStock": 35,
+        "reorderPoint": 7,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "SAF-1077",
+        "product": "Warning Tape Roll",
+        "openingStock": 125,
+        "reorderPoint": 28,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "SAF-1084",
+        "product": "Face Shield",
+        "openingStock": 95,
+        "reorderPoint": 21,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "FNB-1007",
+        "product": "Bottled Water 1L (case of 12)",
+        "openingStock": 1080,
+        "reorderPoint": 140,
+        "dailyUsage": 28.0
+      },
+      {
+        "sku": "FNB-1014",
+        "product": "Instant Coffee 200g",
+        "openingStock": 165,
+        "reorderPoint": 21,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "FNB-1021",
+        "product": "Tea Bags (box of 100)",
+        "openingStock": 190,
+        "reorderPoint": 25,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "FNB-1028",
+        "product": "Sugar Sachets (box of 500)",
+        "openingStock": 110,
+        "reorderPoint": 14,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "FNB-1035",
+        "product": "Biscuits Assorted (carton of 48)",
+        "openingStock": 245,
+        "reorderPoint": 32,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "FNB-1042",
+        "product": "Paper Cups 200ml (pack of 100)",
+        "openingStock": 405,
+        "reorderPoint": 53,
+        "dailyUsage": 10.5
+      },
+      {
+        "sku": "FNB-1049",
+        "product": "Energy Drink 250ml (case of 24)",
+        "openingStock": 140,
+        "reorderPoint": 18,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "FNB-1056",
+        "product": "Masala Peanuts 1kg",
+        "openingStock": 85,
+        "reorderPoint": 11,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "FNB-1063",
+        "product": "Fruit Juice 1L (case of 12)",
+        "openingStock": 165,
+        "reorderPoint": 21,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "FNB-1070",
+        "product": "Instant Noodles (carton of 48)",
+        "openingStock": 220,
+        "reorderPoint": 28,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "FNB-1077",
+        "product": "Milk Powder 1kg",
+        "openingStock": 85,
+        "reorderPoint": 11,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "FNB-1084",
+        "product": "Green Tea (box of 100)",
+        "openingStock": 85,
+        "reorderPoint": 11,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "PRC-1007",
+        "product": "Shampoo 650ml",
+        "openingStock": 235,
+        "reorderPoint": 45,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "PRC-1014",
+        "product": "Bath Soap (pack of 4)",
+        "openingStock": 415,
+        "reorderPoint": 79,
+        "dailyUsage": 9.8
+      },
+      {
+        "sku": "PRC-1021",
+        "product": "Toothpaste 200g",
+        "openingStock": 355,
+        "reorderPoint": 68,
+        "dailyUsage": 8.4
+      },
+      {
+        "sku": "PRC-1028",
+        "product": "Body Lotion 400ml",
+        "openingStock": 150,
+        "reorderPoint": 28,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "PRC-1035",
+        "product": "Deodorant Spray 150ml",
+        "openingStock": 180,
+        "reorderPoint": 34,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "PRC-1042",
+        "product": "Face Wash 100ml",
+        "openingStock": 210,
+        "reorderPoint": 40,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "PRC-1049",
+        "product": "Shaving Cream 70g",
+        "openingStock": 120,
+        "reorderPoint": 23,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "PRC-1056",
+        "product": "Hair Oil 300ml",
+        "openingStock": 180,
+        "reorderPoint": 34,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "PRC-1063",
+        "product": "Sanitary Pads (pack of 30)",
+        "openingStock": 265,
+        "reorderPoint": 51,
+        "dailyUsage": 6.3
+      },
+      {
+        "sku": "PRC-1070",
+        "product": "Baby Diapers M (pack of 56)",
+        "openingStock": 180,
+        "reorderPoint": 34,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "PRC-1077",
+        "product": "Sunscreen SPF50 100ml",
+        "openingStock": 90,
+        "reorderPoint": 17,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "PRC-1084",
+        "product": "Cotton Buds (pack of 200)",
+        "openingStock": 150,
+        "reorderPoint": 28,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "AUT-1007",
+        "product": "Engine Oil 5W-30 4L",
+        "openingStock": 145,
+        "reorderPoint": 45,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "AUT-1021",
+        "product": "Air Filter Element",
+        "openingStock": 145,
+        "reorderPoint": 45,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "AUT-1028",
+        "product": "Oil Filter",
+        "openingStock": 215,
+        "reorderPoint": 68,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "AUT-1042",
+        "product": "Wiper Blade 22in",
+        "openingStock": 110,
+        "reorderPoint": 34,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "AUT-1049",
+        "product": "Car Battery 35Ah",
+        "openingStock": 40,
+        "reorderPoint": 12,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "AUT-1056",
+        "product": "Coolant 1L",
+        "openingStock": 145,
+        "reorderPoint": 45,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "AUT-1063",
+        "product": "Headlight Bulb H4",
+        "openingStock": 110,
+        "reorderPoint": 34,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "AUT-1070",
+        "product": "Tyre Inflator Portable",
+        "openingStock": 40,
+        "reorderPoint": 12,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "AUT-1084",
+        "product": "Microfiber Car Wash Mitt",
+        "openingStock": 75,
+        "reorderPoint": 23,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "ELE-1014",
+        "product": "LED Tube Light 20W",
+        "openingStock": 195,
+        "reorderPoint": 47,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "ELE-1021",
+        "product": "Extension Board 4-Socket",
+        "openingStock": 160,
+        "reorderPoint": 39,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "ELE-1028",
+        "product": "Copper Wire 1.5 sqmm (90m)",
+        "openingStock": 65,
+        "reorderPoint": 16,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "ELE-1035",
+        "product": "MCB 16A Single Pole",
+        "openingStock": 130,
+        "reorderPoint": 31,
+        "dailyUsage": 2.8
+      },
+      {
+        "sku": "ELE-1042",
+        "product": "Ceiling Fan 1200mm",
+        "openingStock": 35,
+        "reorderPoint": 8,
+        "dailyUsage": 0.7
+      },
+      {
+        "sku": "ELE-1049",
+        "product": "Modular Switch 6A",
+        "openingStock": 380,
+        "reorderPoint": 93,
+        "dailyUsage": 8.4
+      },
+      {
+        "sku": "ELE-1056",
+        "product": "Electrical Tape (pack of 10)",
+        "openingStock": 195,
+        "reorderPoint": 47,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "ELE-1063",
+        "product": "Emergency Light LED",
+        "openingStock": 65,
+        "reorderPoint": 16,
+        "dailyUsage": 1.4
+      },
+      {
+        "sku": "ELE-1077",
+        "product": "Socket 16A Modular",
+        "openingStock": 195,
+        "reorderPoint": 47,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "ELE-1084",
+        "product": "Inverter Battery 150Ah",
+        "openingStock": 35,
+        "reorderPoint": 8,
+        "dailyUsage": 0.7
+      }
+    ]
+  }
+]

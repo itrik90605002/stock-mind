@@ -18,12 +18,10 @@ services:
         generateValue: true
       - key: CORS_ALLOWED_ORIGINS  # your frontend URL, e.g. https://my-warehouse.vercel.app
         sync: false
-      # AI via Google Gemini's OpenAI-compatible endpoint (has a free tier).
-      - key: AI_BASE_URL
-        value: https://generativelanguage.googleapis.com/v1beta/openai
+      # AI: "gemini" (has a free tier) or "openai", plus that provider's API key.
+      - key: AI_PROVIDER
+        value: gemini
       - key: AI_API_KEY
         sync: false
-      - key: AI_CHAT_MODEL
-        value: gemini-2.5-flash
       - key: DEMO_SEED_DATA        # loads demo warehouses, 120 products and 90 days of history on first start
         value: "true"

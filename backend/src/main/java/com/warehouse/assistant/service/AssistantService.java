@@ -9,6 +9,7 @@ import com.warehouse.ai.ChatClient;
 import com.warehouse.assistant.domain.AiQueryLog;
 import com.warehouse.assistant.domain.AiQueryLogRepository;
 import com.warehouse.assistant.domain.QueryOutcome;
+import com.warehouse.assistant.dto.AiSqlAnswer;
 import com.warehouse.assistant.dto.AssistantAnswer;
 import com.warehouse.assistant.dto.AssistantStatus;
 import com.warehouse.assistant.dto.QueryLogResponse;
@@ -18,6 +19,7 @@ import com.warehouse.assistant.plan.PlanValidator;
 import com.warehouse.assistant.plan.QueryIntent;
 import com.warehouse.assistant.plan.QueryPlan;
 import com.warehouse.assistant.plan.ValidatedPlan;
+import com.warehouse.assistant.query.AiSqlExecutor;
 import com.warehouse.assistant.query.AssistantQueryExecutor;
 import com.warehouse.assistant.query.QueryResult;
 import com.warehouse.common.ratelimit.RateLimiter;
@@ -28,6 +30,7 @@ import com.warehouse.security.AuthUser;
 import com.warehouse.warehouse.domain.WarehouseRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.dao.DataAccessException;
 import org.springframework.dao.QueryTimeoutException;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
@@ -40,23 +43,17 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Answers plain-English inventory questions.
- *
- * <pre>
- *   question --(model)--> QueryPlan (untrusted JSON)
- *            --(PlanValidator)--> ValidatedPlan (allow-listed, resolved, permission-scoped)
- *            --(AssistantQueryExecutor)--> rows from a prewritten read-only query
- * </pre>
- *
- * The model chooses <em>which</em> prewritten question to ask and with what filters; it never
- * writes SQL and never sees data. Summaries are computed from the rows, not generated, so the
- * answer cannot contain invented numbers. Every question is logged with its plan and outcome.
+ * Answers plain-English inventory questions two ways from one model call:
+ * <ul>
+ *   <li>system-built: the model's plan is validated and run as a prewritten query;</li>
+ *   <li>AI-built: the model's own SELECT runs in the {@link AiSqlExecutor} sandbox.</li>
+ * </ul>
+ * The model never sees data. Every question is logged with the model's reply and the outcome.
  */
 @Service
 public class AssistantService {
 
     private static final Logger log = LoggerFactory.getLogger(AssistantService.class);
-    /** Prefix of logged "questions" that were quick-query buttons rather than typed questions. */
     public static final String QUICK_QUERY_PREFIX = "Quick query: ";
     private static final String UNAVAILABLE_MESSAGE =
             "The AI assistant is unavailable right now. Use the quick questions below or the regular pages.";
@@ -64,6 +61,7 @@ public class AssistantService {
     private final PlanTranslator translator;
     private final PlanValidator validator;
     private final AssistantQueryExecutor executor;
+    private final AiSqlExecutor aiSqlExecutor;
     private final ChatClient chatClient;
     private final AiQueryLogRepository logRepository;
     private final WarehouseRepository warehouseRepository;
@@ -75,13 +73,14 @@ public class AssistantService {
     private final Clock clock;
 
     public AssistantService(PlanTranslator translator, PlanValidator validator, AssistantQueryExecutor executor,
-                            ChatClient chatClient, AiQueryLogRepository logRepository,
+                            AiSqlExecutor aiSqlExecutor, ChatClient chatClient, AiQueryLogRepository logRepository,
                             WarehouseRepository warehouseRepository, ProductRepository productRepository,
                             UserRepository userRepository, RateLimiter rateLimiter, ObjectMapper objectMapper,
                             AppProperties properties, Clock clock) {
         this.translator = translator;
         this.validator = validator;
         this.executor = executor;
+        this.aiSqlExecutor = aiSqlExecutor;
         this.chatClient = chatClient;
         this.logRepository = logRepository;
         this.warehouseRepository = warehouseRepository;
@@ -97,7 +96,6 @@ public class AssistantService {
         return new AssistantStatus(chatClient.isEnabled(), chatClient.isAvailable(), chatClient.modelName());
     }
 
-    /** Translates the question with AI, then validates and runs the plan. */
     public AssistantAnswer ask(String rawQuestion, AuthUser user) {
         rateLimiter.check("assistant-ask:" + user.id(), settings.questionsPerMinute(),
                 "You are asking questions too quickly. Please wait a minute.");
@@ -114,10 +112,31 @@ public class AssistantService {
         } catch (PlanValidationException e) {
             return finish(user, question, null, QueryOutcome.INVALID_PLAN, e.getMessage(), null, true, started);
         }
-        return execute(user, question, translation.plan(), translation.rawReply(), true, started);
+        AssistantAnswer answer = execute(user, question, translation.plan(), translation.rawReply(), true, started);
+        return answer.outcome() == QueryOutcome.REFUSED ? answer : answer.withAiSql(runAiSql(translation.sql(), user));
     }
 
-    /** Runs a plan supplied by the client (quick questions); no AI involved, same validation. */
+    private AiSqlAnswer runAiSql(String sql, AuthUser user) {
+        if (sql == null || sql.isBlank()) {
+            return AiSqlAnswer.failed(null, "The AI did not write a query for this question.");
+        }
+        try {
+            if (!aiSqlExecutor.isAvailable()) {
+                return AiSqlAnswer.failed(sql, "AI-written queries are not set up on this database.");
+            }
+            List<Long> warehouseIds = warehouseRepository.findAllByOrderByCodeAsc().stream()
+                    .filter(w -> user.canAccess(w.getId())).map(w -> w.getId()).toList();
+            return AiSqlAnswer.of(sql, aiSqlExecutor.run(sql, warehouseIds, settings.maxRows()));
+        } catch (PlanValidationException e) {
+            return AiSqlAnswer.failed(sql, e.getMessage());
+        } catch (QueryTimeoutException e) {
+            return AiSqlAnswer.failed(sql, "The AI's query took too long.");
+        } catch (DataAccessException e) {
+            log.info("AI-written SQL failed: {}", e.getMostSpecificCause().getMessage());
+            return AiSqlAnswer.failed(sql, "The AI's query did not run: " + truncate(e.getMostSpecificCause().getMessage(), 200));
+        }
+    }
+
     public AssistantAnswer runPlan(QueryPlan plan, AuthUser user) {
         rateLimiter.check("assistant-run:" + user.id(), settings.questionsPerMinute() * 3,
                 "You are running queries too quickly. Please wait a minute.");
@@ -141,7 +160,6 @@ public class AssistantService {
             return finish(user, question, planJson, QueryOutcome.INVALID_PLAN, e.getMessage(), null, usedAi, started);
         }
         if (!usedAi) {
-            // Log quick queries by what they asked for, e.g. "Quick query: Low stock · PUN-01 ...".
             question = QUICK_QUERY_PREFIX + PlanValidator.interpret(validated);
         }
         try {
@@ -150,7 +168,7 @@ public class AssistantService {
             record(user, question, planJson, QueryOutcome.ANSWERED, null, result.rows().size(), duration);
             return new AssistantAnswer(QueryOutcome.ANSWERED, question, validated.intent(),
                     PlanValidator.interpret(validated), result.summary(), result.columns(), result.rows(),
-                    result.truncated(), null, usedAi, duration);
+                    result.truncated(), null, usedAi, duration, null);
         } catch (QueryTimeoutException e) {
             return finish(user, question, planJson, QueryOutcome.FAILED,
                     "That query took too long. Try narrowing it to a warehouse, product or shorter period.",
@@ -200,7 +218,6 @@ public class AssistantService {
         }
     }
 
-    /** Removes control characters and collapses whitespace; the validator already capped length. */
     private static String sanitize(String question) {
         return question.replaceAll("\\p{Cntrl}", " ").replaceAll("\\s+", " ").trim();
     }

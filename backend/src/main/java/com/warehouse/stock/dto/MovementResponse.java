@@ -8,7 +8,6 @@ import com.warehouse.warehouse.dto.WarehouseRef;
 
 import java.time.Instant;
 
-/** @param reversed whether a later entry reverses this one */
 public record MovementResponse(Long id, Instant createdAt, MovementType type, int quantity, int balanceAfter,
                                ProductRef product, WarehouseRef warehouse, String reason,
                                ReferenceType referenceType, Long referenceId, Long reversesId, boolean reversed,

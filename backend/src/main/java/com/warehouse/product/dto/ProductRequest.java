@@ -9,7 +9,6 @@ import jakarta.validation.constraints.Size;
 
 import java.math.BigDecimal;
 
-/** Create/update body. The SKU cannot change after creation (it is referenced by the ledger). */
 public record ProductRequest(
         @NotBlank @Pattern(regexp = "[A-Za-z0-9._-]{2,40}", message = "2-40 letters, digits, '.', '_' or '-'") String sku,
         @NotBlank @Size(max = 200) String name,

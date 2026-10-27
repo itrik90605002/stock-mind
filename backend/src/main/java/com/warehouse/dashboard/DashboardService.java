@@ -32,7 +32,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/** Aggregates for the dashboard and report pages, always scoped to the user's warehouses. */
 @Service
 public class DashboardService {
 
@@ -107,7 +106,6 @@ public class DashboardService {
             WHERE f.warehouse_id IN (:ids) AND f.suggested_qty > 0 AND p.archived = FALSE
               AND\s""" + StockForecast.NOT_COVERED_SQL;
 
-    /** Tasks shown per group on the home page; the group count covers the rest. */
     private static final int TASKS_PER_GROUP = 5;
 
     private static final String VALUATION_SQL = """
@@ -203,7 +201,6 @@ public class DashboardService {
         return groups;
     }
 
-    /** The sidebar badges: the same task counts as the home page, without its lists, stats or trend. */
     @Transactional(readOnly = true)
     public NavCounts navCounts(AuthUser user) {
         List<Long> scope = access.scope(user, null);
@@ -254,7 +251,6 @@ public class DashboardService {
                 rs.getLong(6), rs.getBigDecimal(7));
     }
 
-    /** Daily units in/out for the last {@code days} days, with zero-filled gaps. */
     private List<TrendPoint> trend(List<Long> scope, LocalDate today, int days) {
         LocalDate first = today.minusDays(days - 1L);
         Map<LocalDate, TrendPoint> byDay = new HashMap<>();

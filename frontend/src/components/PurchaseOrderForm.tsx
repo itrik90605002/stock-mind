@@ -6,7 +6,6 @@ import { useAuth } from '../auth/AuthContext';
 import { Line, LineEditor, validateLines } from './LineEditor';
 import { Field, FormActions, Modal, preventDefault, WarehouseSelect } from './ui';
 
-/** Create a draft purchase order, or revise an existing draft. */
 export function PurchaseOrderForm({ order, onClose, onSaved }: { order?: PurchaseOrder; onClose: () => void; onSaved: (po: PurchaseOrder) => void }) {
   const { myWarehouses } = useAuth();
   const suppliers = useApi(() => supplierApi.list(), []);

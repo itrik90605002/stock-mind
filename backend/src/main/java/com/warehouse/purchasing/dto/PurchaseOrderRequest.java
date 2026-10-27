@@ -12,7 +12,6 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
-/** Create/revise a draft purchase order. A line without {@code unitCost} uses the product's unit cost. */
 public record PurchaseOrderRequest(@NotNull Long supplierId, @NotNull Long warehouseId, LocalDate expectedDate,
                                    @Size(max = 500) String note,
                                    @NotNull @Size(min = 1, max = 200) List<@Valid Line> lines) {

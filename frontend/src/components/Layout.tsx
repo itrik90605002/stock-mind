@@ -1,37 +1,29 @@
 import { ReactNode, useEffect, useState } from 'react';
-import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
+import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { dashboardApi } from '../api/endpoints';
 import { useApi } from '../api/useApi';
 import { useAuth } from '../auth/AuthContext';
 import { num } from './ui';
 import {
-  BoxesIcon, ChartIcon, DashboardIcon, LedgerIcon, LogOutIcon, MenuIcon, RefreshIcon, ShieldIcon, SparklesIcon,
-  TruckIcon, UserIcon,
+  BoxesIcon, ChartIcon, ClipboardIcon, DashboardIcon, FactoryIcon, LedgerIcon, LogOutIcon, MenuIcon, RefreshIcon,
+  ShieldIcon, SparklesIcon, TruckIcon, UserIcon,
 } from './icons';
 
 const initials = (name: string) => name.split(/\s+/).map(p => p[0]).slice(0, 2).join('').toUpperCase();
 
-/**
- * A sidebar entry for one section. {@code also} lists other path prefixes that belong to the section
- * (its detail pages), so the entry stays highlighted while drilling in.
- */
-function NavItem({ to, icon, children, also = [], count, urgent }: {
-  to: string; icon: ReactNode; children: ReactNode; also?: string[]; count?: number; urgent?: boolean;
+function NavItem({ to, icon, children, also = [], end = false, count, urgent }: {
+  to: string; icon: ReactNode; children: ReactNode; also?: string[]; end?: boolean; count?: number; urgent?: boolean;
 }) {
   const { pathname } = useLocation();
   const inSection = also.some(prefix => pathname.startsWith(prefix));
   return (
-    <NavLink to={to} end={to === '/'} className={({ isActive }) => (isActive || inSection ? 'active' : '')}>
+    <NavLink to={to} end={end} className={({ isActive }) => (isActive || inSection ? 'active' : '')}>
       {icon}{children}
       {!!count && <span className={`nav-count ${urgent ? '' : 'nav-count-quiet'}`} title={urgent ? 'Some deliveries are late' : undefined}>{num(count)}</span>}
     </NavLink>
   );
 }
 
-/**
- * App shell. Navigation follows the stock journey: Home (what needs doing) → Inventory (what we have)
- * → Replenish (buy more) → Transfers (rebalance) → Movements (the audit trail).
- */
 export function Layout() {
   const { user, logout, hasRole, canManage } = useAuth();
   const navigate = useNavigate();
@@ -47,16 +39,22 @@ export function Layout() {
     <div className="shell">
       <aside className={`sidebar ${open ? 'open' : ''}`} aria-label="Main navigation">
         <NavLink to="/" className="brand"><span className="brand-mark"><BoxesIcon size={16} /></span>StockPilot</NavLink>
-        <Link to="/assistant" className={`ask-launcher ${location.pathname === '/assistant' ? 'active' : ''}`}>
-          <SparklesIcon size={16} />Ask about your stock…
-        </Link>
         <nav className="nav">
-          <NavItem to="/" icon={<DashboardIcon />}>Home</NavItem>
-          <NavItem to="/inventory" icon={<BoxesIcon />} also={['/products/']}>Inventory</NavItem>
-          <NavItem to="/replenish" icon={<RefreshIcon />} also={['/purchase-orders/']}
-                   count={counts ? counts.toReorder + counts.purchaseOrders : 0} urgent={!!counts?.late}>Replenish</NavItem>
+          <NavItem to="/" end icon={<DashboardIcon />}>Home</NavItem>
+          <NavItem to="/assistant" icon={<SparklesIcon />}>Ask AI</NavItem>
+
+          <NavItem to="/inventory" icon={<BoxesIcon />} also={['/products/']}>Stock</NavItem>
+
+          <div className="nav-section">Buying</div>
+          <NavItem to="/replenish" end icon={<RefreshIcon />} count={counts?.toReorder}>What to reorder</NavItem>
+          <NavItem to="/replenish/orders" icon={<ClipboardIcon />} also={['/purchase-orders/']}
+                   count={counts?.purchaseOrders} urgent={!!counts?.late}>Purchase orders</NavItem>
+          <NavItem to="/replenish/suppliers" icon={<FactoryIcon />}>Suppliers</NavItem>
+
+          <div className="nav-section">Moving stock</div>
           <NavItem to="/transfers" icon={<TruckIcon />} count={counts?.transfers}>Transfers</NavItem>
-          <NavItem to="/movements" icon={<LedgerIcon />}>Movements</NavItem>
+          <NavItem to="/movements" icon={<LedgerIcon />}>Movement history</NavItem>
+
           {canManage && <NavItem to="/reports" icon={<ChartIcon />}>Reports</NavItem>}
           {hasRole('ADMIN') && <>
             <div className="nav-section">Administration</div>

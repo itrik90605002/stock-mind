@@ -31,7 +31,6 @@ import static com.warehouse.stock.domain.StockLevelSpecifications.inCategory;
 import static com.warehouse.stock.domain.StockLevelSpecifications.lowOnly;
 import static com.warehouse.stock.domain.StockLevelSpecifications.productMatches;
 
-/** Read side of the stock module: stock levels and the ledger, scoped to the user's warehouses. */
 @Service
 @Transactional(readOnly = true)
 public class StockQueryService {
@@ -60,7 +59,6 @@ public class StockQueryService {
         return PageResponse.from(levelRepository.findAll(spec, pageable), StockRow::from);
     }
 
-    /** Stock of one product in every warehouse the user can see. */
     public List<StockRow> forProduct(AuthUser user, Long productId) {
         List<Long> scope = access.scope(user, null);
         if (scope.isEmpty()) {

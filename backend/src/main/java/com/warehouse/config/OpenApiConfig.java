@@ -8,10 +8,6 @@ import io.swagger.v3.oas.models.security.SecurityScheme;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * OpenAPI metadata. Interactive docs are served at {@code /swagger-ui.html}; use the
- * "Authorize" button with the token returned by {@code POST /api/auth/login}.
- */
 @Configuration
 public class OpenApiConfig {
 

@@ -3,14 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { reorderApi } from '../api/endpoints';
 import { useAction, useApi, useIdempotencyKey } from '../api/useApi';
 import { useAuth } from '../auth/AuthContext';
-import { RefreshIcon, SparklesIcon } from '../components/icons';
+import { RefreshIcon } from '../components/icons';
 import { Alert, Async, Card, Empty, formatDateTime, money, num, WarehouseSelect } from '../components/ui';
 
-/**
- * Replenish step 1: reorder suggestions computed from recent usage. Quantities come from a formula
- * (usage × lead time + safety stock − stock position); the one-line "why" is written by AI when
- * available. Selected suggestions become draft purchase orders, which continue in step 2.
- */
 export function SuggestionsPanel() {
   const { myWarehouses, canManage } = useAuth();
   const navigate = useNavigate();
@@ -95,10 +90,7 @@ export function SuggestionsPanel() {
                     : <strong>{num(s.suggestedQty)}</strong>}
                 </td>
                 <td className="num">{money(s.estimatedCost)}</td>
-                <td className="small why-cell">
-                  {s.explanationByAi && <span className="ai-text" title="Written by AI from the numbers shown"><SparklesIcon size={12} /> </span>}
-                  {s.explanation}
-                </td>
+                <td className="small why-cell">{s.explanation}</td>
               </tr>
             ))}</tbody>
           </table></div>

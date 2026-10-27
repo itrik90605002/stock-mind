@@ -1,27 +1,26 @@
+import { ReactNode } from 'react';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { RequireAuth } from './auth/RequireAuth';
 import { Layout } from './components/Layout';
-import { Empty } from './components/ui';
+import { Empty, PageHeader } from './components/ui';
 import { AccountPage } from './pages/AccountPage';
 import { AdminPage } from './pages/AdminPage';
 import { AssistantPage } from './pages/AssistantPage';
 import { CatalogPanel } from './pages/CatalogPanel';
 import { HomePage } from './pages/HomePage';
-import { InventoryPage } from './pages/InventoryPage';
 import { LoginPage } from './pages/LoginPage';
 import { MovementsPage } from './pages/MovementsPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { PurchaseOrderDetailPage } from './pages/PurchaseOrderDetailPage';
 import { PurchaseOrdersPanel } from './pages/PurchaseOrdersPanel';
-import { ReplenishPage } from './pages/ReplenishPage';
 import { ReportsPage } from './pages/ReportsPage';
+import { StockPage } from './pages/StockPage';
 import { StockPanel } from './pages/StockPanel';
 import { SuggestionsPanel } from './pages/SuggestionsPanel';
 import { SuppliersPanel } from './pages/SuppliersPanel';
 import { TransferDetailPage } from './pages/TransferDetailPage';
 import { TransfersPage } from './pages/TransfersPage';
 
-/** Sends a pre-redesign URL to its new home, keeping the query string (filters such as ?low=1). */
 function Moved({ to }: { to: string }) {
   const { search } = useLocation();
   const [path, query] = to.split('?');
@@ -31,11 +30,10 @@ function Moved({ to }: { to: string }) {
   return <Navigate to={qs ? `${path}?${qs}` : path} replace />;
 }
 
-/**
- * Route table, grouped by the stock journey: Inventory (what we have), Replenish (buy more),
- * Transfers (rebalance), Movements (audit). Role checks here are for UX only; the backend enforces
- * every permission.
- */
+function Screen({ title, subtitle, children }: { title: string; subtitle: string; children: ReactNode }) {
+  return <><PageHeader title={title} subtitle={subtitle} />{children}</>;
+}
+
 export function App() {
   return (
     <Routes>
@@ -44,17 +42,16 @@ export function App() {
         <Route index element={<HomePage />} />
         <Route path="assistant" element={<AssistantPage />} />
 
-        <Route path="inventory" element={<InventoryPage />}>
-          <Route index element={<StockPanel />} />
-          <Route path="catalogue" element={<CatalogPanel />} />
+        <Route path="inventory" element={<StockPage />}>
+          <Route index element={<CatalogPanel />} />
+          <Route path="levels" element={<StockPanel />} />
         </Route>
+        <Route path="inventory/catalogue" element={<Moved to="/inventory" />} />
         <Route path="products/:id" element={<ProductDetailPage />} />
 
-        <Route path="replenish" element={<ReplenishPage />}>
-          <Route index element={<SuggestionsPanel />} />
-          <Route path="orders" element={<PurchaseOrdersPanel />} />
-          <Route path="suppliers" element={<SuppliersPanel />} />
-        </Route>
+        <Route path="replenish" element={<Screen title="What to reorder" subtitle="Products running low, with a suggested order quantity based on recent usage."><SuggestionsPanel /></Screen>} />
+        <Route path="replenish/orders" element={<Screen title="Purchase orders" subtitle="Orders to suppliers: draft → placed → received."><PurchaseOrdersPanel /></Screen>} />
+        <Route path="replenish/suppliers" element={<Screen title="Suppliers" subtitle="Who you buy from, and how long their deliveries take."><SuppliersPanel /></Screen>} />
         <Route path="purchase-orders/:id" element={<PurchaseOrderDetailPage />} />
 
         <Route path="transfers" element={<TransfersPage />} />
@@ -65,8 +62,8 @@ export function App() {
         <Route path="account" element={<AccountPage />} />
 
         {/* Pre-redesign URLs */}
-        <Route path="stock" element={<Moved to="/inventory" />} />
-        <Route path="products" element={<Moved to="/inventory/catalogue" />} />
+        <Route path="stock" element={<Moved to="/inventory/levels" />} />
+        <Route path="products" element={<Moved to="/inventory" />} />
         <Route path="reorder" element={<Moved to="/replenish" />} />
         <Route path="purchase-orders" element={<Moved to="/replenish/orders" />} />
         <Route path="suppliers" element={<Moved to="/replenish/suppliers" />} />

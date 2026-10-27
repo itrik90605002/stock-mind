@@ -18,10 +18,6 @@ import org.springframework.stereotype.Service;
 
 import java.time.Clock;
 
-/**
- * Manual stock commands recorded by users: issues, adjustments, reversals and planning settings.
- * Each runs through {@link StockCommandExecutor} for retries and idempotency.
- */
 @Service
 public class StockCommandService {
 
@@ -59,10 +55,6 @@ public class StockCommandService {
                         request.quantityChange(), request.reason().trim(), null, user.id()), false));
     }
 
-    /**
-     * Records the opposite of a manual movement. Document-driven movements (purchase orders,
-     * transfers) are corrected through their document instead, and each entry can be reversed once.
-     */
     public MovementResponse reverse(Long movementId, String reason, AuthUser user, String idempotencyKey) {
         return executor.execute("stock.reverse", user.id(), idempotencyKey, MovementResponse.class, () -> {
             StockMovement original = movementRepository.findWithDetailsById(movementId)
@@ -84,7 +76,6 @@ public class StockCommandService {
         });
     }
 
-    /** Sets reorder point and lead-time override for a product in a warehouse. */
     public StockRow updateSettings(StockSettingsRequest request, AuthUser user) {
         access.require(user, request.warehouseId());
         requireProduct(request.productId());

@@ -74,7 +74,6 @@ public class PlanValidator {
         }
         LocalDate today = LocalDate.now(clock);
 
-        // ---- warehouses (always within the user's permissions)
         List<Warehouse> accessible = warehouseRepository.findAllByOrderByCodeAsc().stream()
                 .filter(w -> user.canAccess(w.getId())).toList();
         if (accessible.isEmpty()) {
@@ -95,7 +94,6 @@ public class PlanValidator {
             warehouseLabel = match.getCode() + " " + match.getName();
         }
 
-        // ---- products / category / supplier
         List<Long> productIds = List.of();
         String productLabel = null;
         String productText = text(plan.product(), "product");
@@ -113,7 +111,6 @@ public class PlanValidator {
             supplierLabel = supplier.getName();
         }
 
-        // ---- enums
         MovementType movementType = parseEnum(MovementType.class, plan.movementType(), "movement type");
         ValidatedPlan.Direction direction = Optional.ofNullable(
                 parseEnum(ValidatedPlan.Direction.class, plan.direction(), "direction")).orElse(ValidatedPlan.Direction.FAST);
@@ -123,7 +120,6 @@ public class PlanValidator {
         String statusLabel = plan.status() == null || plan.status().isBlank() ? null
                 : plan.status().trim().toUpperCase(Locale.ROOT).replace(' ', '_');
 
-        // ---- dates
         LocalDate from = parseDate(plan.fromDate(), "start date");
         LocalDate to = parseDate(plan.toDate(), "end date");
         boolean windowed = intent == QueryIntent.MOVEMENT_HISTORY || intent == QueryIntent.TOP_MOVERS;
@@ -152,7 +148,6 @@ public class PlanValidator {
             }
         }
 
-        // ---- numbers
         int horizon = plan.horizonDays() == null ? DEFAULT_HORIZON_DAYS : plan.horizonDays();
         if (horizon < 1 || horizon > 90) {
             throw new PlanValidationException("Forecasts can look 1 to 90 days ahead.");
@@ -164,7 +159,6 @@ public class PlanValidator {
                 supplierLabel, movementType, statuses, statusLabel, from, to, horizon, direction, sortBy, limit);
     }
 
-    /** Human-readable summary of what will be queried, shown next to the answer. */
     public static String interpret(ValidatedPlan p) {
         StringBuilder sb = new StringBuilder(p.intent().label());
         switch (p.intent()) {

@@ -15,7 +15,6 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.Optional;
 
-/** Issues and verifies HMAC-SHA256 signed JWT access tokens. The subject is the user id. */
 @Service
 public class JwtService {
 
@@ -48,10 +47,6 @@ public class JwtService {
         return clock.instant().plus(settings.expiration());
     }
 
-    /**
-     * Returns the user id carried by a valid token, or empty when the token is malformed,
-     * tampered with or expired.
-     */
     public Optional<Long> parseUserId(String token) {
         try {
             Claims claims = Jwts.parser().verifyWith(key).clock(() -> Date.from(clock.instant())).build()

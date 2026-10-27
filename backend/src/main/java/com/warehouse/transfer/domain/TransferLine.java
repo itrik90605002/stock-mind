@@ -11,7 +11,6 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
-/** One product on a transfer. {@code receivedQuantity} is set when the destination books the goods in. */
 @Entity
 @Table(name = "transfer_lines")
 public class TransferLine {
@@ -35,7 +34,6 @@ public class TransferLine {
     private Integer receivedQuantity;
 
     protected TransferLine() {
-        // for JPA
     }
 
     TransferLine(Transfer transfer, Product product, int quantity) {
@@ -55,7 +53,6 @@ public class TransferLine {
         this.receivedQuantity = received;
     }
 
-    /** Units dispatched but not received (lost or damaged in transit); 0 until received. */
     public int shortfall() {
         return receivedQuantity == null ? 0 : quantity - receivedQuantity;
     }

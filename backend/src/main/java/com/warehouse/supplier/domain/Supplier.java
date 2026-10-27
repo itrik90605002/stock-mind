@@ -10,7 +10,6 @@ import jakarta.persistence.Table;
 import java.time.Instant;
 import java.util.Objects;
 
-/** A vendor that purchase orders are placed with. */
 @Entity
 @Table(name = "suppliers")
 public class Supplier {
@@ -27,7 +26,6 @@ public class Supplier {
 
     private String phone;
 
-    /** Typical days from ordering to delivery; the default lead time for this supplier's products. */
     @Column(name = "lead_time_days", nullable = false)
     private int leadTimeDays;
 
@@ -35,7 +33,6 @@ public class Supplier {
     private Instant createdAt;
 
     protected Supplier() {
-        // for JPA
     }
 
     public Supplier(String name, String contactEmail, String phone, int leadTimeDays, Instant createdAt) {

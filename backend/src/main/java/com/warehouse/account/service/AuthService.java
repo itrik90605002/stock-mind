@@ -16,7 +16,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.UUID;
 
-/** Login and self-service account operations. */
 @Service
 public class AuthService {
 

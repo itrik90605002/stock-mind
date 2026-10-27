@@ -7,7 +7,6 @@ import { useAuth } from '../auth/AuthContext';
 import { PlusIcon } from '../components/icons';
 import { Async, Card, Empty, Field, FormActions, Modal, preventDefault } from '../components/ui';
 
-/** Replenish → Suppliers: vendors and lead times. A supplier's name opens its purchase orders. */
 export function SuppliersPanel() {
   const { canManage } = useAuth();
   const suppliers = useApi(() => supplierApi.list(), []);

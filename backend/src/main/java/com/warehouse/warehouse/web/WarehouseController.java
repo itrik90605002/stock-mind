@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/** Warehouses: listed for everyone, managed by Admins. */
 @RestController
 @RequestMapping("/api/warehouses")
 public class WarehouseController {

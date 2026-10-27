@@ -41,7 +41,6 @@ public class DailyJob {
         this.clock = clock;
     }
 
-    /** Result of one run, returned to the admin who triggers it manually. */
     public record Result(ForecastRunResult forecast, int idempotencyRecordsPurged) {
     }
 
@@ -50,7 +49,7 @@ public class DailyJob {
         runSafely("scheduled");
     }
 
-    /** Runs in the background so startup (and the health check) is not delayed by AI calls. */
+    /** Runs in the background so startup (and the health check) is not delayed by the forecast run. */
     @EventListener(ApplicationReadyEvent.class)
     public void onStartup() {
         if (runOnStartup) {

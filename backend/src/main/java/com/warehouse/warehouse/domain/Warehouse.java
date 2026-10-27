@@ -10,7 +10,6 @@ import jakarta.persistence.Table;
 import java.time.Instant;
 import java.util.Objects;
 
-/** A physical location that holds stock. Identified to users by its short {@code code}. */
 @Entity
 @Table(name = "warehouses")
 public class Warehouse {
@@ -34,7 +33,6 @@ public class Warehouse {
     private Instant createdAt;
 
     protected Warehouse() {
-        // for JPA
     }
 
     public Warehouse(String code, String name, String address, Instant createdAt) {

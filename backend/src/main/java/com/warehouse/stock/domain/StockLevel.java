@@ -58,7 +58,6 @@ public class StockLevel {
     @Column(name = "reorder_point", nullable = false)
     private int reorderPoint;
 
-    /** Overrides the supplier's lead time for this warehouse; null = use the supplier's. */
     @Column(name = "lead_time_days")
     private Integer leadTimeDays;
 
@@ -70,7 +69,6 @@ public class StockLevel {
     private Instant updatedAt;
 
     protected StockLevel() {
-        // for JPA
     }
 
     public int available() {
@@ -109,7 +107,6 @@ public class StockLevel {
         this.updatedAt = now;
     }
 
-    /** Ships reserved stock: reduces both reserved and on-hand. */
     void consumeReservation(int quantity, Instant now) {
         if (quantity > reserved) {
             throw new IllegalStateException("Consuming more than is reserved for stock level " + id);

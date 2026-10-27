@@ -11,7 +11,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
     @EntityGraph(attributePaths = "warehouses")
     Optional<User> findByEmail(String email);
 
-    /** Loads the user with assigned warehouses in one query (used on every authenticated request). */
     @EntityGraph(attributePaths = "warehouses")
     Optional<User> findWithWarehousesById(Long id);
 
