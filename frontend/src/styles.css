@@ -32,6 +32,7 @@
   --shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 1px 3px rgba(16, 24, 40, .06);
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b6472' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
   color-scheme: light;
 }
 
@@ -62,6 +63,7 @@
     --info: #6fa8e6;
     --info-soft: #132a44;
     --shadow: none;
+    --chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2397a3b6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
     color-scheme: dark;
   }
 }
@@ -174,7 +176,14 @@ a.tab.active:hover { color: var(--primary); }
 
 input, select, textarea { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 8px; padding: .5rem .65rem; width: 100%; }
 textarea { resize: vertical; min-height: 70px; }
-input:focus, select:focus, textarea:focus, .btn:focus-visible, .tab:focus-visible, .icon-btn:focus-visible, .nav a:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
+input:hover:not(:disabled):not([type="checkbox"]), select:hover:not(:disabled), textarea:hover:not(:disabled) { border-color: var(--ink-soft); }
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+select { appearance: none; -webkit-appearance: none; background-image: var(--chevron); background-repeat: no-repeat; background-position: right .6rem center; background-size: 16px; padding-right: 2.1rem; cursor: pointer; text-overflow: ellipsis; }
+select:disabled { opacity: .6; cursor: not-allowed; }
+select option { background: var(--surface); color: var(--ink); }
+/* a filter set to anything but its "All …" option */
+.toolbar select:has(option[value=""]):not(:has(option[value=""]:checked)) { border-color: var(--primary); background-color: var(--primary-soft); font-weight: 500; }
+.btn:focus-visible, .tab:focus-visible, .icon-btn:focus-visible, .nav a:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
 .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }
 @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
 .span-2 { grid-column: 1 / -1; }
