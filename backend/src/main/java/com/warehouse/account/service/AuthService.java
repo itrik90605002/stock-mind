@@ -55,7 +55,7 @@ public class AuthService {
     public void changePassword(Long userId, ChangePasswordRequest request) {
         User user = userRepository.findById(userId).orElseThrow(() -> NotFoundException.of("User", userId));
         if (!passwordEncoder.matches(request.currentPassword(), user.getPasswordHash())) {
-            throw new BadCredentialsException("Current password is incorrect");
+            throw new IllegalArgumentException("Current password is incorrect");
         }
         user.changePassword(passwordEncoder.encode(request.newPassword()));
     }

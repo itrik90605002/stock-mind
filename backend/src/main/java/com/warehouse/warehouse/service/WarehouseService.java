@@ -10,6 +10,7 @@ import com.warehouse.transfer.domain.TransferRepository;
 import com.warehouse.transfer.domain.TransferStatus;
 import com.warehouse.warehouse.domain.Warehouse;
 import com.warehouse.warehouse.domain.WarehouseRepository;
+import com.warehouse.warehouse.dto.WarehousePatchRequest;
 import com.warehouse.warehouse.dto.WarehouseRequest;
 import com.warehouse.warehouse.dto.WarehouseResponse;
 import org.springframework.stereotype.Service;
@@ -62,6 +63,18 @@ public class WarehouseService {
         }
         warehouse.update(request.name().trim(), blankToNull(request.address()));
         return WarehouseResponse.from(warehouse, true);
+    }
+
+    @Transactional
+    public WarehouseResponse patch(Long id, WarehousePatchRequest request) {
+        if (request.details() == null && request.active() == null) {
+            throw new IllegalArgumentException("Send details and/or active");
+        }
+        WarehouseResponse result = request.details() == null ? null : update(id, request.details());
+        if (request.active() != null) {
+            result = request.active() ? activate(id) : deactivate(id);
+        }
+        return result;
     }
 
     @Transactional

@@ -1,6 +1,7 @@
 package com.warehouse.product.web;
 
 import com.warehouse.common.web.PageResponse;
+import com.warehouse.product.dto.ProductPatchRequest;
 import com.warehouse.product.dto.ProductRequest;
 import com.warehouse.product.dto.ProductResponse;
 import com.warehouse.product.service.ProductService;
@@ -13,7 +14,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -60,21 +61,9 @@ public class ProductController {
         return service.create(request);
     }
 
-    @PutMapping("/{id}")
+    @PatchMapping("/{id}")
     @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public ProductResponse update(@PathVariable Long id, @Valid @RequestBody ProductRequest request) {
-        return service.update(id, request);
-    }
-
-    @PostMapping("/{id}/archive")
-    @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public ProductResponse archive(@PathVariable Long id) {
-        return service.setArchived(id, true);
-    }
-
-    @PostMapping("/{id}/restore")
-    @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public ProductResponse restore(@PathVariable Long id) {
-        return service.setArchived(id, false);
+    public ProductResponse patch(@PathVariable Long id, @Valid @RequestBody ProductPatchRequest request) {
+        return service.patch(id, request);
     }
 }

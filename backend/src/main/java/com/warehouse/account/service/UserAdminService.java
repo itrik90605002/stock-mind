@@ -5,6 +5,7 @@ import com.warehouse.account.domain.User;
 import com.warehouse.account.domain.UserRepository;
 import com.warehouse.account.dto.CreateUserRequest;
 import com.warehouse.account.dto.UpdateUserRequest;
+import com.warehouse.account.dto.UserPatchRequest;
 import com.warehouse.account.dto.UserResponse;
 import com.warehouse.common.exception.BusinessRuleException;
 import com.warehouse.common.exception.NotFoundException;
@@ -60,6 +61,23 @@ public class UserAdminService {
         user.update(request.fullName().trim(), request.role());
         user.assignWarehouses(resolveWarehouses(request.role(), request.warehouseIds()));
         return UserResponse.from(user);
+    }
+
+    @Transactional
+    public UserResponse patch(Long id, UserPatchRequest request, Long actingAdminId) {
+        if (request.details() == null && request.active() == null) {
+            throw new IllegalArgumentException("Send details and/or active");
+        }
+        UserResponse result = request.details() == null ? null : update(id, request.details(), actingAdminId);
+        if (Boolean.TRUE.equals(request.active())) {
+            result = activate(id);
+        } else if (Boolean.FALSE.equals(request.active())) {
+            if (request.reason() == null || request.reason().isBlank()) {
+                throw new IllegalArgumentException("A reason is required to deactivate a user");
+            }
+            result = deactivate(id, request.reason().trim(), actingAdminId);
+        }
+        return result;
     }
 
     @Transactional

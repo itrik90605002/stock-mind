@@ -2,10 +2,7 @@ package com.warehouse.stock.web;
 
 import com.warehouse.common.web.PageResponse;
 import com.warehouse.security.AuthUser;
-import com.warehouse.stock.dto.AdjustRequest;
 import com.warehouse.stock.dto.ConsistencyReport;
-import com.warehouse.stock.dto.IssueRequest;
-import com.warehouse.stock.dto.MovementResponse;
 import com.warehouse.stock.dto.StockRow;
 import com.warehouse.stock.dto.StockSettingsRequest;
 import com.warehouse.stock.service.ConsistencyService;
@@ -14,19 +11,15 @@ import com.warehouse.stock.service.StockQueryService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
-import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -62,20 +55,6 @@ public class StockController {
     @GetMapping("/product/{productId}")
     public List<StockRow> forProduct(@AuthenticationPrincipal AuthUser user, @PathVariable Long productId) {
         return queries.forProduct(user, productId);
-    }
-
-    @PostMapping("/issue")
-    @ResponseStatus(HttpStatus.CREATED)
-    public MovementResponse issue(@AuthenticationPrincipal AuthUser user, @Valid @RequestBody IssueRequest request,
-                                  @RequestHeader(value = IDEMPOTENCY_HEADER, required = false) String key) {
-        return commands.issue(request, user, key);
-    }
-
-    @PostMapping("/adjust")
-    @ResponseStatus(HttpStatus.CREATED)
-    public MovementResponse adjust(@AuthenticationPrincipal AuthUser user, @Valid @RequestBody AdjustRequest request,
-                                   @RequestHeader(value = IDEMPOTENCY_HEADER, required = false) String key) {
-        return commands.adjust(request, user, key);
     }
 
     @PutMapping("/settings")

@@ -1,8 +1,8 @@
 package com.warehouse.purchasing.web;
 
 import com.warehouse.common.web.PageResponse;
-import com.warehouse.common.web.ReasonRequest;
 import com.warehouse.purchasing.domain.PurchaseOrderStatus;
+import com.warehouse.purchasing.dto.PurchaseOrderPatchRequest;
 import com.warehouse.purchasing.dto.PurchaseOrderRequest;
 import com.warehouse.purchasing.dto.PurchaseOrderResponse;
 import com.warehouse.purchasing.dto.ReceivePurchaseOrderRequest;
@@ -18,7 +18,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -64,37 +64,35 @@ public class PurchaseOrderController {
         return service.create(request, user, key);
     }
 
-    @PutMapping("/{id}")
+    @PatchMapping("/{id}")
     @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public PurchaseOrderResponse revise(@AuthenticationPrincipal AuthUser user, @PathVariable Long id,
-                                        @Valid @RequestBody PurchaseOrderRequest request) {
-        return service.revise(id, request, user);
+    public PurchaseOrderResponse patch(@AuthenticationPrincipal AuthUser user, @PathVariable Long id,
+                                       @Valid @RequestBody PurchaseOrderPatchRequest request) {
+        if ((request.details() == null) == (request.status() == null)) {
+            throw new IllegalArgumentException("Send either details (to revise a draft) or status");
+        }
+        if (request.details() != null) {
+            return service.revise(id, request.details(), user);
+        }
+        return switch (request.status()) {
+            case ORDERED -> service.place(id, user);
+            case CANCELLED -> service.cancel(id, requireReason(request.reason()), user);
+            case CLOSED -> service.closeShort(id, requireReason(request.reason()), user);
+        };
     }
 
-    @PostMapping("/{id}/place")
-    @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public PurchaseOrderResponse place(@AuthenticationPrincipal AuthUser user, @PathVariable Long id) {
-        return service.place(id, user);
-    }
-
-    @PostMapping("/{id}/receive")
+    @PostMapping("/{id}/receipts")
+    @ResponseStatus(HttpStatus.CREATED)
     public PurchaseOrderResponse receive(@AuthenticationPrincipal AuthUser user, @PathVariable Long id,
                                          @Valid @RequestBody ReceivePurchaseOrderRequest request,
                                          @RequestHeader(value = IDEMPOTENCY_HEADER, required = false) String key) {
         return service.receive(id, request, user, key);
     }
 
-    @PostMapping("/{id}/cancel")
-    @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public PurchaseOrderResponse cancel(@AuthenticationPrincipal AuthUser user, @PathVariable Long id,
-                                        @Valid @RequestBody ReasonRequest request) {
-        return service.cancel(id, request.reason(), user);
-    }
-
-    @PostMapping("/{id}/close")
-    @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public PurchaseOrderResponse closeShort(@AuthenticationPrincipal AuthUser user, @PathVariable Long id,
-                                            @Valid @RequestBody ReasonRequest request) {
-        return service.closeShort(id, request.reason(), user);
+    static String requireReason(String reason) {
+        if (reason == null || reason.isBlank()) {
+            throw new IllegalArgumentException("A reason is required");
+        }
+        return reason.trim();
     }
 }

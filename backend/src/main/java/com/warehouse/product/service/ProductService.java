@@ -5,6 +5,7 @@ import com.warehouse.common.exception.NotFoundException;
 import com.warehouse.common.web.PageResponse;
 import com.warehouse.product.domain.Product;
 import com.warehouse.product.domain.ProductRepository;
+import com.warehouse.product.dto.ProductPatchRequest;
 import com.warehouse.product.dto.ProductRequest;
 import com.warehouse.product.dto.ProductResponse;
 import com.warehouse.supplier.domain.Supplier;
@@ -76,6 +77,18 @@ public class ProductService {
         product.update(request.name(), request.category(), request.unit(), request.unitCost(),
                 blankToNull(request.description()), supplier(request.supplierId()), clock.instant());
         return ProductResponse.from(product);
+    }
+
+    @Transactional
+    public ProductResponse patch(Long id, ProductPatchRequest request) {
+        if (request.details() == null && request.archived() == null) {
+            throw new IllegalArgumentException("Send details and/or archived");
+        }
+        ProductResponse result = request.details() == null ? null : update(id, request.details());
+        if (request.archived() != null) {
+            result = setArchived(id, request.archived());
+        }
+        return result;
     }
 
     @Transactional

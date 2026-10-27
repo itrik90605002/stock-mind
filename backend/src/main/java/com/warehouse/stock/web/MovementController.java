@@ -1,19 +1,24 @@
 package com.warehouse.stock.web;
 
 import com.warehouse.common.web.PageResponse;
-import com.warehouse.common.web.ReasonRequest;
 import com.warehouse.security.AuthUser;
 import com.warehouse.stock.domain.MovementType;
 import com.warehouse.stock.domain.ReferenceType;
+import com.warehouse.stock.dto.AdjustRequest;
+import com.warehouse.stock.dto.IssueRequest;
+import com.warehouse.stock.dto.MovementRequest;
 import com.warehouse.stock.dto.MovementResponse;
 import com.warehouse.stock.service.StockCommandService;
 import com.warehouse.stock.service.StockQueryService;
+import jakarta.validation.ConstraintViolation;
+import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Valid;
+import jakarta.validation.Validator;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,6 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
 import java.time.ZoneOffset;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/api/movements")
@@ -36,10 +42,12 @@ public class MovementController {
 
     private final StockQueryService queries;
     private final StockCommandService commands;
+    private final Validator validator;
 
-    public MovementController(StockQueryService queries, StockCommandService commands) {
+    public MovementController(StockQueryService queries, StockCommandService commands, Validator validator) {
         this.queries = queries;
         this.commands = commands;
+        this.validator = validator;
     }
 
     @GetMapping
@@ -63,12 +71,40 @@ public class MovementController {
         return queries.movement(user, id);
     }
 
-    @PostMapping("/{id}/reverse")
+    @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    @PreAuthorize("hasAnyRole('MANAGER','ADMIN')")
-    public MovementResponse reverse(@AuthenticationPrincipal AuthUser user, @PathVariable Long id,
-                                    @Valid @RequestBody ReasonRequest request,
-                                    @RequestHeader(value = StockController.IDEMPOTENCY_HEADER, required = false) String key) {
-        return commands.reverse(id, request.reason(), user, key);
+    public MovementResponse create(@AuthenticationPrincipal AuthUser user, @Valid @RequestBody MovementRequest request,
+                                   @RequestHeader(value = StockController.IDEMPOTENCY_HEADER, required = false) String key) {
+        if (request.reversesId() != null) {
+            if (!user.isManagerOrAdmin()) {
+                throw new AccessDeniedException("Only Managers and Admins can reverse a movement");
+            }
+            return commands.reverse(request.reversesId(), requireReason(request.reason()), user, key);
+        }
+        if (request.type() == null || request.quantity() == null) {
+            throw new IllegalArgumentException("Send type (ISSUE or ADJUSTMENT) and quantity, or reversesId");
+        }
+        return switch (request.type()) {
+            case ISSUE -> commands.issue(valid(new IssueRequest(request.productId(), request.warehouseId(),
+                    request.quantity(), request.reason())), user, key);
+            case ADJUSTMENT -> commands.adjust(valid(new AdjustRequest(request.productId(), request.warehouseId(),
+                    request.quantity(), request.reason())), user, key);
+            default -> throw new IllegalArgumentException("type must be ISSUE or ADJUSTMENT");
+        };
+    }
+
+    private <T> T valid(T request) {
+        Set<ConstraintViolation<T>> violations = validator.validate(request);
+        if (!violations.isEmpty()) {
+            throw new ConstraintViolationException(violations);
+        }
+        return request;
+    }
+
+    private static String requireReason(String reason) {
+        if (reason == null || reason.isBlank()) {
+            throw new IllegalArgumentException("A reason is required");
+        }
+        return reason.trim();
     }
 }

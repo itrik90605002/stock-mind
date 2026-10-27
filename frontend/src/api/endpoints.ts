@@ -7,7 +7,7 @@ export const authApi = {
   login: (email: string, password: string) => request<AuthResponse>('POST', '/api/auth/login', { email, password }),
   me: () => request<User>('GET', '/api/auth/me'),
   changePassword: (currentPassword: string, newPassword: string) =>
-    request<void>('POST', '/api/auth/password', { currentPassword, newPassword }),
+    request<void>('PATCH', '/api/auth/me', { currentPassword, newPassword }),
 };
 
 export const userApi = {
@@ -15,24 +15,24 @@ export const userApi = {
   create: (body: { email: string; fullName: string; password: string; role: Role; warehouseIds: number[] }) =>
     request<User>('POST', '/api/users', body),
   update: (id: number, body: { fullName: string; role: Role; warehouseIds: number[] }) =>
-    request<User>('PUT', `/api/users/${id}`, body),
-  deactivate: (id: number, reason: string) => request<User>('POST', `/api/users/${id}/deactivate`, { reason }),
-  activate: (id: number) => request<User>('POST', `/api/users/${id}/activate`),
+    request<User>('PATCH', `/api/users/${id}`, { details: body }),
+  deactivate: (id: number, reason: string) => request<User>('PATCH', `/api/users/${id}`, { active: false, reason }),
+  activate: (id: number) => request<User>('PATCH', `/api/users/${id}`, { active: true }),
 };
 
 export const warehouseApi = {
   list: () => request<Warehouse[]>('GET', '/api/warehouses'),
   create: (body: { code: string; name: string; address: string }) => request<Warehouse>('POST', '/api/warehouses', body),
   update: (id: number, body: { code: string; name: string; address: string }) =>
-    request<Warehouse>('PUT', `/api/warehouses/${id}`, body),
-  deactivate: (id: number) => request<Warehouse>('POST', `/api/warehouses/${id}/deactivate`),
-  activate: (id: number) => request<Warehouse>('POST', `/api/warehouses/${id}/activate`),
+    request<Warehouse>('PATCH', `/api/warehouses/${id}`, { details: body }),
+  deactivate: (id: number) => request<Warehouse>('PATCH', `/api/warehouses/${id}`, { active: false }),
+  activate: (id: number) => request<Warehouse>('PATCH', `/api/warehouses/${id}`, { active: true }),
 };
 
 export const supplierApi = {
   list: () => request<Supplier[]>('GET', '/api/suppliers'),
   create: (body: Omit<Supplier, 'id'>) => request<Supplier>('POST', '/api/suppliers', body),
-  update: (id: number, body: Omit<Supplier, 'id'>) => request<Supplier>('PUT', `/api/suppliers/${id}`, body),
+  update: (id: number, body: Omit<Supplier, 'id'>) => request<Supplier>('PATCH', `/api/suppliers/${id}`, body),
 };
 
 export const productApi = {
@@ -41,9 +41,9 @@ export const productApi = {
   get: (id: number) => request<Product>('GET', `/api/products/${id}`),
   categories: () => request<string[]>('GET', '/api/products/categories'),
   create: (body: ProductInput) => request<Product>('POST', '/api/products', body),
-  update: (id: number, body: ProductInput) => request<Product>('PUT', `/api/products/${id}`, body),
-  archive: (id: number) => request<Product>('POST', `/api/products/${id}/archive`),
-  restore: (id: number) => request<Product>('POST', `/api/products/${id}/restore`),
+  update: (id: number, body: ProductInput) => request<Product>('PATCH', `/api/products/${id}`, { details: body }),
+  archive: (id: number) => request<Product>('PATCH', `/api/products/${id}`, { archived: true }),
+  restore: (id: number) => request<Product>('PATCH', `/api/products/${id}`, { archived: false }),
 };
 
 export const stockApi = {
@@ -51,9 +51,9 @@ export const stockApi = {
     request<Page<StockRow>>('GET', `/api/stock${query(params)}`),
   forProduct: (productId: number) => request<StockRow[]>('GET', `/api/stock/product/${productId}`),
   issue: (body: { productId: number; warehouseId: number; quantity: number; reason: string }, key = newIdempotencyKey()) =>
-    request<Movement>('POST', '/api/stock/issue', body, { idempotencyKey: key }),
-  adjust: (body: { productId: number; warehouseId: number; quantityChange: number; reason: string }, key = newIdempotencyKey()) =>
-    request<Movement>('POST', '/api/stock/adjust', body, { idempotencyKey: key }),
+    request<Movement>('POST', '/api/movements', { type: 'ISSUE', ...body }, { idempotencyKey: key }),
+  adjust: ({ quantityChange, ...body }: { productId: number; warehouseId: number; quantityChange: number; reason: string }, key = newIdempotencyKey()) =>
+    request<Movement>('POST', '/api/movements', { type: 'ADJUSTMENT', quantity: quantityChange, ...body }, { idempotencyKey: key }),
   settings: (body: { productId: number; warehouseId: number; reorderPoint: number; leadTimeDays: number | null }) =>
     request<StockRow>('PUT', '/api/stock/settings', body),
   consistency: (warehouseId?: number) => request<ConsistencyReport>('GET', `/api/stock/consistency${query({ warehouseId })}`),
@@ -65,7 +65,7 @@ export const movementApi = {
     from?: string; to?: string; page?: number; size?: number;
   }) => request<Page<Movement>>('GET', `/api/movements${query(params)}`),
   reverse: (id: number, reason: string, key = newIdempotencyKey()) =>
-    request<Movement>('POST', `/api/movements/${id}/reverse`, { reason }, { idempotencyKey: key }),
+    request<Movement>('POST', '/api/movements', { reversesId: id, reason }, { idempotencyKey: key }),
 };
 
 export const transferApi = {
@@ -75,10 +75,10 @@ export const transferApi = {
   create: (body: { sourceWarehouseId: number; destinationWarehouseId: number; note: string; lines: { productId: number; quantity: number }[] },
            key = newIdempotencyKey()) => request<Transfer>('POST', '/api/transfers', body, { idempotencyKey: key }),
   dispatch: (id: number, key = newIdempotencyKey()) =>
-    request<Transfer>('POST', `/api/transfers/${id}/dispatch`, undefined, { idempotencyKey: key }),
+    request<Transfer>('PATCH', `/api/transfers/${id}`, { status: 'DISPATCHED' }, { idempotencyKey: key }),
   receive: (id: number, lines: { lineId: number; receivedQuantity: number }[], key = newIdempotencyKey()) =>
-    request<Transfer>('POST', `/api/transfers/${id}/receive`, { lines }, { idempotencyKey: key }),
-  cancel: (id: number, reason: string) => request<Transfer>('POST', `/api/transfers/${id}/cancel`, { reason }),
+    request<Transfer>('POST', `/api/transfers/${id}/receipts`, { lines }, { idempotencyKey: key }),
+  cancel: (id: number, reason: string) => request<Transfer>('PATCH', `/api/transfers/${id}`, { status: 'CANCELLED', reason }),
 };
 
 export const purchaseOrderApi = {
@@ -87,12 +87,12 @@ export const purchaseOrderApi = {
   get: (id: number) => request<PurchaseOrder>('GET', `/api/purchase-orders/${id}`),
   create: (body: PurchaseOrderInput, key = newIdempotencyKey()) =>
     request<PurchaseOrder>('POST', '/api/purchase-orders', body, { idempotencyKey: key }),
-  revise: (id: number, body: PurchaseOrderInput) => request<PurchaseOrder>('PUT', `/api/purchase-orders/${id}`, body),
-  place: (id: number) => request<PurchaseOrder>('POST', `/api/purchase-orders/${id}/place`),
+  revise: (id: number, body: PurchaseOrderInput) => request<PurchaseOrder>('PATCH', `/api/purchase-orders/${id}`, { details: body }),
+  place: (id: number) => request<PurchaseOrder>('PATCH', `/api/purchase-orders/${id}`, { status: 'ORDERED' }),
   receive: (id: number, lines: { lineId: number; quantity: number }[], key = newIdempotencyKey()) =>
-    request<PurchaseOrder>('POST', `/api/purchase-orders/${id}/receive`, { lines }, { idempotencyKey: key }),
-  cancel: (id: number, reason: string) => request<PurchaseOrder>('POST', `/api/purchase-orders/${id}/cancel`, { reason }),
-  close: (id: number, reason: string) => request<PurchaseOrder>('POST', `/api/purchase-orders/${id}/close`, { reason }),
+    request<PurchaseOrder>('POST', `/api/purchase-orders/${id}/receipts`, { lines }, { idempotencyKey: key }),
+  cancel: (id: number, reason: string) => request<PurchaseOrder>('PATCH', `/api/purchase-orders/${id}`, { status: 'CANCELLED', reason }),
+  close: (id: number, reason: string) => request<PurchaseOrder>('PATCH', `/api/purchase-orders/${id}`, { status: 'CLOSED', reason }),
 };
 
 export const reorderApi = {
