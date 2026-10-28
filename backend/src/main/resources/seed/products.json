@@ -1,314 +1,314 @@
 [
   {
-    "sku": "FRV-1007",
-    "name": "Tomato 500g",
-    "category": "Fruits & Vegetables",
+    "sku": "TEA-1007",
+    "name": "Assam Tea 500g",
+    "category": "Tea, Coffee & Health Drinks",
     "unit": "pack",
-    "unitCost": 18,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Firm red hybrid tomatoes, sorted and packed daily.",
+    "unitCost": 210,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Strong CTC Assam tea leaves.",
     "demand": {
-      "variability": 0.33,
+      "variability": 0.42,
       "trend": "stable"
     }
   },
   {
-    "sku": "FRV-1014",
-    "name": "Onion 1kg",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 32,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Medium red onions, cleaned and graded.",
+    "sku": "TEA-1014",
+    "name": "Green Tea 25 Bags",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "box",
+    "unitCost": 145,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Pure green tea in tea bags.",
     "demand": {
       "variability": 0.21,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FRV-1021",
-    "name": "Potato 1kg",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 28,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Washed table potatoes, uniform size.",
-    "demand": {
-      "variability": 0.26,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FRV-1028",
-    "name": "Banana Robusta 6pcs",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 34,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Ripe Robusta bananas, half dozen.",
-    "demand": {
-      "variability": 0.24,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FRV-1035",
-    "name": "Shimla Apple 4pcs",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 95,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Crisp red apples from Himachal, 4 per pack.",
-    "demand": {
-      "variability": 0.35,
       "trend": "rising"
     }
   },
   {
-    "sku": "FRV-1042",
-    "name": "Coriander Leaves 100g",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 9,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Fresh coriander bunch, roots trimmed.",
+    "sku": "TEA-1021",
+    "name": "Masala Chai Premix 10 Sachets",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "box",
+    "unitCost": 95,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Instant spiced tea with milk and sugar.",
     "demand": {
-      "variability": 0.34,
+      "variability": 0.3,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "TEA-1028",
+    "name": "Instant Coffee 100g",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pcs",
+    "unitCost": 245,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Pure instant coffee granules, jar.",
+    "demand": {
+      "variability": 0.28,
       "trend": "stable"
     }
   },
   {
-    "sku": "FRV-1049",
-    "name": "Green Chilli 100g",
-    "category": "Fruits & Vegetables",
+    "sku": "TEA-1035",
+    "name": "Filter Coffee Powder 500g",
+    "category": "Tea, Coffee & Health Drinks",
     "unit": "pack",
-    "unitCost": 8,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Medium-hot green chillies.",
+    "unitCost": 280,
+    "supplier": "Leafline Beverages Trading",
+    "description": "80:20 coffee-chicory blend.",
+    "demand": {
+      "variability": 0.46,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "TEA-1042",
+    "name": "Malted Health Drink 500g",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pcs",
+    "unitCost": 265,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Chocolate malt drink powder, refill jar.",
+    "demand": {
+      "variability": 0.44,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "TEA-1049",
+    "name": "Milk Powder 500g",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pack",
+    "unitCost": 240,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Spray-dried whole milk powder.",
+    "demand": {
+      "variability": 0.51,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "TEA-1056",
+    "name": "UHT Toned Milk 1L",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pcs",
+    "unitCost": 72,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Long-life toned milk, 6-month shelf life.",
+    "demand": {
+      "variability": 0.23,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "TEA-1063",
+    "name": "Drinking Chocolate 200g",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pcs",
+    "unitCost": 165,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Cocoa powder drink mix.",
+    "demand": {
+      "variability": 0.35,
+      "trend": "falling"
+    }
+  },
+  {
+    "sku": "TEA-1070",
+    "name": "Sweetened Condensed Milk 400g",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pcs",
+    "unitCost": 135,
+    "supplier": "Leafline Beverages Trading",
+    "description": "For desserts and sweets.",
+    "demand": {
+      "variability": 0.21,
+      "trend": "spike"
+    }
+  },
+  {
+    "sku": "TEA-1077",
+    "name": "Elaichi Tea 250g",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pack",
+    "unitCost": 125,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Black tea blended with cardamom.",
+    "demand": {
+      "variability": 0.28,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "TEA-1084",
+    "name": "Dairy Whitener 400g",
+    "category": "Tea, Coffee & Health Drinks",
+    "unit": "pack",
+    "unitCost": 195,
+    "supplier": "Leafline Beverages Trading",
+    "description": "Milk whitener for tea and coffee.",
     "demand": {
       "variability": 0.38,
       "trend": "stable"
     }
   },
   {
-    "sku": "FRV-1056",
-    "name": "Lemon 4pcs",
-    "category": "Fruits & Vegetables",
+    "sku": "DFS-1007",
+    "name": "Almonds 250g",
+    "category": "Dry Fruits & Seeds",
     "unit": "pack",
-    "unitCost": 16,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Juicy local lemons.",
-    "demand": {
-      "variability": 0.22,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "FRV-1063",
-    "name": "Cucumber 500g",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 18,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Green salad cucumbers.",
-    "demand": {
-      "variability": 0.28,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "FRV-1070",
-    "name": "Ginger 200g",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 22,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Fresh ginger root, washed.",
+    "unitCost": 290,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "California almonds, whole and raw.",
     "demand": {
       "variability": 0.21,
-      "trend": "stable"
+      "trend": "spike"
     }
   },
   {
-    "sku": "FRV-1077",
-    "name": "Pomegranate 2pcs",
-    "category": "Fruits & Vegetables",
+    "sku": "DFS-1014",
+    "name": "Cashews W320 250g",
+    "category": "Dry Fruits & Seeds",
     "unit": "pack",
-    "unitCost": 110,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Bhagwa pomegranates, deep red arils.",
-    "demand": {
-      "variability": 0.24,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "FRV-1084",
-    "name": "Baby Spinach 200g",
-    "category": "Fruits & Vegetables",
-    "unit": "pack",
-    "unitCost": 32,
-    "supplier": "Green Valley Farm Fresh",
-    "description": "Hydroponic baby spinach, ready to cook.",
-    "demand": {
-      "variability": 0.3,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1007",
-    "name": "Toned Milk 500ml",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 26,
-    "supplier": "Morning Fields Dairy",
-    "description": "Pasteurised toned milk, 3% fat.",
-    "demand": {
-      "variability": 0.21,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1014",
-    "name": "Full Cream Milk 1L",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 64,
-    "supplier": "Morning Fields Dairy",
-    "description": "Pasteurised full cream milk, 6% fat.",
-    "demand": {
-      "variability": 0.24,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1021",
-    "name": "Curd 400g",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pcs",
-    "unitCost": 35,
-    "supplier": "Morning Fields Dairy",
-    "description": "Set curd in a sealed cup.",
-    "demand": {
-      "variability": 0.33,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1028",
-    "name": "Paneer 200g",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 78,
-    "supplier": "Morning Fields Dairy",
-    "description": "Soft malai paneer block, vacuum packed.",
-    "demand": {
-      "variability": 0.31,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "DRY-1035",
-    "name": "Salted Butter 100g",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 52,
-    "supplier": "Morning Fields Dairy",
-    "description": "Pasteurised table butter.",
-    "demand": {
-      "variability": 0.24,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1042",
-    "name": "Brown Eggs 6pcs",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 48,
-    "supplier": "Morning Fields Dairy",
-    "description": "Farm-fresh brown eggs, half dozen.",
-    "demand": {
-      "variability": 0.32,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1049",
-    "name": "White Bread 400g",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 30,
-    "supplier": "Morning Fields Dairy",
-    "description": "Soft sandwich bread, sliced.",
-    "demand": {
-      "variability": 0.36,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1056",
-    "name": "Multigrain Bread 400g",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 42,
-    "supplier": "Morning Fields Dairy",
-    "description": "Sliced bread with oats, flax and millet.",
-    "demand": {
-      "variability": 0.2,
-      "trend": "rising"
-    }
-  },
-  {
-    "sku": "DRY-1063",
-    "name": "Cheese Slices 200g",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 115,
-    "supplier": "Morning Fields Dairy",
-    "description": "Processed cheese, 10 slices.",
-    "demand": {
-      "variability": 0.36,
-      "trend": "stable"
-    }
-  },
-  {
-    "sku": "DRY-1070",
-    "name": "Buttermilk 500ml",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 18,
-    "supplier": "Morning Fields Dairy",
-    "description": "Spiced chaas, ready to drink.",
-    "demand": {
-      "variability": 0.34,
-      "trend": "falling"
-    }
-  },
-  {
-    "sku": "DRY-1077",
-    "name": "Fresh Cream 200ml",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pack",
-    "unitCost": 55,
-    "supplier": "Morning Fields Dairy",
-    "description": "Low-fat cooking cream, tetra pack.",
+    "unitCost": 320,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Whole Goan cashews.",
     "demand": {
       "variability": 0.27,
       "trend": "spike"
     }
   },
   {
-    "sku": "DRY-1084",
-    "name": "Greek Yogurt 100g",
-    "category": "Dairy, Bread & Eggs",
-    "unit": "pcs",
-    "unitCost": 38,
-    "supplier": "Morning Fields Dairy",
-    "description": "High-protein plain Greek yogurt.",
+    "sku": "DFS-1021",
+    "name": "Raisins 250g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 110,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Seedless golden raisins.",
     "demand": {
-      "variability": 0.23,
+      "variability": 0.43,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DFS-1028",
+    "name": "Walnut Kernels 200g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 340,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Light halves, Kashmiri walnuts.",
+    "demand": {
+      "variability": 0.39,
       "trend": "rising"
+    }
+  },
+  {
+    "sku": "DFS-1035",
+    "name": "Pistachios Salted 200g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 380,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Roasted and salted, in shell.",
+    "demand": {
+      "variability": 0.28,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DFS-1042",
+    "name": "Dates Seedless 500g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 185,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Soft seedless dates.",
+    "demand": {
+      "variability": 0.41,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DFS-1049",
+    "name": "Figs Dried 200g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 360,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Sun-dried Afghan figs.",
+    "demand": {
+      "variability": 0.48,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DFS-1056",
+    "name": "Chia Seeds 200g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 165,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Black chia seeds.",
+    "demand": {
+      "variability": 0.2,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "DFS-1063",
+    "name": "Flax Seeds 200g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 75,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Roasted flax seeds.",
+    "demand": {
+      "variability": 0.48,
+      "trend": "stable"
+    }
+  },
+  {
+    "sku": "DFS-1070",
+    "name": "Pumpkin Seeds 150g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 155,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Raw green pumpkin seeds.",
+    "demand": {
+      "variability": 0.44,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "DFS-1077",
+    "name": "Makhana 100g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 140,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Popped fox nuts, large size.",
+    "demand": {
+      "variability": 0.32,
+      "trend": "rising"
+    }
+  },
+  {
+    "sku": "DFS-1084",
+    "name": "Trail Mix 200g",
+    "category": "Dry Fruits & Seeds",
+    "unit": "pack",
+    "unitCost": 199,
+    "supplier": "Kernel & Co Dry Fruits",
+    "description": "Nuts, seeds and berries.",
+    "demand": {
+      "variability": 0.25,
+      "trend": "falling"
     }
   },
   {
@@ -755,15 +755,15 @@
   },
   {
     "sku": "SNK-1077",
-    "name": "Mixed Dry Fruits 250g",
+    "name": "Milk Rusk 300g",
     "category": "Snacks & Munchies",
     "unit": "pack",
-    "unitCost": 260,
+    "unitCost": 48,
     "supplier": "Crunchtime Snacks Distribution",
-    "description": "Almonds, cashews and raisins.",
+    "description": "Twice-baked crunchy rusk.",
     "demand": {
       "variability": 0.26,
-      "trend": "spike"
+      "trend": "stable"
     }
   },
   {
@@ -1054,12 +1054,12 @@
   },
   {
     "sku": "BRK-1070",
-    "name": "Instant Coffee 100g",
+    "name": "Vermicelli 400g",
     "category": "Breakfast & Instant Food",
-    "unit": "pcs",
-    "unitCost": 245,
+    "unit": "pack",
+    "unitCost": 45,
     "supplier": "QuickBite Foods",
-    "description": "Pure instant coffee granules, jar.",
+    "description": "Roasted wheat vermicelli.",
     "demand": {
       "variability": 0.29,
       "trend": "stable"
@@ -1067,15 +1067,15 @@
   },
   {
     "sku": "BRK-1077",
-    "name": "Assam Tea 500g",
+    "name": "Penne Pasta 500g",
     "category": "Breakfast & Instant Food",
     "unit": "pack",
-    "unitCost": 210,
+    "unitCost": 95,
     "supplier": "QuickBite Foods",
-    "description": "Strong CTC Assam tea leaves.",
+    "description": "Durum wheat semolina pasta.",
     "demand": {
       "variability": 0.4,
-      "trend": "stable"
+      "trend": "rising"
     }
   },
   {

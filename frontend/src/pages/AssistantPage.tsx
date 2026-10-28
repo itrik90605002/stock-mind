@@ -7,10 +7,10 @@ import { Alert, Badge, Card, Empty, formatDate, formatDateTime, humanize, Loadin
 
 const EXAMPLES = [
   'Which items will run out next week?',
-  'How many DRY-1007 do we have in Pune?',
+  'How many TEA-1007 do we have in Pune?',
   'Show the biggest stock adjustments this month',
   'Top 5 slowest moving snacks',
-  'Which purchase orders from Morning Fields are still open?',
+  'Which purchase orders from FizzFlow are still open?',
   'What should I reorder for the Andheri dark store?',
 ];
 

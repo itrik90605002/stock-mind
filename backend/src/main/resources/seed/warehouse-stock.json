@@ -4,172 +4,172 @@
     "name": "Pune Mother Hub",
     "stock": [
       {
-        "sku": "FRV-1007",
-        "product": "Tomato 500g",
-        "openingStock": 680,
-        "reorderPoint": 275,
-        "dailyUsage": 60.4
+        "sku": "TEA-1007",
+        "product": "Assam Tea 500g",
+        "openingStock": 995,
+        "reorderPoint": 291,
+        "dailyUsage": 21.1
       },
       {
-        "sku": "FRV-1014",
-        "product": "Onion 1kg",
-        "openingStock": 510,
-        "reorderPoint": 232,
-        "dailyUsage": 63.6
+        "sku": "TEA-1014",
+        "product": "Green Tea 25 Bags",
+        "openingStock": 325,
+        "reorderPoint": 79,
+        "dailyUsage": 8.5
       },
       {
-        "sku": "FRV-1021",
-        "product": "Potato 1kg",
-        "openingStock": 685,
-        "reorderPoint": 239,
-        "dailyUsage": 50.3
+        "sku": "TEA-1021",
+        "product": "Masala Chai Premix 10 Sachets",
+        "openingStock": 325,
+        "reorderPoint": 89,
+        "dailyUsage": 6.0
       },
       {
-        "sku": "FRV-1028",
-        "product": "Banana Robusta 6pcs",
-        "openingStock": 455,
-        "reorderPoint": 144,
-        "dailyUsage": 46.2
+        "sku": "TEA-1028",
+        "product": "Instant Coffee 100g",
+        "openingStock": 530,
+        "reorderPoint": 81,
+        "dailyUsage": 12.3
       },
       {
-        "sku": "FRV-1035",
-        "product": "Shimla Apple 4pcs",
-        "openingStock": 300,
-        "reorderPoint": 69,
-        "dailyUsage": 21.8
+        "sku": "TEA-1035",
+        "product": "Filter Coffee Powder 500g",
+        "openingStock": 335,
+        "reorderPoint": 43,
+        "dailyUsage": 6.2
       },
       {
-        "sku": "FRV-1042",
-        "product": "Coriander Leaves 100g",
-        "openingStock": 410,
-        "reorderPoint": 221,
-        "dailyUsage": 48.8
+        "sku": "TEA-1042",
+        "product": "Malted Health Drink 500g",
+        "openingStock": 330,
+        "reorderPoint": 114,
+        "dailyUsage": 8.4
       },
       {
-        "sku": "FRV-1049",
-        "product": "Green Chilli 100g",
-        "openingStock": 370,
-        "reorderPoint": 167,
-        "dailyUsage": 42.3
+        "sku": "TEA-1049",
+        "product": "Milk Powder 500g",
+        "openingStock": 305,
+        "reorderPoint": 82,
+        "dailyUsage": 7.6
       },
       {
-        "sku": "FRV-1056",
-        "product": "Lemon 4pcs",
-        "openingStock": 300,
-        "reorderPoint": 149,
+        "sku": "TEA-1056",
+        "product": "UHT Toned Milk 1L",
+        "openingStock": 1330,
+        "reorderPoint": 461,
         "dailyUsage": 31.3
       },
       {
-        "sku": "FRV-1063",
-        "product": "Cucumber 500g",
-        "openingStock": 230,
-        "reorderPoint": 100,
-        "dailyUsage": 24.6
+        "sku": "TEA-1063",
+        "product": "Drinking Chocolate 200g",
+        "openingStock": 170,
+        "reorderPoint": 47,
+        "dailyUsage": 4.1
       },
       {
-        "sku": "FRV-1070",
-        "product": "Ginger 200g",
-        "openingStock": 220,
-        "reorderPoint": 87,
-        "dailyUsage": 23.9
+        "sku": "TEA-1070",
+        "product": "Sweetened Condensed Milk 400g",
+        "openingStock": 250,
+        "reorderPoint": 55,
+        "dailyUsage": 6.0
       },
       {
-        "sku": "FRV-1077",
-        "product": "Pomegranate 2pcs",
-        "openingStock": 175,
-        "reorderPoint": 56,
-        "dailyUsage": 14.5
-      },
-      {
-        "sku": "FRV-1084",
-        "product": "Baby Spinach 200g",
-        "openingStock": 100,
-        "reorderPoint": 39,
-        "dailyUsage": 11.3
-      },
-      {
-        "sku": "DRY-1007",
-        "product": "Toned Milk 500ml",
-        "openingStock": 920,
-        "reorderPoint": 276,
-        "dailyUsage": 79.9
-      },
-      {
-        "sku": "DRY-1014",
-        "product": "Full Cream Milk 1L",
-        "openingStock": 325,
-        "reorderPoint": 164,
-        "dailyUsage": 38.5
-      },
-      {
-        "sku": "DRY-1021",
-        "product": "Curd 400g",
-        "openingStock": 435,
-        "reorderPoint": 152,
-        "dailyUsage": 32.2
-      },
-      {
-        "sku": "DRY-1028",
-        "product": "Paneer 200g",
-        "openingStock": 205,
-        "reorderPoint": 95,
-        "dailyUsage": 22.0
-      },
-      {
-        "sku": "DRY-1035",
-        "product": "Salted Butter 100g",
-        "openingStock": 155,
-        "reorderPoint": 87,
-        "dailyUsage": 17.9
-      },
-      {
-        "sku": "DRY-1042",
-        "product": "Brown Eggs 6pcs",
-        "openingStock": 340,
-        "reorderPoint": 144,
-        "dailyUsage": 31.5
-      },
-      {
-        "sku": "DRY-1049",
-        "product": "White Bread 400g",
+        "sku": "TEA-1077",
+        "product": "Elaichi Tea 250g",
         "openingStock": 390,
-        "reorderPoint": 137,
-        "dailyUsage": 42.8
+        "reorderPoint": 83,
+        "dailyUsage": 8.0
       },
       {
-        "sku": "DRY-1056",
-        "product": "Multigrain Bread 400g",
-        "openingStock": 145,
-        "reorderPoint": 54,
-        "dailyUsage": 13.7
+        "sku": "TEA-1084",
+        "product": "Dairy Whitener 400g",
+        "openingStock": 280,
+        "reorderPoint": 58,
+        "dailyUsage": 7.0
       },
       {
-        "sku": "DRY-1063",
-        "product": "Cheese Slices 200g",
-        "openingStock": 145,
-        "reorderPoint": 60,
-        "dailyUsage": 12.0
+        "sku": "DFS-1007",
+        "product": "Almonds 250g",
+        "openingStock": 385,
+        "reorderPoint": 66,
+        "dailyUsage": 8.0
       },
       {
-        "sku": "DRY-1070",
-        "product": "Buttermilk 500ml",
-        "openingStock": 195,
-        "reorderPoint": 68,
-        "dailyUsage": 18.5
+        "sku": "DFS-1014",
+        "product": "Cashews W320 250g",
+        "openingStock": 300,
+        "reorderPoint": 95,
+        "dailyUsage": 7.7
       },
       {
-        "sku": "DRY-1077",
-        "product": "Fresh Cream 200ml",
-        "openingStock": 90,
-        "reorderPoint": 31,
-        "dailyUsage": 9.3
+        "sku": "DFS-1021",
+        "product": "Raisins 250g",
+        "openingStock": 340,
+        "reorderPoint": 93,
+        "dailyUsage": 6.4
       },
       {
-        "sku": "DRY-1084",
-        "product": "Greek Yogurt 100g",
-        "openingStock": 100,
-        "reorderPoint": 34,
-        "dailyUsage": 9.6
+        "sku": "DFS-1028",
+        "product": "Walnut Kernels 200g",
+        "openingStock": 155,
+        "reorderPoint": 47,
+        "dailyUsage": 3.7
+      },
+      {
+        "sku": "DFS-1035",
+        "product": "Pistachios Salted 200g",
+        "openingStock": 155,
+        "reorderPoint": 58,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "DFS-1042",
+        "product": "Dates Seedless 500g",
+        "openingStock": 325,
+        "reorderPoint": 98,
+        "dailyUsage": 7.1
+      },
+      {
+        "sku": "DFS-1049",
+        "product": "Figs Dried 200g",
+        "openingStock": 130,
+        "reorderPoint": 22,
+        "dailyUsage": 3.1
+      },
+      {
+        "sku": "DFS-1056",
+        "product": "Chia Seeds 200g",
+        "openingStock": 185,
+        "reorderPoint": 44,
+        "dailyUsage": 4.1
+      },
+      {
+        "sku": "DFS-1063",
+        "product": "Flax Seeds 200g",
+        "openingStock": 150,
+        "reorderPoint": 48,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "DFS-1070",
+        "product": "Pumpkin Seeds 150g",
+        "openingStock": 110,
+        "reorderPoint": 23,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "DFS-1077",
+        "product": "Makhana 100g",
+        "openingStock": 330,
+        "reorderPoint": 62,
+        "dailyUsage": 7.8
+      },
+      {
+        "sku": "DFS-1084",
+        "product": "Trail Mix 200g",
+        "openingStock": 185,
+        "reorderPoint": 36,
+        "dailyUsage": 4.1
       },
       {
         "sku": "STP-1007",
@@ -411,10 +411,10 @@
       },
       {
         "sku": "SNK-1077",
-        "product": "Mixed Dry Fruits 250g",
-        "openingStock": 285,
-        "reorderPoint": 62,
-        "dailyUsage": 6.0
+        "product": "Milk Rusk 300g",
+        "openingStock": 640,
+        "reorderPoint": 139,
+        "dailyUsage": 13.5
       },
       {
         "sku": "SNK-1084",
@@ -572,17 +572,17 @@
       },
       {
         "sku": "BRK-1070",
-        "product": "Instant Coffee 100g",
-        "openingStock": 310,
-        "reorderPoint": 82,
-        "dailyUsage": 7.0
+        "product": "Vermicelli 400g",
+        "openingStock": 375,
+        "reorderPoint": 99,
+        "dailyUsage": 8.4
       },
       {
         "sku": "BRK-1077",
-        "product": "Assam Tea 500g",
-        "openingStock": 520,
-        "reorderPoint": 63,
-        "dailyUsage": 10.4
+        "product": "Penne Pasta 500g",
+        "openingStock": 325,
+        "reorderPoint": 39,
+        "dailyUsage": 6.5
       },
       {
         "sku": "BRK-1084",
@@ -850,165 +850,165 @@
     "name": "Mumbai Andheri Dark Store",
     "stock": [
       {
-        "sku": "FRV-1007",
-        "product": "Tomato 500g",
-        "openingStock": 670,
-        "reorderPoint": 187,
-        "dailyUsage": 48.7
+        "sku": "TEA-1007",
+        "product": "Assam Tea 500g",
+        "openingStock": 920,
+        "reorderPoint": 173,
+        "dailyUsage": 17.0
       },
       {
-        "sku": "FRV-1014",
-        "product": "Onion 1kg",
-        "openingStock": 600,
-        "reorderPoint": 224,
-        "dailyUsage": 53.2
+        "sku": "TEA-1021",
+        "product": "Masala Chai Premix 10 Sachets",
+        "openingStock": 280,
+        "reorderPoint": 71,
+        "dailyUsage": 5.9
       },
       {
-        "sku": "FRV-1021",
-        "product": "Potato 1kg",
-        "openingStock": 395,
-        "reorderPoint": 164,
-        "dailyUsage": 42.3
-      },
-      {
-        "sku": "FRV-1028",
-        "product": "Banana Robusta 6pcs",
-        "openingStock": 285,
-        "reorderPoint": 123,
-        "dailyUsage": 28.3
-      },
-      {
-        "sku": "FRV-1035",
-        "product": "Shimla Apple 4pcs",
-        "openingStock": 135,
-        "reorderPoint": 59,
-        "dailyUsage": 15.0
-      },
-      {
-        "sku": "FRV-1042",
-        "product": "Coriander Leaves 100g",
-        "openingStock": 400,
-        "reorderPoint": 104,
-        "dailyUsage": 34.2
-      },
-      {
-        "sku": "FRV-1049",
-        "product": "Green Chilli 100g",
+        "sku": "TEA-1028",
+        "product": "Instant Coffee 100g",
         "openingStock": 340,
-        "reorderPoint": 91,
-        "dailyUsage": 29.8
+        "reorderPoint": 84,
+        "dailyUsage": 8.1
       },
       {
-        "sku": "FRV-1056",
-        "product": "Lemon 4pcs",
-        "openingStock": 220,
-        "reorderPoint": 99,
-        "dailyUsage": 25.2
+        "sku": "TEA-1035",
+        "product": "Filter Coffee Powder 500g",
+        "openingStock": 165,
+        "reorderPoint": 49,
+        "dailyUsage": 3.8
       },
       {
-        "sku": "FRV-1063",
-        "product": "Cucumber 500g",
-        "openingStock": 175,
-        "reorderPoint": 59,
-        "dailyUsage": 17.1
-      },
-      {
-        "sku": "FRV-1070",
-        "product": "Ginger 200g",
-        "openingStock": 210,
-        "reorderPoint": 63,
-        "dailyUsage": 16.7
-      },
-      {
-        "sku": "FRV-1084",
-        "product": "Baby Spinach 200g",
-        "openingStock": 125,
-        "reorderPoint": 33,
-        "dailyUsage": 9.5
-      },
-      {
-        "sku": "DRY-1007",
-        "product": "Toned Milk 500ml",
-        "openingStock": 470,
-        "reorderPoint": 235,
-        "dailyUsage": 57.7
-      },
-      {
-        "sku": "DRY-1014",
-        "product": "Full Cream Milk 1L",
-        "openingStock": 385,
-        "reorderPoint": 163,
-        "dailyUsage": 37.9
-      },
-      {
-        "sku": "DRY-1021",
-        "product": "Curd 400g",
-        "openingStock": 355,
-        "reorderPoint": 134,
-        "dailyUsage": 29.8
-      },
-      {
-        "sku": "DRY-1028",
-        "product": "Paneer 200g",
-        "openingStock": 205,
+        "sku": "TEA-1042",
+        "product": "Malted Health Drink 500g",
+        "openingStock": 260,
         "reorderPoint": 68,
-        "dailyUsage": 22.5
-      },
-      {
-        "sku": "DRY-1035",
-        "product": "Salted Butter 100g",
-        "openingStock": 120,
-        "reorderPoint": 60,
-        "dailyUsage": 13.8
-      },
-      {
-        "sku": "DRY-1042",
-        "product": "Brown Eggs 6pcs",
-        "openingStock": 230,
-        "reorderPoint": 109,
-        "dailyUsage": 24.7
-      },
-      {
-        "sku": "DRY-1049",
-        "product": "White Bread 400g",
-        "openingStock": 300,
-        "reorderPoint": 140,
-        "dailyUsage": 33.3
-      },
-      {
-        "sku": "DRY-1056",
-        "product": "Multigrain Bread 400g",
-        "openingStock": 105,
-        "reorderPoint": 55,
-        "dailyUsage": 11.8
-      },
-      {
-        "sku": "DRY-1063",
-        "product": "Cheese Slices 200g",
-        "openingStock": 85,
-        "reorderPoint": 31,
-        "dailyUsage": 10.0
-      },
-      {
-        "sku": "DRY-1070",
-        "product": "Buttermilk 500ml",
-        "openingStock": 190,
-        "reorderPoint": 77,
-        "dailyUsage": 15.6
-      },
-      {
-        "sku": "DRY-1077",
-        "product": "Fresh Cream 200ml",
-        "openingStock": 80,
-        "reorderPoint": 20,
         "dailyUsage": 6.4
       },
       {
-        "sku": "DRY-1084",
-        "product": "Greek Yogurt 100g",
-        "openingStock": 95,
-        "reorderPoint": 26,
-        "dailyUsage": 8.1
+        "sku": "TEA-1049",
+        "product": "Milk Powder 500g",
+        "openingStock": 240,
+        "reorderPoint": 31,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "TEA-1056",
+        "product": "UHT Toned Milk 1L",
+        "openingStock": 1115,
+        "reorderPoint": 147,
+        "dailyUsage": 23.4
+      },
+      {
+        "sku": "TEA-1063",
+        "product": "Drinking Chocolate 200g",
+        "openingStock": 135,
+        "reorderPoint": 36,
+        "dailyUsage": 3.4
+      },
+      {
+        "sku": "TEA-1070",
+        "product": "Sweetened Condensed Milk 400g",
+        "openingStock": 170,
+        "reorderPoint": 31,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "TEA-1077",
+        "product": "Elaichi Tea 250g",
+        "openingStock": 265,
+        "reorderPoint": 51,
+        "dailyUsage": 5.2
+      },
+      {
+        "sku": "TEA-1084",
+        "product": "Dairy Whitener 400g",
+        "openingStock": 310,
+        "reorderPoint": 50,
+        "dailyUsage": 5.9
+      },
+      {
+        "sku": "DFS-1007",
+        "product": "Almonds 250g",
+        "openingStock": 220,
+        "reorderPoint": 66,
+        "dailyUsage": 5.8
+      },
+      {
+        "sku": "DFS-1014",
+        "product": "Cashews W320 250g",
+        "openingStock": 335,
+        "reorderPoint": 95,
+        "dailyUsage": 7.6
+      },
+      {
+        "sku": "DFS-1021",
+        "product": "Raisins 250g",
+        "openingStock": 295,
+        "reorderPoint": 81,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "DFS-1028",
+        "product": "Walnut Kernels 200g",
+        "openingStock": 155,
+        "reorderPoint": 23,
+        "dailyUsage": 3.7
+      },
+      {
+        "sku": "DFS-1035",
+        "product": "Pistachios Salted 200g",
+        "openingStock": 120,
+        "reorderPoint": 38,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "DFS-1042",
+        "product": "Dates Seedless 500g",
+        "openingStock": 235,
+        "reorderPoint": 73,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "DFS-1049",
+        "product": "Figs Dried 200g",
+        "openingStock": 100,
+        "reorderPoint": 29,
+        "dailyUsage": 2.4
+      },
+      {
+        "sku": "DFS-1056",
+        "product": "Chia Seeds 200g",
+        "openingStock": 140,
+        "reorderPoint": 50,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "DFS-1063",
+        "product": "Flax Seeds 200g",
+        "openingStock": 100,
+        "reorderPoint": 16,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "DFS-1070",
+        "product": "Pumpkin Seeds 150g",
+        "openingStock": 105,
+        "reorderPoint": 33,
+        "dailyUsage": 2.1
+      },
+      {
+        "sku": "DFS-1077",
+        "product": "Makhana 100g",
+        "openingStock": 265,
+        "reorderPoint": 36,
+        "dailyUsage": 5.3
+      },
+      {
+        "sku": "DFS-1084",
+        "product": "Trail Mix 200g",
+        "openingStock": 170,
+        "reorderPoint": 25,
+        "dailyUsage": 3.5
       },
       {
         "sku": "STP-1007",
@@ -1158,379 +1158,379 @@
         "dailyUsage": 3.3
       },
       {
-        "sku": "MSL-1070",
-        "product": "Black Pepper Whole 50g",
-        "openingStock": 155,
-        "reorderPoint": 46,
-        "dailyUsage": 3.5
-      },
-      {
         "sku": "MSL-1077",
         "product": "Tamarind 200g",
+        "openingStock": 105,
+        "reorderPoint": 31,
+        "dailyUsage": 2.4
+      },
+      {
+        "sku": "MSL-1084",
+        "product": "Kasuri Methi 25g",
         "openingStock": 85,
         "reorderPoint": 14,
         "dailyUsage": 2.0
       },
       {
-        "sku": "MSL-1084",
-        "product": "Kasuri Methi 25g",
-        "openingStock": 80,
-        "reorderPoint": 23,
-        "dailyUsage": 2.0
-      },
-      {
         "sku": "SNK-1007",
         "product": "Salted Potato Chips 52g",
-        "openingStock": 1710,
-        "reorderPoint": 339,
-        "dailyUsage": 41.5
+        "openingStock": 1395,
+        "reorderPoint": 396,
+        "dailyUsage": 34.9
       },
       {
         "sku": "SNK-1014",
         "product": "Masala Potato Chips 52g",
-        "openingStock": 1760,
-        "reorderPoint": 552,
-        "dailyUsage": 35.0
+        "openingStock": 1565,
+        "reorderPoint": 310,
+        "dailyUsage": 38.0
       },
       {
         "sku": "SNK-1021",
         "product": "Aloo Bhujia 200g",
-        "openingStock": 850,
-        "reorderPoint": 139,
-        "dailyUsage": 19.9
+        "openingStock": 990,
+        "reorderPoint": 311,
+        "dailyUsage": 19.7
       },
       {
         "sku": "SNK-1028",
         "product": "Roasted Peanuts 150g",
-        "openingStock": 420,
+        "openingStock": 475,
         "reorderPoint": 78,
-        "dailyUsage": 10.0
+        "dailyUsage": 11.1
       },
       {
         "sku": "SNK-1035",
         "product": "Cheese Nachos 150g",
-        "openingStock": 530,
-        "reorderPoint": 99,
-        "dailyUsage": 11.3
+        "openingStock": 500,
+        "reorderPoint": 94,
+        "dailyUsage": 12.0
       },
       {
         "sku": "SNK-1042",
         "product": "Cream Biscuits 120g",
-        "openingStock": 1490,
-        "reorderPoint": 407,
-        "dailyUsage": 31.4
+        "openingStock": 1105,
+        "reorderPoint": 205,
+        "dailyUsage": 23.5
       },
       {
         "sku": "SNK-1049",
         "product": "Digestive Biscuits 250g",
-        "openingStock": 615,
-        "reorderPoint": 128,
-        "dailyUsage": 11.7
+        "openingStock": 715,
+        "reorderPoint": 196,
+        "dailyUsage": 15.1
       },
       {
         "sku": "SNK-1056",
         "product": "Dark Chocolate Bar 80g",
-        "openingStock": 525,
-        "reorderPoint": 118,
-        "dailyUsage": 11.0
+        "openingStock": 465,
+        "reorderPoint": 96,
+        "dailyUsage": 8.8
       },
       {
         "sku": "SNK-1063",
         "product": "Milk Chocolate 50g",
-        "openingStock": 890,
-        "reorderPoint": 141,
-        "dailyUsage": 21.6
+        "openingStock": 1170,
+        "reorderPoint": 262,
+        "dailyUsage": 24.5
       },
       {
         "sku": "SNK-1070",
         "product": "Butter Popcorn 60g",
-        "openingStock": 460,
-        "reorderPoint": 142,
-        "dailyUsage": 10.0
+        "openingStock": 355,
+        "reorderPoint": 56,
+        "dailyUsage": 8.6
       },
       {
         "sku": "SNK-1077",
-        "product": "Mixed Dry Fruits 250g",
-        "openingStock": 170,
-        "reorderPoint": 53,
-        "dailyUsage": 4.3
+        "product": "Milk Rusk 300g",
+        "openingStock": 515,
+        "reorderPoint": 159,
+        "dailyUsage": 11.2
       },
       {
         "sku": "SNK-1084",
         "product": "Methi Khakhra 200g",
-        "openingStock": 195,
-        "reorderPoint": 56,
-        "dailyUsage": 4.8
+        "openingStock": 210,
+        "reorderPoint": 65,
+        "dailyUsage": 5.3
       },
       {
         "sku": "BEV-1007",
         "product": "Cola 750ml",
-        "openingStock": 1590,
-        "reorderPoint": 208,
-        "dailyUsage": 29.0
+        "openingStock": 1080,
+        "reorderPoint": 310,
+        "dailyUsage": 26.7
       },
       {
         "sku": "BEV-1014",
         "product": "Lemon Soda 750ml",
-        "openingStock": 1035,
-        "reorderPoint": 298,
-        "dailyUsage": 21.4
+        "openingStock": 1020,
+        "reorderPoint": 134,
+        "dailyUsage": 18.6
       },
       {
         "sku": "BEV-1021",
         "product": "Packaged Drinking Water 1L",
-        "openingStock": 2370,
-        "reorderPoint": 531,
-        "dailyUsage": 50.5
+        "openingStock": 2870,
+        "reorderPoint": 826,
+        "dailyUsage": 59.4
       },
       {
         "sku": "BEV-1028",
         "product": "Mixed Fruit Juice 1L",
-        "openingStock": 570,
-        "reorderPoint": 172,
-        "dailyUsage": 10.8
-      },
-      {
-        "sku": "BEV-1035",
-        "product": "Orange Juice 1L",
-        "openingStock": 300,
-        "reorderPoint": 75,
-        "dailyUsage": 6.2
+        "openingStock": 475,
+        "reorderPoint": 106,
+        "dailyUsage": 10.1
       },
       {
         "sku": "BEV-1042",
         "product": "Energy Drink 250ml",
-        "openingStock": 575,
-        "reorderPoint": 86,
-        "dailyUsage": 10.6
+        "openingStock": 510,
+        "reorderPoint": 154,
+        "dailyUsage": 9.7
       },
       {
         "sku": "BEV-1049",
         "product": "Cold Coffee 180ml",
-        "openingStock": 490,
-        "reorderPoint": 76,
-        "dailyUsage": 10.0
+        "openingStock": 505,
+        "reorderPoint": 126,
+        "dailyUsage": 10.4
       },
       {
         "sku": "BEV-1056",
         "product": "Tender Coconut Water 200ml",
-        "openingStock": 390,
-        "reorderPoint": 60,
-        "dailyUsage": 9.9
+        "openingStock": 640,
+        "reorderPoint": 95,
+        "dailyUsage": 11.8
       },
       {
         "sku": "BEV-1063",
         "product": "Tonic Water 300ml",
-        "openingStock": 160,
-        "reorderPoint": 29,
-        "dailyUsage": 3.3
+        "openingStock": 150,
+        "reorderPoint": 23,
+        "dailyUsage": 3.0
       },
       {
         "sku": "BEV-1070",
         "product": "Mango Drink 600ml",
-        "openingStock": 710,
-        "reorderPoint": 185,
-        "dailyUsage": 14.2
-      },
-      {
-        "sku": "BEV-1077",
-        "product": "Lemon Iced Tea 500ml",
-        "openingStock": 380,
-        "reorderPoint": 116,
-        "dailyUsage": 7.6
+        "openingStock": 545,
+        "reorderPoint": 84,
+        "dailyUsage": 13.9
       },
       {
         "sku": "BEV-1084",
         "product": "Club Soda 750ml",
-        "openingStock": 695,
-        "reorderPoint": 180,
-        "dailyUsage": 14.3
+        "openingStock": 625,
+        "reorderPoint": 116,
+        "dailyUsage": 13.0
       },
       {
         "sku": "BRK-1007",
         "product": "Masala Instant Noodles 70g",
-        "openingStock": 2250,
-        "reorderPoint": 569,
-        "dailyUsage": 49.7
-      },
-      {
-        "sku": "BRK-1014",
-        "product": "Corn Flakes 475g",
-        "openingStock": 370,
-        "reorderPoint": 98,
-        "dailyUsage": 6.9
+        "openingStock": 2025,
+        "reorderPoint": 528,
+        "dailyUsage": 40.5
       },
       {
         "sku": "BRK-1021",
         "product": "Rolled Oats 1kg",
-        "openingStock": 235,
-        "reorderPoint": 53,
-        "dailyUsage": 5.8
+        "openingStock": 325,
+        "reorderPoint": 99,
+        "dailyUsage": 6.5
       },
       {
         "sku": "BRK-1028",
         "product": "Fruit & Nut Muesli 500g",
-        "openingStock": 165,
-        "reorderPoint": 31,
-        "dailyUsage": 3.5
+        "openingStock": 175,
+        "reorderPoint": 45,
+        "dailyUsage": 3.6
       },
       {
         "sku": "BRK-1035",
         "product": "Crunchy Peanut Butter 340g",
-        "openingStock": 195,
-        "reorderPoint": 51,
-        "dailyUsage": 3.9
+        "openingStock": 225,
+        "reorderPoint": 57,
+        "dailyUsage": 5.0
       },
       {
         "sku": "BRK-1042",
         "product": "Mixed Fruit Jam 500g",
-        "openingStock": 235,
-        "reorderPoint": 55,
-        "dailyUsage": 5.0
+        "openingStock": 245,
+        "reorderPoint": 66,
+        "dailyUsage": 4.6
       },
       {
         "sku": "BRK-1049",
         "product": "Honey 250g",
+        "openingStock": 195,
+        "reorderPoint": 44,
+        "dailyUsage": 4.8
+      },
+      {
+        "sku": "BRK-1056",
+        "product": "Tomato Ketchup 950g",
+        "openingStock": 455,
+        "reorderPoint": 84,
+        "dailyUsage": 9.5
+      },
+      {
+        "sku": "BRK-1063",
+        "product": "Ready-to-Eat Dal Makhani 300g",
+        "openingStock": 245,
+        "reorderPoint": 64,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "BRK-1070",
+        "product": "Vermicelli 400g",
+        "openingStock": 350,
+        "reorderPoint": 82,
+        "dailyUsage": 7.5
+      },
+      {
+        "sku": "BRK-1077",
+        "product": "Penne Pasta 500g",
         "openingStock": 185,
         "reorderPoint": 50,
         "dailyUsage": 4.8
       },
       {
-        "sku": "BRK-1063",
-        "product": "Ready-to-Eat Dal Makhani 300g",
-        "openingStock": 220,
-        "reorderPoint": 36,
-        "dailyUsage": 5.2
-      },
-      {
-        "sku": "BRK-1070",
-        "product": "Instant Coffee 100g",
-        "openingStock": 330,
-        "reorderPoint": 74,
-        "dailyUsage": 6.3
-      },
-      {
-        "sku": "BRK-1077",
-        "product": "Assam Tea 500g",
-        "openingStock": 550,
-        "reorderPoint": 127,
-        "dailyUsage": 10.0
-      },
-      {
         "sku": "BRK-1084",
         "product": "Masala Oats 39g",
-        "openingStock": 355,
-        "reorderPoint": 125,
-        "dailyUsage": 9.2
+        "openingStock": 395,
+        "reorderPoint": 65,
+        "dailyUsage": 9.4
       },
       {
         "sku": "PRC-1007",
         "product": "Bathing Soap 4x100g",
-        "openingStock": 535,
-        "reorderPoint": 165,
-        "dailyUsage": 10.9
+        "openingStock": 655,
+        "reorderPoint": 147,
+        "dailyUsage": 12.5
       },
       {
         "sku": "PRC-1014",
         "product": "Herbal Shampoo 340ml",
-        "openingStock": 240,
-        "reorderPoint": 62,
-        "dailyUsage": 5.0
+        "openingStock": 340,
+        "reorderPoint": 79,
+        "dailyUsage": 6.2
       },
       {
-        "sku": "PRC-1021",
-        "product": "Toothpaste 150g",
-        "openingStock": 390,
-        "reorderPoint": 94,
-        "dailyUsage": 9.9
+        "sku": "PRC-1028",
+        "product": "Soft Toothbrush 3pcs",
+        "openingStock": 195,
+        "reorderPoint": 69,
+        "dailyUsage": 5.1
       },
       {
         "sku": "PRC-1035",
         "product": "Hand Wash Refill 750ml",
-        "openingStock": 255,
-        "reorderPoint": 76,
-        "dailyUsage": 5.2
+        "openingStock": 270,
+        "reorderPoint": 83,
+        "dailyUsage": 5.5
       },
       {
         "sku": "PRC-1042",
         "product": "Body Lotion 400ml",
-        "openingStock": 155,
-        "reorderPoint": 28,
-        "dailyUsage": 3.1
+        "openingStock": 145,
+        "reorderPoint": 37,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "PRC-1049",
+        "product": "Sanitary Pads XL 15pcs",
+        "openingStock": 260,
+        "reorderPoint": 63,
+        "dailyUsage": 6.6
+      },
+      {
+        "sku": "PRC-1056",
+        "product": "Shaving Foam 200g",
+        "openingStock": 105,
+        "reorderPoint": 31,
+        "dailyUsage": 2.1
       },
       {
         "sku": "PRC-1063",
         "product": "Coconut Hair Oil 300ml",
+        "openingStock": 210,
+        "reorderPoint": 37,
+        "dailyUsage": 4.2
+      },
+      {
+        "sku": "PRC-1070",
+        "product": "Face Wash 100ml",
         "openingStock": 260,
         "reorderPoint": 58,
         "dailyUsage": 5.0
       },
       {
-        "sku": "PRC-1070",
-        "product": "Face Wash 100ml",
-        "openingStock": 185,
-        "reorderPoint": 40,
-        "dailyUsage": 4.3
-      },
-      {
         "sku": "PRC-1077",
         "product": "Sunscreen SPF 50 50g",
-        "openingStock": 110,
-        "reorderPoint": 28,
-        "dailyUsage": 2.5
+        "openingStock": 95,
+        "reorderPoint": 20,
+        "dailyUsage": 2.2
       },
       {
         "sku": "PRC-1084",
         "product": "Lip Balm 4.5g",
-        "openingStock": 185,
-        "reorderPoint": 43,
+        "openingStock": 170,
+        "reorderPoint": 42,
         "dailyUsage": 3.8
       },
       {
         "sku": "HSH-1007",
         "product": "Dishwash Liquid 750ml",
-        "openingStock": 395,
-        "reorderPoint": 92,
-        "dailyUsage": 9.6
+        "openingStock": 555,
+        "reorderPoint": 129,
+        "dailyUsage": 11.3
       },
       {
         "sku": "HSH-1014",
         "product": "Detergent Powder 1kg",
-        "openingStock": 460,
-        "reorderPoint": 129,
-        "dailyUsage": 9.5
+        "openingStock": 355,
+        "reorderPoint": 83,
+        "dailyUsage": 8.6
       },
       {
         "sku": "HSH-1021",
         "product": "Liquid Detergent 1L",
-        "openingStock": 285,
-        "reorderPoint": 92,
-        "dailyUsage": 6.0
+        "openingStock": 345,
+        "reorderPoint": 97,
+        "dailyUsage": 7.1
       },
       {
         "sku": "HSH-1028",
         "product": "Floor Cleaner 1L",
-        "openingStock": 270,
-        "reorderPoint": 39,
-        "dailyUsage": 5.4
+        "openingStock": 235,
+        "reorderPoint": 76,
+        "dailyUsage": 5.0
       },
       {
         "sku": "HSH-1035",
         "product": "Toilet Cleaner 500ml",
-        "openingStock": 365,
-        "reorderPoint": 63,
-        "dailyUsage": 7.5
+        "openingStock": 325,
+        "reorderPoint": 47,
+        "dailyUsage": 6.5
       },
       {
         "sku": "HSH-1042",
         "product": "Garbage Bags Medium 30pcs",
-        "openingStock": 325,
-        "reorderPoint": 80,
-        "dailyUsage": 6.9
+        "openingStock": 425,
+        "reorderPoint": 74,
+        "dailyUsage": 8.8
       },
       {
         "sku": "HSH-1049",
         "product": "Kitchen Towel 2 Rolls",
+        "openingStock": 230,
+        "reorderPoint": 56,
+        "dailyUsage": 4.9
+      },
+      {
+        "sku": "HSH-1056",
+        "product": "Toilet Paper 4 Rolls",
         "openingStock": 265,
         "reorderPoint": 73,
         "dailyUsage": 4.8
@@ -1654,274 +1654,274 @@
     "name": "Delhi Rohini Dark Store",
     "stock": [
       {
-        "sku": "FRV-1007",
-        "product": "Tomato 500g",
-        "openingStock": 530,
-        "reorderPoint": 155,
-        "dailyUsage": 40.0
+        "sku": "TEA-1007",
+        "product": "Assam Tea 500g",
+        "openingStock": 740,
+        "reorderPoint": 146,
+        "dailyUsage": 14.0
       },
       {
-        "sku": "FRV-1014",
-        "product": "Onion 1kg",
-        "openingStock": 440,
-        "reorderPoint": 181,
-        "dailyUsage": 40.8
+        "sku": "TEA-1014",
+        "product": "Green Tea 25 Bags",
+        "openingStock": 245,
+        "reorderPoint": 71,
+        "dailyUsage": 5.4
       },
       {
-        "sku": "FRV-1021",
-        "product": "Potato 1kg",
-        "openingStock": 440,
-        "reorderPoint": 122,
-        "dailyUsage": 36.8
-      },
-      {
-        "sku": "FRV-1028",
-        "product": "Banana Robusta 6pcs",
-        "openingStock": 370,
-        "reorderPoint": 99,
-        "dailyUsage": 26.8
-      },
-      {
-        "sku": "FRV-1035",
-        "product": "Shimla Apple 4pcs",
-        "openingStock": 160,
-        "reorderPoint": 63,
-        "dailyUsage": 13.3
-      },
-      {
-        "sku": "FRV-1042",
-        "product": "Coriander Leaves 100g",
-        "openingStock": 460,
-        "reorderPoint": 131,
-        "dailyUsage": 34.8
-      },
-      {
-        "sku": "FRV-1049",
-        "product": "Green Chilli 100g",
-        "openingStock": 295,
-        "reorderPoint": 108,
-        "dailyUsage": 23.8
-      },
-      {
-        "sku": "FRV-1056",
-        "product": "Lemon 4pcs",
-        "openingStock": 180,
-        "reorderPoint": 69,
-        "dailyUsage": 22.0
-      },
-      {
-        "sku": "FRV-1063",
-        "product": "Cucumber 500g",
-        "openingStock": 225,
-        "reorderPoint": 84,
-        "dailyUsage": 16.8
-      },
-      {
-        "sku": "FRV-1070",
-        "product": "Ginger 200g",
-        "openingStock": 165,
-        "reorderPoint": 50,
-        "dailyUsage": 15.5
-      },
-      {
-        "sku": "FRV-1077",
-        "product": "Pomegranate 2pcs",
-        "openingStock": 110,
+        "sku": "TEA-1021",
+        "product": "Masala Chai Premix 10 Sachets",
+        "openingStock": 215,
         "reorderPoint": 33,
-        "dailyUsage": 8.4
+        "dailyUsage": 4.4
       },
       {
-        "sku": "FRV-1084",
-        "product": "Baby Spinach 200g",
-        "openingStock": 100,
-        "reorderPoint": 23,
-        "dailyUsage": 7.6
+        "sku": "TEA-1028",
+        "product": "Instant Coffee 100g",
+        "openingStock": 385,
+        "reorderPoint": 67,
+        "dailyUsage": 7.1
       },
       {
-        "sku": "DRY-1007",
-        "product": "Toned Milk 500ml",
-        "openingStock": 575,
-        "reorderPoint": 220,
-        "dailyUsage": 58.8
-      },
-      {
-        "sku": "DRY-1014",
-        "product": "Full Cream Milk 1L",
-        "openingStock": 270,
-        "reorderPoint": 100,
-        "dailyUsage": 24.1
-      },
-      {
-        "sku": "DRY-1021",
-        "product": "Curd 400g",
-        "openingStock": 220,
-        "reorderPoint": 77,
-        "dailyUsage": 24.5
-      },
-      {
-        "sku": "DRY-1028",
-        "product": "Paneer 200g",
-        "openingStock": 210,
-        "reorderPoint": 63,
-        "dailyUsage": 18.0
-      },
-      {
-        "sku": "DRY-1035",
-        "product": "Salted Butter 100g",
-        "openingStock": 125,
-        "reorderPoint": 56,
-        "dailyUsage": 14.2
-      },
-      {
-        "sku": "DRY-1042",
-        "product": "Brown Eggs 6pcs",
-        "openingStock": 175,
+        "sku": "TEA-1035",
+        "product": "Filter Coffee Powder 500g",
+        "openingStock": 185,
         "reorderPoint": 55,
-        "dailyUsage": 18.3
+        "dailyUsage": 3.8
       },
       {
-        "sku": "DRY-1049",
-        "product": "White Bread 400g",
-        "openingStock": 370,
-        "reorderPoint": 120,
-        "dailyUsage": 27.5
+        "sku": "TEA-1049",
+        "product": "Milk Powder 500g",
+        "openingStock": 265,
+        "reorderPoint": 49,
+        "dailyUsage": 5.0
       },
       {
-        "sku": "DRY-1056",
-        "product": "Multigrain Bread 400g",
-        "openingStock": 85,
-        "reorderPoint": 30,
-        "dailyUsage": 8.1
+        "sku": "TEA-1056",
+        "product": "UHT Toned Milk 1L",
+        "openingStock": 940,
+        "reorderPoint": 254,
+        "dailyUsage": 18.7
       },
       {
-        "sku": "DRY-1063",
-        "product": "Cheese Slices 200g",
-        "openingStock": 90,
-        "reorderPoint": 28,
-        "dailyUsage": 7.4
+        "sku": "TEA-1063",
+        "product": "Drinking Chocolate 200g",
+        "openingStock": 115,
+        "reorderPoint": 20,
+        "dailyUsage": 3.0
       },
       {
-        "sku": "DRY-1070",
-        "product": "Buttermilk 500ml",
-        "openingStock": 165,
-        "reorderPoint": 42,
-        "dailyUsage": 12.5
+        "sku": "TEA-1070",
+        "product": "Sweetened Condensed Milk 400g",
+        "openingStock": 200,
+        "reorderPoint": 59,
+        "dailyUsage": 3.7
       },
       {
-        "sku": "DRY-1077",
-        "product": "Fresh Cream 200ml",
-        "openingStock": 55,
-        "reorderPoint": 18,
-        "dailyUsage": 5.2
+        "sku": "TEA-1077",
+        "product": "Elaichi Tea 250g",
+        "openingStock": 220,
+        "reorderPoint": 34,
+        "dailyUsage": 4.8
+      },
+      {
+        "sku": "TEA-1084",
+        "product": "Dairy Whitener 400g",
+        "openingStock": 250,
+        "reorderPoint": 49,
+        "dailyUsage": 4.7
+      },
+      {
+        "sku": "DFS-1007",
+        "product": "Almonds 250g",
+        "openingStock": 305,
+        "reorderPoint": 37,
+        "dailyUsage": 5.7
+      },
+      {
+        "sku": "DFS-1014",
+        "product": "Cashews W320 250g",
+        "openingStock": 255,
+        "reorderPoint": 58,
+        "dailyUsage": 5.9
+      },
+      {
+        "sku": "DFS-1021",
+        "product": "Raisins 250g",
+        "openingStock": 190,
+        "reorderPoint": 47,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "DFS-1028",
+        "product": "Walnut Kernels 200g",
+        "openingStock": 120,
+        "reorderPoint": 20,
+        "dailyUsage": 2.9
+      },
+      {
+        "sku": "DFS-1035",
+        "product": "Pistachios Salted 200g",
+        "openingStock": 145,
+        "reorderPoint": 25,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "DFS-1042",
+        "product": "Dates Seedless 500g",
+        "openingStock": 205,
+        "reorderPoint": 54,
+        "dailyUsage": 5.1
+      },
+      {
+        "sku": "DFS-1056",
+        "product": "Chia Seeds 200g",
+        "openingStock": 105,
+        "reorderPoint": 15,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "DFS-1063",
+        "product": "Flax Seeds 200g",
+        "openingStock": 105,
+        "reorderPoint": 26,
+        "dailyUsage": 2.0
+      },
+      {
+        "sku": "DFS-1070",
+        "product": "Pumpkin Seeds 150g",
+        "openingStock": 75,
+        "reorderPoint": 15,
+        "dailyUsage": 1.6
+      },
+      {
+        "sku": "DFS-1077",
+        "product": "Makhana 100g",
+        "openingStock": 225,
+        "reorderPoint": 47,
+        "dailyUsage": 4.6
+      },
+      {
+        "sku": "DFS-1084",
+        "product": "Trail Mix 200g",
+        "openingStock": 130,
+        "reorderPoint": 20,
+        "dailyUsage": 2.5
       },
       {
         "sku": "STP-1007",
         "product": "Whole Wheat Atta 5kg",
-        "openingStock": 525,
-        "reorderPoint": 175,
-        "dailyUsage": 11.0
+        "openingStock": 480,
+        "reorderPoint": 87,
+        "dailyUsage": 10.4
       },
       {
         "sku": "STP-1014",
         "product": "Basmati Rice 1kg",
-        "openingStock": 460,
-        "reorderPoint": 106,
-        "dailyUsage": 8.4
+        "openingStock": 440,
+        "reorderPoint": 147,
+        "dailyUsage": 9.2
       },
       {
         "sku": "STP-1021",
         "product": "Sona Masoori Rice 5kg",
-        "openingStock": 240,
+        "openingStock": 280,
         "reorderPoint": 64,
-        "dailyUsage": 5.0
+        "dailyUsage": 5.1
       },
       {
         "sku": "STP-1028",
         "product": "Toor Dal 1kg",
-        "openingStock": 340,
-        "reorderPoint": 105,
-        "dailyUsage": 8.7
+        "openingStock": 360,
+        "reorderPoint": 98,
+        "dailyUsage": 7.6
       },
       {
         "sku": "STP-1035",
         "product": "Moong Dal 500g",
-        "openingStock": 335,
-        "reorderPoint": 56,
-        "dailyUsage": 6.3
+        "openingStock": 265,
+        "reorderPoint": 82,
+        "dailyUsage": 6.8
       },
       {
         "sku": "STP-1042",
         "product": "Chana Dal 1kg",
+        "openingStock": 290,
+        "reorderPoint": 48,
+        "dailyUsage": 5.4
+      },
+      {
+        "sku": "STP-1049",
+        "product": "Besan 500g",
         "openingStock": 285,
         "reorderPoint": 56,
         "dailyUsage": 5.9
       },
       {
-        "sku": "STP-1049",
-        "product": "Besan 500g",
-        "openingStock": 270,
-        "reorderPoint": 72,
-        "dailyUsage": 5.6
-      },
-      {
         "sku": "STP-1056",
         "product": "Sugar 1kg",
-        "openingStock": 660,
-        "reorderPoint": 193,
-        "dailyUsage": 13.4
+        "openingStock": 635,
+        "reorderPoint": 167,
+        "dailyUsage": 13.1
       },
       {
         "sku": "STP-1063",
         "product": "Iodised Salt 1kg",
-        "openingStock": 600,
-        "reorderPoint": 140,
-        "dailyUsage": 11.2
+        "openingStock": 565,
+        "reorderPoint": 165,
+        "dailyUsage": 11.5
       },
       {
         "sku": "STP-1070",
         "product": "Poha 500g",
-        "openingStock": 310,
-        "reorderPoint": 80,
-        "dailyUsage": 6.8
+        "openingStock": 400,
+        "reorderPoint": 93,
+        "dailyUsage": 7.5
       },
       {
         "sku": "STP-1077",
         "product": "Rajma 500g",
         "openingStock": 155,
-        "reorderPoint": 35,
-        "dailyUsage": 3.9
+        "reorderPoint": 40,
+        "dailyUsage": 3.4
       },
       {
         "sku": "STP-1084",
         "product": "Sooji 500g",
-        "openingStock": 195,
-        "reorderPoint": 35,
+        "openingStock": 190,
+        "reorderPoint": 43,
         "dailyUsage": 4.8
       },
       {
         "sku": "MSL-1007",
         "product": "Sunflower Oil 1L",
-        "openingStock": 595,
-        "reorderPoint": 123,
-        "dailyUsage": 10.9
+        "openingStock": 475,
+        "reorderPoint": 85,
+        "dailyUsage": 11.6
       },
       {
         "sku": "MSL-1014",
         "product": "Mustard Oil 1L",
-        "openingStock": 320,
-        "reorderPoint": 52,
-        "dailyUsage": 6.1
+        "openingStock": 300,
+        "reorderPoint": 62,
+        "dailyUsage": 5.5
       },
       {
         "sku": "MSL-1021",
         "product": "Cow Ghee 500ml",
-        "openingStock": 225,
-        "reorderPoint": 69,
-        "dailyUsage": 4.9
+        "openingStock": 265,
+        "reorderPoint": 44,
+        "dailyUsage": 5.1
       },
       {
         "sku": "MSL-1028",
         "product": "Turmeric Powder 100g",
+        "openingStock": 320,
+        "reorderPoint": 97,
+        "dailyUsage": 6.9
+      },
+      {
+        "sku": "MSL-1035",
+        "product": "Red Chilli Powder 100g",
         "openingStock": 300,
         "reorderPoint": 49,
         "dailyUsage": 6.8
@@ -2039,186 +2039,186 @@
         "dailyUsage": 15.8
       },
       {
-        "sku": "SNK-1070",
-        "product": "Butter Popcorn 60g",
-        "openingStock": 315,
-        "reorderPoint": 80,
-        "dailyUsage": 8.2
-      },
-      {
         "sku": "SNK-1077",
-        "product": "Mixed Dry Fruits 250g",
-        "openingStock": 190,
-        "reorderPoint": 51,
-        "dailyUsage": 3.5
+        "product": "Milk Rusk 300g",
+        "openingStock": 355,
+        "reorderPoint": 89,
+        "dailyUsage": 9.2
       },
       {
         "sku": "SNK-1084",
         "product": "Methi Khakhra 200g",
-        "openingStock": 200,
-        "reorderPoint": 46,
-        "dailyUsage": 4.0
+        "openingStock": 240,
+        "reorderPoint": 64,
+        "dailyUsage": 4.4
       },
       {
         "sku": "BEV-1007",
         "product": "Cola 750ml",
-        "openingStock": 1270,
-        "reorderPoint": 287,
-        "dailyUsage": 28.8
+        "openingStock": 1100,
+        "reorderPoint": 254,
+        "dailyUsage": 22.2
       },
       {
         "sku": "BEV-1014",
         "product": "Lemon Soda 750ml",
-        "openingStock": 590,
-        "reorderPoint": 213,
-        "dailyUsage": 14.7
+        "openingStock": 815,
+        "reorderPoint": 185,
+        "dailyUsage": 18.5
       },
       {
         "sku": "BEV-1021",
         "product": "Packaged Drinking Water 1L",
-        "openingStock": 2185,
-        "reorderPoint": 551,
-        "dailyUsage": 44.4
+        "openingStock": 1635,
+        "reorderPoint": 591,
+        "dailyUsage": 40.8
       },
       {
         "sku": "BEV-1028",
         "product": "Mixed Fruit Juice 1L",
-        "openingStock": 355,
-        "reorderPoint": 129,
-        "dailyUsage": 9.3
+        "openingStock": 440,
+        "reorderPoint": 111,
+        "dailyUsage": 8.9
       },
       {
         "sku": "BEV-1035",
         "product": "Orange Juice 1L",
-        "openingStock": 200,
-        "reorderPoint": 58,
-        "dailyUsage": 5.0
+        "openingStock": 215,
+        "reorderPoint": 78,
+        "dailyUsage": 5.6
       },
       {
         "sku": "BEV-1042",
         "product": "Energy Drink 250ml",
-        "openingStock": 360,
-        "reorderPoint": 57,
-        "dailyUsage": 7.1
+        "openingStock": 300,
+        "reorderPoint": 87,
+        "dailyUsage": 7.5
       },
       {
         "sku": "BEV-1049",
         "product": "Cold Coffee 180ml",
+        "openingStock": 400,
+        "reorderPoint": 63,
+        "dailyUsage": 7.8
+      },
+      {
+        "sku": "BEV-1056",
+        "product": "Tender Coconut Water 200ml",
         "openingStock": 435,
         "reorderPoint": 76,
         "dailyUsage": 8.2
       },
       {
-        "sku": "BEV-1056",
-        "product": "Tender Coconut Water 200ml",
-        "openingStock": 425,
-        "reorderPoint": 48,
-        "dailyUsage": 8.0
-      },
-      {
         "sku": "BEV-1063",
         "product": "Tonic Water 300ml",
-        "openingStock": 120,
-        "reorderPoint": 22,
-        "dailyUsage": 3.0
+        "openingStock": 130,
+        "reorderPoint": 14,
+        "dailyUsage": 2.4
       },
       {
         "sku": "BEV-1070",
         "product": "Mango Drink 600ml",
-        "openingStock": 480,
-        "reorderPoint": 148,
-        "dailyUsage": 11.7
+        "openingStock": 565,
+        "reorderPoint": 102,
+        "dailyUsage": 14.0
       },
       {
         "sku": "BEV-1077",
         "product": "Lemon Iced Tea 500ml",
-        "openingStock": 205,
-        "reorderPoint": 75,
-        "dailyUsage": 5.4
+        "openingStock": 240,
+        "reorderPoint": 73,
+        "dailyUsage": 5.8
       },
       {
         "sku": "BEV-1084",
         "product": "Club Soda 750ml",
-        "openingStock": 435,
-        "reorderPoint": 77,
-        "dailyUsage": 10.0
+        "openingStock": 355,
+        "reorderPoint": 129,
+        "dailyUsage": 9.3
       },
       {
         "sku": "BRK-1007",
         "product": "Masala Instant Noodles 70g",
-        "openingStock": 1580,
-        "reorderPoint": 351,
-        "dailyUsage": 31.2
+        "openingStock": 1445,
+        "reorderPoint": 257,
+        "dailyUsage": 33.2
       },
       {
         "sku": "BRK-1014",
         "product": "Corn Flakes 475g",
+        "openingStock": 240,
+        "reorderPoint": 53,
+        "dailyUsage": 4.7
+      },
+      {
+        "sku": "BRK-1021",
+        "product": "Rolled Oats 1kg",
         "openingStock": 265,
         "reorderPoint": 80,
         "dailyUsage": 5.8
       },
       {
-        "sku": "BRK-1021",
-        "product": "Rolled Oats 1kg",
-        "openingStock": 215,
-        "reorderPoint": 60,
-        "dailyUsage": 5.4
-      },
-      {
         "sku": "BRK-1028",
         "product": "Fruit & Nut Muesli 500g",
-        "openingStock": 120,
-        "reorderPoint": 43,
-        "dailyUsage": 3.1
+        "openingStock": 110,
+        "reorderPoint": 30,
+        "dailyUsage": 2.7
       },
       {
         "sku": "BRK-1035",
         "product": "Crunchy Peanut Butter 340g",
+        "openingStock": 160,
+        "reorderPoint": 57,
+        "dailyUsage": 4.1
+      },
+      {
+        "sku": "BRK-1042",
+        "product": "Mixed Fruit Jam 500g",
         "openingStock": 185,
         "reorderPoint": 42,
         "dailyUsage": 4.0
       },
       {
-        "sku": "BRK-1042",
-        "product": "Mixed Fruit Jam 500g",
-        "openingStock": 160,
-        "reorderPoint": 44,
-        "dailyUsage": 4.1
-      },
-      {
         "sku": "BRK-1049",
         "product": "Honey 250g",
-        "openingStock": 220,
-        "reorderPoint": 48,
-        "dailyUsage": 4.4
+        "openingStock": 200,
+        "reorderPoint": 55,
+        "dailyUsage": 5.1
       },
       {
         "sku": "BRK-1056",
         "product": "Tomato Ketchup 950g",
-        "openingStock": 320,
-        "reorderPoint": 55,
-        "dailyUsage": 8.1
+        "openingStock": 350,
+        "reorderPoint": 76,
+        "dailyUsage": 7.0
       },
       {
         "sku": "BRK-1063",
         "product": "Ready-to-Eat Dal Makhani 300g",
-        "openingStock": 180,
-        "reorderPoint": 40,
-        "dailyUsage": 4.6
+        "openingStock": 200,
+        "reorderPoint": 35,
+        "dailyUsage": 5.1
       },
       {
         "sku": "BRK-1070",
-        "product": "Instant Coffee 100g",
+        "product": "Vermicelli 400g",
+        "openingStock": 220,
+        "reorderPoint": 49,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "BRK-1077",
+        "product": "Penne Pasta 500g",
         "openingStock": 220,
         "reorderPoint": 43,
         "dailyUsage": 4.7
       },
       {
-        "sku": "BRK-1077",
-        "product": "Assam Tea 500g",
-        "openingStock": 390,
-        "reorderPoint": 87,
-        "dailyUsage": 8.3
+        "sku": "BRK-1084",
+        "product": "Masala Oats 39g",
+        "openingStock": 435,
+        "reorderPoint": 98,
+        "dailyUsage": 9.3
       },
       {
         "sku": "PRC-1007",
@@ -2256,193 +2256,193 @@
         "dailyUsage": 4.4
       },
       {
-        "sku": "PRC-1042",
-        "product": "Body Lotion 400ml",
-        "openingStock": 125,
-        "reorderPoint": 21,
-        "dailyUsage": 2.8
-      },
-      {
         "sku": "PRC-1049",
         "product": "Sanitary Pads XL 15pcs",
-        "openingStock": 240,
-        "reorderPoint": 87,
-        "dailyUsage": 6.1
+        "openingStock": 255,
+        "reorderPoint": 43,
+        "dailyUsage": 5.7
       },
       {
         "sku": "PRC-1056",
         "product": "Shaving Foam 200g",
-        "openingStock": 65,
-        "reorderPoint": 21,
-        "dailyUsage": 1.6
+        "openingStock": 80,
+        "reorderPoint": 29,
+        "dailyUsage": 2.0
       },
       {
         "sku": "PRC-1063",
         "product": "Coconut Hair Oil 300ml",
+        "openingStock": 125,
+        "reorderPoint": 43,
+        "dailyUsage": 3.2
+      },
+      {
+        "sku": "PRC-1070",
+        "product": "Face Wash 100ml",
         "openingStock": 185,
         "reorderPoint": 46,
         "dailyUsage": 3.9
       },
       {
-        "sku": "PRC-1070",
-        "product": "Face Wash 100ml",
-        "openingStock": 160,
-        "reorderPoint": 27,
-        "dailyUsage": 3.7
-      },
-      {
         "sku": "PRC-1077",
         "product": "Sunscreen SPF 50 50g",
-        "openingStock": 85,
-        "reorderPoint": 23,
-        "dailyUsage": 1.7
+        "openingStock": 80,
+        "reorderPoint": 13,
+        "dailyUsage": 1.8
       },
       {
         "sku": "PRC-1084",
         "product": "Lip Balm 4.5g",
-        "openingStock": 150,
-        "reorderPoint": 47,
-        "dailyUsage": 3.0
+        "openingStock": 130,
+        "reorderPoint": 35,
+        "dailyUsage": 2.6
       },
       {
         "sku": "HSH-1007",
         "product": "Dishwash Liquid 750ml",
-        "openingStock": 365,
-        "reorderPoint": 98,
-        "dailyUsage": 8.3
+        "openingStock": 450,
+        "reorderPoint": 141,
+        "dailyUsage": 9.0
       },
       {
         "sku": "HSH-1014",
         "product": "Detergent Powder 1kg",
         "openingStock": 325,
-        "reorderPoint": 54,
-        "dailyUsage": 6.6
+        "reorderPoint": 87,
+        "dailyUsage": 7.4
       },
       {
         "sku": "HSH-1021",
         "product": "Liquid Detergent 1L",
-        "openingStock": 250,
-        "reorderPoint": 46,
-        "dailyUsage": 4.8
+        "openingStock": 240,
+        "reorderPoint": 40,
+        "dailyUsage": 4.9
       },
       {
         "sku": "HSH-1028",
         "product": "Floor Cleaner 1L",
-        "openingStock": 235,
-        "reorderPoint": 69,
-        "dailyUsage": 4.9
-      },
-      {
-        "sku": "HSH-1035",
-        "product": "Toilet Cleaner 500ml",
-        "openingStock": 325,
-        "reorderPoint": 85,
-        "dailyUsage": 6.0
+        "openingStock": 210,
+        "reorderPoint": 39,
+        "dailyUsage": 4.0
       },
       {
         "sku": "HSH-1042",
         "product": "Garbage Bags Medium 30pcs",
-        "openingStock": 320,
-        "reorderPoint": 41,
-        "dailyUsage": 6.5
+        "openingStock": 325,
+        "reorderPoint": 96,
+        "dailyUsage": 6.8
       },
       {
         "sku": "HSH-1049",
         "product": "Kitchen Towel 2 Rolls",
-        "openingStock": 265,
-        "reorderPoint": 44,
-        "dailyUsage": 5.1
+        "openingStock": 275,
+        "reorderPoint": 71,
+        "dailyUsage": 5.0
       },
       {
         "sku": "HSH-1056",
         "product": "Toilet Paper 4 Rolls",
-        "openingStock": 205,
-        "reorderPoint": 37,
-        "dailyUsage": 4.1
+        "openingStock": 230,
+        "reorderPoint": 29,
+        "dailyUsage": 4.7
       },
       {
         "sku": "HSH-1063",
         "product": "Scrub Pad 3pcs",
-        "openingStock": 265,
-        "reorderPoint": 101,
-        "dailyUsage": 6.9
+        "openingStock": 420,
+        "reorderPoint": 70,
+        "dailyUsage": 8.1
       },
       {
         "sku": "HSH-1070",
         "product": "Mosquito Repellent Refill 45ml",
         "openingStock": 285,
-        "reorderPoint": 47,
-        "dailyUsage": 6.4
+        "reorderPoint": 52,
+        "dailyUsage": 5.7
+      },
+      {
+        "sku": "HSH-1077",
+        "product": "Aluminium Foil 9m",
+        "openingStock": 100,
+        "reorderPoint": 38,
+        "dailyUsage": 2.6
       },
       {
         "sku": "HSH-1084",
         "product": "Sandalwood Agarbatti 100g",
-        "openingStock": 145,
-        "reorderPoint": 50,
+        "openingStock": 165,
+        "reorderPoint": 27,
         "dailyUsage": 3.7
       },
       {
         "sku": "BBY-1007",
         "product": "Baby Diapers M 40pcs",
+        "openingStock": 145,
+        "reorderPoint": 50,
+        "dailyUsage": 3.7
+      },
+      {
+        "sku": "BBY-1014",
+        "product": "Baby Diapers L 34pcs",
         "openingStock": 150,
         "reorderPoint": 31,
         "dailyUsage": 3.3
       },
       {
-        "sku": "BBY-1014",
-        "product": "Baby Diapers L 34pcs",
-        "openingStock": 175,
-        "reorderPoint": 48,
-        "dailyUsage": 3.5
-      },
-      {
         "sku": "BBY-1021",
         "product": "Baby Wipes 72pcs",
-        "openingStock": 215,
-        "reorderPoint": 36,
-        "dailyUsage": 5.5
+        "openingStock": 260,
+        "reorderPoint": 72,
+        "dailyUsage": 5.2
       },
       {
         "sku": "BBY-1028",
         "product": "Baby Lotion 200ml",
+        "openingStock": 70,
+        "reorderPoint": 12,
+        "dailyUsage": 1.8
+      },
+      {
+        "sku": "BBY-1035",
+        "product": "Baby Shampoo 200ml",
         "openingStock": 80,
         "reorderPoint": 20,
         "dailyUsage": 1.6
       },
       {
-        "sku": "BBY-1035",
-        "product": "Baby Shampoo 200ml",
+        "sku": "BBY-1042",
+        "product": "Baby Powder 200g",
         "openingStock": 85,
         "reorderPoint": 18,
         "dailyUsage": 1.7
       },
       {
-        "sku": "BBY-1042",
-        "product": "Baby Powder 200g",
+        "sku": "BBY-1049",
+        "product": "Infant Formula Stage 1 400g",
         "openingStock": 75,
         "reorderPoint": 24,
         "dailyUsage": 1.8
       },
       {
-        "sku": "BBY-1049",
-        "product": "Infant Formula Stage 1 400g",
+        "sku": "BBY-1056",
+        "product": "Rice Baby Cereal 300g",
         "openingStock": 70,
         "reorderPoint": 14,
         "dailyUsage": 1.6
       },
       {
-        "sku": "BBY-1056",
-        "product": "Rice Baby Cereal 300g",
-        "openingStock": 90,
-        "reorderPoint": 24,
-        "dailyUsage": 1.9
-      },
-      {
         "sku": "BBY-1063",
         "product": "Diaper Rash Cream 50g",
-        "openingStock": 35,
-        "reorderPoint": 10,
-        "dailyUsage": 0.8
+        "openingStock": 40,
+        "reorderPoint": 11,
+        "dailyUsage": 0.9
+      },
+      {
+        "sku": "BBY-1070",
+        "product": "Baby Massage Oil 200ml",
+        "openingStock": 70,
+        "reorderPoint": 19,
+        "dailyUsage": 1.6
       },
       {
         "sku": "BBY-1077",
@@ -2465,767 +2465,767 @@
     "name": "Bengaluru HSR Dark Store",
     "stock": [
       {
-        "sku": "FRV-1007",
-        "product": "Tomato 500g",
-        "openingStock": 365,
-        "reorderPoint": 113,
-        "dailyUsage": 30.5
+        "sku": "TEA-1007",
+        "product": "Assam Tea 500g",
+        "openingStock": 550,
+        "reorderPoint": 148,
+        "dailyUsage": 10.5
       },
       {
-        "sku": "FRV-1014",
-        "product": "Onion 1kg",
-        "openingStock": 405,
-        "reorderPoint": 127,
-        "dailyUsage": 32.7
-      },
-      {
-        "sku": "FRV-1021",
-        "product": "Potato 1kg",
-        "openingStock": 265,
-        "reorderPoint": 113,
-        "dailyUsage": 31.1
-      },
-      {
-        "sku": "FRV-1028",
-        "product": "Banana Robusta 6pcs",
-        "openingStock": 230,
-        "reorderPoint": 94,
-        "dailyUsage": 22.0
-      },
-      {
-        "sku": "FRV-1035",
-        "product": "Shimla Apple 4pcs",
-        "openingStock": 100,
-        "reorderPoint": 48,
-        "dailyUsage": 9.8
-      },
-      {
-        "sku": "FRV-1042",
-        "product": "Coriander Leaves 100g",
-        "openingStock": 325,
-        "reorderPoint": 93,
-        "dailyUsage": 23.7
-      },
-      {
-        "sku": "FRV-1049",
-        "product": "Green Chilli 100g",
-        "openingStock": 225,
-        "reorderPoint": 86,
-        "dailyUsage": 22.2
-      },
-      {
-        "sku": "FRV-1056",
-        "product": "Lemon 4pcs",
-        "openingStock": 155,
-        "reorderPoint": 55,
-        "dailyUsage": 14.5
-      },
-      {
-        "sku": "FRV-1063",
-        "product": "Cucumber 500g",
-        "openingStock": 155,
-        "reorderPoint": 53,
-        "dailyUsage": 11.8
-      },
-      {
-        "sku": "FRV-1070",
-        "product": "Ginger 200g",
-        "openingStock": 140,
-        "reorderPoint": 35,
-        "dailyUsage": 11.0
-      },
-      {
-        "sku": "FRV-1084",
-        "product": "Baby Spinach 200g",
-        "openingStock": 70,
+        "sku": "TEA-1021",
+        "product": "Masala Chai Premix 10 Sachets",
+        "openingStock": 175,
         "reorderPoint": 21,
-        "dailyUsage": 6.2
+        "dailyUsage": 3.3
       },
       {
-        "sku": "DRY-1007",
-        "product": "Toned Milk 500ml",
-        "openingStock": 490,
-        "reorderPoint": 239,
-        "dailyUsage": 48.7
-      },
-      {
-        "sku": "DRY-1014",
-        "product": "Full Cream Milk 1L",
-        "openingStock": 210,
+        "sku": "TEA-1028",
+        "product": "Instant Coffee 100g",
+        "openingStock": 275,
         "reorderPoint": 75,
-        "dailyUsage": 23.5
+        "dailyUsage": 5.1
       },
       {
-        "sku": "DRY-1021",
-        "product": "Curd 400g",
-        "openingStock": 155,
-        "reorderPoint": 58,
-        "dailyUsage": 17.4
+        "sku": "TEA-1035",
+        "product": "Filter Coffee Powder 500g",
+        "openingStock": 150,
+        "reorderPoint": 41,
+        "dailyUsage": 3.1
       },
       {
-        "sku": "DRY-1028",
-        "product": "Paneer 200g",
-        "openingStock": 125,
-        "reorderPoint": 71,
-        "dailyUsage": 14.5
-      },
-      {
-        "sku": "DRY-1035",
-        "product": "Salted Butter 100g",
-        "openingStock": 120,
-        "reorderPoint": 45,
-        "dailyUsage": 10.9
-      },
-      {
-        "sku": "DRY-1042",
-        "product": "Brown Eggs 6pcs",
-        "openingStock": 205,
-        "reorderPoint": 81,
-        "dailyUsage": 16.9
-      },
-      {
-        "sku": "DRY-1049",
-        "product": "White Bread 400g",
-        "openingStock": 305,
-        "reorderPoint": 80,
-        "dailyUsage": 21.9
-      },
-      {
-        "sku": "DRY-1056",
-        "product": "Multigrain Bread 400g",
-        "openingStock": 85,
-        "reorderPoint": 33,
-        "dailyUsage": 8.6
-      },
-      {
-        "sku": "DRY-1063",
-        "product": "Cheese Slices 200g",
-        "openingStock": 70,
+        "sku": "TEA-1042",
+        "product": "Malted Health Drink 500g",
+        "openingStock": 175,
         "reorderPoint": 27,
-        "dailyUsage": 5.9
-      },
-      {
-        "sku": "DRY-1070",
-        "product": "Buttermilk 500ml",
-        "openingStock": 115,
-        "reorderPoint": 37,
-        "dailyUsage": 11.6
-      },
-      {
-        "sku": "DRY-1077",
-        "product": "Fresh Cream 200ml",
-        "openingStock": 35,
-        "reorderPoint": 16,
         "dailyUsage": 4.4
       },
       {
-        "sku": "DRY-1084",
-        "product": "Greek Yogurt 100g",
-        "openingStock": 60,
-        "reorderPoint": 24,
+        "sku": "TEA-1049",
+        "product": "Milk Powder 500g",
+        "openingStock": 185,
+        "reorderPoint": 44,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "TEA-1056",
+        "product": "UHT Toned Milk 1L",
+        "openingStock": 970,
+        "reorderPoint": 125,
+        "dailyUsage": 18.1
+      },
+      {
+        "sku": "TEA-1063",
+        "product": "Drinking Chocolate 200g",
+        "openingStock": 105,
+        "reorderPoint": 30,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "TEA-1070",
+        "product": "Sweetened Condensed Milk 400g",
+        "openingStock": 135,
+        "reorderPoint": 27,
+        "dailyUsage": 3.0
+      },
+      {
+        "sku": "TEA-1077",
+        "product": "Elaichi Tea 250g",
+        "openingStock": 155,
+        "reorderPoint": 28,
+        "dailyUsage": 3.6
+      },
+      {
+        "sku": "TEA-1084",
+        "product": "Dairy Whitener 400g",
+        "openingStock": 150,
+        "reorderPoint": 42,
+        "dailyUsage": 3.8
+      },
+      {
+        "sku": "DFS-1007",
+        "product": "Almonds 250g",
+        "openingStock": 220,
+        "reorderPoint": 66,
+        "dailyUsage": 5.0
+      },
+      {
+        "sku": "DFS-1014",
+        "product": "Cashews W320 250g",
+        "openingStock": 255,
+        "reorderPoint": 41,
         "dailyUsage": 4.9
+      },
+      {
+        "sku": "DFS-1021",
+        "product": "Raisins 250g",
+        "openingStock": 140,
+        "reorderPoint": 41,
+        "dailyUsage": 3.4
+      },
+      {
+        "sku": "DFS-1028",
+        "product": "Walnut Kernels 200g",
+        "openingStock": 120,
+        "reorderPoint": 19,
+        "dailyUsage": 2.4
+      },
+      {
+        "sku": "DFS-1035",
+        "product": "Pistachios Salted 200g",
+        "openingStock": 110,
+        "reorderPoint": 33,
+        "dailyUsage": 2.4
+      },
+      {
+        "sku": "DFS-1042",
+        "product": "Dates Seedless 500g",
+        "openingStock": 185,
+        "reorderPoint": 61,
+        "dailyUsage": 4.0
+      },
+      {
+        "sku": "DFS-1056",
+        "product": "Chia Seeds 200g",
+        "openingStock": 110,
+        "reorderPoint": 28,
+        "dailyUsage": 2.3
+      },
+      {
+        "sku": "DFS-1063",
+        "product": "Flax Seeds 200g",
+        "openingStock": 85,
+        "reorderPoint": 13,
+        "dailyUsage": 1.7
+      },
+      {
+        "sku": "DFS-1070",
+        "product": "Pumpkin Seeds 150g",
+        "openingStock": 60,
+        "reorderPoint": 12,
+        "dailyUsage": 1.3
+      },
+      {
+        "sku": "DFS-1077",
+        "product": "Makhana 100g",
+        "openingStock": 135,
+        "reorderPoint": 39,
+        "dailyUsage": 3.5
+      },
+      {
+        "sku": "DFS-1084",
+        "product": "Trail Mix 200g",
+        "openingStock": 95,
+        "reorderPoint": 14,
+        "dailyUsage": 2.1
       },
       {
         "sku": "STP-1007",
         "product": "Whole Wheat Atta 5kg",
-        "openingStock": 380,
-        "reorderPoint": 78,
-        "dailyUsage": 7.9
+        "openingStock": 390,
+        "reorderPoint": 145,
+        "dailyUsage": 9.9
       },
       {
         "sku": "STP-1014",
         "product": "Basmati Rice 1kg",
-        "openingStock": 420,
-        "reorderPoint": 103,
-        "dailyUsage": 7.7
-      },
-      {
-        "sku": "STP-1021",
-        "product": "Sona Masoori Rice 5kg",
-        "openingStock": 210,
-        "reorderPoint": 46,
-        "dailyUsage": 3.9
+        "openingStock": 400,
+        "reorderPoint": 92,
+        "dailyUsage": 8.3
       },
       {
         "sku": "STP-1028",
         "product": "Toor Dal 1kg",
-        "openingStock": 295,
-        "reorderPoint": 67,
-        "dailyUsage": 6.1
+        "openingStock": 320,
+        "reorderPoint": 93,
+        "dailyUsage": 6.7
       },
       {
         "sku": "STP-1035",
         "product": "Moong Dal 500g",
-        "openingStock": 275,
-        "reorderPoint": 85,
-        "dailyUsage": 6.0
+        "openingStock": 270,
+        "reorderPoint": 83,
+        "dailyUsage": 5.9
       },
       {
         "sku": "STP-1042",
         "product": "Chana Dal 1kg",
-        "openingStock": 275,
-        "reorderPoint": 34,
-        "dailyUsage": 5.0
+        "openingStock": 205,
+        "reorderPoint": 51,
+        "dailyUsage": 4.7
       },
       {
         "sku": "STP-1049",
         "product": "Besan 500g",
-        "openingStock": 180,
-        "reorderPoint": 61,
-        "dailyUsage": 4.7
+        "openingStock": 155,
+        "reorderPoint": 28,
+        "dailyUsage": 4.0
       },
       {
         "sku": "STP-1056",
         "product": "Sugar 1kg",
-        "openingStock": 565,
-        "reorderPoint": 145,
-        "dailyUsage": 12.0
+        "openingStock": 515,
+        "reorderPoint": 155,
+        "dailyUsage": 11.8
       },
       {
         "sku": "STP-1063",
         "product": "Iodised Salt 1kg",
-        "openingStock": 460,
-        "reorderPoint": 85,
-        "dailyUsage": 8.6
+        "openingStock": 370,
+        "reorderPoint": 76,
+        "dailyUsage": 9.0
       },
       {
         "sku": "STP-1070",
         "product": "Poha 500g",
-        "openingStock": 320,
-        "reorderPoint": 42,
-        "dailyUsage": 6.5
+        "openingStock": 270,
+        "reorderPoint": 66,
+        "dailyUsage": 5.9
       },
       {
         "sku": "STP-1077",
         "product": "Rajma 500g",
-        "openingStock": 135,
-        "reorderPoint": 29,
-        "dailyUsage": 3.1
-      },
-      {
-        "sku": "STP-1084",
-        "product": "Sooji 500g",
-        "openingStock": 170,
-        "reorderPoint": 32,
-        "dailyUsage": 3.8
+        "openingStock": 120,
+        "reorderPoint": 24,
+        "dailyUsage": 2.7
       },
       {
         "sku": "MSL-1007",
         "product": "Sunflower Oil 1L",
-        "openingStock": 540,
-        "reorderPoint": 119,
-        "dailyUsage": 9.9
+        "openingStock": 385,
+        "reorderPoint": 105,
+        "dailyUsage": 8.8
       },
       {
         "sku": "MSL-1014",
         "product": "Mustard Oil 1L",
-        "openingStock": 160,
-        "reorderPoint": 51,
-        "dailyUsage": 4.0
+        "openingStock": 240,
+        "reorderPoint": 33,
+        "dailyUsage": 4.9
       },
       {
         "sku": "MSL-1021",
         "product": "Cow Ghee 500ml",
-        "openingStock": 180,
-        "reorderPoint": 53,
-        "dailyUsage": 4.2
+        "openingStock": 165,
+        "reorderPoint": 29,
+        "dailyUsage": 3.3
       },
       {
         "sku": "MSL-1028",
         "product": "Turmeric Powder 100g",
-        "openingStock": 220,
-        "reorderPoint": 72,
-        "dailyUsage": 5.5
+        "openingStock": 275,
+        "reorderPoint": 84,
+        "dailyUsage": 5.6
+      },
+      {
+        "sku": "MSL-1035",
+        "product": "Red Chilli Powder 100g",
+        "openingStock": 255,
+        "reorderPoint": 69,
+        "dailyUsage": 5.8
       },
       {
         "sku": "MSL-1042",
         "product": "Garam Masala 100g",
-        "openingStock": 155,
-        "reorderPoint": 41,
+        "openingStock": 145,
+        "reorderPoint": 52,
         "dailyUsage": 3.3
       },
       {
         "sku": "MSL-1049",
         "product": "Cumin Seeds 100g",
-        "openingStock": 145,
-        "reorderPoint": 47,
-        "dailyUsage": 3.6
+        "openingStock": 180,
+        "reorderPoint": 48,
+        "dailyUsage": 4.0
       },
       {
         "sku": "MSL-1056",
         "product": "Coriander Powder 100g",
-        "openingStock": 235,
-        "reorderPoint": 65,
-        "dailyUsage": 4.3
+        "openingStock": 180,
+        "reorderPoint": 41,
+        "dailyUsage": 4.2
       },
       {
         "sku": "MSL-1063",
         "product": "Groundnut Oil 1L",
-        "openingStock": 100,
-        "reorderPoint": 22,
-        "dailyUsage": 2.0
+        "openingStock": 125,
+        "reorderPoint": 30,
+        "dailyUsage": 2.4
       },
       {
         "sku": "MSL-1070",
         "product": "Black Pepper Whole 50g",
-        "openingStock": 80,
-        "reorderPoint": 29,
-        "dailyUsage": 1.9
+        "openingStock": 125,
+        "reorderPoint": 32,
+        "dailyUsage": 2.5
+      },
+      {
+        "sku": "MSL-1077",
+        "product": "Tamarind 200g",
+        "openingStock": 75,
+        "reorderPoint": 15,
+        "dailyUsage": 1.5
       },
       {
         "sku": "MSL-1084",
         "product": "Kasuri Methi 25g",
-        "openingStock": 70,
+        "openingStock": 60,
         "reorderPoint": 11,
         "dailyUsage": 1.4
       },
       {
         "sku": "SNK-1007",
         "product": "Salted Potato Chips 52g",
-        "openingStock": 1225,
-        "reorderPoint": 271,
-        "dailyUsage": 30.2
+        "openingStock": 1300,
+        "reorderPoint": 261,
+        "dailyUsage": 24.0
       },
       {
         "sku": "SNK-1014",
         "product": "Masala Potato Chips 52g",
-        "openingStock": 1215,
-        "reorderPoint": 297,
-        "dailyUsage": 26.1
+        "openingStock": 885,
+        "reorderPoint": 149,
+        "dailyUsage": 22.0
       },
       {
         "sku": "SNK-1021",
         "product": "Aloo Bhujia 200g",
-        "openingStock": 680,
-        "reorderPoint": 183,
-        "dailyUsage": 14.5
+        "openingStock": 590,
+        "reorderPoint": 204,
+        "dailyUsage": 14.9
       },
       {
         "sku": "SNK-1028",
         "product": "Roasted Peanuts 150g",
-        "openingStock": 405,
-        "reorderPoint": 99,
+        "openingStock": 440,
+        "reorderPoint": 53,
         "dailyUsage": 8.3
       },
       {
         "sku": "SNK-1035",
         "product": "Cheese Nachos 150g",
-        "openingStock": 335,
-        "reorderPoint": 105,
-        "dailyUsage": 8.1
+        "openingStock": 440,
+        "reorderPoint": 63,
+        "dailyUsage": 8.6
       },
       {
         "sku": "SNK-1042",
         "product": "Cream Biscuits 120g",
-        "openingStock": 1040,
-        "reorderPoint": 258,
-        "dailyUsage": 19.5
+        "openingStock": 740,
+        "reorderPoint": 259,
+        "dailyUsage": 18.1
       },
       {
         "sku": "SNK-1049",
         "product": "Digestive Biscuits 250g",
-        "openingStock": 345,
-        "reorderPoint": 103,
-        "dailyUsage": 7.8
+        "openingStock": 500,
+        "reorderPoint": 74,
+        "dailyUsage": 9.7
       },
       {
         "sku": "SNK-1056",
         "product": "Dark Chocolate Bar 80g",
-        "openingStock": 375,
-        "reorderPoint": 104,
-        "dailyUsage": 7.7
+        "openingStock": 295,
+        "reorderPoint": 84,
+        "dailyUsage": 6.6
       },
       {
         "sku": "SNK-1063",
         "product": "Milk Chocolate 50g",
-        "openingStock": 685,
-        "reorderPoint": 137,
-        "dailyUsage": 16.3
+        "openingStock": 630,
+        "reorderPoint": 122,
+        "dailyUsage": 13.8
       },
       {
         "sku": "SNK-1070",
         "product": "Butter Popcorn 60g",
-        "openingStock": 350,
-        "reorderPoint": 102,
-        "dailyUsage": 6.8
+        "openingStock": 290,
+        "reorderPoint": 73,
+        "dailyUsage": 6.4
       },
       {
         "sku": "SNK-1077",
-        "product": "Mixed Dry Fruits 250g",
-        "openingStock": 135,
-        "reorderPoint": 32,
-        "dailyUsage": 2.7
+        "product": "Milk Rusk 300g",
+        "openingStock": 330,
+        "reorderPoint": 68,
+        "dailyUsage": 6.4
       },
       {
         "sku": "SNK-1084",
         "product": "Methi Khakhra 200g",
-        "openingStock": 190,
-        "reorderPoint": 51,
-        "dailyUsage": 3.7
+        "openingStock": 180,
+        "reorderPoint": 63,
+        "dailyUsage": 4.1
       },
       {
         "sku": "BEV-1007",
         "product": "Cola 750ml",
-        "openingStock": 945,
-        "reorderPoint": 160,
-        "dailyUsage": 21.0
+        "openingStock": 1105,
+        "reorderPoint": 213,
+        "dailyUsage": 24.1
       },
       {
         "sku": "BEV-1014",
         "product": "Lemon Soda 750ml",
-        "openingStock": 595,
-        "reorderPoint": 181,
-        "dailyUsage": 12.3
+        "openingStock": 610,
+        "reorderPoint": 204,
+        "dailyUsage": 13.0
       },
       {
         "sku": "BEV-1021",
         "product": "Packaged Drinking Water 1L",
-        "openingStock": 1500,
-        "reorderPoint": 316,
-        "dailyUsage": 32.5
+        "openingStock": 2120,
+        "reorderPoint": 303,
+        "dailyUsage": 41.1
       },
       {
         "sku": "BEV-1028",
         "product": "Mixed Fruit Juice 1L",
-        "openingStock": 425,
-        "reorderPoint": 95,
-        "dailyUsage": 8.5
+        "openingStock": 335,
+        "reorderPoint": 102,
+        "dailyUsage": 6.9
       },
       {
         "sku": "BEV-1035",
         "product": "Orange Juice 1L",
-        "openingStock": 160,
-        "reorderPoint": 30,
-        "dailyUsage": 4.0
+        "openingStock": 185,
+        "reorderPoint": 67,
+        "dailyUsage": 4.6
+      },
+      {
+        "sku": "BEV-1042",
+        "product": "Energy Drink 250ml",
+        "openingStock": 320,
+        "reorderPoint": 102,
+        "dailyUsage": 7.5
       },
       {
         "sku": "BEV-1049",
         "product": "Cold Coffee 180ml",
-        "openingStock": 345,
-        "reorderPoint": 106,
-        "dailyUsage": 7.4
+        "openingStock": 375,
+        "reorderPoint": 52,
+        "dailyUsage": 7.0
       },
       {
         "sku": "BEV-1056",
         "product": "Tender Coconut Water 200ml",
-        "openingStock": 355,
-        "reorderPoint": 94,
-        "dailyUsage": 6.6
+        "openingStock": 400,
+        "reorderPoint": 61,
+        "dailyUsage": 7.4
       },
       {
         "sku": "BEV-1063",
         "product": "Tonic Water 300ml",
-        "openingStock": 135,
-        "reorderPoint": 25,
-        "dailyUsage": 2.5
+        "openingStock": 95,
+        "reorderPoint": 14,
+        "dailyUsage": 2.2
       },
       {
         "sku": "BEV-1070",
         "product": "Mango Drink 600ml",
-        "openingStock": 450,
-        "reorderPoint": 101,
-        "dailyUsage": 10.2
-      },
-      {
-        "sku": "BEV-1077",
-        "product": "Lemon Iced Tea 500ml",
-        "openingStock": 190,
-        "reorderPoint": 42,
-        "dailyUsage": 4.6
+        "openingStock": 425,
+        "reorderPoint": 76,
+        "dailyUsage": 9.1
       },
       {
         "sku": "BEV-1084",
         "product": "Club Soda 750ml",
-        "openingStock": 395,
-        "reorderPoint": 74,
-        "dailyUsage": 7.9
+        "openingStock": 455,
+        "reorderPoint": 65,
+        "dailyUsage": 10.3
       },
       {
         "sku": "BRK-1007",
         "product": "Masala Instant Noodles 70g",
-        "openingStock": 1035,
-        "reorderPoint": 407,
-        "dailyUsage": 26.8
+        "openingStock": 1770,
+        "reorderPoint": 424,
+        "dailyUsage": 33.9
       },
       {
         "sku": "BRK-1014",
         "product": "Corn Flakes 475g",
-        "openingStock": 235,
-        "reorderPoint": 61,
-        "dailyUsage": 4.5
+        "openingStock": 200,
+        "reorderPoint": 43,
+        "dailyUsage": 4.9
       },
       {
         "sku": "BRK-1021",
         "product": "Rolled Oats 1kg",
-        "openingStock": 220,
-        "reorderPoint": 68,
-        "dailyUsage": 4.5
+        "openingStock": 245,
+        "reorderPoint": 36,
+        "dailyUsage": 4.9
       },
       {
         "sku": "BRK-1028",
         "product": "Fruit & Nut Muesli 500g",
-        "openingStock": 80,
-        "reorderPoint": 14,
-        "dailyUsage": 1.9
+        "openingStock": 110,
+        "reorderPoint": 15,
+        "dailyUsage": 2.4
       },
       {
         "sku": "BRK-1035",
         "product": "Crunchy Peanut Butter 340g",
-        "openingStock": 165,
-        "reorderPoint": 35,
-        "dailyUsage": 3.4
+        "openingStock": 110,
+        "reorderPoint": 37,
+        "dailyUsage": 2.6
       },
       {
         "sku": "BRK-1042",
         "product": "Mixed Fruit Jam 500g",
-        "openingStock": 135,
-        "reorderPoint": 23,
-        "dailyUsage": 3.2
+        "openingStock": 150,
+        "reorderPoint": 34,
+        "dailyUsage": 3.0
       },
       {
         "sku": "BRK-1049",
         "product": "Honey 250g",
-        "openingStock": 170,
-        "reorderPoint": 43,
-        "dailyUsage": 3.5
-      },
-      {
-        "sku": "BRK-1056",
-        "product": "Tomato Ketchup 950g",
-        "openingStock": 270,
-        "reorderPoint": 57,
-        "dailyUsage": 5.2
+        "openingStock": 140,
+        "reorderPoint": 30,
+        "dailyUsage": 3.3
       },
       {
         "sku": "BRK-1063",
         "product": "Ready-to-Eat Dal Makhani 300g",
-        "openingStock": 185,
+        "openingStock": 145,
         "reorderPoint": 45,
-        "dailyUsage": 3.8
+        "dailyUsage": 3.2
       },
       {
         "sku": "BRK-1070",
-        "product": "Instant Coffee 100g",
-        "openingStock": 170,
-        "reorderPoint": 24,
-        "dailyUsage": 4.0
+        "product": "Vermicelli 400g",
+        "openingStock": 175,
+        "reorderPoint": 66,
+        "dailyUsage": 4.4
       },
       {
         "sku": "BRK-1077",
-        "product": "Assam Tea 500g",
-        "openingStock": 270,
-        "reorderPoint": 45,
-        "dailyUsage": 5.7
+        "product": "Penne Pasta 500g",
+        "openingStock": 150,
+        "reorderPoint": 43,
+        "dailyUsage": 3.9
       },
       {
         "sku": "BRK-1084",
         "product": "Masala Oats 39g",
-        "openingStock": 335,
-        "reorderPoint": 68,
-        "dailyUsage": 7.1
+        "openingStock": 250,
+        "reorderPoint": 64,
+        "dailyUsage": 6.2
       },
       {
         "sku": "PRC-1007",
         "product": "Bathing Soap 4x100g",
-        "openingStock": 400,
-        "reorderPoint": 118,
-        "dailyUsage": 8.5
+        "openingStock": 330,
+        "reorderPoint": 79,
+        "dailyUsage": 7.8
       },
       {
         "sku": "PRC-1014",
         "product": "Herbal Shampoo 340ml",
-        "openingStock": 145,
-        "reorderPoint": 56,
-        "dailyUsage": 3.8
+        "openingStock": 155,
+        "reorderPoint": 61,
+        "dailyUsage": 3.9
       },
       {
         "sku": "PRC-1021",
         "product": "Toothpaste 150g",
-        "openingStock": 260,
-        "reorderPoint": 56,
-        "dailyUsage": 5.8
+        "openingStock": 275,
+        "reorderPoint": 65,
+        "dailyUsage": 5.9
       },
       {
         "sku": "PRC-1028",
         "product": "Soft Toothbrush 3pcs",
-        "openingStock": 175,
-        "reorderPoint": 27,
-        "dailyUsage": 4.0
-      },
-      {
-        "sku": "PRC-1035",
-        "product": "Hand Wash Refill 750ml",
-        "openingStock": 170,
-        "reorderPoint": 25,
-        "dailyUsage": 3.5
+        "openingStock": 205,
+        "reorderPoint": 43,
+        "dailyUsage": 4.3
       },
       {
         "sku": "PRC-1042",
         "product": "Body Lotion 400ml",
-        "openingStock": 115,
-        "reorderPoint": 17,
-        "dailyUsage": 2.3
+        "openingStock": 105,
+        "reorderPoint": 35,
+        "dailyUsage": 2.2
+      },
+      {
+        "sku": "PRC-1049",
+        "product": "Sanitary Pads XL 15pcs",
+        "openingStock": 160,
+        "reorderPoint": 58,
+        "dailyUsage": 4.2
       },
       {
         "sku": "PRC-1056",
         "product": "Shaving Foam 200g",
-        "openingStock": 60,
+        "openingStock": 70,
         "reorderPoint": 17,
         "dailyUsage": 1.4
       },
       {
         "sku": "PRC-1063",
         "product": "Coconut Hair Oil 300ml",
-        "openingStock": 165,
-        "reorderPoint": 52,
-        "dailyUsage": 3.3
-      },
-      {
-        "sku": "PRC-1070",
-        "product": "Face Wash 100ml",
-        "openingStock": 125,
-        "reorderPoint": 22,
-        "dailyUsage": 3.0
+        "openingStock": 160,
+        "reorderPoint": 30,
+        "dailyUsage": 3.2
       },
       {
         "sku": "PRC-1077",
         "product": "Sunscreen SPF 50 50g",
-        "openingStock": 85,
-        "reorderPoint": 10,
-        "dailyUsage": 1.6
+        "openingStock": 60,
+        "reorderPoint": 18,
+        "dailyUsage": 1.3
       },
       {
         "sku": "PRC-1084",
         "product": "Lip Balm 4.5g",
-        "openingStock": 105,
-        "reorderPoint": 30,
+        "openingStock": 100,
+        "reorderPoint": 21,
         "dailyUsage": 2.0
       },
       {
         "sku": "HSH-1007",
         "product": "Dishwash Liquid 750ml",
-        "openingStock": 275,
-        "reorderPoint": 64,
-        "dailyUsage": 6.4
+        "openingStock": 345,
+        "reorderPoint": 100,
+        "dailyUsage": 7.1
+      },
+      {
+        "sku": "HSH-1014",
+        "product": "Detergent Powder 1kg",
+        "openingStock": 265,
+        "reorderPoint": 55,
+        "dailyUsage": 5.2
       },
       {
         "sku": "HSH-1021",
         "product": "Liquid Detergent 1L",
-        "openingStock": 225,
-        "reorderPoint": 31,
-        "dailyUsage": 4.9
+        "openingStock": 165,
+        "reorderPoint": 34,
+        "dailyUsage": 4.2
       },
       {
         "sku": "HSH-1028",
         "product": "Floor Cleaner 1L",
-        "openingStock": 165,
-        "reorderPoint": 57,
-        "dailyUsage": 3.9
+        "openingStock": 170,
+        "reorderPoint": 36,
+        "dailyUsage": 3.2
       },
       {
         "sku": "HSH-1035",
         "product": "Toilet Cleaner 500ml",
-        "openingStock": 190,
-        "reorderPoint": 34,
-        "dailyUsage": 3.9
+        "openingStock": 245,
+        "reorderPoint": 44,
+        "dailyUsage": 5.2
       },
       {
         "sku": "HSH-1042",
         "product": "Garbage Bags Medium 30pcs",
-        "openingStock": 260,
-        "reorderPoint": 57,
-        "dailyUsage": 5.7
+        "openingStock": 230,
+        "reorderPoint": 54,
+        "dailyUsage": 5.6
       },
       {
         "sku": "HSH-1049",
         "product": "Kitchen Towel 2 Rolls",
-        "openingStock": 200,
-        "reorderPoint": 35,
-        "dailyUsage": 3.7
+        "openingStock": 215,
+        "reorderPoint": 38,
+        "dailyUsage": 4.1
       },
       {
         "sku": "HSH-1056",
         "product": "Toilet Paper 4 Rolls",
-        "openingStock": 170,
-        "reorderPoint": 33,
-        "dailyUsage": 3.4
+        "openingStock": 145,
+        "reorderPoint": 49,
+        "dailyUsage": 3.3
       },
       {
         "sku": "HSH-1063",
         "product": "Scrub Pad 3pcs",
-        "openingStock": 275,
-        "reorderPoint": 44,
-        "dailyUsage": 6.5
+        "openingStock": 340,
+        "reorderPoint": 63,
+        "dailyUsage": 6.4
+      },
+      {
+        "sku": "HSH-1070",
+        "product": "Mosquito Repellent Refill 45ml",
+        "openingStock": 280,
+        "reorderPoint": 66,
+        "dailyUsage": 6.0
+      },
+      {
+        "sku": "HSH-1077",
+        "product": "Aluminium Foil 9m",
+        "openingStock": 115,
+        "reorderPoint": 35,
+        "dailyUsage": 2.5
       },
       {
         "sku": "HSH-1084",
         "product": "Sandalwood Agarbatti 100g",
-        "openingStock": 130,
-        "reorderPoint": 46,
-        "dailyUsage": 2.9
+        "openingStock": 125,
+        "reorderPoint": 38,
+        "dailyUsage": 3.2
       },
       {
         "sku": "BBY-1007",
         "product": "Baby Diapers M 40pcs",
-        "openingStock": 115,
-        "reorderPoint": 19,
-        "dailyUsage": 2.7
+        "openingStock": 155,
+        "reorderPoint": 30,
+        "dailyUsage": 3.3
       },
       {
         "sku": "BBY-1014",
         "product": "Baby Diapers L 34pcs",
-        "openingStock": 120,
-        "reorderPoint": 29,
-        "dailyUsage": 2.8
+        "openingStock": 130,
+        "reorderPoint": 24,
+        "dailyUsage": 2.6
+      },
+      {
+        "sku": "BBY-1021",
+        "product": "Baby Wipes 72pcs",
+        "openingStock": 210,
+        "reorderPoint": 59,
+        "dailyUsage": 4.6
       },
       {
         "sku": "BBY-1028",
         "product": "Baby Lotion 200ml",
-        "openingStock": 65,
-        "reorderPoint": 17,
-        "dailyUsage": 1.6
+        "openingStock": 55,
+        "reorderPoint": 21,
+        "dailyUsage": 1.4
       },
       {
         "sku": "BBY-1035",
         "product": "Baby Shampoo 200ml",
         "openingStock": 75,
-        "reorderPoint": 23,
-        "dailyUsage": 1.5
+        "reorderPoint": 12,
+        "dailyUsage": 1.4
       },
       {
         "sku": "BBY-1042",
         "product": "Baby Powder 200g",
-        "openingStock": 75,
-        "reorderPoint": 20,
-        "dailyUsage": 1.6
+        "openingStock": 90,
+        "reorderPoint": 11,
+        "dailyUsage": 1.7
       },
       {
         "sku": "BBY-1049",
         "product": "Infant Formula Stage 1 400g",
-        "openingStock": 60,
-        "reorderPoint": 20,
-        "dailyUsage": 1.6
-      },
-      {
-        "sku": "BBY-1056",
-        "product": "Rice Baby Cereal 300g",
         "openingStock": 70,
-        "reorderPoint": 20,
-        "dailyUsage": 1.5
+        "reorderPoint": 22,
+        "dailyUsage": 1.6
       },
       {
         "sku": "BBY-1063",
         "product": "Diaper Rash Cream 50g",
-        "openingStock": 25,
-        "reorderPoint": 10,
-        "dailyUsage": 0.7
+        "openingStock": 45,
+        "reorderPoint": 6,
+        "dailyUsage": 0.8
       },
       {
         "sku": "BBY-1070",
         "product": "Baby Massage Oil 200ml",
         "openingStock": 75,
-        "reorderPoint": 12,
-        "dailyUsage": 1.6
+        "reorderPoint": 10,
+        "dailyUsage": 1.5
       },
       {
         "sku": "BBY-1077",
@@ -3237,9 +3237,9 @@
       {
         "sku": "BBY-1084",
         "product": "Baby Soap 75g",
-        "openingStock": 100,
-        "reorderPoint": 20,
-        "dailyUsage": 2.6
+        "openingStock": 105,
+        "reorderPoint": 27,
+        "dailyUsage": 2.2
       }
     ]
   }

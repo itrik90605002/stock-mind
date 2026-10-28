@@ -1,15 +1,15 @@
 [
   {
-    "name": "Green Valley Farm Fresh",
-    "contactEmail": "orders@greenvalleyfresh.example",
-    "phone": "+91 20 4110 2200",
-    "leadTimeDays": 1
+    "name": "Leafline Beverages Trading",
+    "contactEmail": "orders@leafline.example",
+    "phone": "+91 361 411 0220",
+    "leadTimeDays": 5
   },
   {
-    "name": "Morning Fields Dairy",
-    "contactEmail": "supply@morningfields.example",
+    "name": "Kernel & Co Dry Fruits",
+    "contactEmail": "trade@kernelco.example",
     "phone": "+91 20 6650 1180",
-    "leadTimeDays": 1
+    "leadTimeDays": 6
   },
   {
     "name": "Annapurna Staples Traders",
