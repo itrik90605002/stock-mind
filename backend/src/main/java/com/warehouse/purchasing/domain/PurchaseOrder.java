@@ -33,6 +33,8 @@ import java.util.Map;
 @Table(name = "purchase_orders")
 public class PurchaseOrder {
 
+    private static final int NOTE_MAX = 500;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -152,7 +154,9 @@ public class PurchaseOrder {
     }
 
     private void appendNote(String text) {
-        this.note = note == null || note.isBlank() ? text : note + " | " + text;
+        String combined = note == null || note.isBlank() ? text : note + " | " + text;
+        // The column holds 500 characters; a long note plus a reason would otherwise fail the update.
+        this.note = combined.length() <= NOTE_MAX ? combined : combined.substring(0, NOTE_MAX - 1) + "…";
     }
 
     private void requireStatus(String action, PurchaseOrderStatus... allowed) {

@@ -65,7 +65,10 @@ export async function request<T>(method: Method, path: string, body?: unknown, o
   }
   if (!response.ok) {
     const problem = await response.json().catch(() => ({}));
-    throw new ApiError(problem.detail ?? `Request failed (${response.status})`, response.status, problem.code, problem.errors);
+    const detail: string = problem.detail ?? `Request failed (${response.status})`;
+    // "One or more fields are invalid" alone does not say which; forms without per-field errors need the list.
+    const fields = problem.errors ? Object.entries(problem.errors as Record<string, string>).map(([f, m]) => `${f} ${m}`).join('; ') : '';
+    throw new ApiError(fields ? `${detail}: ${fields}` : detail, response.status, problem.code, problem.errors);
   }
   if (response.status === 204 || response.headers.get('content-length') === '0') {
     return undefined as T;

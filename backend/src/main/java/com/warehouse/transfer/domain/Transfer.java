@@ -30,6 +30,8 @@ import java.util.Map;
 @Table(name = "transfers")
 public class Transfer {
 
+    private static final int NOTE_MAX = 500;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -126,7 +128,9 @@ public class Transfer {
         this.status = TransferStatus.CANCELLED;
         this.cancelledAt = now;
         String cancelNote = "Cancelled: " + reason;
-        this.note = note == null || note.isBlank() ? cancelNote : note + " | " + cancelNote;
+        String combined = note == null || note.isBlank() ? cancelNote : note + " | " + cancelNote;
+        // The column holds 500 characters; a long note plus a reason would otherwise fail the update.
+        this.note = combined.length() <= NOTE_MAX ? combined : combined.substring(0, NOTE_MAX - 1) + "…";
     }
 
     private void requireStatus(TransferStatus expected, String action) {

@@ -34,7 +34,7 @@ export function CatalogPanel() {
           <option value="">All suppliers</option>
           {suppliers.data?.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
         </select>
-        <label className="check"><input type="checkbox" checked={includeArchived} onChange={e => setIncludeArchived(e.target.checked)} />Show archived</label>
+        <label className="check"><input type="checkbox" checked={includeArchived} onChange={e => { setIncludeArchived(e.target.checked); setPage(0); }} />Show archived</label>
         {canManage && <button className="btn btn-primary toolbar-end" onClick={() => setCreating(true)}><PlusIcon size={16} />New product</button>}
       </div>
       <Card className="flush">

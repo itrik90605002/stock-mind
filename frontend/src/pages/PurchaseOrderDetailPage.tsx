@@ -22,8 +22,9 @@ function lifecycle(po: PurchaseOrder, canManage: boolean) {
     case 'PARTIALLY_RECEIVED':
       return { current: 1, next: <>{num(po.remainingUnits)} units are still expected. Receive them when they arrive{canManage && ', or close the order short if they will not come'}.</> };
     case 'RECEIVED':
-      // Closing short also ends in RECEIVED, with units that will no longer come.
-      return po.remainingUnits > 0 ? { current: 1, stopped: 'Closed short' } : { current: 2 };
+      // Closing short also ends in RECEIVED, with units that will no longer come. The order's
+      // remainingUnits is 0 once it is closed, so look at the lines.
+      return po.lines.some(l => l.remaining > 0) ? { current: 1, stopped: 'Closed short' } : { current: 2 };
     case 'CANCELLED':
       return { current: po.orderedAt ? 1 : 0, stopped: 'Cancelled' };
   }

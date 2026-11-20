@@ -52,11 +52,13 @@ export function AssistantPage() {
 
   const ask = (text: string) => action.run(async () => {
     setQuestion(text);
+    setAnswer(null); // a failed question must not leave the previous question's answer on screen
     setAnswer(await assistantApi.ask(text));
     void history.reload();
     void status.reload();
   });
   const runQuick = (plan: QueryPlan) => action.run(async () => {
+    setAnswer(null);
     setAnswer(await assistantApi.run(plan));
     void history.reload();
   });

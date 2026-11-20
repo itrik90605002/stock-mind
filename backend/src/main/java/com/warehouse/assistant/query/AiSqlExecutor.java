@@ -10,9 +10,11 @@ import java.sql.ResultSetMetaData;
 import java.sql.Types;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 /**
@@ -60,8 +62,15 @@ public class AiSqlExecutor {
             return jdbc.query("SELECT * FROM (\n" + query + "\n) ai_query LIMIT " + (maxRows + 1), rs -> {
                 ResultSetMetaData meta = rs.getMetaData();
                 List<Column> columns = new ArrayList<>();
+                Set<String> keys = new HashSet<>();
                 for (int i = 1; i <= meta.getColumnCount(); i++) {
-                    columns.add(new Column(meta.getColumnLabel(i), meta.getColumnLabel(i), type(meta.getColumnType(i))));
+                    String label = meta.getColumnLabel(i);
+                    // Joins often yield two columns with the same name; distinct keys keep both in each row.
+                    String key = label;
+                    for (int n = 2; !keys.add(key); n++) {
+                        key = label + "_" + n;
+                    }
+                    columns.add(new Column(key, label, type(meta.getColumnType(i))));
                 }
                 List<Map<String, Object>> rows = new ArrayList<>();
                 while (rs.next() && rows.size() <= maxRows) {

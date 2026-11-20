@@ -11,7 +11,9 @@ export function SuggestionsPanel() {
   const navigate = useNavigate();
   const [warehouseId, setWarehouseId] = useState<number | ''>('');
   const state = useApi(() => reorderApi.suggestions(warehouseId || undefined), [warehouseId]);
-  const [selected, setSelected] = useState<Record<number, number>>({}); // suggestion id -> quantity
+  // Suggestion id -> quantity. Ids are replaced on every recalculation, so the selection is cleared
+  // whenever the list is reloaded.
+  const [selected, setSelected] = useState<Record<number, number>>({});
   const recompute = useAction();
   const create = useAction();
   const { key, renew } = useIdempotencyKey();
@@ -41,13 +43,13 @@ export function SuggestionsPanel() {
   return (
     <>
       <div className="toolbar">
-        <WarehouseSelect warehouses={myWarehouses} value={warehouseId} onChange={setWarehouseId} allLabel="All my warehouses" />
+        <WarehouseSelect warehouses={myWarehouses} value={warehouseId} onChange={v => { setWarehouseId(v); setSelected({}); }} allLabel="All my warehouses" />
         <span className="muted small">
           From the last 30–90 days of usage, lead times and stock already on order.
           {state.data?.computedAt && <> Calculated {formatDateTime(state.data.computedAt)}.</>}
         </span>
         {canManage && <button className="btn btn-ghost toolbar-end" disabled={recompute.busy}
-                              onClick={() => recompute.run(async () => { const r = await reorderApi.recompute(); await state.reload(); return r; }, 'Recalculated from the latest movements.')}>
+                              onClick={() => recompute.run(async () => { const r = await reorderApi.recompute(); setSelected({}); await state.reload(); return r; }, 'Recalculated from the latest movements.')}>
           <RefreshIcon size={16} />{recompute.busy ? 'Calculating…' : 'Recalculate'}</button>}
       </div>
       <Alert>{recompute.error ?? create.error}</Alert>

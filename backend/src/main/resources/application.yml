@@ -27,6 +27,10 @@ spring:
 server:
   port: ${PORT:8080}
   shutdown: graceful
+  # Behind a host's proxy (e.g. Render) every request otherwise comes from the proxy's IP, so the
+  # per-IP login limit would be shared by all users. "native" trusts X-Forwarded-For only from
+  # internal proxy addresses, so clients cannot spoof it.
+  forward-headers-strategy: native
   error:
     include-stacktrace: never
 

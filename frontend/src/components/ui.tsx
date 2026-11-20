@@ -219,10 +219,14 @@ export function ProductPicker({ value, onChange, placeholder = 'Search SKU or na
 
   useEffect(() => {
     if (!open) return;
+    // A slow response for an older search must not replace the results for what is typed now.
+    let stale = false;
     const handle = setTimeout(() => {
-      productApi.search({ q: text, size: 8 }).then(r => setResults(r.content)).catch(() => setResults([]));
+      productApi.search({ q: text, size: 8 })
+        .then(r => { if (!stale) setResults(r.content); })
+        .catch(() => { if (!stale) setResults([]); });
     }, 200);
-    return () => clearTimeout(handle);
+    return () => { stale = true; clearTimeout(handle); };
   }, [text, open]);
 
   if (value) {

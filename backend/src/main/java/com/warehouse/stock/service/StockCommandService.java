@@ -21,6 +21,8 @@ import java.time.Clock;
 @Service
 public class StockCommandService {
 
+    private static final int REASON_MAX = 255;
+
     private final StockCommandExecutor executor;
     private final StockLedgerService ledger;
     private final StockMovementRepository movementRepository;
@@ -70,8 +72,13 @@ public class StockCommandService {
             if (movementRepository.existsByReversesId(movementId)) {
                 throw new BusinessRuleException("ALREADY_REVERSED", "This movement has already been reversed");
             }
+            // The prefix plus a 255-character reason would overflow the 255-character reason column.
+            String fullReason = "Reversal of #" + movementId + ": " + reason.trim();
+            if (fullReason.length() > REASON_MAX) {
+                fullReason = fullReason.substring(0, REASON_MAX - 1) + "…";
+            }
             StockMovement reversal = ledger.adjust(original.getProduct().getId(), original.getWarehouse().getId(),
-                    -original.getQuantity(), "Reversal of #" + movementId + ": " + reason.trim(), movementId, user.id());
+                    -original.getQuantity(), fullReason, movementId, user.id());
             return MovementResponse.from(reversal, false);
         });
     }
